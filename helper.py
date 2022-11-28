@@ -273,16 +273,53 @@ class RotationalList:
         self.current_index = 0
         self.r_list.extend(items)
     
+    def __str__(self):
+        result = []
+        current = self.current()
+        
+        for item in self.r_list:
+            if item == current:
+                item = f'({item})'
+            result.append(item)
+        
+        return str(result)
+    #
+    def __repr__(self):
+        return self.__str__()
+    
     def current(self):
         return self.r_list[self.current_index]
+    #
+    def current_item(self):
+        return self.r_list[self.current_index]
     
-    def rotate(self):
-        if self.current_index == len(self.r_list)-1:
-            self.current_index = 0
-            return self.current_index
+    def rotate(self, times=None):
+        def forward():
+            if self.current_index == len(self.r_list)-1:
+                self.current_index = 0
+            else:
+                self.current_index += 1
         
-        self.current_index += 1
-        return self.current_index
+        def backward():
+            if (self.current_index == 0) or (self.current_index == -len(self.r_list)):
+                self.current_index = -1
+            else:
+                self.current_index -= 1
+        
+        def do_rotate(times):
+            if times > 0:
+                for _ in range(times):
+                    forward()
+            elif times < 0:
+                times = abs(times)
+                
+                for _ in range(times):
+                    backward()
+        
+        if times == None:
+            forward()
+        else:
+            do_rotate(times)
     
     def next(self):
         # current
@@ -316,6 +353,10 @@ class RotationalList:
     
     def remove(self, item):
         self.r_list.remove(item)
+#
+#
+class RL(RotationalList):
+    pass
 
 
 #
