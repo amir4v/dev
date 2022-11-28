@@ -1,0 +1,14 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+
+{% for url in urls %}
+    <form action="/watch/" method="post">
+        <input type="hidden" name="url" value="{{ url.1 }}">
+        {% csrf_token %}
+        <input type="submit" value="{{ url.1 }} -> Watch It">
+    </form>
+    <br><br>
+{% endfor %}
+
+{% endblock %}

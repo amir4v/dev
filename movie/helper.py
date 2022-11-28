@@ -8,6 +8,14 @@ def read_text(filename):
     return open(filename, 'r', encoding='utf-8').read()
 
 
+def get_file_lines(filename):
+    return read_text(filename).split('\n')
+#
+#
+def file_lines(filename):
+    return get_file_lines(filename)
+
+
 def write_bytes(filename, _bytes):
     return open(filename, 'wb').write(_bytes)
 
@@ -240,11 +248,10 @@ def youtube_download(url, quality='HD', filename=None, location=None):
 #     inner()
 
 
-def get_all_sources_url(url, file_only=True, specific_file_extension=[]):
-    import re, requests as r
+def get_all_sources_from_text(text, file_only=True, specific_file_extension=[]):
+    import re
     
     result = []
-    text = r.get(url).text
     
     if not file_only:
         pattern = r'(href|src|action|data)="(.*)"'
@@ -253,18 +260,28 @@ def get_all_sources_url(url, file_only=True, specific_file_extension=[]):
     pattern = r'(href|src)="(.*\.[a-zA-Z0-9]{,4})"'
     result.extend(re.findall(pattern, text))
     
+    result = [m[1] for m in result]
     result = unique_items(result)
     
     if len(specific_file_extension) > 0:
         temp_result = []
         for item in result:
             for ext in specific_file_extension:
-                if item[1].endswith(ext):
+                if item.endswith(ext):
                     temp_result.append(item)
                     continue
         result = temp_result
     
     return result
+
+
+def get_all_sources_from_url(url, file_only=True, specific_file_extension=[]):
+    import re, requests as r
+    
+    result = []
+    text = r.get(url).text
+    
+    return get_all_sources_from_text(text, file_only, specific_file_extension)
 
 
 class RotationalList:
@@ -291,7 +308,7 @@ class RotationalList:
         return self.r_list[self.current_index]
     #
     def current_item(self):
-        return self.r_list[self.current_index]
+        return self.current
     
     def rotate(self, times=None):
         def forward():
@@ -333,14 +350,32 @@ class RotationalList:
     def len(self):
         return len(self.r_list)
     
+    def is_first(self):
+        return self.current() == self.r_list[0]
+    
+    def is_last(self):
+        return self.current() == self.r_list[-1]
+    
     def get_list(self):
         return self.r_list
+    #
+    def all(self):
+        return self.r_list
+    
+    def first(self):
+        return self.r_list[0]
+    
+    def last(self):
+        return self.r_list[-1]
     
     def init(self, items):
         self.__init__(items)
     
     def clear(self):
         self.__init__()
+    
+    def reset(self):
+        self.current_index = 0
     
     def add(self, item):
         self.r_list.append(item)
@@ -357,6 +392,65 @@ class RotationalList:
 #
 class RL(RotationalList):
     pass
+
+
+def get_url_response_text(url):
+    import requests as r
+    
+    return r.get(url).text
+#
+#
+def url_response_text(url):
+    return get_url_response_text(url)
+
+
+def bs_find_all(url, tag, attribute='', value='', attributes={}, want=None):
+    """
+    want = text|string|'attribute'
+    """
+    
+    from bs4 import BeautifulSoup as bs
+    
+    attributes[attribute] = value
+    
+    soup = bs(url_response_text(url))
+    soup = soup.find_all(tag, attributes)
+    
+    if want == None:
+        return soup
+    
+    result = []
+    
+    if want == 'text':
+        for tag in soup:
+            result.append(tag.text)
+    elif want == 'string':
+        for tag in soup:
+            result.append(tag.string)
+    else:
+        for tag in soup:
+            result.append(tag.get(want))
+    
+    return result
+
+
+#TODO
+def hierarchy_bs(root_url, attributes={}, insider_tag='', insider_attributes={}, want=None, insider_raw=False):
+    links = bs_find_all(root_url, 'a', attributes=attributes, want='href')
+    
+    result = []
+    for l in links:
+        if insider_raw:
+            result.append(
+                url_response_text(l)
+            )
+            continue
+        
+        result.extend(
+            bs_find_all(l, insider_tag, attributes=insider_attributes, want=want)
+        )
+    
+    return result
 
 
 #
