@@ -3,59 +3,63 @@ from proxy import Link as MovieLink
 
 
 root_links = { # the value is class value
-    f"https://sorenfilm.ir/series/page/": "read-more-link btn btn-serial",
-    f"https://sorenfilm.ir/category/moviez/page/": "read-more-link btn btn-serial",
-    f"https://sorenfilm.ir/page/": "read-more-link btn btn-serial",
-    
-    f"https://vipofilm.com/page/": "more",
-    f"https://hexdownload.co/page/": "more-link",
-    f"https://karanmovie.org/page/": ".ادامه و دانلود.",
+    "https://sorenfilm.ir  https://sorenfilm.ir/series/page/": "read-more-link btn btn-serial",
+    "https://sorenfilm.ir  https://sorenfilm.ir/category/moviez/page/": "read-more-link btn btn-serial",
+    "https://sorenfilm.ir  https://sorenfilm.ir/page/": "read-more-link btn btn-serial",
     #
-    # f"https://azintv2.website/movie/page/": "",
-    # f"https://azintv2.website/tvshow/page/": "",
-    # https://berlin.iamnotindangeriamthedanger.website/Movies/
-    # https://rio.iamnotindangeriamthedanger.website/Series/
-    # https://dlx.nikimoviez.ir/
+    "https://vipofilm.com  https://vipofilm.com/page/": "more",
+    "https://hexdownload.co  https://hexdownload.co/page/": "more-link",
+    "https://karanmovie.org  https://karanmovie.org/page/": ".ادامه و دانلود.",
     #
-    f"https://movielandz.com/page/": "AB-more-link",
-    f"https://www.film2serial.ir/page/": "btn btn-success d-lg-inline-block py-lg-10 py-10 d-block mb-lg-0 mb-10 mr-lg-auto mr-md-0 mr-10",
-    f"https://www.uptvs.com/page/": "btn btn-outline-blue",
+    "https://movielandz.com  https://movielandz.com/page/": "AB-more-link",
+    "https://film2serial.ir  https://film2serial.ir/page/": "btn btn-success d-lg-inline-block py-lg-10 py-10 d-block mb-lg-0 mb-10 mr-lg-auto mr-md-0 mr-10",
+    "https://uptvs.com  https://uptvs.com/page/": "btn btn-outline-blue",
     #
-    f"https://zfilm.info/all-movie/page/": "hover_bg_link",
-    f"https://zfilm.info/series/page/": "hover_bg_link",
-    f"https://zfilm.info/genre/anime/page/": "hover_bg_link",
-    f"https://zfilm.info/genre/documentary/page/": "hover_bg_link",
-    f"https://zfilm.info/genre/animation/page/": "hover_bg_link",
+    "https://zfilm.info  https://zfilm.info/all-movie/page/": "hover_bg_link",
+    "https://zfilm.info  https://zfilm.info/series/page/": "hover_bg_link",
+    "https://zfilm.info  https://zfilm.info/genre/anime/page/": "hover_bg_link",
+    "https://zfilm.info  https://zfilm.info/genre/documentary/page/": "hover_bg_link",
+    "https://zfilm.info  https://zfilm.info/genre/animation/page/": "hover_bg_link",
     #
-    f"https://bia2hd.store/page/": "read-more-link btn btn-film",
-    f"http://myhastidl1.cam/page/": "edame",
-    f"https://myezx.top/page/": "post_more",
-    f"https://golchindlz.xyz/page/": "more",
+    "https://bia2hd.store  https://bia2hd.store/page/": "read-more-link btn btn-film",
+    "http://myhastidl1.cam  http://myhastidl1.cam/page/": "edame",
+    "https://myezx.top  https://myezx.top/page/": "post_more",
+    "https://golchindlz.xyz  https://golchindlz.xyz/page/": "more",
     #
-    f"https://atamovie.click/page/": "more",
+    "https://atamovie.click  https://atamovie.click/page/": "more",
     #
-    f"https://mobomovies.fun/movies/": ".مشاهده و دانلود.",
-    f"https://mobomovies.fun/series/": ".مشاهده و دانلود.",
-    f"https://mobomovies.fun/mini-series/": ".مشاهده و دانلود.",
-    f"https://mobomovies.fun/anime/": ".مشاهده و دانلود.",
+    "https://mobomovies.fun  https://mobomovies.fun/movies/": ".مشاهده و دانلود.",
+    "https://mobomovies.fun  https://mobomovies.fun/series/": ".مشاهده و دانلود.",
+    "https://mobomovies.fun  https://mobomovies.fun/mini-series/": ".مشاهده و دانلود.",
+    "https://mobomovies.fun  https://mobomovies.fun/anime/": ".مشاهده و دانلود.",
     #
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-    # f"http://starkmovie.af/letter/0-9/": "",
-    # f"http://starkmovie.af/letter/a/ (a-z)": "",
     #
+    # "http://starkmovie.af  http://starkmovie.af/letter/0-9/": "",
+    # "http://starkmovie.af  http://starkmovie.af/letter/a/ (a-z)": "",
+    #
+    # "https://azintv2.website  https://azintv2.website/movie/page/": "",
+    # "https://azintv2.website  https://azintv2.website/tvshow/page/": "",
+    # "https://berlin.iamnotindangeriamthedanger.website/Movies/": "",
+    # "https://rio.iamnotindangeriamthedanger.website/Series/": "",
+    # "https://dlx.nikimoviez.ir/": "",
     # temp
-    # f"https://digimovie.vip/page/": "",
+    # "https://digimovie.vip  https://digimovie.vip/page/": "",
 }
 
 
 for page in range(1, 10_000):
     for Link, todo in root_links.items():
+        pre, Link = Link.split('  ')
         link = Link + str(page)
+        print(link)
         raw_list = []
         
         if '.' in todo:
             raw_list.extend(
-                [url_response_text(a.get('href'))
+                [url_response_text(
+                                    a.get('href') if a.get('href').startswith('http') else pre+a.get('href')
+                                    )
                 for a in bs_find_all(link, 'a')
                 if todo.strip('.') in a.text]
             )
@@ -80,5 +84,5 @@ for page in range(1, 10_000):
                 # if 'unique constraint' in e: # or e.args[0] from Django 1.10
                 print('UNIQUE ERROR')
                 print(e)
-        
-        print(link)
+            except Exception as e:
+                print(e)

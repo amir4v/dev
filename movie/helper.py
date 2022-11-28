@@ -256,9 +256,9 @@ def get_all_sources_from_text(text, file_only=True, specific_file_extension=[]):
     if not file_only:
         pattern = r'(href|src|action|data)="(.*)"'
         result.extend(re.findall(pattern, text))
-    
-    pattern = r'(href|src)="(.*\.[a-zA-Z0-9]{,4})"'
-    result.extend(re.findall(pattern, text))
+    else:
+        pattern = r'(href|src)="(.*\.[a-zA-Z0-9]{,4})"'
+        result.extend(re.findall(pattern, text))
     
     result = [m[1] for m in result]
     result = unique_items(result)
