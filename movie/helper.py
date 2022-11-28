@@ -434,13 +434,14 @@ def bs_find_all(url, tag, attribute='', value='', attributes={}, want=None):
     return result
 
 
-#TODO
-def hierarchy_bs(root_url, attributes={}, insider_tag='', insider_attributes={}, want=None, insider_raw=False):
+def hierarchy_bs(root_url, attributes={}, insider_tag='', insider_attributes={}, want=None, insider_raw=False, source=''):
     links = bs_find_all(root_url, 'a', attributes=attributes, want='href')
     
     result = []
     for l in links:
         if insider_raw:
+            if not l.startswith('http'):
+                l = source + l
             result.append(
                 url_response_text(l)
             )
