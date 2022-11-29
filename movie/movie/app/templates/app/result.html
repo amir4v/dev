@@ -7,6 +7,11 @@
         <input type="hidden" name="url" value="{{ url.1 }}">
         {% csrf_token %}
         <input type="submit" value="{{ url.1 }} -> Watch It">
+        {% if url.2 %}
+            <span style="color: rgb(96, 57, 5); border: 1px solid rgb(194, 152, 73); border-radius: 5px; padding: 3px;">
+                👁
+            </span>
+        {% endif %}
     </form>
     <br><br>
 {% endfor %}

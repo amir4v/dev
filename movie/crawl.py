@@ -51,7 +51,9 @@ root_links = { # the value is class value
 
 
 PAGE = int(read_text('PAGE'))
-for page in range(PAGE, 10_000):
+
+
+def do_crawl(page):
     for Link, todo in root_links.items():
         pre, Link = Link.split('  ')
         link = Link + str(page)
@@ -92,3 +94,10 @@ for page in range(PAGE, 10_000):
                 print(e)
     
     write_text('PAGE', str(page))
+
+
+for page in range(PAGE, 10_000):
+    try:
+        do_crawl(page)
+    except Exception as e:
+        print(e)
