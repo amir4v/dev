@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Most Common English Words</title>
+    <style>
+        body {
+            font-family: 'Vazir Code';
+            font-size: 1.9em;
+            direction: ltr;
+            text-align: center;
+            line-height: 2.4em;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    {% for word in words %}
+    <table style="padding-left: 30%;">
+        <tr>
+            <td>
+            <small>{{ word.seen }}</small>
+            <audio controls style="display: inline; height: 20px;">
+                <source src="https://www.ldoceonline.com/media/english/ameProns/{{ word.word }}.mp3?version=1.2.58" type="audio/mpeg">
+                <source src="https://www.ldoceonline.com/media/english/ameProns/{{ word.word }}1.mp3?version=1.2.58" type="audio/mpeg">
+            </audio>
+            </td>
+            <td>
+                <a style="display: inline;" href="https://www.ldoceonline.com/dictionary/{{ word.word }}" target="_blank">{{ word.line }}</a>
+            </td>
+        </tr>
+    </table>
+    {% endfor %}
+    <form action="/" method="POST">
+        <input type="hidden" name="count" value="YES">
+        {% csrf_token %}
+        <input type="submit" value="/re-new">
+    </form>
+</body>
+</html>
