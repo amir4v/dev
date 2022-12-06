@@ -39,7 +39,7 @@
     <form action="/" method="POST">
         <input type="hidden" name="count" value="YES">
         {% csrf_token %}
-        <input type="submit" value="/re-new">
+        <input type="submit" value="/re-new"> <small style="font-size: 0.5em;">{{ re_new }}</small>
     </form>
 </body>
 </html>
