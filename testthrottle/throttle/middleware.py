@@ -143,22 +143,27 @@ class ThrottleCheckerForViewsMiddleware:
         ip = get_client_ip(request)
         view_name = f'{obj.__module__}.{obj.__name__}'
         
-        flag = True
         try:
             view = View.objects.get(name=view_name)
+            flag = True
         except:
             flag = False
         
         if flag:
+            
             flag = False
+            
             hit_number, per, duration = expand_limit(view.limit)
             
-            view_memory, created = ViewMemory.objects.get_or_create(ip=ip, view=view)
+            view_memory, created = ViewMemory.objects.get_or_create(ip=ip)
+            
+            total_duration = per * LIMIT_DURATION[duration] # at all
+            
             if created:
                 now = epoch()
-                total_duration = per * LIMIT_DURATION[duration]
                 until = now + total_duration
                 
+                view_memory.view = view
                 view_memory.throttle = encode(f'1_{now}_{until}')
                 view_memory.save()
             else:
@@ -169,9 +174,8 @@ class ThrottleCheckerForViewsMiddleware:
                 throttle = throttle[2:-1]
                 throttle = bytes(throttle.encode('utf-8'))
                 throttle = decode(throttle)
-                current_hit, _from, until = throttle_split(throttle)
                 
-                total_duration = per * LIMIT_DURATION[duration] # at all
+                current_hit, _from, until = throttle_split(throttle)
                 
                 now = epoch()
                 if (now < until) and (current_hit >= hit_number):
@@ -186,8 +190,19 @@ class ThrottleCheckerForViewsMiddleware:
                     view_memory.save()
 
 
+class ThrottleOpperator:
+    pass
+
+
 limit = None
-def throttle_decorator(_limit=None):
+first = True
+def throttle(_limit=None):
+    global first
+    if first:
+        View.objects.all().delete()
+    else:
+        first = False
+    
     global limit
     limit = _limit
     def wrapper(obj):
@@ -202,6 +217,8 @@ def throttle_decorator(_limit=None):
         view, created = View.objects.get_or_create(name=name)
         view.limit = limit
         view.save()
+        
+        view.view_memories.all().delete()
         
         return obj
     return wrapper
