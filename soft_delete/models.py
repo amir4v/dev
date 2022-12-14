@@ -25,6 +25,9 @@ class SoftDeleteManager(models.Manager):
     
     def ALL(self):
         return super().get_queryset()
+    
+    def deleted(self):
+        return super().get_queryset().exclude(soft_delete_dt=None)
 
 
 class Model(models.Model):
