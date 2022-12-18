@@ -483,8 +483,13 @@ def clean_text(text):
 
 import string
 from random import shuffle, sample, choices
-def random_str(length=62, lowercase=True, uppercase=True, digits=True, symbols=False):
-    chars = ''
+# import secrets
+def random_str(length=62, lowercase=True, uppercase=True, digits=True, symbols=False, chars=''):
+    # secrets.choice()
+    # secrets.token_urlsafe()
+    # secrets.token_hex()
+    # secrets.token_bytes()
+    
     if lowercase:
         chars += string.ascii_lowercase
     if uppercase:
@@ -502,3 +507,6 @@ def random_str(length=62, lowercase=True, uppercase=True, digits=True, symbols=F
 
 
 #
+print(
+random_str()
+)
