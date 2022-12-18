@@ -59,9 +59,8 @@ def split(spliters, text):
     return text.split(default_spliter)
 
 
+import string
 def wordized(word, fa=False):
-    import string
-    
     apostrophes = """'"ˮ‘’“”"""
     
     if fa: # Fa
@@ -85,9 +84,8 @@ def wordized(word, fa=False):
     return word.strip(stripable)
 
 
+import string
 def text_words(text, lower=True):
-    import string
-    
     if lower:
         text = text.lower()
     
@@ -110,9 +108,8 @@ def file_words(filename, lower=True):
     return words
 
 
+import requests as r
 def get_url_content_type_file_extension(url):
-    import requests as r
-    
     try:
         content_type = r.head(url).headers['content-type']
         ext = content_type.split('/')[1][:4].strip(' ;-,:=')
@@ -129,6 +126,7 @@ def url_ext(url):
     return get_url_content_type_file_extension(url)
 
 
+from random import randint
 def url_filename(url):
     if url.endswith('/'):
         url = url[:-1]
@@ -142,13 +140,11 @@ def url_filename(url):
         if len(name) < 1:
             raise Exception
     except:
-        from random import randint
         name = str(randint(1_000_000, 9_999_999))
 
 
+import requests as r
 def get_url_content_bytes_with_chunk(url, chunk=64, headers={}, cookies={}):
-    import requests as r
-    
     chunk = 1024 * chunk
     _bytes = bytes()
     _from = 0
@@ -183,9 +179,8 @@ def download(url, filename=None, location='', headers={}, cookies={}):
     return True, path
 
 
+from pytube import YouTube
 def youtube_download(url, quality='HD', filename=None, location=None):
-    from pytube import YouTube
-    
     qualities = {
         'SD': '480',
         'HD': '720',
@@ -221,10 +216,9 @@ def youtube_download(url, quality='HD', filename=None, location=None):
     return True, stream, result
 
 
+# from flask import Flask, request
 # def show_video_in_web():
 #     def inner():
-#         from flask import Flask, request
-
 #         app = Flask(__name__)
 
 #         @app.route('/', methods=['GET', 'POST'])
@@ -252,9 +246,8 @@ def youtube_download(url, quality='HD', filename=None, location=None):
 #     inner()
 
 
+import re
 def get_all_sources_from_text(text, file_only=True, specific_file_extension=[]):
-    import re
-    
     result = []
     
     if not file_only:
@@ -279,9 +272,8 @@ def get_all_sources_from_text(text, file_only=True, specific_file_extension=[]):
     return result
 
 
+import re, requests as r
 def get_all_sources_from_url(url, file_only=True, specific_file_extension=[]):
-    import re, requests as r
-    
     result = []
     text = r.get(url).text
     
@@ -398,9 +390,8 @@ class RL(RotationalList):
     pass
 
 
+import requests as r
 def get_url_response_text(url):
-    import requests as r
-    
     return r.get(url).text
 #
 #
@@ -408,6 +399,7 @@ def url_response_text(url):
     return get_url_response_text(url)
 
 
+from bs4 import BeautifulSoup as bs
 def bs_find_all(url, wants):
     """
     want = text|string|'attribute'
@@ -417,8 +409,6 @@ def bs_find_all(url, wants):
         ...
     ]
     """
-    
-    from bs4 import BeautifulSoup as bs
     
     result = []
     _soup = bs(url_response_text(url))
@@ -491,12 +481,24 @@ def clean_text(text):
     return text
 
 
+import string
+from random import shuffle, sample, choices
+def random_str(length=62, lowercase=True, uppercase=True, digits=True, symbols=False):
+    chars = ''
+    if lowercase:
+        chars += string.ascii_lowercase
+    if uppercase:
+        chars +=  string.ascii_uppercase
+    if digits:
+        chars += string.digits
+    if symbols:
+        chars += string.punctuation
+    chars = list(chars)
+    
+    shuffle(chars)
+    if length > len(chars):
+        return ''.join(choices(chars, k=length))
+    return ''.join(sample(chars, length))
+
+
 #
-from pprint import pprint
-#------------------------https://audiok.ir/cat/wrld/page/849/
-pprint(
-    bs_find_all('https://audiok.ir/cat/wrld/page/849/', [
-        {'tag': 'h2', 'want': 'text'},
-        {'tag': 'div', 'attribute': 'class', 'value': 'item dl', 'want': 'text'}
-    ])
-)
