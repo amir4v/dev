@@ -60,7 +60,6 @@ class PriorityRandom:
         return sample(self.my_list, k=n)
 
 
-""" EXAMPLE
 my_list = {
     'A': 15,
     
@@ -75,4 +74,3 @@ my_list = {
 
 pr = PriorityRandom(my_list)
 pprint(pr.choice())
-"""
