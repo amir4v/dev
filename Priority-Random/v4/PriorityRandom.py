@@ -41,7 +41,7 @@ class PriorityRandom:
                 grouped_dict[ item[0] ] = [element[0] for element in item[1]]
         
         # TEST
-        print(grouped_dict, end='\n\n')
+        # print(grouped_dict, end='\n\n')
         
         return grouped_dict
     
@@ -52,7 +52,7 @@ class PriorityRandom:
             the_list.extend(list(repeat(item, item)))
         
         # TEST
-        print(the_list, end='\n\n')
+        # print(the_list, end='\n\n')
         
         shuffle(the_list)
         return the_list
