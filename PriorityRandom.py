@@ -1,4 +1,4 @@
-from itertools import groupby
+from itertools import groupby, repeat
 from random import shuffle, choice, choices, sample
 from pprint import pprint
 
