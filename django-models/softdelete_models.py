@@ -50,6 +50,3 @@ class Model(models.Model):
     def restore(self):
         self.soft_delete_dt = None
         return self.save()
-
-
-# ##################################################################################################

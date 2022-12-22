@@ -8,12 +8,12 @@ def read_text(filename):
     return open(filename, 'r', encoding='utf-8').read()
 
 
-def get_file_lines(filename):
+def read_lines(filename):
     return read_text(filename).split('\n')
 #
 #
 def file_lines(filename):
-    return get_file_lines(filename)
+    return read_lines(filename)
 
 
 def write_bytes(filename, _bytes):
@@ -304,7 +304,10 @@ class RotationalList:
         return self.r_list[self.current_index]
     #
     def current_item(self):
-        return self.current
+        return self.current()
+    
+    def set_current_index(self, index):
+        self.current_index = index
     
     def rotate(self, times=None):
         def forward():
@@ -506,7 +509,41 @@ def random_str(length=62, lowercase=True, uppercase=True, digits=True, symbols=F
     return ''.join(sample(chars, length))
 
 
+import os
+class Git:
+    def __init__(self):
+        if not os.path.exists('GIT.LOG.REVERSE.TXT'):
+            os.system('git log --reverse --oneline --all > GIT.LOG.REVERSE.TXT')
+        write_text('GIT.LOG.REVERSE.TXT',
+            read_text('GIT.LOG.REVERSE.TXT').strip('\n')
+        )
+        
+        if os.path.exists('GIT.LOG.REVERSE.INDEX.TXT'):
+            index = int(read_text('GIT.LOG.REVERSE.INDEX.TXT'))
+        else:
+            index = 0
+        write_text('GIT.LOG.REVERSE.INDEX.TXT', str(index))
+        
+        logs = read_lines('GIT.LOG.REVERSE.TXT')
+        self.rl = RotationalList(logs)
+        self.rl.set_current_index(index)
+    
+    def walk(self):
+        commit = self.rl.next().split(' ')[0]
+        write_text('GIT.LOG.REVERSE.INDEX.TXT', str(self.rl.current_index))
+        os.system(f'git reset --hard {commit}')
+    
+    def init(self):
+        self.rl.set_current_index(0)
+        commit = self.rl.next().split(' ')[0]
+        write_text('GIT.LOG.REVERSE.INDEX.TXT', str(self.rl.current_index))
+        os.system(f'git reset --hard {commit}')
+    
+    def now(self):
+        self.rl.set_current_index(-1)
+        commit = self.rl.next().split(' ')[0]
+        write_text('GIT.LOG.REVERSE.INDEX.TXT', str(self.rl.current_index))
+        os.system(f'git reset --hard {commit}')
+
+
 #
-print(
-random_str()
-)
