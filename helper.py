@@ -334,8 +334,16 @@ class RotationalList:
         
         if times == None:
             forward()
+            return self.current()
         else:
             do_rotate(times)
+            return self.current()
+    
+    def walk(self, times=0):
+        if times!=0:
+            self.rl.rotate(times)
+        
+        return self.rl.current()
     
     def next(self):
         # current
@@ -514,22 +522,25 @@ class Git:
     def __init__(self):
         if not os.path.exists('GIT.LOG.REVERSE.TXT'):
             os.system('git log --reverse --oneline --all > GIT.LOG.REVERSE.TXT')
-        write_text('GIT.LOG.REVERSE.TXT',
-            read_text('GIT.LOG.REVERSE.TXT').strip('\n')
-        )
+            write_text('GIT.LOG.REVERSE.TXT',
+                read_text('GIT.LOG.REVERSE.TXT').strip('\n')
+            )
         
         if os.path.exists('GIT.LOG.REVERSE.INDEX.TXT'):
             index = int(read_text('GIT.LOG.REVERSE.INDEX.TXT'))
         else:
             index = 0
-        write_text('GIT.LOG.REVERSE.INDEX.TXT', str(index))
+            write_text('GIT.LOG.REVERSE.INDEX.TXT', str(index))
         
         logs = read_lines('GIT.LOG.REVERSE.TXT')
         self.rl = RotationalList(logs)
         self.rl.set_current_index(index)
     
-    def walk(self):
-        commit = self.rl.next().split(' ')[0]
+    def walk(self, times=0):
+        if times!=0:
+            self.rl.rotate(times)
+        
+        commit = self.rl.current().split(' ')[0]
         write_text('GIT.LOG.REVERSE.INDEX.TXT', str(self.rl.current_index))
         os.system(f'git reset --hard {commit}')
     
