@@ -555,6 +555,18 @@ class Git:
         commit = self.rl.next().split(' ')[0]
         write_text('GIT.LOG.REVERSE.INDEX.TXT', str(self.rl.current_index))
         os.system(f'git reset --hard {commit}')
+    
+    def update_commits(self):
+        os.system('rm GIT.LOG.REVERSE.TXT')
+        os.system('rm GIT.LOG.REVERSE.INDEX.TXT')
+        
+        os.system('git log --reverse --oneline --all > GIT.LOG.REVERSE.TXT')
+        write_text('GIT.LOG.REVERSE.TXT',
+            read_text('GIT.LOG.REVERSE.TXT').strip('\n')
+        )
+        
+        index = 0
+        write_text('GIT.LOG.REVERSE.INDEX.TXT', str(index))
 
 
 #
