@@ -216,36 +216,6 @@ def youtube_download(url, quality='HD', filename=None, location=None):
     return True, stream, result
 
 
-# from flask import Flask, request
-# def show_video_in_web():
-#     def inner():
-#         app = Flask(__name__)
-
-#         @app.route('/', methods=['GET', 'POST'])
-#         def show_video():
-#             url = request.form.get('url')
-            
-#             html_get_url = """
-#             <form action="/" method="POST">
-#             <textarea name="url" rows="5" placeholder="URL" style="width: 90%; font-size: 2em;"></textarea>
-#             <br><br>
-#             <input type="submit">
-#             </form>
-#             """
-            
-#             html_show_video = f"""
-#             <video width="100%" height="100%" controls>
-#                 <source src="{url}">
-#             </video>
-#             """
-            
-#             if url == None:
-#                 return html_get_url
-#             return html_show_video
-    
-#     inner()
-
-
 import re
 def get_all_sources_from_text(text, file_only=True, specific_file_extension=[]):
     result = []
@@ -274,7 +244,6 @@ def get_all_sources_from_text(text, file_only=True, specific_file_extension=[]):
 
 import re, requests as r
 def get_all_sources_from_url(url, file_only=True, specific_file_extension=[]):
-    result = []
     text = r.get(url).text
     
     return get_all_sources_from_text(text, file_only, specific_file_extension)
@@ -487,7 +456,7 @@ def clean_text(text):
     text = text.strip()
     
     if len(text) == 0:
-        return None
+        return ''
     
     return text
 
@@ -509,9 +478,10 @@ def random_str(length=62, lowercase=True, uppercase=True, digits=True, symbols=F
         chars += string.digits
     if symbols:
         chars += string.punctuation
-    chars = list(chars)
     
+    chars = list(chars)
     shuffle(chars)
+    
     if length > len(chars):
         return ''.join(choices(chars, k=length))
     return ''.join(sample(chars, length))
