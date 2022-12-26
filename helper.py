@@ -539,4 +539,14 @@ class Git:
         write_text('GIT.LOG.REVERSE.INDEX.TXT', str(index))
 
 
+from datetime import datetime
+def until_the_full_30_months():
+    dt = datetime(2024, 11, 12) - datetime.now()
+    print('---------------')
+    print(f'Years: {dt.days / 365:.2f}', end='\n\n')
+    print(f'Months: {round(dt.days / 30.5)}', end='\n\n')
+    print(f'Weeks: {round(dt.days / 7)}', end='\n\n')
+    print(f'Days: {dt.days}', end='\n---------------')
+
+
 #
