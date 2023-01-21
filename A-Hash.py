@@ -38,5 +38,16 @@ def reverse_a_hash(digits):
     return result
 
 
-print(a_hash(input('String:>>>')))
-print(reverse_a_hash(int(input('Digits:>>>'))))
+def self_base_hash(string):
+    CHARS = ''.join(sorted(set(string)))
+    print(CHARS)
+    BASE = len(CHARS)
+    chars_weight = dict([
+        (s, i) for s, i in zip(CHARS, range(1, BASE+1))
+    ])
+    
+    string = string[::-1]
+    result = 0
+    for i, c in enumerate(string):
+        result += (BASE ** i) * chars_weight.get(c)
+    return result # f'{result:,}'
