@@ -1,0 +1,62 @@
+FBV (Function Based View)
+
+CBV (Class Based View)
+----------------------
+Django:
+	from django.views import View
+	from django.views.generic.base import (
+			View
+			TemplateView
+			RedirectView
+		)
+	from django.views.generic import (
+			View
+			TemplateView
+			RedirectView
+			DetailView
+			FormView
+			CreateView
+			UpdateView
+			DeleteView
+			ListView
+			LoginView
+			LogoutView
+			Password...View
+		)
+
+Rest Framework:
+	from rest_framework.views import APIView
+	from rest_framework import views (only has APIView)
+	from rest_framework import mixins
+		CreateModelMixin
+		ListModelMixin
+		RetrieveModelMixin
+		UpdateModelMixin
+		DestroyModelMixin
+	from rest_framework import generics
+		GenericAPIView
+		CreateAPIView
+		ListAPIView
+		RetrieveAPIView
+		DestroyAPIView
+		UpdateAPIView
+		(Combined)...APIView
+	from rest_framework import viewsets
+		ViewSetMixin
+		ViewSet
+		GenericViewSet
+		ReadOnlyModelViewSet
+		ModelViewSet
+
+---------------------------------------------------------------------------------------------------
+
+...:
+Django:
+from django.contrib.auth.decorators import login_required, permission_required
+from django.utils.decorators import method_decorator
+from django.contrib.auth.mixins import LoginRequiredMixin
+-
+Rest Framework:
+from rest_framework.decorators import api_view, permission_classes, throttle_classes, action
+from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly, IsAdminUser
+from rest_framework.throttling import UserRateThrottle
