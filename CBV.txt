@@ -3,7 +3,10 @@ FBV (Function Based View)
 CBV (Class Based View)
 ----------------------
 Django:
-	from django.views import View
+	from django.views import 
+		(
+			View
+		)
 	from django.views.generic.base import (
 			View
 			TemplateView
@@ -25,8 +28,8 @@ Django:
 		)
 
 Rest Framework:
-	from rest_framework.views import APIView
-	from rest_framework import views (only has APIView)
+	from rest_framework import views
+		APIView
 	from rest_framework import mixins
 		CreateModelMixin
 		ListModelMixin
