@@ -1,29 +1,33 @@
 import base64
 from time import time
+
 from django.http import HttpResponseBadRequest
 from django.conf import settings
+
 from .models import Memory, View, ViewMemory
 
 
 try:
     LIMIT = settings.THROTTLE_LIMIT
 except:
-    LIMIT = '1/2s' # 'Hit-Number/Number:(s/min/h/d/m/y)'
+    LIMIT = '123/d' # 'Hit-Number/Per(s/min/h/d/w/month/y)'
 
-LIMIT_DURATION_s   = 1
-LIMIT_DURATION_min = 60  *  LIMIT_DURATION_s
-LIMIT_DURATION_h   = 60  *  LIMIT_DURATION_min
-LIMIT_DURATION_d   = 24  *  LIMIT_DURATION_h
-LIMIT_DURATION_m   = 30  *  LIMIT_DURATION_d
-LIMIT_DURATION_y   = 365 *  LIMIT_DURATION_d
+LIMIT_DURATION_s       = 1
+LIMIT_DURATION_min     = 60  *  LIMIT_DURATION_s
+LIMIT_DURATION_h       = 60  *  LIMIT_DURATION_min
+LIMIT_DURATION_d       = 24  *  LIMIT_DURATION_h
+LIMIT_DURATION_w       = 7   *  LIMIT_DURATION_d
+LIMIT_DURATION_month   = 30  *  LIMIT_DURATION_d
+LIMIT_DURATION_y       = 365 *  LIMIT_DURATION_d
 
 LIMIT_DURATION = {
-    's': LIMIT_DURATION_s,
-    'min': LIMIT_DURATION_min,
-    'h': LIMIT_DURATION_h,
-    'd': LIMIT_DURATION_d,
-    'm': LIMIT_DURATION_m,
-    'y': LIMIT_DURATION_y,
+    's'    : LIMIT_DURATION_s,
+    'min'  : LIMIT_DURATION_min,
+    'h'    : LIMIT_DURATION_h,
+    'd'    : LIMIT_DURATION_d,
+    'w'    : LIMIT_DURATION_w,
+    'month': LIMIT_DURATION_month,
+    'y'    : LIMIT_DURATION_y,
 }
 
 
@@ -80,6 +84,34 @@ def throttle_split(throttle):
 
 
 class ThrottleMiddleware:
+    """
+    Here we are using the calendar module to convert datetime to epoch using the timetuple() function.
+    # importing the required module
+    import datetime
+    import calendar
+    t=datetime.datetime(1971, 1, 1, 0, 0, 0)
+    print(calendar.timegm(t.timetuple()))
+    t=datetime.datetime(2021, 7, 7, 1, 2, 1)
+    print(calendar.timegm(t.timetuple()))
+    Output:
+    31536000
+    1625619721
+    
+    Converting epoch time into DateTime using Python
+    # importing the datetime package
+    import datetime  
+    # given epoch time  
+    epoch_time = 40246871  
+    # using the datetime.fromtimestamp() function  
+    date_time = datetime.datetime.fromtimestamp( epoch_time )  
+    # printing the value  
+    print("Given epoch time:", epoch_time)  
+    print("Converted Datetime:", date_time )  
+    Output:
+    Given epoch time: 40246871
+    Converted Datetime: 1971-04-12 01:11:11
+    """
+    
     def __init__(self, response):
         self.response = response
     
@@ -132,7 +164,7 @@ class ThrottleMiddleware:
         return response
 
 
-class ThrottleCheckerForViewsMiddleware:
+class ThrottleCheckerForViewMiddleware:
     def __init__(self, response): # 0
         self.response = response
     
@@ -190,7 +222,11 @@ class ThrottleCheckerForViewsMiddleware:
                     view_memory.save()
 
 
-class ThrottleOpperator:
+def action_throttle(target='IP/User/Group/...', action_name='like: download_file or like_post or write_article or send_dm or ...'):
+    #              (target=request, action_name='...'):
+    #              (target=request, action_name='hit_per_day'):
+    #              (target=view, action_name='hit_per_day_on_current_view'):
+    # IP/User/Group/... hit limit for an action
     pass
 
 
