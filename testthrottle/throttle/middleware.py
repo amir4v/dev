@@ -4,13 +4,13 @@ from time import time
 from django.http import HttpResponseBadRequest
 from django.conf import settings
 
-from .models import Memory, View, ViewMemory
+# from .models import Memory, View, ViewMemory
 
 
 try:
     LIMIT = settings.THROTTLE_LIMIT
 except:
-    LIMIT = '123/d' # 'Hit-Number/Per(s/min/h/d/w/month/y)'
+    LIMIT = '123/d' # 'Hit-Number/N:(s/min/h/d/w/month/y)'
 
 LIMIT_DURATION_s       = 1
 LIMIT_DURATION_min     = 60  *  LIMIT_DURATION_s

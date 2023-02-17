@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     # 'throttle.middleware.ThrottleMiddleware',
-    'throttle.middleware.ThrottleCheckerForViewsMiddleware',
+    # 'throttle.middleware.ThrottleCheckerForViewsMiddleware',
     
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
