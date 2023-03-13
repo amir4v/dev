@@ -4,79 +4,68 @@ CBV (Class Based View)
 ----------------------
 Django:
 	from django.views import 
-		(
-			View
-		)
-	
+		View
+
 	from django.views.generic.base import
-		(
-			ContextMixin,
-			TemplateResponseMixin
-		)
+		ContextMixin
+		TemplateResponseMixin
 	from django.views.generic.detail import
-		(
-			SingleObjectMixin,
-			SingleObjectTemplateResponseMixin
-		)
+		SingleObjectMixin
+		SingleObjectTemplateResponseMixin
 	from django.views.generic.list import
-		(
-			MultipleObjectMixin,
-			MultipleObjectTemplateResponseMixin
-		)
-	
-	from django.views.generic.base import (
-			View
-			TemplateView
-			RedirectView
-		)
-	from django.views.generic import (
-			View
-			TemplateView
-			RedirectView
-			DetailView
-			FormView
-			CreateView
-			UpdateView
-			DeleteView
-			ListView
-			LoginView
-			LogoutView
-			Password...View
-		)
+		MultipleObjectMixin
+		MultipleObjectTemplateResponseMixin
+	from django.views.generic.edit import
+		FormMixin
+		ModelFormMixin
+		DeletionMixin
+
+	from django.contrib.auth.mixins import
+			LoginRequiredMixin
+			PermissionRequiredMixin
+
+	from django.views.generic.base import
+		View
+		TemplateView
+		RedirectView
+	from django.views.generic import
+		View
+		#
+		TemplateView
+		RedirectView
+		#
+		FormView
+		#
+		ListView
+		DetailView
+		CreateView
+		UpdateView
+		DeleteView
+		#
+		LoginView
+		LogoutView
+		Password...View
 
 Rest Framework:
-	from rest_framework import views
+	from rest_framework.views import
 		APIView
-	from rest_framework import mixins
-		CreateModelMixin
+	from rest_framework.mixins import
 		ListModelMixin
 		RetrieveModelMixin
+		CreateModelMixin
 		UpdateModelMixin
 		DestroyModelMixin
-	from rest_framework import generics
+	from rest_framework.generics import
 		GenericAPIView
-		CreateAPIView
-		ListAPIView
-		RetrieveAPIView
-		DestroyAPIView
-		UpdateAPIView
-		(Combined)...APIView
-	from rest_framework import viewsets
+			ListAPIView
+			RetrieveAPIView
+			CreateAPIView
+			UpdateAPIView
+			DestroyAPIView
+				(Combined)...APIView
+	from rest_framework.viewsets import
 		ViewSetMixin
 		ViewSet
 		GenericViewSet
 		ReadOnlyModelViewSet
 		ModelViewSet
-
----------------------------------------------------------------------------------------------------
-
-...:
-Django:
-from django.contrib.auth.decorators import login_required, permission_required
-from django.utils.decorators import method_decorator
-from django.contrib.auth.mixins import LoginRequiredMixin
--
-Rest Framework:
-from rest_framework.decorators import api_view, permission_classes, throttle_classes, action
-from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly, IsAdminUser
-from rest_framework.throttling import UserRateThrottle
