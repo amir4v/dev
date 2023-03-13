@@ -7,6 +7,23 @@ Django:
 		(
 			View
 		)
+	
+	from django.views.generic.base import
+		(
+			ContextMixin,
+			TemplateResponseMixin
+		)
+	from django.views.generic.detail import
+		(
+			SingleObjectMixin,
+			SingleObjectTemplateResponseMixin
+		)
+	from django.views.generic.list import
+		(
+			MultipleObjectMixin,
+			MultipleObjectTemplateResponseMixin
+		)
+	
 	from django.views.generic.base import (
 			View
 			TemplateView
