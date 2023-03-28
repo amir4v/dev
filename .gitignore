@@ -3,3 +3,5 @@ Pip*
 *pycache*
 Test.ipynb
 db.sqlite3
+**pyc**
+migrations
