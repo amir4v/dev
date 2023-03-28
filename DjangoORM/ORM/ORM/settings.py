@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-    'ORM.app',
+    # 'app', # For changing the models
+    'ORM.app', # For using the models in the proxy
 ]
 
 MIDDLEWARE = [
