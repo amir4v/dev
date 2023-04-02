@@ -385,7 +385,7 @@ def bs_find_all(url, wants):
     want = text|string|'attribute'
     
     wants = [
-        want == { tag, attribute='', value='', attributes={}, want=None }
+        want == { tag=... , attribute='', value='', attributes={}, want=None }
         ...
     ]
     """
