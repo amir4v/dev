@@ -1,6 +1,5 @@
 import string
 
-
 CHARS = string.ascii_lowercase
 
 BASE = len(CHARS)
