@@ -1,6 +1,6 @@
 import string
 
-CHARS = string.ascii_lowercase
+CHARS = string.ascii_lowercase + string.digits
 
 BASE = len(CHARS)
 
@@ -13,16 +13,18 @@ reverse_chars_weight = dict([
 ])
 
 
-"""
-A function for Hash-Table
-And the output is reversible to the original string
-"""
 def a_hash(string):
-    string = string[::-1]
+    """
+    A function for Hash-Table
+    And the output is reversible to the original string.
+    """
+    
+    string = string[::-1].lower()
     result = 0
     for i, c in enumerate(string):
         result += (BASE ** i) * chars_weight.get(c)
-    return result # f'{result:,}'
+    return result
+    return f'{result:,}'
 
 
 def reverse_a_hash(digits):
@@ -38,15 +40,15 @@ def reverse_a_hash(digits):
 
 
 def self_base_hash(string):
-    CHARS = ''.join(sorted(set(string)))
-    print(CHARS)
+    CHARS = ''.join(sorted(set(string.lower())))
     BASE = len(CHARS)
     chars_weight = dict([
         (s, i) for s, i in zip(CHARS, range(1, BASE+1))
     ])
     
-    string = string[::-1]
+    string = string[::-1].lower()
     result = 0
     for i, c in enumerate(string):
         result += (BASE ** i) * chars_weight.get(c)
-    return result # f'{result:,}'
+    return result
+    return f'{result:,}'
