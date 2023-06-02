@@ -23,3 +23,5 @@ def show_video():
     if url == None:
         return html_get_url
     return html_show_video
+
+app.run('127.0.0.1', 5000)
