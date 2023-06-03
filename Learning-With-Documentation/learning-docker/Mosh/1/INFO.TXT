@@ -1,0 +1,50 @@
+vaghti az version 'alpine' estefade mikoni dige 'bash' nadari chon 'alpine' kochike vali bejash 'sh' ke hamon shell-e default hast ro dari.
+    docker run -it IMAGE-NAME bash
+    for 'alpine' :
+        docker run -it IMAGE-NAME sh
+
+
+# hazfe tamame container haye stop shode:
+1:
+docker container prune
+# hazfe tamame image haye bedardnakhor va bi nam:
+2:
+docker image prune
+
+docker run -p bironi:daroni
+docker run -p (HOST)3000:(CONTAINER)5000
+docker run -p 3000:5000
+
+
+Execute a command in a running container:
+docker exec CONTAINER-ID ANY-LINUX-OR-WINDOWS-COMMANDS
+docker exec -it CONTAINER-ID ANY-LINUX-OR-WINDOWS-COMMANDS
+docker exec -it CONTAINER-ID sh
+docker exec -it CONTAINER-ID bash
+
+'docker start' vs 'docker run' :
+docker start :
+    start mikone yek container-e stop shode
+docker run :
+    yek container jadid az 'IMAGE'-e delkhah ejra mikone
+
+
+VOLUMES:
+docker volume create VOLUME-NAME
+docker run -v VOLUME-NAME:/app/a-name-for-directory IMAGE-NAME
+docker run -v NEW-VOLUME:/app/a-name-for-directory IMAGE-NAME
+NOTE: you have to mkdir that directory in Dockerfile with 'RUN mkdir dir-name' to prevent any permission issues.
+
+copy from a container to host(folder):
+docker cp CONTAINER-ID:/app/path/file.txt .
+                                          in noghte yani poshe ee ke Dockerfile toshe
+from host to container:
+docker cp file.txt CONTAINER-ID:/app/path
+docker cp ./file.txt CONTAINER-ID:/app
+
+
+bind/binding/link-using-volumes:
+When we want to link a path/folder in host(where project and/or Dockerfile is) to a container:
+    docker run -v $(pwd):/app IMAGE-NAME
+    docker run -v .:/app IMAGE-NAME
+

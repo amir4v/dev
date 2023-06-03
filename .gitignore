@@ -5,3 +5,6 @@ Test.ipynb
 db.sqlite3
 **pyc**
 migrations
+*.jpg
+*.jpeg
+*.png

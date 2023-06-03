@@ -1,0 +1,7 @@
+balaye docker compose bayad version ra moshakhas konid:
+"
+version: 2
+services:
+    redis:
+        image: redis
+"

@@ -1,0 +1,49 @@
+git clone ADDRESS
+la = ls -la
+# Header
+## Sub-Header
+git status
+git add file1 file2
+git add .
+git commit -m "Message"
+git commit -m "Subject-Message" -m "Description"
+{
+    ssh-keygen -t rsa -b 4096 -C "EMAIL"
+    ...
+}
+git push origin master
+git init
+git remote add NAME ADDRESS
+git remote
+git remote -v
+            verbose
+{
+    git push -u origin master
+             -u = --set-upstream
+    az in be bad faghat bezan 'git push'
+}
+git branch
+git checkout EXIST-BRANCH-NAME
+git checkout -b NEW-BRANCH-NAME
+git diff BRANCH-NAME
+git merge BRANCH-NAME
+git branch -d BRANCH-NAME
+            delete
+git commit -am "Message"
+            add, it's only for 'modified' files not 'created' files.
+            git add + git commit
+git reset
+    soft
+    reset to Un-Staged
+git reset FILE-NAME
+git reset HEAD~1
+          one previous commit
+git reset COMMIT-ID
+git reset --hard COMMIT-ID
+            all changes will be Un-Staged and Removed
+{
+    changes = Un-Staged
+    add = Staged
+    commit = commit
+}
+git log
