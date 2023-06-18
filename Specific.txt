@@ -1,19 +1,61 @@
+Python
+Django
+Django Rest Framework (DRF)/drf-nested-routers
+gunicorn
+pytest/pytest-django/unittest
+channels
+django_filters
+elasticsearch/elasticsearch_dsl/django_elasticsearch_dsl
+django_push/django_webpush
+swagger/drf_yasg
+jwt/rest_framework_simplejwt
+debug_toolbar
+celery/flower/django-flower
+django-mail-templated/django-templated-mail
+redis/django-redis
+black/flake8
+locust/django-silk
+CI-CD/Github-Actions/Github-Actions-Workflow
+smtp4dev
+django-cors-headers
+djoser/django-allauth
+SQL/DB
+Docker
+Git
+Linux/Bash
+whitenoise
+Data-Structures/Algorithms/Design-Patterns
+Agile, Scrum, Sprint, Daily, ... (Scrum is a Agile methodology).
+===============================================================================
+===============================================================================
+===============================================================================
 Python:
-	string
-	re
-	datetime
 	collections
 	heapq
 	array
-	types
+	typing
+	decimal
+	itertools
+	functools
+	logging
+	threading
+	multiprocessing
+	pydoc
+	doctest
+	unittest
+	test
+	dataclasses
+	contextlib
+	abc
+	re
+	-./
+	string
+	datetime
 	copy
 	pprint
 	enum
 	math
-	decimal
 	random
-	itertools
-	functools
 	pathlib
 	os.path
 	tempfile
@@ -28,9 +70,6 @@ Python:
 	os
 	io
 	time
-	logging
-	threading
-	multiprocessing
 	subprocess
 	queue
 	asyncio
@@ -62,11 +101,6 @@ Python:
 	locale
 	turtle
 	tkinter
-	typing
-	pydoc
-	doctest
-	unittest
-	test
 	pdb
 	timeit
 	venv
@@ -75,9 +109,6 @@ Python:
 	sysconfig
 	builtins
 	warnings
-	dataclasses
-	contextlib
-	abc
 	traceback
 	gc
 	zipimport
@@ -88,21 +119,22 @@ Python:
 	smtpd
 ===============================================================================
 Django:
-	apps
-	conf
 	contrib
 	core
 	db
 	dispatch
 	forms
+	test
+	utils
+	views
+	-./
+	urls
+	apps
+	conf
 	http
 	middleware
 	template
 	templatetags
-	test
-	urls
-	utils
-	views
 	shortcuts
 =
 from django.utils.functional import cached_property
@@ -370,11 +402,12 @@ Django Rest Framework (DRF):
 	response
 	routers
 	serializers
-	status
 	throttling
 	validators
 	views
 	viewsets
+	-./
+	status
 from rest_framework.authtoken.models import Token
 from rest_framework import viewsets
 from rest_framework.test import APIClient, APIRequestFactory
@@ -415,6 +448,23 @@ from rest_framework import serializers
 ===============================================================================
 ===============================================================================
 ===============================================================================
+persiantools
+pytest
+django_filters
+openai
+django_push
+elasticsearch_dsl
+drf_yasg
+channels
+jwt
+debug_toolbar
+celery
+rest_framework
+elasticsearch
+rest_framework_simplejwt
+decouple
+mail_templated
+-./
 gunicorn
 zipfile
 inspect
@@ -437,44 +487,29 @@ utils
 contextlib
 abc
 PIL
-persiantools
-pytest
 faker
 datetime
-django_filters
 setuptools
 action_throttle
 http
 pathlib
 requests_mock
-openai
-elasticsearch_dsl
-django_push
 django_hosts
 urllib3
 pdf2image
-drf_yasg
-channels
 html
 math
-jwt
 requests
 sys
 secrets
 random
-debug_toolbar
 PyPDF2
 uuid
 os
-celery
-rest_framework
 time
-elasticsearch
 functools
 decimal
 tinymce
-rest_framework_simplejwt
-decouple
 logging
 stripe
 io
@@ -483,5 +518,4 @@ urllib
 json
 itertools
 collections
-mail_templated
 ===============================================================================
