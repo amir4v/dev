@@ -477,6 +477,12 @@ hashlib
 shutil
 subprocess
 asgiref
+Ansible
+MyPy
+graphene
+graphene-django
+DBs in Python and Django: (MS SQL Server, Postgresql, MySQL, SQLite, MongoDB, Oracle)
+Message-Brokers: (RabbitMQ, Redis, Memcached)
 typing
 docutils
 jsonpickle
