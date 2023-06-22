@@ -504,6 +504,7 @@ requests_mock
 django_hosts
 urllib3
 pdf2image
+django-guardian/rules
 html
 math
 requests
