@@ -22,7 +22,7 @@ djoser/django-allauth
 SQL/DB
 Docker
 Git
-Linux/Bash
+Linux/Bash/Linux-Commands
 whitenoise
 Data-Structures/Algorithms/Design-Patterns
 Agile, Scrum, Sprint, Daily, ... (Scrum is a Agile methodology).
