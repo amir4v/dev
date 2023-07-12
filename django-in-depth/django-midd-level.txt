@@ -1,0 +1,108 @@
+you can/know:::
+write FBV and CBV
+templates
+statics
+media
+template tags
+template filter
+custom upload file
+django upload file
+custom upload image
+django upload image
+routing
+simple queries
+complex queries
+one to one
+one to many
+many to many
+database signals
+manipulating default User
+manipulating default Group
+manipulating default Permissions
+Group
+Permissions
+change default authentication method
+forms
+using default django forms for User and Auth
+Authentication
+Authorization
+JWT
+Token Authentication
+testing: unittest, pytest
+celery
+simple_jwt
+nginx
+gunicorn
+rest framework
+postgresql, mysql, sqlite, mongodb
+redis
+django-channels
+elasticsearch
+debug_toolbar
+black, flake8
+locust
+CI-CD/Github-Actions/Github-Actions-Workflow
+smtp4dev
+django-cors-headers
+djoser
+django-allauth
+docker
+whitenoise
+middleware
+cache
+ContentType
+django.db.models > Q, F
+accounting
+transactions
+json, yaml, xml
+re_path
+sending email and templated emails and attaching file to emails
+serializers
+graphene
+docs
+.
+Explain the needed project:::
+یک سایتی که
+
+استفاد ه از استاتیک ها
+آپلود کاستوم و جنگویی فایل های مختلف و دریافت و نمایش آنها
+آث روی فایل برای دریافت
+
+داکرایز شده
+
+بکگراند پراسس داشته باشه
+
+smtp4dev
+sending email
+sending html in email
+sending templated-mail email
+ایمیل اچ تی ام ال با اتچمنت ارسال کنه
+
+به سه تا دیتابیس وصل بشه، اس کیو لایت و پستگرس و مونگو دی بی
+
+با ردیس کار کنه
+
+با سلری کار کنه
+
+استفاده از وایت نویز
+
+بیسیک آثنتیکیشن
+سشن آثنتیکیشن
+توکن آثنتیکیشن
+جی دابلیو تی آثنتیکیشن
+
+جوسر
+
+آل اوث
+
+او آث
+گوگل آثنتیکیشن
+
+کورس
+
+الاستیک سرچ
+
+سی آی سی دی
+
+روی یک سرور / وی پی اس
+با انجین اکس و جی یونیکورن و داکر و سی آی سی دی

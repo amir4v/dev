@@ -1,0 +1,206 @@
+programming languages
+understanding of the entire product development process
+Basic knowledge of front-end technologies like HTML, JavaScript and CSS
+troubleshoot problems in the team and for users
+analytical and good at time management
+great problem-solving skills and you work well in a team
+curious about new technologies and you're excited to find ways to implement them in your work
+experience with coaching and mentoring other developers
+oversee and drive projects forward
+=
+Object-oriented Programming and Design
+Domain Driven Design
+Estimation Techniques
+Functional Programming Principles
+Security
+	OWASP, HTTPS, SSL, OAuth 2.0, OpenID Connect, Identity Server, JWT Tokens and so on
+Refactoring and Code Quality
+Data Structures and Algorithms
+Unit Testing
+Architectural Patterns and Quality Attributes
+Concurrency and Asynchronous Programming
+Relational Database Design and SQL
+	and NoSQL
+=
+Microservices
+Cloud
+Containers and Orchestrators
+Reactive Programming
+Messaging and Streaming
+gRpc and GraphQL
+OAuth2 and OpenIDConnect
+Other Programming Languages
+jUnit, Mockito and SonarQube
+Caching and No-SQL DB
+OpenAPI and Swagger
+Logging and Monitoring
+CICD Pipelines
+Linux, DNS, Networking
+Agile and Scrum methodologies
+Understanding Overall Architecture
+=
+Backend Programming Language
+Frameworks
+Data Structures and Algorithms
+HTML, CSS, and JavaScript 
+Familiarity with Servers
+Knowledge of APIs
+Version Control and Version Control Systems
+Problem-solving
+Good Communication and Interpersonal Skills
+=
+=
+.Beginner
+Beginner or entry-level software developer resumes will show zero to three years of experience. You'll notice new developers are fresh grads with bachelor's degrees in Computer Science, Information Technology, or other related fields. Some may be self-taught or recent graduates of non-traditional educational paths such as boot camps.
+
+Since they have little to no relevant work experience, these developers tend to have fewer skills. Therefore, you should be less demanding and be more willing to train them. Consider providing them with mentorship and educational resources and opportunities.
+
+Here's what an ideal entry-level Django dev should have:
+
+Basic knowledge of software development principles
+Basic understanding of JavaScript, codes, and SQL
+Zero to five years of experience in any programming language, including Python, C, C++, and Java
+Experience in Django is preferred but not required
+Strong verbal and written communication skills (team player)
+Strong problem-solving and analytical skills
+
+.Intermediate
+Intermediate or junior software developer resumes should display three or more years of relevant work background. Since junior dev should have a more extensive experience than entry-level professionals, you can afford to be more demanding with them. Look for specific skills such as:
+
+Experience writing scalable and effective code
+Previous experience with Meteor, NodeJS, and React
+Continuous Integration (CI) and Continuous Delivery (CD) pipeline
+Thorough understanding of Python and Django
+Familiarity with event-driven programming
+Experience with REST APIs
+Sound knowledge of SQL databases
+Proven ability and experience working in a team environment
+
+.Advanced
+Last but not least, we have advanced or senior Django devs. These seasoned developers have over five years of experience and know how to:
+
+Work in a multidisciplinary team
+Scale and optimize web apps
+Build, test, profile, and debug projects
+Mentor junior and entry-level Django and Python devs
+Here's a list of developer skills and experiences you should look for when hiring senior Django programmers:
+
+Over five years of experience creating high-volume microservices and APIs
+Expertise in Django, Python, and Python application frameworks like Django REST, Flask, and FastAPI
+Proficiency with database frameworks like MySQL, SQLAlchemy, Django ORM, MySQL, and DynamoDB
+Hands-on experience with serverless Amazon Web Services (AWS) technologies like Step Functions, Lambda, and Fargate
+Strong leadership skills
+Top-notch verbal and written skills
+Proven track record with testing, editing, and debugging web apps
+Experience developing event-driven architectures
+=
+Technical Skills
+Understanding of REST Web Services
+System Programming
+Application Development
+	Planning or research
+	Analysis
+	Design
+	Building or construction
+	Testing
+	Implementation
+	Support or maintenance
+Waterfall
+Rapid Application Development (RAD)
+Agile
+Database Modeling
+Programming Languages
+=
+CRUD
+Authentication, Authorization & User Roles
+Static Files
+Building API’s
+Project Architecture
+Basic Web Dev knowledge
+=
+Project setup
+Apps
+Views & Urls
+Templates & Template Language
+Admin Panel
+Class Based Views
+Models & Django’s ORM
+Model Forms
+Signals — Signal dispatchers
+Serializer
+Session & Token Authentication
+=
+Deploying applications & hosting
+Middleware
+Caching
+Context managers
+Viewsets & Routers
+Writing tests
+=
+Python
+TDD
+APIs
+Integration
+Code quality
+Performance
+Other skills : database skills and nosql skills; why should we not use ORM’s (pros cons etc.)
+=
+=
+.Python Specific Skillset
+Knowledge about the Python packages.
+Familiarity with PEP8. How it works, why it is helpful, and how to document your code.
+Fundamentals of Python such as tuple, dictionaries, list, list comprehensions.
+Familiarity with decorators and why are used?
+Familiarity with generators and the advantage of using them.
+Knowledge about regex.
+Class-based and function-based views, the difference between them.
+.Django Specific Skillset
+Familiarity with MVC and MVT. How MVT works in Django? What is the difference between MVT and MVC?
+How do migrations work in Django?
+Understanding of RESTful APIs.
+Django rest framework if you’re using any framework on the frontend.
+Knowledge about ORM.
+What is QuerySet?
+Querying the model to get the entries, display the entries, and modify them.
+How to filter the QuerySets?
+Difference between Forms and ModelForms.
+Request object and its main features.
+What are CSRF and Django prevent it?
+Request and response objects.
+=
+Is this person polite and professional?
+Is this person a good conversation partner?
+Did they show up on time?
+Did they listen to your questions with focus and respect?
+Was their English level sufficient for them to successfully communicate with the rest of the team?
+Were they able to show themselves in a good light?
+Did they show any interest in your company and projects?
+=
+.https://proxify.io/hire-django-developers
+.https://proxify.io/hire-django-developers#interviewing-a-django-developer
+Explain to us the Django architecture.
+What are models in Django?
+What is DRF (Django Rest Framework)?
+What is Django ORM?
+How does the Django project directory structure work?
+What are static files? Can you explain their use?
+Can you explain the Django response lifecycle?
+What is the use of a session framework?
+What is a Django field class?
+What are exceptions in Django?
+=
+.Essential soft skills
+A general list of soft skills the recruiters at Proxify use when interviewing developers for any skill is the following:
+Professionalism
+Presentability
+Excellent communication skills
+Motivation
+Enthusiasm
+Great English
+Openness
+Social skills
+Honesty
+Curiosity
+Flexibility
+=
+=

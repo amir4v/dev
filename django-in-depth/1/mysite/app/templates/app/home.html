@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>
+        Hi!
+    </h1>
+    <hr>
+
+    <!-- <div>
+        <p>
+            {{ form.errors }}
+        </p>
+    </div> -->
+
+    <form action="/" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <br>
+        <input type="submit">
+    </form>
+
+    
+
+    <hr>
+    <!-- {% for field in form %}
+    <div class="fieldWrapper">
+        {{ field.errors }}
+        {{ field.label_tag }} {{ field }}
+        {% if field.help_text %}
+        <p class="help">{{ field.help_text|safe }}</p>
+        {% endif %}
+    </div>
+    {% endfor %} -->
+</body>
+</html>

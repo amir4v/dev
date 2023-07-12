@@ -1,0 +1,31 @@
+django==3.2
+gunicorn
+Pillow
+celery
+# django-celery
+redis
+django-redis
+pyjwt
+djangorestframework
+djangorestframework-simplejwt
+# django-templated-mail # BAD
+django-mail-templated
+# psycopg2
+psycopg2-binary
+#
+mysqlclient
+#
+mongoengine
+pylint-mongoengine
+pymongo
+djongo
+#
+sqlparse
+#
+whitenoise
+djoser
+django-allauth
+#
+django-cors-headers
+django-elasticsearch-dsl
+django-elasticsearch-dsl-drf

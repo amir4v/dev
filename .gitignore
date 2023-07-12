@@ -8,3 +8,9 @@ migrations
 *.jpg
 *.jpeg
 *.png
+*.sqlite*
+static
+staticfiles
+media
+data
+*.log
