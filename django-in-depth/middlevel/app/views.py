@@ -3,10 +3,13 @@ from copy import copy
 from django.shortcuts import render, redirect
 from django.conf import settings
 from django import forms
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 
-from .models import Post
+from .models import Post, Car
 from .forms import PostModelForm
+from .documents import UserDocument, CarDocument
+from .serializers import CarSerializer
 
 _BASE_DIR = settings.BASE_DIR
 
@@ -15,7 +18,86 @@ def send_mail_to(request, subject, message, to):
     do_send_mail.delay(subject, message, to)
     return HttpResponse('Sent.')
 
+##################################################################################
 
+import abc
+
+from django.http import HttpResponse
+from elasticsearch_dsl import Q
+from rest_framework.pagination import LimitOffsetPagination
+from rest_framework.views import APIView
+
+
+class PaginatedElasticSearchAPIView(APIView, LimitOffsetPagination):
+    serializer_class = CarSerializer
+    document_class = CarDocument
+
+    @abc.abstractmethod
+    def generate_q_expression(self, query):
+        """This method should be overridden
+        and return a Q() expression."""
+
+    def get(self, request, query):
+        try:
+            q = self.generate_q_expression(query)
+            search = self.document_class.search().query(q)
+            response = search.execute()
+
+            print(f'Found {response.hits.total.value} hit(s) for query: "{query}"')
+
+            results = self.paginate_queryset(response, request, view=self)
+            serializer = self.serializer_class(results, many=True)
+            return self.get_paginated_response(serializer.data)
+        except Exception as e:
+            return HttpResponse(e, status=500)
+
+
+
+class SearchCars(PaginatedElasticSearchAPIView):
+    def generate_q_expression(self, query):
+        return Q('multi_match', query=query,
+                fields=[
+                    'id',
+                    'name',
+                    'color',
+                    'description'
+                ],
+                minimum_should_match=1)
+
+
+
+
+def add_car(request, name):
+    Car.objects.create(name=name)
+    return render(request, 'search.html')
+
+
+from elasticsearch_dsl import Q
+from .documents import Car
+@csrf_exempt
+def search(request):
+    if request.method != 'POST':
+        return render(request, 'search.html')
+    Car.objects.create(name=request.POST['name'])
+    #
+    query = request.POST['search']
+    q = Q(
+        'multi_match',
+        query=query,
+        fields=[
+        'name'
+        ],
+        fuzziness='auto'
+    )
+    search = CarDocument.search().query(q)
+    response = search.execute()
+    #
+    for hit in search:
+        print(hit)
+    #
+    response = CarSerializer(response, many=True)
+    return HttpResponse(response.data)
+##################################################################################
 
 
 def login(request):

@@ -1,4 +1,6 @@
-from django_elasticsearch_dsl import Document
+from django.contrib.auth.models import User
+
+from django_elasticsearch_dsl import Document, fields
 from django_elasticsearch_dsl.registries import registry
 
 from .models import Car
@@ -37,3 +39,24 @@ class CarDocument(Document):
         # Paginate the django queryset used to populate the index with the specified size
         # (by default it uses the database driver's default setting)
         # queryset_pagination = 5000
+
+
+
+
+@registry.register_document
+class UserDocument(Document):
+    class Index:
+        name = 'users'
+        settings = {
+            'number_of_shards': 1,
+            'number_of_replicas': 0,
+        }
+
+    class Django:
+        model = User
+        fields = [
+            'id',
+            'first_name',
+            'last_name',
+            'username',
+        ]

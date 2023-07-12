@@ -15,9 +15,9 @@ User = get_user_model()
 
 class Car(models.Model):
     name = models.CharField(max_length=255)
-    color = models.CharField(max_length=255)
-    description = models.TextField()
-    type = models.IntegerField(choices=[
+    color = models.CharField(max_length=255, null=True, blank=True, default='Red')
+    description = models.TextField(null=True, blank=True, default='car description')
+    type = models.IntegerField(null=True, blank=True, default=1, choices=[
         (1, "Sedan"),
         (2, "Truck"),
         (4, "SUV"),

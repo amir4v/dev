@@ -27,5 +27,8 @@ djoser
 django-allauth
 #
 django-cors-headers
+#
+elasticsearch
+elasticsearch-dsl
 django-elasticsearch-dsl
 django-elasticsearch-dsl-drf

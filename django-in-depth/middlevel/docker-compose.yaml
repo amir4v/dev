@@ -110,6 +110,16 @@ services:
       MONGO_INITDB_DATABASE: default_mongo
     ports:
       - 27017:27017
+  
+  elasticsearch:
+    # docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:8.8.2
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.8.2
+    environment:
+      - xpack.security.enabled=false
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms750m -Xmx750m
+    ports:
+      - 9200:9200
 
 volumes:
   .:

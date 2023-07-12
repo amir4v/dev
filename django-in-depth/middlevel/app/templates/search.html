@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="search" id="search">
+    <input type="button" value="Search" id="search-btn" onclick="click_search_btn(this)">
+    
+    <br><hr>
+
+    <div id="list"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        function click_search_btn(e){
+            $.ajax({
+                type: 'GET',
+                url: '/search-cars/'+document.getElementById('search').value,
+                success:function(data){
+                    for(var i=0; i < data.results.length; i++){
+                        console.log(data.results[i]);
+                    }
+                },
+                error: function(){
+                    alert('Error!');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
