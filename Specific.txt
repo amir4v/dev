@@ -466,6 +466,7 @@ rest_framework_simplejwt
 decouple
 mail_templated
 -./
+FastAPI
 gunicorn
 zipfile
 inspect
