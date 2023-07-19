@@ -2,6 +2,12 @@
 SQL
 Databases (Relational and NonRelational)
 Data-Structures/Algorithms/Dynamic-Programming]
+
+[Python (and popular/useful modules)
+Django (and popular/useful modules)
+Django Rest Framework (DRF)
+FastAPI]
+
 Software Engineering *
 	Architectures
 	API
@@ -22,6 +28,7 @@ Software Engineering *
 	OOP
 	MVC
 	Agile/Scrum
+
 DevOps *
 	Docker
 	Security
@@ -31,7 +38,3 @@ DevOps *
 	Microserives
 	Cloud
 	CI/CD
-[Python (and popular/useful modules)
-Django (and popular/useful modules)
-Django Rest Framework (DRF)
-FastAPI]
