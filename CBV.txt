@@ -1,14 +1,21 @@
 FBV (Function Based View)
 
+
 CBV (Class Based View)
 ----------------------
+
+
 Django:
-	from django.views import 
+	from django.views import
 		View
 
+
 	from django.views.generic.base import
+		View
 		ContextMixin
 		TemplateResponseMixin
+		TemplateView
+		RedirectView
 	from django.views.generic.detail import
 		SingleObjectMixin
 		SingleObjectTemplateResponseMixin
@@ -20,15 +27,19 @@ Django:
 		ModelFormMixin
 		DeletionMixin
 
+
 	from django.contrib.auth.mixins import
+		AccessMixin
 		LoginRequiredMixin
 		PermissionRequiredMixin
+		UserPassesTestMixin
+
 
 	from django.views.generic.base import
 		View
 		TemplateView
 		RedirectView
-	from django.views.generic import
+	from django.views.generic import *
 		View
 		#
 		TemplateView
@@ -46,23 +57,30 @@ Django:
 		LogoutView
 		Password...View
 
+
 Rest Framework:
 	from rest_framework.views import
 		APIView
+
+
 	from rest_framework.mixins import
 		ListModelMixin
 		RetrieveModelMixin
 		CreateModelMixin
 		UpdateModelMixin
 		DestroyModelMixin
-	from rest_framework.generics import
+
+
+	from rest_framework.generics import *
 		GenericAPIView
 			ListAPIView
 			RetrieveAPIView
 			CreateAPIView
 			UpdateAPIView
 			DestroyAPIView
-				(Combined)...APIView
+			(Combined)...APIView
+
+
 	from rest_framework.viewsets import
 		ViewSetMixin
 		ViewSet
