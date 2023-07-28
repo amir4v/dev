@@ -1,0 +1,15 @@
+https://roadmap.sh/roadmaps
+https://roadmap.sh/computer-science
+https://roadmap.sh/backend
+https://roadmap.sh/python
+https://roadmap.sh/devops
+https://roadmap.sh/full-stack
+https://roadmap.sh/software-architect
+https://roadmap.sh/system-design
+https://roadmap.sh/software-design-architecture
+https://roadmap.sh/design-system
+https://roadmap.sh/docker
+.
+https://github.com/ossu/computer-science
+https://bulletin.sfsu.edu/colleges/science-engineering/computer-science/bs-computer-science/roadmap-i-ii-eng/
+https://www.knowledgehut.com/blog/web-development/software-engineer-roadmap

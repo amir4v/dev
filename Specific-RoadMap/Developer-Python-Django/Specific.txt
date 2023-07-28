@@ -472,6 +472,9 @@ zipfile
 inspect
 django
 aggregator
+django-extensions
+django-filter
+djangorestframework-jsonapi
 unittest
 csv
 hashlib

@@ -1,0 +1,13 @@
+numpy
+scipy
+tensorflow
+pytorch
+keras
+openvc
+scikit-learn
+pandas
+matplot
+kaggle
+.
+https://www.kaggle.com/learn
+https://app.datacamp.com/learn/courses

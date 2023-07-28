@@ -17,6 +17,7 @@ Software Engineering *
 	Clean Code
 	PEP 8
 	Standard Coding
+	10 Finger Typing
 	Test
 	RAD
 	TDD
@@ -38,3 +39,13 @@ DevOps *
 	Microserives
 	Cloud
 	CI/CD
+
+Tools *
+	Redis
+	Elasticsearch
+	Memcached
+	RabbitMQ
+	Locust
+	smtp4dev
+	Swagger
+	Channels/WebSocket/wRTC/gRPC
