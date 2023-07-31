@@ -7,6 +7,7 @@ git add -A
 Note: 'git add' take files to 'stage' state
 git commit -m 'commit message'
 git commit -m "commit message"
+git reset HEAD^ (Note: UnCommit the last commit)
 git log (Note: shows logs list)
 HEAD is your last commit
 git diff HEAD
