@@ -34,10 +34,10 @@ def download(url):
 def route(update, cntx):
     try:
         text = update.message.text
-        file, new_file = download(text)
+        file, filename = download(text)
         update.message.reply_document(
             document=file,
-            filename=new_file,
+            filename=filename,
             caption=""
         )
     except Exception as e:
