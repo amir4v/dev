@@ -530,3 +530,47 @@ urllib
 json
 itertools
 collections
+{Async Programming
+Working with Distributed and Scalable Architectures
+Relational DBMS preferably Postgres
+Building Reusable Code and Libraries for future use
+Microservices Concepts
+Good knowledge of Web Standards like REST APIs, GraphQL, Swagger, OpenAPI, OpenID Connect, OAuth, JWT
+Knowledge of Standard Protocols like HTTP, WebSocket and Scalability Protocols
+Message brokers and its related system designs for distributed systems; (Redis, Memcached, RabitMQ)
+Jira
+Agile & Scrum
+SOLID
+UnitTest
+Openshift
+Linux
+Elasticsearch
+WebSocket
+WebRTC
+Push Notification
+Deliver Clean, Well-Structured OOP Code
+Self-Management skills with a pragmatic mindset focused on continuous improvement
+Ability to find pragmatic and innovative solutions to complex problems
+Problem-Solving Skills
+Component Testing
+Clean Code
+NginX, Gunicorn, Docker
+NoSQL, MongoDB
+Sentry (Error Tracking Software)
+TDD
+Design Patterns, Data Structures, Algorithms
+Integration Test
+CI/CD
+Linux/Bash/Commands
+asyncio
+FastAPI
+Cloud Services like AWS GoogleCloud
+Multiprocessing, Multithreading
+SQL
+Caching
+Cloud-Based Applications
+Architectural Patterns
+Kafka
+Kubernetes
+gitlab-ci
+Software Development Best Practices and Methodologies}
