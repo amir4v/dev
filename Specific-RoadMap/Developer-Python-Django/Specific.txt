@@ -573,4 +573,5 @@ Architectural Patterns
 Kafka
 Kubernetes
 gitlab-ci
-Software Development Best Practices and Methodologies}
+Software Development Best Practices and Methodologies
+Sentry}
