@@ -102,11 +102,11 @@ server {
 
 	server_name HOST;
 
-	root /var/www/HOST;
-	index index.html;
+	root /var/www/HOST; # This directory must not have any index(.html) files.
+	# index index.html;
 
 	location / {
-		try_files $uri $uri/ =404;
+		autoindex on;
+		# try_files $uri $uri/ =404;
 	}
 }
-"""
