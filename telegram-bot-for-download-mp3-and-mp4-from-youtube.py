@@ -60,6 +60,7 @@ def route(update, cntx):
                 res = '720'
             else:
                 url = parts[0].lstrip('v')
+                res = '720'
             res += 'p'
             
             file, filename = download_video(url, res)
