@@ -49,9 +49,9 @@ def route(update, cntx):
     try:
         text = update.message.text.strip(' ')
         # Video
-        if text.startswith('v'): # v URL 720 (Means: Video URL Resolution)
-                                 # v URL
-                                 # vURL 
+        if text.lower().startswith('v'): # v URL 720 (Means: Video URL Resolution)
+                                         # v URL
+                                         # vURL 
             parts = text.split(' ')
             if len(parts) == 3:
                 v, url, res = parts
