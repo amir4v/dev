@@ -100,9 +100,9 @@ server {
 	listen 8000;
 	listen [::]:8000;
 
-	server_name HOST;
+	server_name IP-OR-DOMAIN;
 
-	root /var/www/HOST; # This directory must not have any index(.html) files.
+	root /var/www/IP-OR-DOMAIN; # This directory must not have any index(.html) files.
 	# index index.html;
 
 	location / {
