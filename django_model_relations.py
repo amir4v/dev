@@ -16,8 +16,12 @@ def relations(the_model, given_models):
 			return False
 		
 		# Return True because you are already known as a related
-		if cls in result:
-			return True
+		if cls in seen:
+			if cls in result:
+				return True
+			return False
+		else:
+			seen.append(cls)
 		
 		# If it's the base Model itself, return True
 		if cls == the_model:
@@ -50,6 +54,7 @@ def relations(the_model, given_models):
 	# The End of the inner function
 	
 	for model in given_models:
+		seen = []
 		inner(model)
 	
 	return set(result)
