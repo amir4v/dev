@@ -24,6 +24,7 @@ def relations(the_model, given_models):
 			seen.append(cls)
 		
 		flag = False
+		
 		try:
 			_meta_get_fields = cls._meta.get_fields()
 		except:
