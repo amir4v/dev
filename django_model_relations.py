@@ -46,6 +46,7 @@ def relations(the_model, given_models):
 			if type_ in [models.OneToOneField, models.ForeignKey, models.ManyToManyField]:
 				if field.related_model == the_model:
 					result.append(cls)
+					result.append(field.related_model)
 					for field_ in _meta_get_fields:
 						type__ = field_.__class__
 						if type__ in [models.OneToOneField, models.ForeignKey, models.ManyToManyField]:
