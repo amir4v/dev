@@ -45,7 +45,7 @@ def relations(the_model, given_models):
 			type_ = field.__class__
 			
 			if type_ in [models.OneToOneField, models.ForeignKey, models.ManyToManyField]:
-				if field.related_model == the_model:
+				if field.related_model == the_model or field.related_model in result:
 					result.append(cls)
 					result.append(field.related_model)
 					for field_ in _meta_get_fields:
@@ -74,6 +74,10 @@ def relations(the_model, given_models):
 	# The End of the inner function
 	
 	for model in given_models:
+		seen = [None]
+		inner(model)
+	given_models.append(None)
+	for model in given_models[::-1]:
 		seen = [None]
 		inner(model)
 	
