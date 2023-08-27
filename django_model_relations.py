@@ -16,11 +16,14 @@ def relations(the_model, given_models):
 			return False
 		
 		# Return True because you are already known as a related
+		# if in seen and in result that mean is related
+		# if in seen not in relates that mean is not related
 		if cls in seen:
 			if cls in result:
 				return True
 			return False
 		else:
+			# save to seen list for preventing the infinity incursion loop error
 			seen.append(cls)
 		
 		flag = False
@@ -34,6 +37,7 @@ def relations(the_model, given_models):
 		# If it's the base Model itself, return True
 		if cls == the_model:
 			if cls not in result:
+				# add current model/cls which is the base model and add all models that are related to this model
 				result.append(cls)
 				for field_ in _meta_get_fields:
 					type__ = field_.__class__
@@ -46,6 +50,7 @@ def relations(the_model, given_models):
 			
 			if type_ in [models.OneToOneField, models.ForeignKey, models.ManyToManyField]:
 				if field.related_model == the_model or field.related_model in result:
+					# add current model/cls add all models that are related to this model
 					result.append(cls)
 					result.append(field.related_model)
 					for field_ in _meta_get_fields:
@@ -57,6 +62,7 @@ def relations(the_model, given_models):
 					# Even having one relation is enough to be related
 					flag = inner(field.related_model) or flag
 					if flag:
+						# add current model/cls add all models that are related to this model
 						result.append(cls)
 						result.append(field.related_model)
 						for field_ in _meta_get_fields:
@@ -65,6 +71,7 @@ def relations(the_model, given_models):
 								result.append(field_.related_model)
 		
 		if flag:
+			# add current model/cls add all models that are related to this model
 			result.append(cls)
 			for field_ in _meta_get_fields:
 				type__ = field_.__class__
@@ -76,7 +83,9 @@ def relations(the_model, given_models):
 	for model in given_models:
 		seen = [None]
 		inner(model)
+	# add None for pushing the middle Model forward to get involved in the next loop
 	given_models.append(None)
+	# find relations in reverse state of given_models because covering all states of checking if a model's relation is in the result or not
 	for model in given_models[::-1]:
 		seen = [None]
 		inner(model)
