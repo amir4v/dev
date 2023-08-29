@@ -2,10 +2,12 @@ import os
 import urllib.parse
 
 from pytube import YouTube
+# pip install pytube
 from telegram.ext import *
+# pip install python-telegram-bot==13.13
 
-TOKEN = "TOKEN" # YOUR_TELEGRAM_BOT_TOKEN
-HOST_PATH = "IP-OR-DOMAIN" # in /var/www/HOST_PATH/ needed for NginX
+TOKEN = "-" # YOUR_TELEGRAM_BOT_TOKEN
+HOST_PATH = "-" # in /var/www/HOST_PATH/ needed for NginX
 #
 HOST = f"http://{HOST_PATH}:8000" # for making a download link URL
 VIDEOS_PATH = f'/var/www/{HOST_PATH}/' # where we want to save videos
