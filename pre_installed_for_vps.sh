@@ -3,6 +3,7 @@ apt upgrade -y
 apt install git -y
 apt install python3-pip -y
 apt install virtualenv -y
+apt install python3-virtualenv -y
 apt install pipenv -y
 apt install python3-pipenv -y
 apt install apache2 -y
