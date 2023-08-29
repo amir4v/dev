@@ -7,3 +7,6 @@ apt install pipenv
 apt install python3-pipenv
 apt install apache2
 apt install nginx
+apt install wget
+apt install curl
+apt install sqlite3
