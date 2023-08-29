@@ -110,3 +110,4 @@ server {
 		# try_files $uri $uri/ =404;
 	}
 }
+"""
