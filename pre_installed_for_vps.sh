@@ -11,3 +11,5 @@ apt install nginx -y
 apt install wget -y
 apt install curl -y
 apt install sqlite3 -y
+apt install unrar-free -y
+apt install unzip -Y
