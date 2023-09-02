@@ -566,6 +566,11 @@ asyncio
 FastAPI
 Cloud Services like AWS GoogleCloud
 Multiprocessing, Multithreading
+MVC
+Model Driven Development
+Test Driven Development
+MVT
+MVVM
 SQL
 Caching
 Cloud-Based Applications
