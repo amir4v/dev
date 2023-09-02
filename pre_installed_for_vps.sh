@@ -13,3 +13,4 @@ apt install curl -y
 apt install sqlite3 -y
 apt install unrar-free -y
 apt install unzip -Y
+pip install requests bs4 Pillow psycopg2-binary
