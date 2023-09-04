@@ -6,16 +6,20 @@ if DEBUG:
 	# in Development: DEBUG=True
 	STATIC_DIR = os.path.join(BASE_DIR, 'static')
 	STATICFILES_DIRS = [STATIC_DIR]
-  """ Logically there is no need for this,
-      but when you are in Development-Mode(DEBUG=True),
-      Django will not allow you to handle 'static' URL-path by yourself
-      and somehow needs this to show 'static' files. """
+	"""
+	Logically there is no need for this,
+	but when you are in Development-Mode(DEBUG=True),
+	Django will not allow you to handle 'static' URL-path by yourself
+	and somehow needs this to show 'static' files.
+	"""
 else:
 	# in Production: DEBUG=False
 	STATIC_ROOT = '/home/USER/PROJECT/public/static/'
-  """ The exact same directory
-      in NginX /static/ location with one-directory-upper
-      alias without '/' at the end like: '/home/USER/PROJECT/public'. """
+	"""
+	The exact same directory
+	in NginX /static/ location with one-directory-upper
+	alias without '/' at the end like: '/home/USER/PROJECT/public'.
+	"""
 
 # in urls.py
 if settings.DEBUG:
