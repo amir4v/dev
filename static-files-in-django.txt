@@ -24,3 +24,5 @@ else:
 # in urls.py
 if settings.DEBUG:
 	urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_DIR)
+
+# And, MEDIA_DIR is not a thing, MEDIA_ROOT is.
