@@ -4,8 +4,8 @@ STATIC_URL = 'static/'
 
 if DEBUG:
 	# in Development: DEBUG=True
-	STATIC_DIR = os.path.join(BASE_DIR, 'static')
-	STATICFILES_DIRS = [STATIC_DIR]
+	STATIC_DIR = os.path.join(BASE_DIR, 'static') # No need for this, you can just put its value inside STATICFILES_DIRS list.
+	STATICFILES_DIRS = [STATIC_DIR] # These are where your live and fresh and working statics are, inside your project directory (BASE_DIR), and all of these will combine to STATIC_ROOT with 'collectstatic' command.
 	"""
 	Logically there is no need for this,
 	but when you are in Development-Mode(DEBUG=True),
