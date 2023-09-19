@@ -1,0 +1,33 @@
+:::Useful Packages:::
+[
+django-filter
+django-debug-toolbar
+drf-nested-routers
+djoser
+django-cors-headers
+django-allauth
+- django-mail-templated *
+- django-templated-mail
+model_bakery
+django-silk
+redis
+django-redis
+whitenoise
+dj-database-url
+django-flower
+python-decouple
+drf-yasg
+django-rest-auth
+dj-rest-auth
+black
+flake8
+django-celery-beat
+pytest
+pytest-django
+djangorestframework
+djangorestframework-simplejwt
+celery
+django-action-throttle
+channels
+gunicorn
+]
