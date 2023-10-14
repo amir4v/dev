@@ -17,6 +17,8 @@ Patterns
 REST
 Standards
 Principles
+Conventions
+Best Practices
 Agile/Scrum
 Documentation/Commenting
 Docker/Kubernetes
@@ -27,6 +29,7 @@ WebSocket/Channels
 Message Brokers/Redis/Memcached/RabbitMQ
 DevOps
 Testing
+Test/Debug/Diagnose
 Software Engineering
 Security
 Network
