@@ -11,10 +11,8 @@ Architectures
 SQL
 NoSQL
 DB
-API
-GraphQL
+API/REST/GraphQL
 Patterns
-REST
 Standards
 Principles
 Conventions
