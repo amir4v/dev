@@ -38,7 +38,7 @@ Teamwork
 (
     -Understanding
     -Troubleshooting
-    -Time Management
+    -Time Management/Estimation
     -Analyz
     -Problem Solving
     -Network/Networking/SocialSkills
