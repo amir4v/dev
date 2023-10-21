@@ -1,0 +1,133 @@
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>TestDriven.io</title>
+      <style>
+        h1, h3 {
+          color: #266150;
+        }
+        li {
+          display: inline;
+          text-decoration: none;
+          padding: 5px;
+        }
+        a {
+          text-decoration: none;
+          color: #DDAF94;
+        }
+        a:hover {
+          color: #4F4846;
+        }
+        .active {
+          background-color: #266150;
+          padding: 5px;
+          text-align: right;
+          border-radius: 7px;
+        }
+      </style>
+  </head>
+  <body>
+    <h1>{% trans 'Hello, welcome to our website home page!' %}</h1>
+    <h1>{% trans 'English' %}</h1>
+    <h1>{% trans 'Farsi' %}</h1>
+    
+    <div class="container">
+      <h1>{% trans "TestDriven.io Courses" %}</h1>
+
+      
+      <!--  -->
+      current_language {% get_current_language as CURRENT_LANGUAGE %}
+      {{ get_current_language }}
+      <br>
+      {{ CURRENT_LANGUAGE }}
+      <br>
+      
+      available_languages {% get_available_languages as AVAILABLE_LANGUAGES %}
+      {{ get_available_languages }}
+      <br>
+      {{ AVAILABLE_LANGUAGES }}
+      <br>
+      
+      language_info_list {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
+      {{ get_language_info_list }}
+      <br>
+      {{ languages }}
+      <br>
+    <!--  -->
+      
+      <h1>
+        <a href="/test/">/test/</a>
+      </h1>
+      <div class="languages">
+        <p>{% trans "Language" %}:</p>
+        <ul class="languages">
+          {% for language in languages %}
+            <li>
+              <a href="/{{ language.code }}/"
+                {% if language.code == CURRENT_LANGUAGE %} class="active"{% endif %}>
+                {{ language.name_local }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      
+      
+      {% for course in courses %}
+        <div class="card p-4">
+          <h3>
+            {{ course.title }}
+            <em style="font-size: small">{{ course.date }}</em>
+          </h3>
+          <p>{{ course.description }}</p>
+          <strong>Price: $ {{ course.price }}</strong>
+        </div>
+        <hr />
+      {% empty %}
+        <p>Database is empty</p>
+      {% endfor %}
+      
+      
+      
+      <h1>{{ text }}</h1>
+    </div>
+    
+    <br><br><br><br>
+    
+    
+    
+
+    
+    
+<form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+    <input name="next" type="hidden" value="{{ redirect_to }}">
+    <select name="language">
+        {% get_current_language as LANGUAGE_CODE %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_language_info_list for LANGUAGES as languages %}
+        {% for language in languages %}
+            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                {{ language.name_local }} ({{ language.code }})
+            </option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="Go">
+</form>
+
+<br><br><br><br>
+
+
+  </body>
+</html>
