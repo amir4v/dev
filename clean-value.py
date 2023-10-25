@@ -14,16 +14,28 @@ def clean(value, strip=''):
 
 
 def all_clean(iter, strip=''):
-    if type(iter) in [list, tuple, set]:
+    """Recursive"""
+    if type(iter) not in [list, tuple, set, dict]:
+        return clean(iter, strip)
+    elif type(iter) in [list, tuple, set]:
         temp = []
         for i in iter:
-            value = clean(i, strip)
-            if value is not None:
-                temp.append(value)
+            if type(i) not in [list, tuple, set, dict]:
+                value = clean(i, strip)
+            elif type(i) in [list, tuple, set, dict]:
+                value = all_clean(i, strip)
+            else:
+                value = iter
+            temp.append(value)
         return type(iter)(temp)
     elif type(iter) == dict:
-        for k, v in iter:
-            iter[k] = clean(v, strip)
+        for k, v in iter.items():
+            if type(v) not in [list, tuple, set, dict]:
+                iter[k] = clean(v, strip)
+            elif type(v) in [list, tuple, set, dict]:
+                iter[k] = all_clean(v, strip)
+            else:
+                iter[k] = v
         return iter
     else:
         return iter
