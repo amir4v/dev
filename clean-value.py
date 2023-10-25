@@ -10,12 +10,12 @@ class CleanMiddleware(MiddlewareMixin):
         
         temp_POST = all_clean(dict(request.POST))
         for k, v in temp_POST.items():
-            if len(v) == 1 and type(v) != str:
+            if v is not None and len(v) == 1 and type(v) != str:
                 temp_POST[k] = v[0]
         
         temp_GET = all_clean(dict(request.GET))
         for k, v in temp_GET.items():
-            if len(v) == 1 and type(v) != str:
+            if v is not None and len(v) == 1 and type(v) != str:
                 temp_GET[k] = v[0]
         
         for k, v in temp_POST.items():
