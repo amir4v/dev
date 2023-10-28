@@ -2,7 +2,7 @@ Python
 Django
 DRF
 FastAPI
-Typing
+10 Finger Typing
 Git/Github/Gitlab/CI-CD
 DSA
 Basic Mathematics
