@@ -5,6 +5,7 @@ FastAPI
 Typing
 Git/Github/Gitlab/CI-CD
 DSA
+Basic Mathematics
 Designs
 Systems
 Architectures
