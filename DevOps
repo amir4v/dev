@@ -1,0 +1,13 @@
+https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-22-04
+.
+https://www.geeksforgeeks.org/how-to-setup-git-server-on-ubuntu/
+.
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-git-server-on-a-vps
+.
+git clone git@IP:/path/to/project
+.
+https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch
+https://stackoverflow.com/questions/9841433/git-fetch-doesnt-update-my-local-repository
+.
+https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/
+.
