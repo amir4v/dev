@@ -1,0 +1,51 @@
+Python
+Django
+DRF
+FastAPI
+10 Finger Typing
+Git/Github/Gitlab/CI-CD
+DSA
+Basic Mathematics
+Designs
+Systems
+Architectures
+SQL
+NoSQL
+DB
+API/REST/GraphQL
+Patterns
+Standards
+Principles
+Conventions
+Best Practices
+Agile/Scrum
+Documentation/Commenting
+Docker/Kubernetes
+Linux
+Microservices
+Webservices
+WebSocket/Channels
+Message Brokers/Redis/Memcached/RabbitMQ
+DevOps
+Testing
+Test/Debug/Diagnose
+Software Engineering
+Security
+Network
+Basic HTML/CSS/JS
+Soft Skills
+Communications
+Teamwork
+(
+    -Understanding
+    -Troubleshooting
+    -Time Management/Estimation
+    -Analyze
+    -Problem Solving
+    -Network/Networking/SocialSkills
+    -Attention
+    -Fast Learning
+    -Adaptivity/Compatibility
+    -Decision Making
+    -Handling/Catching/Management/Managing
+)
