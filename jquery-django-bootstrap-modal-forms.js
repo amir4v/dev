@@ -19,9 +19,9 @@ https://github.com/trco/django-bootstrap-modal-forms
     var addEventHandlers = function (settings) {
         $(settings.modalForm).on("submit", function (event) {
             if (event.originalEvent !== undefined && settings.isDeleteForm === false) {
-                event.preventDefault();
+                // event.preventDefault();
                 submitForm(settings);
-                return false;
+                // return false;
             }
         });
         // Modal close handler
