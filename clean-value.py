@@ -5,9 +5,6 @@ from django.utils.deprecation import MiddlewareMixin
 
 class CleanMiddleware(MiddlewareMixin):
     def process_request(self, request):
-        request.POST._mutable = True
-        request.GET._mutable = True
-        
         temp_POST = all_clean(dict(request.POST))
         for k, v in temp_POST.items():
             if v is not None and len(v) == 1 and type(v) != str:
@@ -18,11 +15,20 @@ class CleanMiddleware(MiddlewareMixin):
             if v is not None and len(v) == 1 and type(v) != str:
                 temp_GET[k] = v[0]
         
+        request.POST = QueryDict(mutable=True)
+        request.GET = QueryDict(mutable=True)
+        
         for k, v in temp_POST.items():
-            request.POST.__setitem__(k, v)
+            if type(v) != str:
+                request.POST.setlist(k, v)
+            else:
+                request.POST[k] = v
         
         for k, v in temp_GET.items():
-            request.GET.__setitem__(k, v)
+            if type(v) != str:
+                request.GET.setlist(k, v)
+            else:
+                request.GET[k] = v
 
 
 def exists(value):
