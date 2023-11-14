@@ -20,13 +20,13 @@ class CleanMiddleware(MiddlewareMixin):
         
         for k, v in temp_POST.items():
             if type(v) != str:
-                request.POST.setlist(k, v)
+                request.POST.setlist(k, v or [])
             else:
                 request.POST[k] = v
         
         for k, v in temp_GET.items():
             if type(v) != str:
-                request.GET.setlist(k, v)
+                request.GET.setlist(k, v or [])
             else:
                 request.GET[k] = v
 
