@@ -1,10 +1,15 @@
 Python[
     Intermediate Python Programming Course: https://www.youtube.com/watch?v=HGOBQPFzWKo
     Book Introducing Python: Modern Computing in Simple Packages by Bill Lubanovic
+    https://github.com/DjangoEx/awesome-python-resources
+    https://github.com/realxoman/python-engineer-roadmap
+    Python PEP8 in Persian: https://github.com/vahit/pep8-per
+    https://github.com/patrickloeber/python-engineer-notebooks
 ]
 .
 Django[
-    
+    https://github.com/shahraizali/awesome-django
+    https://github.com/wsvincent/awesome-django
 ]
 .
 DRF[
@@ -36,10 +41,12 @@ Mathematics[
     کتاب ریاضیات پایه از محمدرضا رفسنجانی صادقی
     کتاب حساب دیفرانسیل و انتگرال جلد اول قسمت اول توماس ترجمه فرزین حاجی جمشیدی
     کتاب ساختمان های گسسته از بهروز قلی زاده
+    https://github.com/TalalAlrawajfeh/mathematics-roadmap
+    https://github.com/ossu/math
 ]
 .
 Designs[
-    
+    Practices of Design Patterns in Persian: https://github.com/khajavi/Practical-Design-Patterns
 ]
 .
 Systems[
@@ -103,7 +110,7 @@ Linux[
 ]
 .
 Microservices[
-    
+    https://medium.engineering/microservice-architecture-at-medium-9c33805eb74f
 ]
 .
 Webservices[
@@ -161,6 +168,9 @@ Teamwork[
 Computer Science[
     40 Key Computer Science Concepts Explained: https://carlcheo.com/compsci
     Every Programmer Should Know: https://github.com/mtdvio/every-programmer-should-know
+    https://roadmap.sh/computer-science
+    Computer Science courses with video lectures: https://github.com/Developer-Y/cs-video-courses
+    https://github.com/ossu/computer-science
 ]
 .
 English[
@@ -170,7 +180,12 @@ English[
 ]
 .
 Artificial Intelligence[
-    
+    https://github.com/microsoft/ai-for-beginners
+    https://github.com/microsoft/Data-Science-For-Beginners
+    https://github.com/microsoft/ML-For-Beginners
+    https://github.com/dair-ai/ML-YouTube-Courses
+    https://github.com/ossu/data-science
+    https://github.com/patrickloeber/ml-study-plan
 ]
 .
 (
@@ -219,3 +234,7 @@ Artificial Intelligence[
     ]
     .
 )
+.
+Immigration[
+    
+]
