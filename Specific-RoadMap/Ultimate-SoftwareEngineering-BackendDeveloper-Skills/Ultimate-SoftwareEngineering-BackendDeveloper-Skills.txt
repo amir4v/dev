@@ -160,6 +160,7 @@ Teamwork[
 .
 Computer Science[
     40 Key Computer Science Concepts Explained: https://carlcheo.com/compsci
+    Every Programmer Should Know: https://github.com/mtdvio/every-programmer-should-know
 ]
 .
 English[
