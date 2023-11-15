@@ -186,6 +186,7 @@ Artificial Intelligence[
     https://github.com/dair-ai/ML-YouTube-Courses
     https://github.com/ossu/data-science
     https://github.com/patrickloeber/ml-study-plan
+    https://www.pytopia.ai/courses/machine-learning
 ]
 .
 (
