@@ -1,5 +1,6 @@
 Python[
-    
+    Intermediate Python Programming Course: https://www.youtube.com/watch?v=HGOBQPFzWKo
+    Book Introducing Python: Modern Computing in Simple Packages by Bill Lubanovic
 ]
 .
 Django[
@@ -23,10 +24,12 @@ Git/Github/Gitlab/CI-CD[
 ]
 .
 DSA[
-    
+    leetcode.com
+    Dynamic Programming 1D - Full Course - Python: https://www.youtube.com/watch?v=_i4Yxeh5ceQ
+    Dynamic Programming 2D - Full Course - Python: https://www.youtube.com/watch?v=qMky6D6YtXU
 ]
 .
-Basic Mathematics[
+Mathematics[
     کتاب ریاضیات مقدماتی از محمدعلی کرایه چیان
     کتاب ریاضیات عمومی1 از محمدعلی کرایه چیان
     کتاب آمار و احتمالات از کاوه و یحیی عبدالله زاده
@@ -152,6 +155,20 @@ Communications[
 ]
 .
 Teamwork[
+    
+]
+.
+Computer Science[
+    40 Key Computer Science Concepts Explained: https://carlcheo.com/compsci
+]
+.
+English[
+    The Class + The App
+    ESL-Podcast
+    Grammar in Use Books
+]
+.
+Artificial Intelligence[
     
 ]
 .
