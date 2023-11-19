@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-19T11:12:19.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7kG_iW_z1Lag9i2vMKhn" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-19T11:22:54.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ALFFKhM94uzxLfZZ8rST" version="22.1.3" type="github">
   <diagram name="Page-1" id="Pw1lx-9ADOZ67-cU_8lc">
     <mxGraphModel dx="1804" dy="1678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="dCaoCA2dHIqfcbdslcku-2" value="numpy" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-30" y="-40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dCaoCA2dHIqfcbdslcku-3" value="TOOLS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="dCaoCA2dHIqfcbdslcku-3" value="DS-ML-TOOLS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-30" y="-90" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dCaoCA2dHIqfcbdslcku-4" value="pandas" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -31,8 +31,26 @@
         <mxCell id="dCaoCA2dHIqfcbdslcku-10" value="ENGLISH" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="170" y="-90" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dCaoCA2dHIqfcbdslcku-11" value="TOOLS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="dCaoCA2dHIqfcbdslcku-11" value="SE-TOOLS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="375" y="-90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCaoCA2dHIqfcbdslcku-12" value="MATHEMATICS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCaoCA2dHIqfcbdslcku-13" value="(DSA)ALGORITHMS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCaoCA2dHIqfcbdslcku-14" value="ML" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCaoCA2dHIqfcbdslcku-15" value="SKILLS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="-90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCaoCA2dHIqfcbdslcku-16" value="KNOWLEDGE" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="-90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCaoCA2dHIqfcbdslcku-18" value="ABILITIES" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="-90" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
