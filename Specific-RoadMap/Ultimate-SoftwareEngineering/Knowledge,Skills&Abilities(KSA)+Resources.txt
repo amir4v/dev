@@ -1,3 +1,9 @@
+GENERAL[
+    https://roadmap.sh
+    https://roadmap.sh/roadmaps
+    https://github.com/kamranahmedse/developer-roadmap
+]
+.
 Python[
     Intermediate Python Programming Course: https://www.youtube.com/watch?v=HGOBQPFzWKo
     Book Introducing Python: Modern Computing in Simple Packages by Bill Lubanovic
