@@ -34,21 +34,61 @@ Git/Github/Gitlab/CI-CD[
     
 ]
 .
-DSA[
+DSA (Data Structures and Algorithms)[
     leetcode.com
     Dynamic Programming 1D - Full Course - Python: https://www.youtube.com/watch?v=_i4Yxeh5ceQ
     Dynamic Programming 2D - Full Course - Python: https://www.youtube.com/watch?v=qMky6D6YtXU
 ]
 .
 Mathematics[
-    کتاب ریاضیات مقدماتی از محمدعلی کرایه چیان
-    کتاب ریاضیات عمومی1 از محمدعلی کرایه چیان
-    کتاب آمار و احتمالات از کاوه و یحیی عبدالله زاده
-    کتاب ریاضیات پایه از محمدرضا رفسنجانی صادقی
-    کتاب حساب دیفرانسیل و انتگرال جلد اول قسمت اول توماس ترجمه فرزین حاجی جمشیدی
-    کتاب ساختمان های گسسته از بهروز قلی زاده
-    https://github.com/TalalAlrawajfeh/mathematics-roadmap
-    https://github.com/ossu/math
+    [
+        کتاب ریاضیات مقدماتی از محمدعلی کرایه چیان
+        کتاب ریاضیات پایه از محمدرضا رفسنجانی صادقی
+        https://github.com/TalalAlrawajfeh/mathematics-roadmap
+        https://github.com/ossu/math
+    ]
+    Pre Algebra[
+        
+    ]
+    Geometry[
+        
+    ]
+    Algebra 1[
+        
+    ]
+    Trigonometry[
+        
+    ]
+    College Algebra[
+        
+    ]
+    Algebra 2[
+        
+    ]
+    -
+    Pre Calculus[
+        
+    ]
+    Calculus[
+        کتاب ریاضیات عمومی1 از محمدعلی کرایه چیان
+        کتاب حساب دیفرانسیل و انتگرال جلد اول قسمت اول توماس ترجمه فرزین حاجی جمشیدی
+    ]
+    -
+    Linear Algebra[
+        
+    ]
+    -
+    Statistics and Probability[
+        کتاب آمار و احتمالات از کاوه و یحیی عبدالله زاده
+    ]
+    -
+    Discrete Mathematics[
+        کتاب ساختمان های گسسته از بهروز قلی زاده
+    ]
+    -
+    Differential Equations[
+        
+    ]
 ]
 .
 Designs[
@@ -155,19 +195,7 @@ Network[
     
 ]
 .
-Basic HTML/CSS/JS[
-    
-]
-.
-Soft Skills[
-    
-]
-.
-Communications[
-    
-]
-.
-Teamwork[
+HTML/CSS/JS[
     
 ]
 .
@@ -186,61 +214,71 @@ English[
 ]
 .
 Artificial Intelligence[
-    https://github.com/microsoft/ai-for-beginners
-    https://github.com/microsoft/Data-Science-For-Beginners
-    https://github.com/microsoft/ML-For-Beginners
-    https://github.com/dair-ai/ML-YouTube-Courses
-    https://github.com/ossu/data-science
-    https://github.com/patrickloeber/ml-study-plan
-    https://www.pytopia.ai/courses/machine-learning
+    [
+        https://github.com/microsoft/ai-for-beginners
+    ]
+    Data Science[
+        https://github.com/microsoft/Data-Science-For-Beginners
+        https://github.com/ossu/data-science
+    ]
+    Machine Learning[
+        https://github.com/microsoft/ML-For-Beginners
+        https://github.com/dair-ai/ML-YouTube-Courses
+        https://github.com/patrickloeber/ml-study-plan
+        https://www.pytopia.ai/courses/machine-learning
+    ]
+    Deep Learning[
+        
+    ]
+    NLP[
+        
+    ]  
 ]
 .
-(
-    -Understanding[
+Soft Skills[
+    [
         
     ]
-    .
-    -Troubleshooting[
+    Teamwork[
         
     ]
-    .
-    -Time Management/Estimation[
+    Communication/Communications[
         
     ]
-    .
-    -Analyze[
+    Understanding[
         
     ]
-    .
-    -Problem Solving[
+    Troubleshooting[
         
     ]
-    .
-    -Network/Networking/SocialSkills[
+    Time Management/Estimation[
         
     ]
-    .
-    -Attention[
+    Analyze[
         
     ]
-    .
-    -Fast Learning[
+    Problem Solving[
         
     ]
-    .
-    -Adaptivity/Compatibility[
+    Network/Networking/SocialSkills[
         
     ]
-    .
-    -Decision Making[
+    Attention[
         
     ]
-    .
-    -Handling/Catching/Management/Managing[
+    Fast Learning[
         
     ]
-    .
-)
+    Adaptivity/Compatibility[
+        
+    ]
+    Decision Making[
+        
+    ]
+    Handling/Catching/Management/Managing[
+        
+    ]
+]
 .
 Immigration[
     
