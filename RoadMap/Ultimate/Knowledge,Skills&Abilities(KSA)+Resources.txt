@@ -46,7 +46,9 @@ Mathematics[
         کتاب ریاضیات پایه از محمدرضا رفسنجانی صادقی
         https://github.com/TalalAlrawajfeh/mathematics-roadmap
         https://github.com/ossu/math
+        https://www.youtube.com/playlist?list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v
         https://www.youtube.com/playlist?list=PLDIqzTwCXyMnAtE2hBz7QY2pPtVeCRoI6
+        https://www.youtube.com/playlist?list=PLDIqzTwCXyMkwvTsgcQQtsHp-JtaX-hZw
     ]
     Pre Algebra[
         
@@ -57,13 +59,13 @@ Mathematics[
     Algebra 1[
         
     ]
-    Trigonometry[
+    Algebra 2[
         
     ]
     College Algebra[
         
     ]
-    Algebra 2[
+    Trigonometry[
         
     ]
     -
