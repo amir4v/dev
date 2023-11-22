@@ -84,6 +84,7 @@ Mathematics[
     Statistics and Probability[
         کتاب آمار و احتمالات از کاوه و یحیی عبدالله زاده
         Book Statistics by Witte
+        Statistics by The Organic Chemistry Tutor: https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV
     ]
     -
     Discrete Mathematics[
