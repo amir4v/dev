@@ -46,9 +46,9 @@ Mathematics[
         کتاب ریاضیات پایه از محمدرضا رفسنجانی صادقی
         https://github.com/TalalAlrawajfeh/mathematics-roadmap
         https://github.com/ossu/math
-        https://www.youtube.com/playlist?list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v
-        https://www.youtube.com/playlist?list=PLDIqzTwCXyMnAtE2hBz7QY2pPtVeCRoI6
-        https://www.youtube.com/playlist?list=PLDIqzTwCXyMkwvTsgcQQtsHp-JtaX-hZw
+        Mathematics by Freecodecamp: https://www.youtube.com/playlist?list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v
+        Mathematics: https://www.youtube.com/playlist?list=PLDIqzTwCXyMnAtE2hBz7QY2pPtVeCRoI6
+        Mathematics-Quick: https://www.youtube.com/playlist?list=PLDIqzTwCXyMkwvTsgcQQtsHp-JtaX-hZw
     ]
     Pre Algebra[
         
@@ -284,5 +284,5 @@ Soft Skills[
 ]
 .
 Immigration[
-    
+    Diagram: https://app.diagrams.net/#Hamir4v%2Fdev%2Fmain%2FSpecific-RoadMap%2Fdraw%2FUntitled%20Diagram.drawio
 ]
