@@ -214,9 +214,13 @@ Computer Science[
 ]
 .
 English[
-    The Class + The App
+    The Class + The App + The Book + Assignments.
+    Practice, Talk to other people in person or online(Discord).
+    Talk to ChatGPT.
+    Repeat everything you hear + Watch (Youtube)videos with English subtitle.
     ESL-Podcast
     Grammar in Use Books
+    Oxford Word Skills Books
 ]
 .
 Artificial Intelligence[
