@@ -83,6 +83,7 @@ Mathematics[
     -
     Statistics and Probability[
         کتاب آمار و احتمالات از کاوه و یحیی عبدالله زاده
+        Book Statistics by Witte
     ]
     -
     Discrete Mathematics[
@@ -228,7 +229,7 @@ Artificial Intelligence[
         https://github.com/microsoft/ML-For-Beginners
         https://github.com/dair-ai/ML-YouTube-Courses
         https://github.com/patrickloeber/ml-study-plan
-        https://www.pytopia.ai/courses/machine-learning
+        Pytopia ML Course 2022: https://www.pytopia.ai/courses/machine-learning
     ]
     Deep Learning[
         
