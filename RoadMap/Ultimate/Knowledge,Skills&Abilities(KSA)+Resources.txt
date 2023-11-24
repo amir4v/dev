@@ -236,6 +236,8 @@ Artificial Intelligence[
         https://github.com/dair-ai/ML-YouTube-Courses
         https://github.com/patrickloeber/ml-study-plan
         Pytopia ML Course 2022: https://www.pytopia.ai/courses/machine-learning
+        Book Pattern Recognition and Machine Learning by Christopher M. Bishop
+        Book Deep Learning Foundations and Concepts by Christopher M. Bishop
     ]
     Deep Learning[
         
