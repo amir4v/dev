@@ -5,11 +5,9 @@ from pprint import pprint
 
 class PriorityRandom:
     """
-    item , 1-...
-    
-    (
-        (item1, 1), (item2, 5), (item3, 8), (item4, 2), ...
-    )
+    items = [
+        (item1, 2), (item2, 1), (item3, 8), (item4, 2), ...
+    ]
     """
     
     def __init__(self, items):
@@ -39,13 +37,14 @@ class PriorityRandom:
 
 
 # EXAMPLE
-items = (
-    ('item-1', 1),
-    ('item-2', 3),
-    ('item-3', 5),
-    ('item-4', 10),
-    ('item-5', 15),
-)
+"""
+items = [
+    ('item1', 1),
+    ('item2', 3),
+    ('item3', 5),
+    ('item4', 10),
+    ('item5', 15),
+]
 
 pr = PriorityRandom(items)
 pprint(
@@ -53,3 +52,4 @@ pprint(
         pr.choices(10)
     )
 )
+"""
