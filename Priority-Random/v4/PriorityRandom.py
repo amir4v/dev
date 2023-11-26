@@ -20,7 +20,7 @@ class PriorityRandom:
         for index, item in enumerate(items):
             the_list.extend(
                 list(
-                    repeat(index, item[1]) # item[1] = Priority
+                    repeat(index, item[1]) # item[1] == Priority
                 )
             )
         shuffle(the_list)
@@ -31,9 +31,13 @@ class PriorityRandom:
         return self.items[index][0]
     
     def choices(self, n):
-        return (
+        return list(
             item() for item in repeat(self.choice, n)
         )
+
+
+class PR(PriorityRandom):
+    pass
 
 
 # EXAMPLE
@@ -47,9 +51,6 @@ items = [
 ]
 
 pr = PriorityRandom(items)
-pprint(
-    tuple(
-        pr.choices(10)
-    )
-)
+
+pprint(pr.choices(10))
 """
