@@ -49,6 +49,7 @@ Mathematics[
         Mathematics by Freecodecamp: https://www.youtube.com/playlist?list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v
         Mathematics: https://www.youtube.com/playlist?list=PLDIqzTwCXyMnAtE2hBz7QY2pPtVeCRoI6
         Mathematics-Quick: https://www.youtube.com/playlist?list=PLDIqzTwCXyMkwvTsgcQQtsHp-JtaX-hZw
+        ریاضیات ابتدایی از مباحث دبستان: https://www.youtube.com/playlist?list=PL0o_zxa4K1BUTwjC6quGDfAB7HHNt_cPr
     ]
     Pre Algebra[
         
