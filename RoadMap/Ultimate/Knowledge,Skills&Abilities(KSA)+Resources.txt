@@ -49,7 +49,7 @@ Mathematics[
         Mathematics by Freecodecamp: https://www.youtube.com/playlist?list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v
         Mathematics: https://www.youtube.com/playlist?list=PLDIqzTwCXyMnAtE2hBz7QY2pPtVeCRoI6
         Mathematics-Quick: https://www.youtube.com/playlist?list=PLDIqzTwCXyMkwvTsgcQQtsHp-JtaX-hZw
-        ریاضیات ابتدایی از مباحث دبستان: https://www.youtube.com/playlist?list=PL0o_zxa4K1BUTwjC6quGDfAB7HHNt_cPr
+        ریاضیات ابتدایی از مباحث دبستان: https://www.youtube.com/playlist?list=PL0o_zxa4K1BUTwjC6quGDfAB7HHNt_cPr by The Organic Chemistry Tutor
     ]
     Pre Algebra[
         
@@ -84,7 +84,10 @@ Mathematics[
     -
     Statistics and Probability[
         کتاب آمار و احتمالات از کاوه و یحیی عبدالله زاده
-        Book Statistics by Witte
+        Book Statistics by S.Witte
+        Book Elementary Statistics by Neil Weiss
+        Book Introduction to Probability by Dimitri P. Bertsekas, John N. Tsitsiklis
+        Book Introduction to Probability by Joseph K. Blitzstein, Jessica Hwang
         Statistics by The Organic Chemistry Tutor: https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV
         Statistics by CrashCourse: https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr
     ]
