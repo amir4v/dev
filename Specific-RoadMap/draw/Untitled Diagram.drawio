@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T05:01:49.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wGFImbaQWqtu8sshmYvg" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T12:55:37.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lvTeVaCQm7qo1eKPDxEy" version="22.1.4" type="github">
   <diagram name="Page-1" id="Pw1lx-9ADOZ67-cU_8lc">
     <mxGraphModel dx="954" dy="1678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-2" value="BASE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="355" y="-85" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-3" value="GENERALS:&lt;br&gt;CS,SE,DS, AI,ML,DL" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="uNf8jhvKmDgPgvKZIGbK-3" value="GENERALS:&lt;br&gt;CS,SE,DS, AI,ML,DL - NLP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="-40" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-4" value="DSA,&lt;br&gt;DS,&lt;br&gt;ML,&lt;br&gt;MATHEMATICS,&lt;br&gt;TOOLS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -61,7 +61,7 @@
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-10" value="scikit-learn" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="350" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="uNf8jhvKmDgPgvKZIGbK-11" value="power bi" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="400" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
