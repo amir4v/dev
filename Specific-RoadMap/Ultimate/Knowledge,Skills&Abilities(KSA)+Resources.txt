@@ -242,6 +242,7 @@ Artificial Intelligence[
         Pytopia ML Course 2022: https://www.pytopia.ai/courses/machine-learning
         Book Pattern Recognition and Machine Learning by Christopher M. Bishop
         Book Deep Learning Foundations and Concepts by Christopher M. Bishop
+        2020 Machine Learning Roadmap (still 90% valid for 2023): https://github.com/mrdbourke/machine-learning-roadmap (https://www.youtube.com/watch?v=pHiMN_gy9mk)
     ]
     Deep Learning[
         
