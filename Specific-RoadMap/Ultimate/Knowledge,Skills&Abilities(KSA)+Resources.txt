@@ -123,7 +123,7 @@ NoSQL[
     Bridging the Gap Between SQL and NoSQL in PostgreSQL with JSON: https://www.dbvis.com/thetable/bridging-the-gap-between-sql-and-nosql-in-postgresql-with-json
     Comparing Postgres JSONB With NoSQL: https://www.couchbase.com/blog/postgres-jsonb-and-nosql
     MongoDB Relationships: A Quick Guide: https://www.knowledgehut.com/blog/web-development/data-relationships-in-mongodb
-    
+    MongoDB Crash Course - Schemas and Relationships: https://www.youtube.com/watch?v=DdvhZj7SsEM
 ]
 .
 DB[
