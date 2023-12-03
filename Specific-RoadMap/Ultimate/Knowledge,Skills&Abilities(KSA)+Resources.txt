@@ -23,7 +23,7 @@ DRF[
 ]
 .
 FastAPI[
-    
+    https://www.tutorialspoint.com/fastapi
 ]
 .
 10 Finger Typing[
@@ -155,7 +155,11 @@ Best Practices[
 ]
 .
 Agile/Scrum[
-    
+    https://agilemanifesto.org
+    https://agilemanifesto.org/iso/en/principles.html
+    https://www.smartsheet.com/sites/default/files/Agile-PM-101-Beginners-Guide-Non-PM-Ebook-download-open.pdf
+    https://scrumguides.org/download.html
+    https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
 ]
 .
 Documentation/Commenting[
