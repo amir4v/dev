@@ -125,6 +125,11 @@ NoSQL[
     Comparing Postgres JSONB With NoSQL: https://www.couchbase.com/blog/postgres-jsonb-and-nosql
     MongoDB Relationships: A Quick Guide: https://www.knowledgehut.com/blog/web-development/data-relationships-in-mongodb
     MongoDB Crash Course - Schemas and Relationships: https://www.youtube.com/watch?v=DdvhZj7SsEM
+    https://pymongo.readthedocs.io/en/stable/tutorial.html
+    https://www.djongomapper.com/integrating-django-with-mongodb
+    https://www.digitalocean.com/community/tutorials/how-to-connect-a-django-app-to-mongodb-with-pymongo
+    https://medium.com/featurepreneur/how-to-connect-a-django-project-with-mongodb-99f556cbb5b7
+    https://www.freecodecamp.org/news/using-django-with-mongodb-by-adding-just-one-line-of-code-c386a298e179
 ]
 .
 DB[
