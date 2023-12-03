@@ -120,6 +120,9 @@ SQL[
 NoSQL[
     MongoDB in 100 Seconds: https://www.youtube.com/watch?v=-bt_y4Loofg
     MongoDB Crash Course: https://www.youtube.com/watch?v=ofme2o29ngU
+    Bridging the Gap Between SQL and NoSQL in PostgreSQL with JSON: https://www.dbvis.com/thetable/bridging-the-gap-between-sql-and-nosql-in-postgresql-with-json
+    Comparing Postgres JSONB With NoSQL: https://www.couchbase.com/blog/postgres-jsonb-and-nosql
+    MongoDB Relationships: A Quick Guide: https://www.knowledgehut.com/blog/web-development/data-relationships-in-mongodb
     
 ]
 .
