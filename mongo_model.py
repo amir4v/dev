@@ -1,4 +1,17 @@
+from functools import partial
+
 from pymongo import MongoClient
+from bson import ObjectId
+
+
+class DictToClass:
+    def __init__(self, d):
+        self.d = d
+        for key, value in d.items():
+            setattr(self, key, value)
+    
+    def to_dict(self):
+        return self.d
 
 
 class MongoModel:
@@ -62,4 +75,12 @@ class MongoModel:
         if db:
             self.db = self.client[db]
             self.reset_collections()
-        return self.db[collection]
+        collection = self.db[collection]
+        collection.get = partial(self.get, collection=collection)
+        return collection
+    
+    def get(self, _id, collection):
+        obj = collection.find_one({'_id': ObjectId(_id)})
+        obj = obj or {}
+        obj = DictToClass(obj)
+        return obj
