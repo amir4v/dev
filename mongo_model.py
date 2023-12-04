@@ -6,11 +6,22 @@ from bson import ObjectId
 
 class DictToClass:
     def __init__(self, d):
+        d = d or {}
         self.d = d
         for key, value in d.items():
             setattr(self, key, value)
     
-    def to_dict(self):
+    @property
+    def dict(self):
+        """TODO: Convert class attributes to key-value dict."""
+        class my_dict(dict):
+            cls = object
+            def __init__(self, *args, **kwargs):
+                self.cls = object
+                super().__init__(*args, **kwargs)
+        
+        self.d = my_dict(self.d)
+        self.d.cls = self
         return self.d
 
 
@@ -79,8 +90,9 @@ class MongoModel:
         collection.get = partial(self.get, collection=collection)
         return collection
     
-    def get(self, _id, collection):
+    def get(self, _id, collection, cls=False):
         obj = collection.find_one({'_id': ObjectId(_id)})
-        obj = obj or {}
-        obj = DictToClass(obj)
+        if cls:
+            obj = obj or {}
+            return DictToClass(obj)
         return obj
