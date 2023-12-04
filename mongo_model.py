@@ -1,0 +1,65 @@
+from pymongo import MongoClient
+
+
+class MongoModel:
+    HOST = 'localhost'
+    PORT = 27017
+    # use admin [THEN] db.createUser({user:'admin', pwd: '123456', roles:['userAdminAnyDatabase']})
+    USERNAME = 'admin'
+    PASSWORD = '123456'
+    #
+    AUTH_MECHANISM = 'DEFAULT'
+    
+    def __init__(self, db,
+                       host=HOST, port=PORT,
+                       username=USERNAME, password=PASSWORD,
+                       authMechanism=AUTH_MECHANISM):
+        self.client = self.get_client(host, port,
+                                      username, password,
+                                      authMechanism)
+        self.db = self.get_db(db)
+        self.reset_collections()
+    
+    def reset_collections(self):
+        for collection in self.db.list_collection_names():
+            setattr(self, collection, self.get_collection(collection))
+    
+    def get_client(self, host=HOST, port=PORT,
+                         username=USERNAME, password=PASSWORD,
+                         authMechanism=AUTH_MECHANISM,
+                         db=None, collection=None):
+        """
+        authMechanism must be in ('MONGODB-OIDC', 'MONGODB-CR', 'PLAIN',
+                                  'SCRAM-SHA-1', 'MONGODB-X509', 'DEFAULT',
+                                  'SCRAM-SHA-256', 'GSSAPI', 'MONGODB-AWS').
+        PyMongo automatically uses  'SCRAM-SHA-1'.
+        """
+        self.client = MongoClient(
+            host=host,
+            port=port,
+            username=username,
+            password=password,
+            authMechanism=authMechanism,
+        )
+        
+        if db and collection:
+            self.db = self.client[db]
+            self.reset_collections()
+            return self.db[collection]
+        elif db:
+            self.db = self.client[db]
+            self.reset_collections()
+            return self.client[db]
+        else:
+            return self.client
+    
+    def get_db(self, db):
+        self.db = self.client[db]
+        self.reset_collections()
+        return self.db
+    
+    def get_collection(self, collection, db=None):
+        if db:
+            self.db = self.client[db]
+            self.reset_collections()
+        return self.db[collection]
