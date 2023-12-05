@@ -37,10 +37,12 @@ class MongoModel:
     def __init__(self, db,
                        host=HOST, port=PORT,
                        username=USERNAME, password=PASSWORD,
-                       authMechanism=AUTH_MECHANISM):
+                       authMechanism=AUTH_MECHANISM,
+                       connection_string=None):
         self.client = self.get_client(host, port,
                                       username, password,
-                                      authMechanism)
+                                      authMechanism,
+                                      connection_string)
         self.db = self.get_db(db)
         self.reset_collections()
     
@@ -51,6 +53,7 @@ class MongoModel:
     def get_client(self, host=HOST, port=PORT,
                          username=USERNAME, password=PASSWORD,
                          authMechanism=AUTH_MECHANISM,
+                         connection_string=None,
                          db=None, collection=None):
         """
         authMechanism must be in ('MONGODB-OIDC', 'MONGODB-CR', 'PLAIN',
@@ -58,13 +61,16 @@ class MongoModel:
                                   'SCRAM-SHA-256', 'GSSAPI', 'MONGODB-AWS').
         PyMongo automatically uses  'SCRAM-SHA-1'.
         """
-        self.client = MongoClient(
-            host=host,
-            port=port,
-            username=username,
-            password=password,
-            authMechanism=authMechanism,
-        )
+        if connection_string:
+            self.client = MongoClient(connection_string)
+        else:
+            self.client = MongoClient(
+                host=host,
+                port=port,
+                username=username,
+                password=password,
+                authMechanism=authMechanism,
+            )
         
         if db and collection:
             self.db = self.client[db]
