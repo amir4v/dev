@@ -130,6 +130,7 @@ NoSQL[
     https://www.digitalocean.com/community/tutorials/how-to-connect-a-django-app-to-mongodb-with-pymongo
     https://medium.com/featurepreneur/how-to-connect-a-django-project-with-mongodb-99f556cbb5b7
     https://www.freecodecamp.org/news/using-django-with-mongodb-by-adding-just-one-line-of-code-c386a298e179
+    Relationship, Embedded Relationships, Document Referenced Relationships, When to use Embedded Documents vs Referenced Documents: https://www.quackit.com/mongodb/tutorial/mongodb_create_a_relationship.cfm
 ]
 .
 DB[
