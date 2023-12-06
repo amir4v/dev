@@ -26,6 +26,15 @@ class DictToClass:
 
 
 class MongoModel:
+    """
+    * If you want to relate a Document to another, you have to use _id=ObjectId('...') of that Document
+        to a field named like that Collection in your Document and your field can be a ObjectId or a list and
+        in that list you put some ObjectId.
+    * So two point:
+        field name (referenced Collection)
+        value (ObjectId)
+    """
+    
     HOST = 'localhost'
     PORT = 27017
     # use admin [THEN] db.createUser({user:'admin', pwd: '123456', roles:['userAdminAnyDatabase']})
