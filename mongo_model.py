@@ -109,6 +109,7 @@ class MongoModel:
         obj = collection.find_one({'_id': ObjectId(_id)}) or {}
         # TODO: problem: it's slower
         pairs = {}
+        obj.pop('_id') # To prevent loop
         for k, v in obj.items():
             if isinstance(v, ObjectId):
                 pairs[k] = v
