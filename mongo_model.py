@@ -97,8 +97,33 @@ class MongoModel:
         return collection
     
     def get(self, _id, collection, cls=False):
-        obj = collection.find_one({'_id': ObjectId(_id)})
+        obj = collection.find_one({'_id': ObjectId(_id)}) or {}
+        # TODO: problem: it's slower
+        pairs = {}
+        for k, v in obj.items():
+            if isinstance(v, ObjectId):
+                pairs[k] = v
+        pipeline = [
+            {'$match': {'_id': ObjectId(_id)}},
+            {'$limit': 1}
+        ]
+        for k, v in pairs.items():
+            pipeline.append(
+                {'$lookup': {
+                    'from': k,
+                    'localField': '_id',
+                    'foreignField': k,
+                    'as': k
+                }}
+            )
+        obj = collection.aggregate(pipeline)
+        obj = list(obj)
+        obj.append({})
+        obj = obj[0]
         if cls:
-            obj = obj or {}
+            return DictToClass(obj)
+        return obj
+        #
+        if cls:
             return DictToClass(obj)
         return obj
