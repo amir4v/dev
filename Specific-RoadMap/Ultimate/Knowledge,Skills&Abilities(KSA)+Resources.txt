@@ -12,11 +12,14 @@ Python[
     https://github.com/realxoman/python-engineer-roadmap
     Python PEP8 in Persian: https://github.com/vahit/pep8-per
     https://github.com/patrickloeber/python-engineer-notebooks
+    30 Days of Python ~ Python 3.8: https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6
 ]
 .
 Django[
     https://github.com/shahraizali/awesome-django
     https://github.com/wsvincent/awesome-django
+    Django Rest Framework | Serializers & CRUD: https://www.youtube.com/watch?v=TmsD8QExZ84
+    Django course by Ali Bigdeli from Maktabkhooneh: https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D9%86%DA%AF%D9%88-mk623/ -> https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-mk1438/
 ]
 .
 DRF[
@@ -39,6 +42,8 @@ DSA (Data Structures and Algorithms)[
     leetcode.com
     Dynamic Programming 1D - Full Course - Python: https://www.youtube.com/watch?v=_i4Yxeh5ceQ
     Dynamic Programming 2D - Full Course - Python: https://www.youtube.com/watch?v=qMky6D6YtXU
+    Book Introduction to Algorithms by CLRS
+    Introduction to Algorithms a creative approach by Udi Manber
 ]
 .
 Mathematics[
@@ -152,7 +157,7 @@ Standards[
 ]
 .
 Principles[
-    
+    SOLID Principles: https://www.youtube.com/watch?v=kF7rQmSRlq0
 ]
 .
 Conventions[
@@ -168,7 +173,12 @@ Agile/Scrum[
     https://agilemanifesto.org/iso/en/principles.html
     https://www.smartsheet.com/sites/default/files/Agile-PM-101-Beginners-Guide-Non-PM-Ebook-download-open.pdf
     https://scrumguides.org/download.html
+    Scrum in under 5 minutes: https://www.youtube.com/watch?v=2Vt7Ik8Ublw
+    Agile project management methodology explained: https://www.youtube.com/watch?v=zi7uGg6FVM4
+    Agile Product Ownership in a Nutshell: https://www.youtube.com/watch?v=502ILHjX9EE
     https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+    What is Scrum? | Google Project Management Certificate: https://www.youtube.com/watch?v=SG_iHptXcKQ
+    Agile and Scrum in the Real World | Google Project Management Certificate: https://www.youtube.com/watch?v=1evfn3qTYGM
 ]
 .
 Documentation/Commenting[
