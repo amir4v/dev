@@ -132,6 +132,7 @@ NoSQL[
     https://www.freecodecamp.org/news/using-django-with-mongodb-by-adding-just-one-line-of-code-c386a298e179
     Relationship, Embedded Relationships, Document Referenced Relationships, When to use Embedded Documents vs Referenced Documents: https://www.quackit.com/mongodb/tutorial/mongodb_create_a_relationship.cfm
     How to join multiple collections with $lookup in mongodb: https://stackoverflow.com/questions/35813854/how-to-join-multiple-collections-with-lookup-in-mongodb
+    What is the equivalent of findOne using .aggregate in Mongodb?: https://stackoverflow.com/questions/60961072/what-is-the-equivalent-of-findone-using-aggregate-in-mongodb
 ]
 .
 DB[
