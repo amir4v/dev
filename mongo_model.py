@@ -107,12 +107,16 @@ class MongoModel:
     
     def get(self, _id, collection, cls=False):
         obj = collection.find_one({'_id': ObjectId(_id)}) or {}
-        # TODO: problem: it's slower
+        # ### TODO: problem: it's slower
         pairs = {}
         obj.pop('_id') # To prevent loop
         for k, v in obj.items():
             if isinstance(v, ObjectId):
                 pairs[k] = v
+            elif isinstance(v, list):
+                pass
+            elif isinstance(v, dict):
+                pass
         pipeline = [
             {'$match': {'_id': ObjectId(_id)}},
             {'$limit': 1}
@@ -133,7 +137,7 @@ class MongoModel:
         if cls:
             return DictToClass(obj)
         return obj
-        #
+        # ###
         if cls:
             return DictToClass(obj)
         return obj
