@@ -1,0 +1,6 @@
+oauth: twiter, instagram, telegram.
+crush layer one (un-noticable): ask to some questions or write some of your ideas or perspective or pov of yours;
+  then if the other on/side approved the answers, then send a notification.
+crush layer two:
+  in case of match:
+    send a notifications
