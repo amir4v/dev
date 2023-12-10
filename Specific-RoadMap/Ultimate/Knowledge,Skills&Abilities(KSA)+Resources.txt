@@ -137,7 +137,8 @@ Mathematics[
 ]
 .
 Designs[
-    Practices of Design Patterns in Persian: https://github.com/khajavi/Practical-Design-Patterns
+    Book Functional Design: Principles, Patterns, and Practices by Robert Martin
+    Book Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann
 ]
 .
 Systems[
@@ -145,7 +146,7 @@ Systems[
 ]
 .
 Architectures[
-    
+    Book Clean Architecture: A Craftsman's Guide to Software Structure and Design by Robert Martin
 ]
 .
 SQL[
@@ -180,11 +181,13 @@ API/REST/GraphQL[
 ]
 .
 Patterns[
-    
+    Book Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software by Eric Freeman
+    Practices of Design Patterns in Persian: https://github.com/khajavi/Practical-Design-Patterns
+    Book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma
 ]
 .
 Standards[
-    
+    Book The Clean Coder: A Code of Conduct for Professional Programmers by Robert Martin
 ]
 .
 Principles[
@@ -202,6 +205,7 @@ Best Practices[
 .
 Agile/Scrum[
     https://agilemanifesto.org
+    Book Clean Agile: Back to Basics (Robert C. Martin Series)
     https://agilemanifesto.org/iso/en/principles.html
     https://www.smartsheet.com/sites/default/files/Agile-PM-101-Beginners-Guide-Non-PM-Ebook-download-open.pdf
     https://scrumguides.org/download.html
@@ -227,6 +231,7 @@ Linux[
 .
 Microservices[
     https://medium.engineering/microservice-architecture-at-medium-9c33805eb74f
+    Book Building Microservices: Designing Fine-Grained Systems by Sam Newman
 ]
 .
 Webservices[
@@ -254,7 +259,7 @@ Test/Debug/Diagnose[
 ]
 .
 Software Engineering[
-    
+    Book Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
 ]
 .
 Security[
