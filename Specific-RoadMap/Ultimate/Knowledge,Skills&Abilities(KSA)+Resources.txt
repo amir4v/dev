@@ -7,6 +7,7 @@ GENERAL[
 Python[
     Intermediate Python Programming Course: https://www.youtube.com/watch?v=HGOBQPFzWKo
     Book Introducing Python: Modern Computing in Simple Packages by Bill Lubanovic
+    Fluent Python: Clear, Concise, and Effective Programming: https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008
     From beginning to over intermediate: https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6
     https://github.com/DjangoEx/awesome-python-resources
     https://github.com/realxoman/python-engineer-roadmap
