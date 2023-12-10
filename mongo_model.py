@@ -105,11 +105,15 @@ class MongoModel:
         collection.get = partial(self.get, collection=collection)
         return collection
     
-    def get(self, _id, collection, cls=False):
-        obj = collection.find_one({'_id': ObjectId(_id)}) or {}
+    def get(self, _id=None, cls=False, **kwargs):
+        collection = kwargs.pop('collection', None)
+        if kwargs:
+            obj = collection.find_one(kwargs) or {}
+        else:
+            obj = collection.find_one({'_id': ObjectId(_id)}) or {}
         # ### TODO: problem: it's slower
         pairs = {}
-        obj.pop('_id') # To prevent loop
+        obj.pop('_id', None) # To prevent loop
         for k, v in obj.items():
             if isinstance(v, ObjectId):
                 pairs[k] = v
@@ -118,7 +122,8 @@ class MongoModel:
             elif isinstance(v, dict):
                 pass
         pipeline = [
-            {'$match': {'_id': ObjectId(_id)}},
+            {'$match':
+                kwargs or {'_id': ObjectId(_id)}},
             {'$limit': 1}
         ]
         for k, v in pairs.items():
@@ -134,12 +139,12 @@ class MongoModel:
         obj = list(obj)
         obj.append({})
         obj = obj[0]
-        obj['_id'] = obj.get('_id', None)
+        obj['_id'] = obj.get('_id')
         if cls:
             return DictToClass(obj)
         return obj
         # ###
-        obj['_id'] = obj.get('_id', None)
+        obj['_id'] = obj.get('_id')
         if cls:
             return DictToClass(obj)
         return obj
