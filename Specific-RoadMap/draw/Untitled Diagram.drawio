@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-09T05:54:10.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iRjyjI3SdJY-drlKws7Q" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T05:17:16.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="K4hcdZ71XO61TcAkcn0J" version="22.1.7" type="github">
   <diagram name="Page-1" id="Pw1lx-9ADOZ67-cU_8lc">
     <mxGraphModel dx="954" dy="1678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -82,8 +82,8 @@
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-17" value="&lt;a style=&quot;background-color: rgb(255, 255, 255); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; text-align: start; box-sizing: unset; text-decoration-line: none;&quot; href=&quot;https://scikit-learn.org/stable/user_guide.html&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Scikit Learn User Guide&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="700" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="750" width="100" height="40" as="geometry" />
+        <mxCell id="uNf8jhvKmDgPgvKZIGbK-18" value="Book Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="750" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="800" width="100" height="40" as="geometry" />
