@@ -58,6 +58,7 @@ Git/Github/Gitlab/CI-CD[
 ]
 .
 DSA (Data Structures and Algorithms)[
+    مقدمه ای بر الگوریتم ها ۱: https://nasspub.com/product/%D9%85%D9%82%D8%AF%D9%85%D9%87-%D8%A7%DB%8C-%D8%A8%D8%B1-%D8%A7%D9%84%DA%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%85-%D9%87%D8%A7-%DB%B1-%D9%88%DB%8C%D8%B1%D8%A7%D8%B3%D8%AA-%D8%B3%D9%88%D9%85/
     https://codewithmosh.com/p/data-structures-algorithms
     leetcode.com
     Algorithms and Data Structures Tutorial - Full Course for Beginners by TeamTreeHouse: https://www.youtube.com/watch?v=8hly31xKli0
@@ -101,7 +102,7 @@ Mathematics[
     ]
     -
     Pre Calculus[
-        
+        Teks Texas Precalculus Student Edition: https://www.amazon.com/Teks-Texas-Precalculus-Student-U/dp/0021402507
     ]
     Calculus[
         کتاب ریاضیات عمومی1 از محمدعلی کرایه چیان
@@ -110,7 +111,7 @@ Mathematics[
     ]
     -
     Linear Algebra[
-        
+        Book Introduction to Linear Algebra, by Gilbert Strang
     ]
     -
     Statistics and Probability[
@@ -127,6 +128,7 @@ Mathematics[
     Discrete Mathematics[
         کتاب ساختمان های گسسته از بهروز قلی زاده
         کتاب ریاضیات گسسته مقدماتی از بالا کریشنان
+        Book Concrete Mathematics: A Foundation for Computer Science by Graham
     ]
     -
     Differential Equations[
@@ -274,6 +276,7 @@ Computer Science[
 ]
 .
 English[
+    Book Infotech: English for computer users 4th edition
     Book Introductory Steps to Understanding by L. Hill
     The Class + The App + The Book + Assignments.
     Journaling your day, your thoughts, your stories, and whatever comes to your mind + Filming yourself and watching it.
@@ -298,6 +301,7 @@ Artificial Intelligence[
         https://github.com/microsoft/ML-For-Beginners
         https://github.com/dair-ai/ML-YouTube-Courses
         https://github.com/patrickloeber/ml-study-plan
+        Book Probabilistic Machine Learning: An Introduction (Adaptive Computation and Machine Learning series)
         Pytopia ML Course 2022: https://www.pytopia.ai/courses/machine-learning
         Book Pattern Recognition and Machine Learning by Christopher M. Bishop
         Book Deep Learning Foundations and Concepts by Christopher M. Bishop
