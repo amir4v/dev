@@ -134,10 +134,12 @@ class MongoModel:
         obj = list(obj)
         obj.append({})
         obj = obj[0]
+        obj['_id'] = obj.get('_id', None)
         if cls:
             return DictToClass(obj)
         return obj
         # ###
+        obj['_id'] = obj.get('_id', None)
         if cls:
             return DictToClass(obj)
         return obj
