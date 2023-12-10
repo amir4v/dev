@@ -44,7 +44,9 @@ DSA (Data Structures and Algorithms)[
     Dynamic Programming 1D - Full Course - Python: https://www.youtube.com/watch?v=_i4Yxeh5ceQ
     Dynamic Programming 2D - Full Course - Python: https://www.youtube.com/watch?v=qMky6D6YtXU
     Book Introduction to Algorithms by CLRS
-    Introduction to Algorithms a creative approach by Udi Manber
+    Introduction to Algorithms A Creative Approach by Udi Manber
+    Data Structures: https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX
+    Algorithms: https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL
 ]
 .
 Mathematics[
@@ -83,6 +85,7 @@ Mathematics[
     Calculus[
         کتاب ریاضیات عمومی1 از محمدعلی کرایه چیان
         کتاب حساب دیفرانسیل و انتگرال جلد اول قسمت اول توماس ترجمه فرزین حاجی جمشیدی
+        حساب دیفرانسیل و انتگرال: http://chap.sch.ir/books/1254
     ]
     -
     Linear Algebra[
@@ -97,10 +100,12 @@ Mathematics[
         Book Introduction to Probability by Joseph K. Blitzstein, Jessica Hwang
         Statistics by The Organic Chemistry Tutor: https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV
         Statistics by CrashCourse: https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr
+        Book Naked Statistics: Stripping the Dread from the Data by Charles Wheelan
     ]
     -
     Discrete Mathematics[
         کتاب ساختمان های گسسته از بهروز قلی زاده
+        کتاب ریاضیات گسسته مقدماتی از بالا کریشنان
     ]
     -
     Differential Equations[
@@ -281,7 +286,7 @@ Artificial Intelligence[
         
     ]
     NLP[
-        
+        nlp-roadmap: https://github.com/graykode/nlp-roadmap
     ]  
 ]
 .
