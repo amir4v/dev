@@ -5,6 +5,10 @@ GENERAL[
 ]
 .
 Python[
+    Book Python Crash Course A Hands-On, Project-Based Introduction to Programming (Eric Matthes)
+    Book Head First Python: A Brain-Friendly Guide
+    Book Python Cookbook by Brian K. Jones-David - Mastering Python 3
+    Book Effective Python 90 Specific Ways to Write Better Python (Brett Slatkin)
     Intermediate Python Programming Course: https://www.youtube.com/watch?v=HGOBQPFzWKo
     Book Introducing Python: Modern Computing in Simple Packages by Bill Lubanovic
     Fluent Python: Clear, Concise, and Effective Programming: https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008
@@ -171,7 +175,7 @@ Conventions[
 ]
 .
 Best Practices[
-    
+    Book The Art of Clean Code Best Practices to Eliminate Complexity and Simplify Your Life (Christian Mayer)
 ]
 .
 Agile/Scrum[
@@ -236,7 +240,7 @@ Security[
 ]
 .
 Network[
-    
+    Book HTTP: The Definitive Guide - O'Reilly
 ]
 .
 HTML/CSS/JS[
@@ -257,7 +261,7 @@ English[
     Practice and Talk to other people in-person or online(Discord).
     Talk to ChatGPT.
     Repeat everything you hear + Watch (Youtube)videos with English subtitle.
-    ESL-Podcast
+    ESL-Podcast: https://www.irlanguage.com/1036/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%B1%D9%88%D8%B2%D9%85%D8%B1%D9%87-ESL-Podcast-%D9%86%D8%B3%D8%AE%D9%87-%DA%A9%D8%A7%D9%85%D9%84-%D8%AF%D8%B1%D9%88%D8%B3-1-%D8%AA%D8%A7-1305/
     Grammar in Use Books
     Oxford Word Skills Books
     American English File Books
