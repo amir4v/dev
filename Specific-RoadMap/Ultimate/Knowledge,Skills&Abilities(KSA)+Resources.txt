@@ -305,6 +305,7 @@ Artificial Intelligence[
         https://github.com/ossu/data-science
     ]
     Machine Learning[
+        Machine Learning: Zero to Hero: https://www.youtube.com/playlist?list=PLXnCTjjS85aliUCz4X84kn_cUy0cd_CRh
         https://github.com/microsoft/ML-For-Beginners
         https://github.com/dair-ai/ML-YouTube-Courses
         https://github.com/patrickloeber/ml-study-plan
@@ -317,7 +318,7 @@ Artificial Intelligence[
         2020 Machine Learning Roadmap (still 90% valid for 2023): https://github.com/mrdbourke/machine-learning-roadmap (https://www.youtube.com/watch?v=pHiMN_gy9mk)
     ]
     Deep Learning[
-        
+        Neural Networks: Zero to Hero: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
     ]
     NLP[
         nlp-roadmap: https://github.com/graykode/nlp-roadmap
