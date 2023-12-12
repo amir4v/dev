@@ -55,6 +55,7 @@ FastAPI[
 .
 Git/Github/Gitlab/CI-CD[
     Git by Mosh: https://codewithmosh.com/p/the-ultimate-git-course
+    Git by Jadi in FaraDars
 ]
 .
 DSA (Data Structures and Algorithms)[
@@ -372,4 +373,7 @@ Soft Skills[
 .
 Immigration[
     Diagram: https://app.diagrams.net/#Hamir4v%2Fdev%2Fmain%2FSpecific-RoadMap%2Fdraw%2FUntitled%20Diagram.drawio
+    Internship, Entry-level, Junior, Associate, Intermediate, Mid-level (, Senior): Direction Examples:[
+        https://github.com/amir4v/dev/tree/main/Specific-RoadMap/Ultimate/Direction-Examples
+    ]
 ]
