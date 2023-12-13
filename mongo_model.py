@@ -2,6 +2,7 @@ import json
 from functools import partial
 
 from pymongo import MongoClient
+import bson
 from bson import ObjectId
 from rest_framework import renderers
 from rest_framework.compat import (
@@ -153,6 +154,17 @@ class MongoModel:
         return collection
     
     def get(self, _id=None, cls=False, **kwargs):
+        """
+        This get function retrieves a document from a MongoDB collection
+        based on the _id field. The function uses the find_one method
+        to retrieve the document. If the _id field is not provided,
+        the function retrieves the first document that matches the
+        query parameters. The function then uses the $lookup operator to
+        join the document with other collections based on the fields
+        that contain ObjectId values. Finally, the function returns the
+        document as a dictionary or as an object of a specified class,
+        depending on the value of the cls parameter.
+        """
         collection = kwargs.pop('collection', None)
         
         if kwargs:
