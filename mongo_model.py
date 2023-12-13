@@ -1,7 +1,54 @@
+import json
 from functools import partial
 
 from pymongo import MongoClient
 from bson import ObjectId
+from rest_framework import renderers
+from rest_framework.compat import (
+    INDENT_SEPARATORS, LONG_SEPARATORS, SHORT_SEPARATORS
+)
+
+
+class DjangoJSONEncoder(json.JSONEncoder):
+    def default(self, o):
+        try:
+            result = super().default(o)
+        except:
+            result = str(o)
+        return result
+
+
+class DRFRenderer(renderers.JSONRenderer):
+    """
+    Renderer which serializes to JSON.
+    """
+    
+    def render(self, data, accepted_media_type=None, renderer_context=None):
+        """
+        Render `data` into JSON, returning a bytestring.
+        """
+        if data is None:
+            return b''
+        
+        renderer_context = renderer_context or {}
+        indent = self.get_indent(accepted_media_type, renderer_context)
+        
+        if indent is None:
+            separators = SHORT_SEPARATORS if self.compact else LONG_SEPARATORS
+        else:
+            separators = INDENT_SEPARATORS
+        
+        ret = json.dumps(
+            data, cls=DjangoJSONEncoder,
+            indent=indent, ensure_ascii=self.ensure_ascii,
+            allow_nan=not self.strict, separators=separators
+        )
+        
+        # We always fully escape \u2028 and \u2029 to ensure we output JSON
+        # that is a strict javascript subset.
+        # See: https://gist.github.com/damncabbage/623b879af56f850a6ddc
+        ret = ret.replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')
+        return ret.encode()
 
 
 class DictToClass:
@@ -13,7 +60,7 @@ class DictToClass:
     
     @property
     def dict(self):
-        """TODO: Convert class attributes to key-value dict."""
+        """TODO: Convert class attributes to key-value dict (to be always fresh and update to the last changes to the class)."""
         class my_dict(dict):
             cls = object
             def __init__(self, *args, **kwargs):
@@ -107,13 +154,16 @@ class MongoModel:
     
     def get(self, _id=None, cls=False, **kwargs):
         collection = kwargs.pop('collection', None)
+        
         if kwargs:
             obj = collection.find_one(kwargs) or {}
         else:
             obj = collection.find_one({'_id': ObjectId(_id)}) or {}
-        # ### TODO: problem: it's slower
+        
+        # ### TODO: problem: it's slower ### #
         pairs = {}
-        obj.pop('_id', None) # To prevent loop
+        obj.pop('_id', None) # To prevent self-recursion
+        
         for k, v in obj.items():
             if isinstance(v, ObjectId):
                 pairs[k] = v
@@ -121,30 +171,29 @@ class MongoModel:
                 pass
             elif isinstance(v, dict):
                 pass
+        
         pipeline = [
             {'$match':
                 kwargs or {'_id': ObjectId(_id)}},
             {'$limit': 1}
         ]
+        
         for k, v in pairs.items():
             pipeline.append(
                 {'$lookup': {
                     'from': k,
-                    'localField': '_id',
-                    'foreignField': k,
+                    'localField': k,
+                    'foreignField': '_id',
                     'as': k
                 }}
             )
+        
         obj = collection.aggregate(pipeline)
         obj = list(obj)
-        obj.append({})
+        obj.append({}) # in case of an empty query result
         obj = obj[0]
-        obj['_id'] = obj.get('_id')
-        if cls:
-            return DictToClass(obj)
-        return obj
-        # ###
-        obj['_id'] = obj.get('_id')
+        obj['_id'] = obj.get('_id') # to make a default 'None' value for '_id' field
+        
         if cls:
             return DictToClass(obj)
         return obj
