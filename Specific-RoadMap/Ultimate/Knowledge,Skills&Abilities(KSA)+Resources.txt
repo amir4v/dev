@@ -74,6 +74,7 @@ DSA (Data Structures and Algorithms)[
 Mathematics[
     [
         کتاب ریاضیات مقدماتی از محمدعلی کرایه چیان
+        کتاب ریاضیات پیش دانشگاهی از مسعود نیکوکار، ایرج ابراهیمی، جمشید صالحی صدقیانی
         کتاب ریاضیات پایه از محمدرضا رفسنجانی صادقی
         https://github.com/TalalAlrawajfeh/mathematics-roadmap
         https://github.com/ossu/math
