@@ -307,6 +307,8 @@ Artificial Intelligence[
         https://github.com/ossu/data-science
     ]
     Machine Learning[
+        Data Science and Machine Learning Basic to Advanced: https://www.udemy.com/course/data-science-and-machine-learning-basic-to-advanced/
+        Machine Learning by Jadi in Maktabkhooneh
         Machine Learning: Zero to Hero: https://www.youtube.com/playlist?list=PLXnCTjjS85aliUCz4X84kn_cUy0cd_CRh
         https://github.com/microsoft/ML-For-Beginners
         https://github.com/dair-ai/ML-YouTube-Courses
