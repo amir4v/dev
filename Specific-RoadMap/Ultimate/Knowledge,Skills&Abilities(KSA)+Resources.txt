@@ -6,6 +6,7 @@ GENERAL[
 ]
 .
 Python[
+    https://roadmap.sh/python
     pep8 fa: https://github.com/vahit/pep8-per
     pep8 docs: https://peps.python.org/pep-0008/
     Mosh: https://codewithmosh.com/p/python-programming-course-beginners
@@ -39,10 +40,13 @@ Django[
     Book Django Crash Course by Daniel Roy Greenfeld
     Django Rest Framework | Serializers & CRUD: https://www.youtube.com/watch?v=TmsD8QExZ84
     Django course by Ali Bigdeli from Maktabkhooneh: https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D9%86%DA%AF%D9%88-mk623/ -> https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-mk1438/
+    django-midd-level: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/django-midd-level.txt
 ]
 .
 Backend[
-
+    General: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/Comprehensive.txt
+    Specific: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/Specific.txt
+    https://roadmap.sh/backend
 ]
 .
 DRF[
@@ -145,21 +149,27 @@ Mathematics[
 Designs[
     Book Functional Design: Principles, Patterns, and Practices by Robert Martin
     Book Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann
+    https://roadmap.sh/design-system
+    https://roadmap.sh/software-design-architecture
 ]
 .
 Systems[
-    
+    https://roadmap.sh/system-design
 ]
 .
 Architectures[
     Book Clean Architecture: A Craftsman's Guide to Software Structure and Design by Robert Martin
+    https://roadmap.sh/software-architect
+    https://roadmap.sh/software-design-architecture
 ]
 .
 SQL[
     Mosh: https://codewithmosh.com/p/complete-sql-mastery
+    https://roadmap.sh/sql
 ]
 .
 NoSQL[
+    https://roadmap.sh/mongodb
     MongoDB in 100 Seconds: https://www.youtube.com/watch?v=-bt_y4Loofg
     https://docs.mongoengine.org/guide/index.html
     https://github.com/MongoEngine/django-mongoengine
@@ -179,11 +189,11 @@ NoSQL[
 ]
 .
 DB[
-    
+    https://roadmap.sh/postgresql-dba
 ]
 .
 API/REST/GraphQL[
-    
+    https://roadmap.sh/graphql
 ]
 .
 Patterns[
@@ -194,6 +204,7 @@ Patterns[
 .
 Standards[
     Book The Clean Coder: A Code of Conduct for Professional Programmers by Robert Martin
+    https://roadmap.sh/code-review
 ]
 .
 Principles[
@@ -229,6 +240,8 @@ Documentation/Commenting[
 .
 Docker/Kubernetes[
     https://codewithmosh.com/p/the-ultimate-docker-course
+    https://roadmap.sh/docker
+    https://roadmap.sh/kubernetes
 ]
 .
 Linux[
@@ -253,7 +266,10 @@ Message Brokers/Redis/Memcached/RabbitMQ[
 ]
 .
 DevOps[
-    
+    Cloud[
+        https://roadmap.sh/aws
+    ]
+    https://roadmap.sh/devops
 ]
 .
 Testing[
@@ -266,6 +282,7 @@ Test/Debug/Diagnose[
 .
 Software Engineering[
     Book Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+    A Comprehensive Guide on Software Engineer roadmap: https://www.knowledgehut.com/blog/web-development/software-engineer-roadmap
 ]
 .
 Security[
@@ -277,7 +294,7 @@ Network[
 ]
 .
 HTML/CSS/JS[
-    
+    https://roadmap.sh/javascript
 ]
 .
 Computer Science[
@@ -286,6 +303,8 @@ Computer Science[
     https://roadmap.sh/computer-science
     Computer Science courses with video lectures: https://github.com/Developer-Y/cs-video-courses
     https://github.com/ossu/computer-science
+    Bachelor of Science in Computer Science Roadmap: https://bulletin.sfsu.edu/colleges/science-engineering/computer-science/bs-computer-science/roadmap-i-ii-eng/
+    Path to a free self-taught education in Computer Science: https://github.com/ossu/computer-science
 ]
 .
 English[
@@ -309,6 +328,7 @@ Artificial Intelligence[
     Data Science[
         https://github.com/microsoft/Data-Science-For-Beginners
         https://github.com/ossu/data-science
+        https://roadmap.sh/ai-data-scientist
     ]
     Machine Learning[
         Data Science and Machine Learning Basic to Advanced: https://www.udemy.com/course/data-science-and-machine-learning-basic-to-advanced/
