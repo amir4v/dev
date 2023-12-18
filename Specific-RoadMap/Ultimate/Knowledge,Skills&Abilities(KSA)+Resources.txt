@@ -10,6 +10,7 @@ GENERAL[
         https://www.google.com/search?q=data+structures+roadmap
         https://www.google.com/search?q=algorithms+roadmap
         https://www.google.com/search?q=software+engineering+roadmap
+        https://www.google.com/search?q=programming+roadmap
         https://www.google.com/search?q=backend+developer+roadmap
         https://www.google.com/search?q=django+developer+roadmap
         https://www.google.com/search?q=artificial+intelligence+roadmap
