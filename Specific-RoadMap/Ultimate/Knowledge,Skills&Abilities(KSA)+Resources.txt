@@ -169,6 +169,8 @@ Designs[
     Book Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann
     https://roadmap.sh/design-system
     https://roadmap.sh/software-design-architecture
+    Book Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans: https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/
+    Book Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy by Vlad Khononov: https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131/
 ]
 .
 Systems[
@@ -179,6 +181,7 @@ Architectures[
     Book Clean Architecture: A Craftsman's Guide to Software Structure and Design by Robert Martin
     https://roadmap.sh/software-architect
     https://roadmap.sh/software-design-architecture
+    Book Fundamentals of Software Architecture: An Engineering Approach by Mark Richards, Neal Ford: https://www.amazon.com/Fundamentals-Software-Architecture-Comprehensive-Characteristics/dp/1492043451/
 ]
 .
 SQL[
@@ -301,6 +304,7 @@ Test/Debug/Diagnose[
 Software Engineering[
     Book Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
     A Comprehensive Guide on Software Engineer roadmap: https://www.knowledgehut.com/blog/web-development/software-engineer-roadmap
+    Book The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups by Gergely Orosz: https://www.amazon.com/Software-Engineers-Guidebook-Navigating-positions/dp/908338182X/
 ]
 .
 Security[
@@ -378,7 +382,7 @@ Artificial Intelligence[
 .
 Soft Skills[
     [
-        
+        Book Soft Skills: The Software Developer's Life Manual by John Sonmez: https://www.amazon.com/Soft-Skills-Software-Developers-Manual/dp/0999081446/
     ]
     Teamwork[
         
