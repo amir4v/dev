@@ -1,7 +1,7 @@
 [Git (and git services like Github and Gitlab)
-SQL
+SQL/NoSQL
 Databases (Relational and NonRelational)
-Data-Structures/Algorithms/Dynamic-Programming]
+Data-Structures/Algorithms/Dynamic-Programming/Mathematics]
 
 [Python (and popular/useful modules)
 Django (and popular/useful modules)
@@ -9,34 +9,35 @@ Django Rest Framework (DRF)
 FastAPI]
 
 Software Engineering *
-	Architectures
-	API
-	REST
-	Software Development Principles
-	Patterns
+	API/REST/GraphQL
 	Clean Code
 	PEP 8
 	Standard Coding
 	10 Finger Typing
 	Test
+	SOLID
 	RAD
 	TDD
 	DDD
 	Design Patterns
-	Designs
-	System Designs
-	System Architectures
 	OOP
-	MVC
+	MVC/...
 	Agile/Scrum
+	Software Development Principles
+	System Architectures
+	System Designs
+	Architectures
+	Patterns
+	Designs
 
 DevOps *
 	Docker
 	Security
 	Linux/Commands
 	Hosting
+	Network
 	Server
-	Microserives
+	Microservices / WebServices
 	Cloud
 	CI/CD
 
