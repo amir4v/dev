@@ -47,6 +47,7 @@ Backend[
     General: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/Comprehensive.txt
     Specific: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/Specific.txt
     https://roadmap.sh/backend
+    Digikala(diginext)-Software-Engineering-Backend-Developer-Bootcamp-Roadmap: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/Digikala-diginext-Software-Engineering-Bootcamp.zip
 ]
 .
 DRF[
