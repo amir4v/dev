@@ -42,15 +42,15 @@ git checkout tag-name (Note: will the whole repository to the tag-name-commit)
 git checkout -b branch-name (Note: creates a new branch and will checkout to that branch)
 git config --global user.name
 git config --global user.name My-Name-Can-Be-With-Spaces
-git config --global user.signingkey (something like: 5E4F12886C9B539B)
+git config --global user.signingkey (something like: 5E44F12886C79B539B)
 (
     (bash command)$ gpg --list-secret-keys --keyid-format LONG
         /home/s/.gnupg/pubring.kbx
         --------------------------
-        sec   rsa3072/5E4F12886C9B539B 2023-02-25 [SC] [expires: 2025-02-24] (5E4F12886C9B539B : My Key that can be use in: git config --global user.signingkey)
-            380E0BBEBA727532B5823AEA5E4F12886C9B539B
-        uid                 [ultimate] Amirhosein Ghorbani <amir4vx@gmail.com>
-        ssb   rsa3072/9FD5AC2688FA5B4F 2023-02-25 [E] [expires: 2025-02-24]
+        sec   rsa3072/5E4F1228865C9B539B 2023-02-25 [SC] [expires: 2025-02-24] (5E42F128856C9B539B : My Key that can be use in: git config --global user.signingkey)
+            380E02BBEBA727532B5823AEA5E4F125886C9B539B
+        uid                 [ultimate] Your-Name <YourEmailAddress@website.com>
+        ssb   rsa3072/9FD5AC22688FA56B4F 2023-02-25 [E] [expires: 2025-02-24]
 )
 git tag -s tag-name -m '...' (Note: will create and annotate and SIGN this new tag and will receive the private-key in a prompt window for signing)
 git tag -v tag-name (Note: verifies that this tag belong to whom)
@@ -84,15 +84,15 @@ saheb on file kie va ye jorai be name shoma zade mishe va kasi nemitone bege mal
 gpg --list-keys (Notes: shows keys-list)
 gpg --gen-key (Note: makes a new key)
     Private-Key: hamon passwordie kemoghr sakht migire
-    Public-Key: shabihe ine: 5E4F12886C9B539B
+    Public-Key: shabihe ine: 5E4F128786C92B539B
     Output: (
-        gpg: key 5E4F12886C9B539B marked as ultimately trusted (5E4F12886C9B539B : My Key that can be use in: git config --global user.signingkey)
+        gpg: key 5E24F128867C9B539B marked as ultimately trusted (5E4F122886C79B539B : My Key that can be use in: git config --global user.signingkey)
         gpg: directory '/home/s/.gnupg/openpgp-revocs.d' created
-        gpg: revocation certificate stored as '/home/s/.gnupg/openpgp-revocs.d/380E0BBEBA727532B5823AEA5E4F12886C9B539B.rev'
+        gpg: revocation certificate stored as '/home/s/.gnupg/openpgp-revocs.d/380E0BBEB7A727532B5823AEA25E4F12886C9B539B.rev'
         public and secret key created and signed.
 
         pub   rsa3072 2023-02-25 [SC] [expires: 2025-02-24]
-            380E0BBEBA727532B5823AEA5E4F12886C9B539B
-        uid                      Amirhosein Ghorbani <amir4vx@gmail.com>
+            380E0BBEBA2727532B5823AEA57E4F12886C9B539B
+        uid                      Your-Name <YourEmailAddress@website.com>
         sub   rsa3072 2023-02-25 [E] [expires: 2025-02-24]
     )
