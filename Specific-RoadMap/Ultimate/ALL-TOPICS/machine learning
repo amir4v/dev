@@ -1,0 +1,100 @@
+Supervised Learning
+Unsupervised Learning
+Semi-Supervised Learning
+Reinforcement Learning
+Classification Algorithms
+Regression Algorithms
+Decision Trees
+Random Forests
+Support Vector Machines (SVM)
+k-Nearest Neighbors (k-NN)
+Clustering Algorithms
+K-Means Clustering
+Hierarchical Clustering
+Dimensionality Reduction
+Principal Component Analysis (PCA)
+t-Distributed Stochastic Neighbor Embedding (t-SNE)
+Feature Engineering
+Feature Selection
+Neural Networks
+Deep Learning
+Convolutional Neural Networks (CNNs)
+Recurrent Neural Networks (RNNs)
+Long Short-Term Memory (LSTM) Networks
+Autoencoders
+Generative Adversarial Networks (GANs)
+Transfer Learning
+Ensemble Learning
+Bagging and Boosting
+Hyperparameter Tuning
+Cross-Validation
+Evaluation Metrics (e.g., Accuracy, Precision, Recall, F1 Score)
+Bias and Fairness in Machine Learning
+Explainable AI (XAI)
+Interpretability in Machine Learning Models
+Model Deployment
+Model Serving
+TensorFlow
+PyTorch
+Scikit-Learn
+Keras
+Natural Language Processing (NLP)
+Tokenization
+Named Entity Recognition (NER)
+Text Classification
+Sentiment Analysis
+Word Embeddings (e.g., Word2Vec, GloVe)
+Speech Processing and Synthesis
+Computer Vision
+Image Classification
+Object Detection
+Image Segmentation
+Facial Recognition
+Pose Estimation
+Time Series Analysis
+ARIMA (AutoRegressive Integrated Moving Average)
+Long Short-Term Memory (LSTM) for Time Series
+Anomaly Detection
+Recommender Systems
+Collaborative Filtering
+Content-Based Filtering
+Matrix Factorization
+Reinforcement Learning Basics
+Q-Learning
+Policy Gradient Methods
+Deep Reinforcement Learning
+Monte Carlo Methods
+Markov Decision Processes (MDPs)
+Natural Computing
+Evolutionary Algorithms
+Genetic Algorithms
+Swarm Intelligence
+Bayesian Methods
+Bayesian Networks
+Gaussian Processes
+Hyperparameter Optimization
+Transfer Learning
+Federated Learning
+Edge Computing in Machine Learning
+Privacy-Preserving Machine Learning
+Explainable AI (XAI)
+Meta-Learning
+Unsupervised Domain Adaptation
+Active Learning
+Semi-Supervised Learning
+Self-Supervised Learning
+Ensemble Learning
+Model Interpretability
+Model Monitoring
+Model Explainability Techniques
+Data Augmentation
+Adversarial Attacks and Defenses
+Machine Learning Pipelines
+Feature Scaling and Normalization
+Overfitting and Underfitting
+Imbalanced Data Handling
+Handling Missing Data
+Model Deployment Strategies
+Continuous Integration and Continuous Deployment (CI/CD) for ML
+Ethical Considerations in Machine Learning
+Trends and Advances in Machine Learning
