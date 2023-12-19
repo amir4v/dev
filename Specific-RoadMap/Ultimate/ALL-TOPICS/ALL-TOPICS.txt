@@ -611,7 +611,7 @@ Stochastic Dominance
 Empirical Distribution Function
 Inequalities in Probability (Chebyshev, Markov)
 :=:
-:::100 most important and useful and popular topics in discrete mathematics :::
+:::100 most important and useful and popular topics in discrete mathematics:::
 Propositional Logic
 First-Order Logic
 Set Theory
@@ -1019,7 +1019,7 @@ Predictive Analytics
 Anomaly Detection
 Real-time Analytics
 :=:
-:::100 most important and useful and popular topics in software engineering :::
+:::100 most important and useful and popular topics in software engineering:::
 Software Development Life Cycle (SDLC)
 Requirements Analysis
 System Design
