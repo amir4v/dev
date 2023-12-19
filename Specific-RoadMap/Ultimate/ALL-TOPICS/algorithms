@@ -1,0 +1,100 @@
+Sorting Algorithms
+Searching Algorithms
+Dynamic Programming
+Greedy Algorithms
+Divide and Conquer
+Recursion
+Backtracking
+Hashing
+Graph Algorithms
+Tree Algorithms
+Linked List Algorithms
+Array Algorithms
+String Algorithms
+Bit Manipulation
+Sliding Window Technique
+Two-Pointer Technique
+Depth-First Search (DFS)
+Breadth-First Search (BFS)
+Topological Sorting
+Dijkstra's Algorithm
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+Prim's Algorithm
+Kruskal's Algorithm
+Trie Data Structure
+Heap Data Structure
+Union-Find (Disjoint Set)
+Segment Tree
+Fenwick Tree (Binary Indexed Tree)
+KMP Algorithm (Knuth–Morris–Pratt)
+Rabin-Karp Algorithm
+Manacher's Algorithm
+Morris Traversal (In-order without recursion and stack)
+Eulerian Path and Circuit
+Hamiltonian Path and Circuit
+Max Flow and Min Cut
+Bipartite Matching
+Kosaraju's Algorithm (Strongly Connected Components)
+Tarjan's Algorithm (Strongly Connected Components)
+A* Search Algorithm
+Levenshtein Distance
+Longest Common Subsequence
+Longest Increasing Subsequence
+Maximum Subarray Sum
+Subset Sum Problem
+Travelling Salesman Problem
+Knapsack Problem
+Coin Change Problem
+Rod Cutting Problem
+Huffman Coding
+LRU Cache Implementation
+Minimum Spanning Tree
+Maximum Bipartite Matching
+Johnson's Algorithm
+All-Pairs Shortest Paths
+AVL Trees
+Red-Black Trees
+B-Trees
+Trie Trees
+Suffix Trees
+Suffix Arrays
+Minimal Perfect Hashing
+Dutch National Flag Algorithm
+Edit Distance
+Maximum Subarray Product
+Cartesian Tree
+Heavy-Light Decomposition
+Ford-Fulkerson Algorithm
+Maximum Cardinality Bipartite Matching
+Maximum Flow in a Network
+Maximal Cliques
+Stable Marriage Problem
+Z-Algorithm
+Mobius Function
+Van Emde Boas Tree
+LCA (Lowest Common Ancestor) in Trees
+Euler's Totient Function
+Josephus Problem
+Kargers Algorithm (Randomized Contraction)
+2-Satisfiability
+Optimal BST (Binary Search Tree)
+3SUM Problem
+Johnson-Trotter Algorithm (Permutations with Even and Odd Length Cycles)
+P vs NP Problem
+Maximum Planar Subgraph
+Subgraph Isomorphism
+Balanced Parentheses
+Karnaugh Map (Boolean Algebra)
+Chinese Remainder Theorem
+Splay Trees
+Skip Lists
+Treap Data Structure
+Cartesian Product of Sets
+Order Statistics (Selection Problem)
+Ropes (Binary Tree with O(1) Concatenation)
+Cuckoo Hashing
+B+ Tree
+Arithmetic Coding
+Euclidean Algorithm (GCD)
+Hungarian Algorithm
