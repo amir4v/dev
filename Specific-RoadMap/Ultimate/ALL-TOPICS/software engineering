@@ -1,0 +1,100 @@
+Software Development Life Cycle (SDLC)
+Requirements Analysis
+System Design
+Object-Oriented Programming (OOP)
+Design Patterns
+Unified Modeling Language (UML)
+Agile Methodologies
+Scrum
+Kanban
+Waterfall Model
+Test-Driven Development (TDD)
+Behavior-Driven Development (BDD)
+Continuous Integration (CI)
+Continuous Deployment (CD)
+Version Control (e.g., Git)
+Code Reviews
+Unit Testing
+Integration Testing
+User Acceptance Testing (UAT)
+Regression Testing
+Software Architecture
+Microservices Architecture
+Monolithic Architecture
+Service-Oriented Architecture (SOA)
+RESTful APIs
+SOAP (Simple Object Access Protocol)
+Web Services
+Cloud Computing
+Infrastructure as Code (IaC)
+Containers (e.g., Docker)
+Container Orchestration (e.g., Kubernetes)
+DevOps Practices
+Continuous Monitoring
+Deployment Automation
+Configuration Management
+Infrastructure Automation
+Software Configuration Management (SCM)
+Build Automation
+Software Testing
+Manual Testing
+Automated Testing
+Performance Testing
+Security Testing
+User Interface (UI) Testing
+System Integration Testing
+Database Testing
+Usability Testing
+Load Testing
+Test Planning and Strategy
+Defect Life Cycle
+Code Quality Metrics
+Static Code Analysis
+Dynamic Code Analysis
+Software Metrics
+Software Maintenance
+Software Documentation
+Technical Debt
+Software Estimation
+Project Management
+Risk Management
+Agile Project Management
+Project Planning and Scheduling
+Requirement Traceability Matrix (RTM)
+Software Configuration Management (SCM)
+Change Management
+Versioning and Release Management
+Software Process Improvement
+CMMI (Capability Maturity Model Integration)
+Six Sigma in Software Engineering
+Lean Software Development
+Software Requirements Specification (SRS)
+User Stories and Use Cases
+Software Prototyping
+Software Development Tools
+Integrated Development Environments (IDEs)
+Version Control Systems (e.g., Git, SVN)
+Issue Tracking Systems (e.g., Jira)
+Build Tools (e.g., Maven, Gradle)
+Continuous Integration Servers (e.g., Jenkins, Travis CI)
+Containerization Tools (e.g., Docker)
+Configuration Management Tools (e.g., Ansible, Puppet)
+Collaboration Tools (e.g., Slack, Microsoft Teams)
+Software Development Best Practices
+Coding Standards
+Code Reviews and Pair Programming
+Refactoring
+Design by Contract
+Secure Coding Practices
+Code Documentation
+Open Source Development
+Licensing and Intellectual Property
+Software Licensing Models
+Software as a Service (SaaS)
+Platform as a Service (PaaS)
+Infrastructure as a Service (IaaS)
+Software Architecture Patterns
+MVC (Model-View-Controller)
+RESTful Architecture
+Microservices
+Cloud-Native Architecture
