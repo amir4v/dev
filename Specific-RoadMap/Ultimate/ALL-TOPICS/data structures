@@ -1,0 +1,100 @@
+Arrays
+Linked Lists
+Stacks
+Queues
+Trees (Binary Trees, AVL Trees, Red-Black Trees)
+Graphs
+Hash Tables
+Heaps
+Priority Queues
+Trie
+Bloom Filters
+Union-Find (Disjoint Set)
+Skip Lists
+Self-Balancing Trees (Splay Trees, Treaps)
+Segment Tree
+Fenwick Tree (Binary Indexed Tree)
+B+ Tree
+Ropes (Binary Tree with O(1) Concatenation)
+Quadtree and Octree
+Fibonacci Heap
+Binomial Heap
+D-ary Heap
+Radix Tree
+Patricia Trie
+Rope Data Structure
+Order Statistic Tree
+K-D Tree
+Interval Tree
+Suffix Tree
+Suffix Array
+Cartesian Tree
+Van Emde Boas Tree
+Cuckoo Hashing
+Judy Array
+XOR Linked List
+Balanced Parentheses using Stack
+LRU Cache using Hash Map and Doubly Linked List
+Deque (Double-Ended Queue)
+Circular Buffer
+Multi-dimensional Arrays
+Disjoint Set Forest
+Multi-level Indexing
+Linked List Reversal
+XOR Linked List
+Josephus Problem
+Fenwick Tree for Range Queries
+Scapegoat Tree
+Rope (data structure)
+Fusion Tree
+Dancing Links (DLX)
+Count-Min Sketch
+XOR Table
+Log-Structured Merge Tree (LSM Tree)
+Ternary Search Tree
+Binary Search Tree (BST)
+Cartesian Product of Sets
+2-3 Tree
+2-4 Tree
+Van Emde Boas Layout
+Compressed Trie
+Bx-Tree
+Scapegoat Tree
+Threaded Binary Tree
+XOR Table
+Succinct Data Structure
+Open Addressing
+Treap Data Structure
+Symmetric Order Statistics Tree
+Height-Balanced Tree
+Scapegoat Tree
+Spaghetti Stack
+Fusion Tree
+K-D-B Tree
+Weight-Balanced Tree
+Rank-Balanced Tree
+Exponential Tree
+AA Tree
+RB-merge
+Rope (data structure)
+Red-Black Tree
+AVL Tree
+Directed Acyclic Word Graph (DAWG)
+B Tree
+B+ Tree
+Fibonacci Heap
+Tournament Tree
+X-fast Trie
+Y-fast Trie
+List of data structures
+Log-structured Merge Tree
+MapReduce
+FAT (file system)
+Radix Tree
+Trie
+Judy array
+Z-order curve
+DAWG
+Range tree
+Range minimum query
+Scanline algorithm
