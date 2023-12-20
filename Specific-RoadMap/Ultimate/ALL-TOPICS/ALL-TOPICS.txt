@@ -714,6 +714,7 @@ Digital Signatures
 Zero-Knowledge Proofs
 :=:
 :::100 most important and useful and popular topics in computer science:::
+(https://roadmap.sh/computer-science)
 Programming Fundamentals
 Data Structures
 Algorithms
@@ -1020,6 +1021,12 @@ Anomaly Detection
 Real-time Analytics
 :=:
 :::100 most important and useful and popular topics in software engineering:::
+(https://roadmap.sh/design-system
+https://roadmap.sh/software-design-architecture
+https://roadmap.sh/system-design
+https://roadmap.sh/software-architect
+https://roadmap.sh/software-design-architecture
+https://roadmap.sh/code-review)
 Software Development Life Cycle (SDLC)
 Requirements Analysis
 System Design
@@ -1224,6 +1231,15 @@ Django Template Tags and Filters
 Django Custom Management Commands
 :=:
 :::100 most important and useful and popular topics in backend developer:::
+(https://roadmap.sh/backend
+https://roadmap.sh/sql
+https://roadmap.sh/mongodb
+https://roadmap.sh/postgresql-dba
+https://roadmap.sh/graphql
+https://roadmap.sh/docker
+https://roadmap.sh/kubernetes
+https://roadmap.sh/aws
+https://roadmap.sh/devops)
 Server-Side Programming Languages (e.g., Java, Python, Node.js)
 RESTful API Design
 Server Frameworks (e.g., Express.js, Flask, Django)
@@ -1258,6 +1274,8 @@ API Documentation
 Websockets
 :=:
 :::100 most important and useful and popular topics in programming:::
+(https://roadmap.sh/python
+https://roadmap.sh/javascript)
 Programming Paradigms (e.g., Procedural, Object-Oriented, Functional)
 Programming Languages (e.g., Python, Java, JavaScript, C++)
 Variables and Data Types
