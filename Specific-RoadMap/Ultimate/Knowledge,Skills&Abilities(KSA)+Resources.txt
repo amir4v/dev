@@ -265,6 +265,7 @@ Docker/Kubernetes[
     https://codewithmosh.com/p/the-ultimate-docker-course
     https://roadmap.sh/docker
     https://roadmap.sh/kubernetes
+    Docker and Kubernetes: The Complete Guide: https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/
 ]
 .
 Linux[
