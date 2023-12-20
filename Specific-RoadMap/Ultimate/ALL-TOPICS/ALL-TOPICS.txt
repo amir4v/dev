@@ -1378,6 +1378,7 @@ Quantum Programming Languages (e.g., Qiskit)
 Emerging Technologies and Trends in Programming
 :=:
 :::100 most important and useful and popular topics in artificial intelligence:::
+(https://roadmap.sh/ai-data-scientist)
 Machine Learning
 Deep Learning
 Neural Networks
