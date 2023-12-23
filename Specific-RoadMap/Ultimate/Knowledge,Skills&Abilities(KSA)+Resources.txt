@@ -175,6 +175,10 @@ Designs[
     Book Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy by Vlad Khononov: https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131/
 ]
 .
+Methods[
+    
+]
+.
 Systems[
     https://roadmap.sh/system-design
 ]
