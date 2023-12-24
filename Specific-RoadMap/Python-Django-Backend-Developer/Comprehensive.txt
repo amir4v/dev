@@ -22,7 +22,7 @@ Software Engineering *
 	OOP
 	MVC/...
 	Agile/Scrum
-	Software Development Principles*
+	Software Development Philosophies*
 
 DevOps *
 	Docker
