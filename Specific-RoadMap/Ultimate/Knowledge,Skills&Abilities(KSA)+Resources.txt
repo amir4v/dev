@@ -309,6 +309,7 @@ Test/Debug/Diagnose[
 ]
 .
 Software Engineering[
+    List of software development philosophies: https://en.wikipedia.org/wiki/List_of_software_development_philosophies
     Book Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
     A Comprehensive Guide on Software Engineer roadmap: https://www.knowledgehut.com/blog/web-development/software-engineer-roadmap
     Book The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups by Gergely Orosz: https://www.amazon.com/Software-Engineers-Guidebook-Navigating-positions/dp/908338182X/
