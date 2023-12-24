@@ -9,7 +9,7 @@ Info:
 Comment: #-Separator-#
 
 Computer:
-	Computer Science:
+	- Computer Science:
 		Data Structures:
 			Arrays
 			Linked Lists
