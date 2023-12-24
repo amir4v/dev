@@ -2,7 +2,6 @@ import json
 from functools import partial
 
 from pymongo import MongoClient
-import bson
 from bson import ObjectId
 from rest_framework import renderers
 from rest_framework.compat import (
@@ -101,7 +100,6 @@ class MongoModel:
                                       authMechanism,
                                       connection_string)
         self.db = self.get_db(db)
-        self.reset_collections()
     
     def reset_collections(self):
         for collection in self.db.list_collection_names():
@@ -180,9 +178,9 @@ class MongoModel:
             if isinstance(v, ObjectId):
                 pairs[k] = v
             elif isinstance(v, list):
-                pass
+                pass # TODO
             elif isinstance(v, dict):
-                pass
+                pass # TODO
         
         pipeline = [
             {'$match':
