@@ -1,15 +1,16 @@
-"The point is to be as simple as it can be"
+Info:
+	- "The point is to be as simple as it can be"
+	
+	- ALL-TOPICS:https://github.com/amir4v/dev/tree/main/Specific-RoadMap/Ultimate/ALL-TOPICS
+	- Q: a very complete comprehensive documentation guide tutorial about X
+	
+	- Knowledge,Skills&Abilities(KSA)+Resources:https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Ultimate/Knowledge%2CSkills%26Abilities(KSA)%2BResources.txt
 
-ALL-TOPICS:https://github.com/amir4v/dev/tree/main/Specific-RoadMap/Ultimate/ALL-TOPICS
-Q: a very complete comprehensive documentation guide tutorial about X
+Comment: #-Separator-#
 
-Knowledge,Skills&Abilities(KSA)+Resources:https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Ultimate/Knowledge%2CSkills%26Abilities(KSA)%2BResources.txt
-
-#
-
-Computer
-	Computer Science
-		Data Structures
+Computer:
+	Computer Science:
+		Data Structures:
 			Arrays
 			Linked Lists
 			Stacks
@@ -26,33 +27,33 @@ Computer
 			Binary Search Tree (BST)
 			MapReduce
 			FAT (file system)
-		Data Science
+		Data Science:
   			Collect, Pre-Process, Process, Visualize, Train, Test
-		Artificial Intelligence
+		Artificial Intelligence:
   			[General]
-			Machine Learning
+			Machine Learning:
    				.
-				Deep Learning
+				Deep Learning:
     					.
-		Software Engineering
-  			Software-Engineering_Python-Django_Backend-Developer_Comprehensive.txt
+		Software Engineering:
+  			Software-Engineering_Python-Django_Backend-Developer_Comprehensive.txt:
      				https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/Comprehensive.txt
   			Cloud
-     			(Micro/Web)Services
+     		(Micro/Web)Services
   			Network
-     			Security
+     		Security
 			API/REST/GraphQL
    			10 Finger Typing
-			Programming
+			Programming:
       				Standard Coding
 	  		Test
-     			Design Patterns
+     		Design Patterns
 			Software Development Philosophies
    			Databases(PostgreSQL, MongoDB), SQL/NoSQL
-			Backend
+			Backend:
    				Specific: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/Specific.txt
-       				django-midd-level: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/django-midd-level.txt
-			DevOps
+       			django-midd-level: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/django-midd-level.txt
+			DevOps:
 				Docker
 				Security
 				Linux/Commands
@@ -72,40 +73,40 @@ Computer
 				Swagger
 				Channels/WebSocket/wRTC/gRPC
 				Git
-Mathematics
-	Algebra
+Mathematics:
+	Algebra:
  		Power
    		Logarithm
-     		Radical
-       		Numbers
-     		Set
-       		Absolute value
+		Radical
+		Numbers
+		Set
+		Absolute value
  		Algebraic sentences
  		Equations
    		Inequalities
-     		Domain and Range
-       		Axis and Vector and Coordinate plane
- 	Geometry and Trigonometry
+		Domain and Range
+		Axis and Vector and Coordinate plane
+ 	Geometry and Trigonometry:
   		Degree and Gradian
-    		sin, cos, tan, cot
-      		arc
+		sin, cos, tan, cot
+		arc
 		sec, csc
   		Shapes and Spaces
- 	Calculus
+ 	Calculus:
   		Function
-    		Limit
-      		Continuity
-      		Derivative
+		Limit
+		Continuity
+		Derivative
 		Integration and Integral
   		Complex Numbers
   		Series
-    		Transforms
-  	Linear Algebra
+		Transforms
+  	Linear Algebra:
    		Summation
-     		Multiplication
-       		Inverse
-  	Statistics and Probability
-   		Statistics
+		Multiplication
+		Inverse
+  	Statistics and Probability:
+   		Statistics:
 			Descriptive Statistics
    			Inferential Statistics
 			Measures of Central Tendency (Mean, Median, Mode)
@@ -156,7 +157,7 @@ Mathematics
 			Box Plots
 			Probability Plots
 			Missing Data Imputation
-     		Probability
+   		Probability:
 			Sample Spaces and Events
 			Addition and Multiplication
 			Probability Axioms
@@ -213,9 +214,9 @@ Mathematics
 			Multivariate Normal Distribution
 			Stochastic Dominance
    	Discrete Mathematics
-    	Differential Equations
-	Algorithms
-		Sorting Algorithms
+	Differential Equations
+	Algorithms:
+		Sorting Algorithms:
 			Quick Sort
 			Merge Sort
 			Heap Sort
@@ -225,10 +226,10 @@ Mathematics
 			Shell Sort
 			Bubble Sort
 			Tree Sort
-		Searching Algorithms
+		Searching Algorithms:
 			Linear Search
 			Binary Search
-   			[Meh]
+   			[Meh]:
 				Sentinel Linear Search
 				Meta Binary Search | One-Sided Binary Search
 				Ternary Search
@@ -237,7 +238,6 @@ Mathematics
 				Exponential Search
 				Fibonacci Search
 				The Ubiquitous Binary Search
-		Dynamic Programming
 		Greedy Algorithms
 		Divide and Conquer
 		Recursion
@@ -275,26 +275,27 @@ Mathematics
 		Optimal BST (Binary Search Tree)
 		P vs NP Problem
 		B+ Tree
-		Climbing Stairs
-		Min Cost Climbing Stairs
-		House Robber
-		House Robber II
-		Longest Palindromic Substring
-		Palindromic Substrings
-		Decode Ways
-		Coin Change
-		Maximum Product Subarray
-		Word Break
-		Longest Increasing Subsequence
-		Partition Equal Subset Sum
-		Unique Paths
-		Longest Common Subsequence
-		Best Time to Buy/Sell Stock with Cooldown
-		Coin Change II
-		Target Sum
-		Interleaving String
-		Longest Increasing Path in a Matrix
-		Distinct Subsequences
-		Edit Distance
-		Burst Balloons
-		Regular Expression Matching
+  		Dynamic Programming:
+			Climbing Stairs
+			Min Cost Climbing Stairs
+			House Robber
+			House Robber II
+			Longest Palindromic Substring
+			Palindromic Substrings
+			Decode Ways
+			Coin Change
+			Maximum Product Subarray
+			Word Break
+			Longest Increasing Subsequence
+			Partition Equal Subset Sum
+			Unique Paths
+			Longest Common Subsequence
+			Best Time to Buy/Sell Stock with Cooldown
+			Coin Change II
+			Target Sum
+			Interleaving String
+			Longest Increasing Path in a Matrix
+			Distinct Subsequences
+			Edit Distance
+			Burst Balloons
+			Regular Expression Matching
