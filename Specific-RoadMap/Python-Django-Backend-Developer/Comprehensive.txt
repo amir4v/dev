@@ -17,18 +17,12 @@ Software Engineering *
 	Test
 	SOLID
 	RAD
-	TDD
-	DDD
+	TDD and DrivenDevelopment(Types)
 	Design Patterns
 	OOP
 	MVC/...
 	Agile/Scrum
-	Software Development Principles
-	System Architectures
-	System Designs
-	Architectures
-	Patterns
-	Designs
+	Software Development Principles*
 
 DevOps *
 	Docker
