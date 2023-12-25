@@ -227,6 +227,8 @@ Patterns[
     Book Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software by Eric Freeman
     Practices of Design Patterns in Persian: https://github.com/khajavi/Practical-Design-Patterns
     Book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma
+    https://sourcemaking.com/design_patterns
+    Graphical: https://refactoring.guru/design-patterns/catalog
 ]
 .
 Standards[
