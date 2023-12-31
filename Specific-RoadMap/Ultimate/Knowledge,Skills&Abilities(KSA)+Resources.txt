@@ -44,6 +44,12 @@ Python[
     Python PEP8 in Persian: https://github.com/vahit/pep8-per
     https://github.com/patrickloeber/python-engineer-notebooks
     30 Days of Python ~ Python 3.8: https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6
+    What the f*ck Python? 😱: https://github.com/satwikkansal/wtfpython
+    A collection of design patterns/idioms in Python: https://github.com/faif/python-patterns
+    Comprehensive Python Cheatsheet: https://github.com/gto76/python-cheatsheet
+    DESIGN PATTERNS in PYTHON: https://refactoring.guru/design-patterns/python
+    Design Patterns in Python: A Series: https://medium.com/@amirm.lavasani/design-patterns-in-python-a-series-f502b7804ae5/
+    Python Design Patterns: https://python-patterns.guide
 ]
 .
 Django[
