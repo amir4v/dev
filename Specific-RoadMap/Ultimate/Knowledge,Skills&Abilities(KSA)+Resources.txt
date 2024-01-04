@@ -346,6 +346,15 @@ Computer Science[
 ]
 .
 English[
+    Grammar:
+        https://langeek.co/en/grammar
+        https://www.englisch-hilfen.de/en/inhalt_grammar.htm
+        https://www.grammarinlevels.com
+        https://learnenglish.britishcouncil.org/grammar
+        https://www.learngrammar.net/english-grammar
+        https://test-english.com/grammar-points/contents
+        https://www.careerpower.in/english-grammar.html
+        https://byjus.com/english/english-grammar
     Book Infotech: English for computer users 4th edition
     Book Introductory Steps to Understanding by L. Hill
     The Class + The App + The Book + Assignments.
