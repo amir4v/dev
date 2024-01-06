@@ -355,6 +355,10 @@ English[
         https://test-english.com/grammar-points/contents
         https://www.careerpower.in/english-grammar.html
         https://byjus.com/english/english-grammar
+    Text:
+        https://deepenglish.com/blog
+        https://blog.abaenglish.com
+        https://tinytexts.wordpress.com
     Book Infotech: English for computer users 4th edition
     Book Introductory Steps to Understanding by L. Hill
     The Class + The App + The Book + Assignments.
