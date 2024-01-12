@@ -12,17 +12,53 @@ Software Engineering *
 	API/REST/GraphQL
 	Clean Code
 	PEP 8
-	Standard Coding
+	Standard Coding/Best Practices
 	10 Finger Typing
 	Test
+	Design Patterns
+	Software Development Philosophies*
+	Agile/Scrum
+	.
+	Comprehensive systems:
+		Agile software development
+		Lightweight methodology
+		Adaptive software development
+		Kanban (development)
+		Rational Unified Process
+		Agile Unified Process
+	Paradigms:
+		Iterative and incremental development
+		Waterfall model
+		Formal methods
+	Programming paradigms:
+		Functional programming (FP)
+		Modular programming
+		Object-oriented programming (OOP)
+		Procedural programming
+	Software development methodologies:
+		Agile Unified Process (AUP)
+		Constructionist design methodology (CDM)
+		Dynamic systems development method (DSDM)
+		Extreme programming (XP)
+		Iterative and incremental development
+		Kanban
+		Lean software development
+		Model-based system engineering (MBSE)
+		Open Unified Process
+		Pair programming
+		Mob programming
+		Rapid application development (RAD)
+		Rational Unified Process (RUP)
+		Rubber duck debugging
+		Scrum
+		Structured systems analysis and design method (SSADM)
+		Unified Process (UP)
+	ACID
+	SEMAT
 	SOLID
 	RAD
-	TDD and DrivenDevelopment(Types)
-	Design Patterns
-	OOP
-	MVC/...
-	Agile/Scrum
-	Software Development Philosophies*
+	TDD/MDD/DDD
+	MVC/MVP/MVVM
 
 DevOps *
 	Docker
