@@ -10,15 +10,17 @@ FastAPI]
 
 Software Engineering *
 	API/REST/GraphQL
-	Clean Code
+	Clean Code / Documentation
 	PEP 8
 	Standard Coding/Best Practices
 	10 Finger Typing
-	Test
+	Test/Debug
 	Design Patterns
 	Software Development Philosophies*
 	Agile/Scrum
-	.
+	Software Development Life Cycle (SDLC)
+	Microservices / WebServices
+	Message Brokers
 	Comprehensive systems:
 		Agile software development
 		Lightweight methodology
@@ -67,7 +69,6 @@ DevOps *
 	Hosting
 	Network
 	Server
-	Microservices / WebServices
 	Cloud
 	CI/CD
 
