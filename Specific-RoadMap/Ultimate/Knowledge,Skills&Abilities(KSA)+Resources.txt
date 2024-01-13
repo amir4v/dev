@@ -175,6 +175,7 @@ Mathematics[
         Book Pre-Calculus For Dummies: Sterling, Mary Jane
     ]
     Calculus[
+        Book Calculus with analytic geometry by Earl William Swokowski
         کتاب ریاضیات عمومی1 از محمدعلی کرایه چیان
         کتاب حساب دیفرانسیل و انتگرال جلد اول قسمت اول توماس ترجمه فرزین حاجی جمشیدی
         حساب دیفرانسیل و انتگرال: http://chap.sch.ir/books/1254
