@@ -136,19 +136,33 @@ Mathematics[
     ]
     Pre Algebra[
         Book Everything You Need to Ace Pre-Algebra and Algebra I in One Big Fat Notebook
+        Book AGS Pre-Algebra: AGS Secondary
+        Book Holt Pre-Algebra: Nichols
+        Book Beginning Algebra: Lial, Margaret, McGinnis, Terry, Hestwood, Diana
+        Book Elementary Algebra: Sullivan III, Michael, Struve, Katherine R., Mazzarella, Janet
+        Book Fearon's Pre Algebra: Laura B. Cardine, Melissa Curth, Betty M. Harris
     ]
     Geometry[
         Book Everything You Need to Ace Geometry in One Big Fat Notebook
+        Book Geometry: Ray C. Jurgensen, Richard G. Brown, John W. Jurgensen
     ]
     Algebra 1[
         Book Everything You Need to Ace Maths in One Big Fat Notebook
         Book Beginning Algebra by Margaret Lial
     ]
+    Algebra and Trigonometry[
+        Book Algebra and Trigonometry: Sullivan, Michael
+        Book Algebra and Trigonometry: Stewart, James, Redlin, Lothar, Watson, Saleem
+        Book A Graphical Approach to Algebra and Trigonometry: Hornsby, John, Lial, Margaret, Rockswold, Gary
+        Book Graphical Approach to Algebra & Trigonometry, A: Lial, Margaret, Hornsby, John, Rockswold, Gary
+    ]
     Algebra 2[
         
     ]
     College Algebra[
-        
+        Book College Algebra: Sullivan, Michael
+        Book College Algebra Essentials: Blitzer, Robert
+        Book College Algebra: Kaufmann, Jerome E., Schwitters, Karen L.
     ]
     Trigonometry[
         
@@ -156,16 +170,34 @@ Mathematics[
     -
     Pre Calculus[
         Teks Texas Precalculus Student Edition: https://www.amazon.com/Teks-Texas-Precalculus-Student-U/dp/0021402507
+        Book Precalculus by stewart - Google Search
+        Book Precalculus: Blitzer, Robert
+        Book Pre-Calculus For Dummies: Sterling, Mary Jane
     ]
     Calculus[
         کتاب ریاضیات عمومی1 از محمدعلی کرایه چیان
         کتاب حساب دیفرانسیل و انتگرال جلد اول قسمت اول توماس ترجمه فرزین حاجی جمشیدی
         حساب دیفرانسیل و انتگرال: http://chap.sch.ir/books/1254
+        Book Calculus by Thomas
+        Book Calculus by Stewart
+        Book Calculus: A Complete Course by Robert A. Adams
+        Book Calculus: Early transcendentals by William Briggs
+        Book Elementary Calculus
+        Book A First Course in Calculus (Undergraduate... by Lang, Serge
+        Book Calculus: Spivak, Michael
+        Book Calculus Made Easy: Thompson, Silvanus P., Gardner, Martin
+        Book Calculus, Vol. 1: One-Variable Calculus,... by Apostol, Tom M.
+        Book The Calculus Lifesaver: All the Tools You Need to Excel at Calculus: Banner, Adrian
+        Book Calculus For Dummies (For Dummies (Lifestyle)): Ryan, Mark
+        Book Calculus Essentials For Dummies: Ryan, Mark
     ]
     -
     Linear Algebra[
         Book Introduction to Linear Algebra, by Gilbert Strang
-        Book Elementary Linear Algebra Textbook by Howard Anton
+        Book Elementary Linear Algebra by Howard Anton
+        Book Linear Algebra: Friedberg, Stephen, Insel, Arnold, Spence, Lawrence
+        Book Linear Algebra (Undergraduate Texts in Mathematics): Lang, Serge
+        Book Linear Algebra: Kunze Hoffman
     ]
     -
     Statistics and Probability[
@@ -184,7 +216,11 @@ Mathematics[
         کتاب ساختمان های گسسته از بهروز قلی زاده
         کتاب ریاضیات گسسته مقدماتی از بالا کریشنان
         Book Concrete Mathematics: A Foundation for Computer Science by Graham
-        Book Discrete mathematical structures by Bernard Kolman
+        Book Discrete Mathematical structures by Bernard Kolman
+        Book Discrete Mathematics: Johnsonbaugh, Richard
+        Book Discrete Mathematics with Applications: Epp, Susanna S.
+        Book Introductory Discrete Mathematics (Dover Books on Computer Science): Balakrishnan
+        Book Discrete Mathematics: An Open Introduction: Levin, Oscar
     ]
     -
     Differential Equations[
