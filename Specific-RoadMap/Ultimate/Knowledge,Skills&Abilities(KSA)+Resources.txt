@@ -55,6 +55,8 @@ Python[
 Django[
     Django by Mosh: https://codewithmosh.com/p/the-ultimate-django-series
     https://djangobook.com
+    toplearn: Python, Django, REST
+    Ali Bigdeli from Maktabkhooneh: Django Basic, Django Advanced
     آموزش Rest Framework در Django: https://toplearn.com/courses/windows/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-Rest-Framework-%D8%AF%D8%B1-%D8%AC%D9%86%DA%AF%D9%88/
     آموزش جامع فریم ورک جنگو ( Django ): https://toplearn.com/courses/web/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%81%D8%B1%DB%8C%D9%85-%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-(-Django-)-%D8%A7%D8%B2-%D9%85%D9%82%D8%AF%D9%85%D8%A7%D8%AA%DB%8C-%D8%AA%D8%A7-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87/
     https://github.com/shahraizali/awesome-django
@@ -90,9 +92,15 @@ FastAPI[
 Git/Github/Gitlab/CI-CD[
     Git by Mosh: https://codewithmosh.com/p/the-ultimate-git-course
     Git by Jadi in FaraDars
+    Book Grokking Continuous Delivery
 ]
 .
 DSA (Data Structures and Algorithms)[
+    Book Algorithms (The MIT Press Essential Knowledge series by Panos Louridas
+    کتاب اصول ساختمان داده ها - سیمور لیپ شوتز - حسین ابراهیم زاده قلزم
+    کتاب طراحی و تحلیل الگوریتم ها از بهروز قلی زاده
+    کتاب داده‌ ساختار ها و مبانی الگوریتم‌ ها از محمد قاسمی
+    کتاب طراحی الگوریتم ها از (گروه مهندسی-پژوهشی خوارزمی): Farsi - CLRS - Introduction to Algorithms - (it-research.ir)
     مقدمه ای بر الگوریتم ها ۱: https://nasspub.com/product/%D9%85%D9%82%D8%AF%D9%85%D9%87-%D8%A7%DB%8C-%D8%A8%D8%B1-%D8%A7%D9%84%DA%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%85-%D9%87%D8%A7-%DB%B1-%D9%88%DB%8C%D8%B1%D8%A7%D8%B3%D8%AA-%D8%B3%D9%88%D9%85/
     https://codewithmosh.com/p/data-structures-algorithms
     leetcode.com
@@ -101,12 +109,20 @@ DSA (Data Structures and Algorithms)[
     Dynamic Programming 2D - Full Course - Python: https://www.youtube.com/watch?v=qMky6D6YtXU
     Book Introduction to Algorithms by CLRS
     Introduction to Algorithms A Creative Approach by Udi Manber
-    Data Structures: https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX
-    Algorithms: https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL
+    Data Structures by HackerRank: https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX
+    Algorithms by HackerRank: https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL
+    Book Data Structures and Algorithms in Python by Michael T. Goodrich
+    Book Data Structures the Fun Way: An Amusing Adventure with Coffee-Filled Examples by Jeremy Kubica
+    Book The Algorithm Design Manual (in Java)
+    Book Algorithms (in java) by Sedgewick, Robert, Wayne, Kevin
+    Book A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills: by Wengrow, Jay
 ]
 .
 Mathematics[
     [
+        ریاضیات کلاس درس یوتیوب محمد اکبرپور
+        Book Elementary Analysis: The Theory of Calculus by Kenneth A. Ross
+        Book Concrete Mathematics: A Foundation for Computer Science by Ronald Graham
         کتاب ریاضیات مقدماتی از محمدعلی کرایه چیان
         کتاب ریاضیات پیش دانشگاهی از مسعود نیکوکار، ایرج ابراهیمی، جمشید صالحی صدقیانی
         کتاب ریاضیات پایه از محمدرضا رفسنجانی صادقی
@@ -119,13 +135,14 @@ Mathematics[
         Mathematics (All Of It): https://www.youtube.com/playlist?app=desktop&list=PLybg94GvOJ9FoGQeUMFZ4SWZsr30jlUYK
     ]
     Pre Algebra[
-        
+        Book Everything You Need to Ace Pre-Algebra and Algebra I in One Big Fat Notebook
     ]
     Geometry[
-        
+        Book Everything You Need to Ace Geometry in One Big Fat Notebook
     ]
     Algebra 1[
-        
+        Book Everything You Need to Ace Maths in One Big Fat Notebook
+        Book Beginning Algebra by Margaret Lial
     ]
     Algebra 2[
         
@@ -148,10 +165,12 @@ Mathematics[
     -
     Linear Algebra[
         Book Introduction to Linear Algebra, by Gilbert Strang
+        Book Elementary Linear Algebra Textbook by Howard Anton
     ]
     -
     Statistics and Probability[
         کتاب آمار و احتمالات از کاوه و یحیی عبدالله زاده
+        آموزش تئوری احتمالات از منوچهر بابایی در فرادرس: https://faradars.org/courses/fvor104-probability-theory
         Book Statistics by S.Witte
         Book Elementary Statistics by Neil Weiss
         Book Introduction to Probability by Dimitri P. Bertsekas, John N. Tsitsiklis
@@ -165,6 +184,7 @@ Mathematics[
         کتاب ساختمان های گسسته از بهروز قلی زاده
         کتاب ریاضیات گسسته مقدماتی از بالا کریشنان
         Book Concrete Mathematics: A Foundation for Computer Science by Graham
+        Book Discrete mathematical structures by Bernard Kolman
     ]
     -
     Differential Equations[
@@ -233,13 +253,14 @@ Patterns[
     Book Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software by Eric Freeman
     Practices of Design Patterns in Persian: https://github.com/khajavi/Practical-Design-Patterns
     Book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma
+    دیزاین پترن یا الگو طراحی (DESIGN PATTERNS): https://holosen.net/what-is-design-pattern/
     https://sourcemaking.com/design_patterns
     Graphical: https://refactoring.guru/design-patterns/catalog
 ]
 .
 Standards[
-    Book The Clean Coder: A Code of Conduct for Professional Programmers by Robert Martin
     https://roadmap.sh/code-review
+    کد تمیز: https://codetamiz.vercel.app/
 ]
 .
 Principles[
@@ -317,6 +338,9 @@ Test/Debug/Diagnose[
 ]
 .
 Software Engineering[
+    Book Grokking Simplicity: Taming complex software with functional thinking
+    Book The Clean Coder: A Code of Conduct for Professional Programmers by Robert Martin
+    Book Grokking Functional Programming
     List of software development philosophies: https://en.wikipedia.org/wiki/List_of_software_development_philosophies
     Book Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
     A Comprehensive Guide on Software Engineer roadmap: https://www.knowledgehut.com/blog/web-development/software-engineer-roadmap
@@ -336,6 +360,8 @@ HTML/CSS/JS[
 ]
 .
 Computer Science[
+    کتاب سیستم عامل از ابوالفضل طرقی حقیقت
+    Book Everything You Need to Ace Computer Science and Coding in One Big Fat Notebook
     40 Key Computer Science Concepts Explained: https://carlcheo.com/compsci
     Every Programmer Should Know: https://github.com/mtdvio/every-programmer-should-know
     https://roadmap.sh/computer-science
@@ -359,6 +385,7 @@ English[
         https://deepenglish.com/blog
         https://blog.abaenglish.com
         https://tinytexts.wordpress.com
+    Book Everything You Need to Ace English Language Arts in One Big Fat Notebook
     Book Infotech: English for computer users 4th edition
     Book Introductory Steps to Understanding by L. Hill
     The Class + The App + The Book + Assignments.
@@ -375,8 +402,10 @@ English[
 .
 Artificial Intelligence[
     [
+        Book Artificial Intelligence: A Modern Approach by Peter Norvig and Stuart J. Russell
         https://github.com/microsoft/ai-for-beginners
         https://i.am.ai/roadmap
+        Book Grokking Artificial Intelligence Algorithms
         Artificial Intelligence Learning Roadmap: https://www.mltut.com/artificial-intelligence-learning-roadmap/
     ]
     Data Science[
@@ -385,6 +414,7 @@ Artificial Intelligence[
         https://roadmap.sh/ai-data-scientist
     ]
     Machine Learning[
+        Book Grokking Machine Learning
         Data Science and Machine Learning Basic to Advanced: https://www.udemy.com/course/data-science-and-machine-learning-basic-to-advanced/
         Machine Learning by Jadi in Maktabkhooneh
         Machine Learning: Zero to Hero: https://www.youtube.com/playlist?list=PLXnCTjjS85aliUCz4X84kn_cUy0cd_CRh
@@ -403,6 +433,8 @@ Artificial Intelligence[
         Complete Machine Learning Study Roadmap: https://www.kdnuggets.com/2022/12/complete-machine-learning-study-roadmap.html
     ]
     Deep Learning[
+        Book Grokking Deep Learning
+        Book Deep Learning, Foundations and Concepts by Christopher M. Bishop
         Neural Networks: Zero to Hero: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
     ]
     NLP[
