@@ -35,7 +35,7 @@ Python[
     Book Head First Python: A Brain-Friendly Guide
     Book Python Cookbook by Brian K. Jones-David - Mastering Python 3
     Book Effective Python 90 Specific Ways to Write Better Python (Brett Slatkin)
-    Intermediate Python Programming Course: https://www.youtube.com/watch?v=HGOBQPFzWKo
+    Intermediate/Advanced Python Programming Course: https://www.youtube.com/watch?v=HGOBQPFzWKo
     Book Introducing Python: Modern Computing in Simple Packages by Bill Lubanovic
     Book Fluent Python: Clear, Concise, and Effective Programming: https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008
     From beginning to over intermediate: https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6
