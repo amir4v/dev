@@ -41,7 +41,6 @@ Python[
     From beginning to over intermediate: https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6
     https://github.com/DjangoEx/awesome-python-resources
     https://github.com/realxoman/python-engineer-roadmap
-    Python PEP8 in Persian: https://github.com/vahit/pep8-per
     https://github.com/patrickloeber/python-engineer-notebooks
     30 Days of Python ~ Python 3.8: https://www.youtube.com/playlist?list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6
     What the f*ck Python? 😱: https://github.com/satwikkansal/wtfpython
