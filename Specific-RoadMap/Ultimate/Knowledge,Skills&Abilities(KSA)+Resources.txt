@@ -108,7 +108,7 @@ DSA (Data Structures and Algorithms)[
     Dynamic Programming 1D - Full Course - Python: https://www.youtube.com/watch?v=_i4Yxeh5ceQ
     Dynamic Programming 2D - Full Course - Python: https://www.youtube.com/watch?v=qMky6D6YtXU
     Book Introduction to Algorithms by CLRS
-    Introduction to Algorithms A Creative Approach by Udi Manber
+    Book Introduction to Algorithms A Creative Approach by Udi Manber
     Data Structures by HackerRank: https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX
     Algorithms by HackerRank: https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL
     Book Data Structures and Algorithms in Python by Michael T. Goodrich
