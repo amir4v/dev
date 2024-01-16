@@ -103,6 +103,7 @@ DSA (Data Structures and Algorithms)[
     مقدمه ای بر الگوریتم ها ۱: https://nasspub.com/product/%D9%85%D9%82%D8%AF%D9%85%D9%87-%D8%A7%DB%8C-%D8%A8%D8%B1-%D8%A7%D9%84%DA%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%85-%D9%87%D8%A7-%DB%B1-%D9%88%DB%8C%D8%B1%D8%A7%D8%B3%D8%AA-%D8%B3%D9%88%D9%85/
     https://codewithmosh.com/p/data-structures-algorithms
     leetcode.com
+    Book Grokking Algorithms
     Algorithms and Data Structures Tutorial - Full Course for Beginners by TeamTreeHouse: https://www.youtube.com/watch?v=8hly31xKli0
     Dynamic Programming 1D - Full Course - Python: https://www.youtube.com/watch?v=_i4Yxeh5ceQ
     Dynamic Programming 2D - Full Course - Python: https://www.youtube.com/watch?v=qMky6D6YtXU
