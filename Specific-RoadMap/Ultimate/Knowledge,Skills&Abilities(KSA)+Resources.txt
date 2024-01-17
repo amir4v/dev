@@ -534,7 +534,19 @@ Immigration[
         Nail Your Next Machine Learning Interview - Webinar (FREE) (https://www.interviewkickstart.com/courses/machine-learning-interview-masterclass)
         Machine Learning Interview Preparation - Udacity (FREE) (https://www.udacity.com/course/machine-learning-interview-prep--ud1001)
         Machine Learning Interview Questions + Cheatsheet - PDF (FREE) (https://www.kaggle.com/general/251658)
-        Machine Learning Interviews - Book (https://www.amazon.co.uk/Machine-Learning-Interviews-Khang-Pham/dp/B09S9JBT86/ref=asc_df_B09S9JBT86/)
+        Book Machine Learning Interviews (https://www.amazon.co.uk/Machine-Learning-Interviews-Khang-Pham/dp/B09S9JBT86/ref=asc_df_B09S9JBT86/)
         Grokking the Machine Learning Interview - Educative (https://www.educative.io/courses/grokking-the-machine-learning-interview?affiliate_id=5073518643380224)
+        Book Cracking the Coding Interview: 189 Programming Questions and Solutions by Gayle Laakmann McDowell
+        Book Ace the Data Science Interview: 201 Real Interview Questions Asked By FAANG, Tech Startups, & Wall Street by Nick Singh, Kevin Huo
+        Book Data Structures and Algorithms: 100 Interview Questions by X.Y. Wang
+        Book Stochastic Calculus for Quants: Questions and Answers by X.Y. Wang
+        Book Machine Learning: Interview Questions and Answers by X.Y. Wang
+        Book Ace the Coding Interview: Must-know Questions by X.Y. Wang
+        Book Dynamic Programming: 100 Interview Questions by X.Y. Wang
+        Book Software Engineer: 100 Interview Questions by X.Y. Wang
+        Book Dynamic Programming by Python Examples by X.Y. Wang
+        Book Data Science: 100 Interview Questions by X.Y. Wang
+        Book 100 Interview Questions: Python by X.Y. Wang
+        Book 100 Interview Questions: GIT by X.Y. Wang
     ]
 ]
