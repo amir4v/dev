@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T04:58:32.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DTrcLWwmSUejYC8h0MPF" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T05:00:23.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CPAXM84vhmVi0MES8Zph" version="22.1.18" type="github">
   <diagram name="Page-1" id="Pw1lx-9ADOZ67-cU_8lc">
     <mxGraphModel dx="545" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
             <mxPoint x="634" y="286" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NjcC3SJjB0qP52kyVzx2-1" value="کسایی که توی کمپانی های بزرگ میتونن کار های بزرگ کنن، مثلا کسایی که توی هاروارد یا ام آی تی درس خوندن یا توی گوگل کار میکنن، اینا یک بیس قوی دارن که خوب فهمیدن و درک کردن و بلدن&lt;br&gt;*اونا چیان*&lt;br&gt;English&lt;br&gt;Mathematics&lt;br&gt;Data Structures&lt;br&gt;Algorithms&lt;br&gt;Programming" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NjcC3SJjB0qP52kyVzx2-1" value="کسایی که توی کمپانی های بزرگ میتونن کار های بزرگ کنن، مثلا کسایی که توی هاروارد یا ام آی تی درس خوندن یا توی گوگل کار میکنن، اینا یک بیس قوی دارن که خوب فهمیدن و درک کردن و بلدن&lt;br&gt;*اونا چیان*&lt;br&gt;English&lt;br&gt;Mathematics&lt;br&gt;Data Structures&lt;br&gt;Algorithms&lt;br&gt;Programming(CS, SE, DS, Dev)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="-320" width="300" height="140" as="geometry" />
         </mxCell>
       </root>
