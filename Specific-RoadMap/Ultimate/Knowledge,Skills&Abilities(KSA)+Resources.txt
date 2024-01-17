@@ -133,6 +133,7 @@ Mathematics[
         Mathematics-Quick: https://www.youtube.com/playlist?list=PLDIqzTwCXyMkwvTsgcQQtsHp-JtaX-hZw
         ریاضیات ابتدایی از مباحث دبستان: https://www.youtube.com/playlist?list=PL0o_zxa4K1BUTwjC6quGDfAB7HHNt_cPr by The Organic Chemistry Tutor
         Mathematics (All Of It): https://www.youtube.com/playlist?app=desktop&list=PLybg94GvOJ9FoGQeUMFZ4SWZsr30jlUYK
+        Book "Book of Proof" by Richard Hammack (Topics include sets, logic, counting, methods of conditional and non-conditional proof, disproof, induction, relations, functions, calculus proofs and infinite cardinality)
     ]
     Pre Algebra[
         Book Everything You Need to Ace Pre-Algebra and Algebra I in One Big Fat Notebook
