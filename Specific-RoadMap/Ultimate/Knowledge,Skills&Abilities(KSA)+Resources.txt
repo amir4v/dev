@@ -480,15 +480,15 @@ Artificial Intelligence[
         Roadmap of Mathematics for Machine Learning: https://tivadardanka.com/blog/roadmap-of-mathematics-for-machine-learning
         Complete Machine Learning Study Roadmap: https://www.kdnuggets.com/2022/12/complete-machine-learning-study-roadmap.html
         Courses by Andrew Ng.
-        Course یادگیری عمیق با تنسورفلو و کراس by پژمان اقبالی : https://maktabkhooneh.org/course/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D8%AA%D9%86%D8%B3%D9%88%D8%B1%D9%81%D9%84%D9%88-%DA%A9%D8%B1%D8%A7%D8%B3-mk1446/
-        Course آموزش یادگیری عمیق پیشرفته: مدل‌سازی سطح پایین by پژمان اقبالی : https://maktabkhooneh.org/course/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-%D9%85%D8%AF%D9%84%D8%B3%D8%A7%D8%B2%DB%8C-%D8%B3%D8%B7%D8%AD-%D9%BE%D8%A7%DB%8C%DB%8C%D9%86-mk1485/
-        Course آموزش یادگیری عمیق پیشرفته: مدل‌سازي توالي by پژمان اقبالی : https://maktabkhooneh.org/course/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-%D9%85%D8%AF%D9%84%D8%B3%D8%A7%D8%B2%D9%8A-%D8%AA%D9%88%D8%A7%D9%84%D9%8A-mk1566/
     ]
     Deep Learning[
         Book Grokking Deep Learning
         Book Deep Learning, Foundations and Concepts by Christopher M. Bishop
         Neural Networks: Zero to Hero: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
         Courses by Andrew Ng.
+        Course یادگیری عمیق با تنسورفلو و کراس by پژمان اقبالی : https://maktabkhooneh.org/course/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D8%AA%D9%86%D8%B3%D9%88%D8%B1%D9%81%D9%84%D9%88-%DA%A9%D8%B1%D8%A7%D8%B3-mk1446/
+        Course آموزش یادگیری عمیق پیشرفته: مدل‌سازی سطح پایین by پژمان اقبالی : https://maktabkhooneh.org/course/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-%D9%85%D8%AF%D9%84%D8%B3%D8%A7%D8%B2%DB%8C-%D8%B3%D8%B7%D8%AD-%D9%BE%D8%A7%DB%8C%DB%8C%D9%86-mk1485/
+        Course آموزش یادگیری عمیق پیشرفته: مدل‌سازي توالي by پژمان اقبالی : https://maktabkhooneh.org/course/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-%D9%85%D8%AF%D9%84%D8%B3%D8%A7%D8%B2%D9%8A-%D8%AA%D9%88%D8%A7%D9%84%D9%8A-mk1566/
     ]
     NLP[
         nlp-roadmap: https://github.com/graykode/nlp-roadmap
