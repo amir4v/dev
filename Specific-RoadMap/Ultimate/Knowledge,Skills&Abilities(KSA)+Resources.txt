@@ -462,15 +462,15 @@ Artificial Intelligence[
     ]
     Machine Learning[
         Book Grokking Machine Learning
-        Data Science and Machine Learning Basic to Advanced: https://www.udemy.com/course/data-science-and-machine-learning-basic-to-advanced/
-        Machine Learning by Jadi in Maktabkhooneh
+        Course Data Science and Machine Learning Basic to Advanced: https://www.udemy.com/course/data-science-and-machine-learning-basic-to-advanced/
+        Course Machine Learning by Jadi in Maktabkhooneh
         Course آموزش یادگیری ماشین by دکتر محمد منثوری,سهیل تهرانی‌پور : https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%A7%D8%B4%DB%8C%D9%86-mk1235/
-        Machine Learning: Zero to Hero: https://www.youtube.com/playlist?list=PLXnCTjjS85aliUCz4X84kn_cUy0cd_CRh
+        Course Machine Learning: Zero to Hero: https://www.youtube.com/playlist?list=PLXnCTjjS85aliUCz4X84kn_cUy0cd_CRh
         https://github.com/microsoft/ML-For-Beginners
         https://github.com/dair-ai/ML-YouTube-Courses
         https://github.com/patrickloeber/ml-study-plan
         Book Probabilistic Machine Learning: An Introduction (Adaptive Computation and Machine Learning series)
-        Pytopia ML Course 2022: https://www.pytopia.ai/courses/machine-learning
+        Course Pytopia ML 2022: https://www.pytopia.ai/courses/machine-learning
         Book Pattern Recognition and Machine Learning by Christopher M. Bishop
         Book Deep Learning Foundations and Concepts by Christopher M. Bishop
         Book Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
@@ -480,11 +480,12 @@ Artificial Intelligence[
         Roadmap of Mathematics for Machine Learning: https://tivadardanka.com/blog/roadmap-of-mathematics-for-machine-learning
         Complete Machine Learning Study Roadmap: https://www.kdnuggets.com/2022/12/complete-machine-learning-study-roadmap.html
         Courses by Andrew Ng.
+        Course Complete A.I. & Machine Learning, Data Science Bootcamp: https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/
     ]
     Deep Learning[
         Book Grokking Deep Learning
         Book Deep Learning, Foundations and Concepts by Christopher M. Bishop
-        Neural Networks: Zero to Hero: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+        Course Neural Networks: Zero to Hero: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
         Courses by Andrew Ng.
         Course یادگیری عمیق با تنسورفلو و کراس by پژمان اقبالی : https://maktabkhooneh.org/course/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D8%AA%D9%86%D8%B3%D9%88%D8%B1%D9%81%D9%84%D9%88-%DA%A9%D8%B1%D8%A7%D8%B3-mk1446/
         Course آموزش یادگیری عمیق پیشرفته: مدل‌سازی سطح پایین by پژمان اقبالی : https://maktabkhooneh.org/course/%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-%D9%85%D8%AF%D9%84%D8%B3%D8%A7%D8%B2%DB%8C-%D8%B3%D8%B7%D8%AD-%D9%BE%D8%A7%DB%8C%DB%8C%D9%86-mk1485/
