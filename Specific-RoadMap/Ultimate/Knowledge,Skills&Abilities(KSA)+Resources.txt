@@ -462,7 +462,6 @@ Artificial Intelligence[
     ]
     Machine Learning[
         Book Grokking Machine Learning
-        Course Data Science and Machine Learning Basic to Advanced: https://www.udemy.com/course/data-science-and-machine-learning-basic-to-advanced/
         Course Machine Learning by Jadi in Maktabkhooneh
         Course آموزش یادگیری ماشین by دکتر محمد منثوری,سهیل تهرانی‌پور : https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%A7%D8%B4%DB%8C%D9%86-mk1235/
         Course Machine Learning: Zero to Hero: https://www.youtube.com/playlist?list=PLXnCTjjS85aliUCz4X84kn_cUy0cd_CRh
@@ -480,7 +479,11 @@ Artificial Intelligence[
         Roadmap of Mathematics for Machine Learning: https://tivadardanka.com/blog/roadmap-of-mathematics-for-machine-learning
         Complete Machine Learning Study Roadmap: https://www.kdnuggets.com/2022/12/complete-machine-learning-study-roadmap.html
         Courses by Andrew Ng.
+        [ Course The Data Science Course: Complete Data Science Bootcamp 2024: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/
         Course Complete A.I. & Machine Learning, Data Science Bootcamp: https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/
+        Course Deep Learning A-Z 2024: Neural Networks, AI & ChatGPT Prize: https://www.udemy.com/course/deeplearning/
+        Course A deep understanding of deep learning (with Python intro): https://www.udemy.com/course/deeplearning_x/
+        Course Deep Learning for Beginners: Core Concepts and PyTorch: https://www.udemy.com/course/fundamentals-deep-learning-concept-pytorch/ ]
     ]
     Deep Learning[
         Book Grokking Deep Learning
