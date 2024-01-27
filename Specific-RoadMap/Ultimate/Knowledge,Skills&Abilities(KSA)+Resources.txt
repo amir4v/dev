@@ -366,6 +366,10 @@ Message Brokers/Redis/Memcached/RabbitMQ[
 DevOps[
     Cloud[
         https://roadmap.sh/aws
+        AWS Certified Cloud Practitioner Certification Course (CLF-C01): https://www.youtube.com/watch?v=SOTamWNgDKc
+        AWS Certified Cloud Practitioner Certification Course (CLF-C02): https://www.youtube.com/watch?v=NhDYbskXRgc
+        Google Cloud Associate Cloud Engineer Course: https://www.youtube.com/watch?v=jpno8FSqpc8
+        Cloud Computing Tutorial for Beginners: https://www.youtube.com/watch?v=RWgW-CgdIk0
     ]
     https://roadmap.sh/devops
 ]
