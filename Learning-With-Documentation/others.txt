@@ -1,0 +1,5 @@
+Software Development Philosophies
+AND
+Resourses
+AND
+Implementations in code/python
