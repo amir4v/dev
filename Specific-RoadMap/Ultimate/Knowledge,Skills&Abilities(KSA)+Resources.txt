@@ -231,6 +231,7 @@ Mathematics[
 ]
 .
 Designs[
+    2022 Tech w Tim (Software Design): https://www.youtube.com/playlist?list=PL5Q7ZP3NbweQxaUP5nSHa3hmLX5FAnAjB
     Book Functional Design: Principles, Patterns, and Practices by Robert Martin
     Book Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann
     https://roadmap.sh/design-system
@@ -315,6 +316,8 @@ Best Practices[
 ]
 .
 Agile/Scrum[
+    Agile Software Development: https://www.youtube.com/watch?v=UxMpn92vGXs
+    Agile Project Management: https://www.youtube.com/watch?v=nrfl6GAQy2s
     https://agilemanifesto.org
     Book Clean Agile: Back to Basics (Robert C. Martin Series)
     https://agilemanifesto.org/iso/en/principles.html
@@ -376,6 +379,8 @@ Test/Debug/Diagnose[
 ]
 .
 Software Engineering[
+    Introduction to principles of software engineering (CS164): https://www.youtube.com/@CS164
+    Software Engineering Basics: https://www.youtube.com/watch?v=sB2iQSvrcG0
     Book Grokking Simplicity: Taming complex software with functional thinking
     Book The Clean Coder: A Code of Conduct for Professional Programmers by Robert Martin
     Book Grokking Functional Programming
@@ -398,6 +403,7 @@ HTML/CSS/JS[
 ]
 .
 Computer Science[
+    Computer Science CrashCourse: https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
     کتاب سیستم عامل از ابوالفضل طرقی حقیقت
     Book Everything You Need to Ace Computer Science and Coding in One Big Fat Notebook
     40 Key Computer Science Concepts Explained: https://carlcheo.com/compsci
