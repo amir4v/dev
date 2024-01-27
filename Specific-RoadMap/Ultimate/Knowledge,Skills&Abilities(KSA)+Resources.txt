@@ -349,6 +349,11 @@ Linux[
 Microservices[
     https://medium.engineering/microservice-architecture-at-medium-9c33805eb74f
     Book Building Microservices: Designing Fine-Grained Systems by Sam Newman
+    What Are Microservices Really All About? (And When Not To Use It): https://www.youtube.com/watch?v=lTAcCNbJ7KE
+    Microservices explained - the What, Why and How?: https://www.youtube.com/watch?v=rv4LlmLmVWk
+    Microservice Architecture and System Design with Python & Kubernetes – Full Course: https://www.youtube.com/watch?v=hmkF77F9TLw
+    Microservices with FastAPI – Full Course: https://www.youtube.com/watch?v=Cy9fAvsXGZA
+    
 ]
 .
 Webservices[
@@ -370,6 +375,8 @@ DevOps[
         AWS Certified Cloud Practitioner Certification Course (CLF-C02): https://www.youtube.com/watch?v=NhDYbskXRgc
         Google Cloud Associate Cloud Engineer Course: https://www.youtube.com/watch?v=jpno8FSqpc8
         Cloud Computing Tutorial for Beginners: https://www.youtube.com/watch?v=RWgW-CgdIk0
+        Cloud Fundamentals, (IBM Technology): https://www.youtube.com/playlist?list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ
+        Monolithic vs Microservice Architecture: Which To Use and When?: https://www.youtube.com/watch?v=NdeTGlZ__Do
     ]
     https://roadmap.sh/devops
 ]
@@ -400,6 +407,8 @@ Security[
 .
 Network[
     Book HTTP: The Definitive Guide - O'Reilly
+    Computer Networking Course - Network Engineering [CompTIA Network+ Exam Prep]: https://www.youtube.com/watch?v=qiQR5rTSshw
+    CompTIA Network+ Certification Video Course: https://www.youtube.com/watch?v=vrh0epPAC5w
 ]
 .
 HTML/CSS/JS[
