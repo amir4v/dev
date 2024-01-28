@@ -402,6 +402,14 @@ Test/Debug/Diagnose[
 ]
 .
 Software Engineering[
+    Programming paradigm: https://en.wikipedia.org/wiki/Programming_paradigm
+    Software development process: https://en.wikipedia.org/wiki/Software_development_process
+    Software design pattern: https://en.wikipedia.org/wiki/Software_design_pattern
+    Coding conventions: https://en.wikipedia.org/wiki/Coding_conventions
+    Category: Software development philosophies: https://en.wikipedia.org/wiki/Category:Software_development_philosophies
+    Category: Software development process: https://en.wikipedia.org/wiki/Category:Software_development_process
+    Category: Methodology: https://en.wikipedia.org/wiki/Category:Methodology
+    Category: Computing-related lists: https://en.wikipedia.org/wiki/Category:Computing-related_lists
     Introduction to principles of software engineering (CS164): https://www.youtube.com/@CS164
     Software Engineering Basics: https://www.youtube.com/watch?v=sB2iQSvrcG0
     Book Grokking Simplicity: Taming complex software with functional thinking
