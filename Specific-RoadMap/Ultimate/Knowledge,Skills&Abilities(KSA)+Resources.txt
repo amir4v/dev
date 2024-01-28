@@ -249,6 +249,7 @@ Systems[
 ]
 .
 Architectures[
+    Event-Driven Architecture with React and FastAPI – Full Course: https://www.youtube.com/watch?v=NVvIpqmf_Xc
     Book Clean Architecture: A Craftsman's Guide to Software Structure and Design by Robert Martin
     https://roadmap.sh/software-architect
     https://roadmap.sh/software-design-architecture
@@ -286,6 +287,14 @@ DB[
 .
 API/REST/GraphQL[
     https://roadmap.sh/graphql
+    What Is GraphQL? REST vs. GraphQL: https://www.youtube.com/watch?v=yWzKJPw_VzM
+    GraphQL vs REST: Which is Better for APIs?: https://www.youtube.com/watch?v=PTfZcN20fro
+    What Is REST API? Examples And How To Use It: https://www.youtube.com/watch?v=-mN3VyJuCjM
+    Top 6 Most Popular API Architecture Styles: https://www.youtube.com/watch?v=4vLxWqE94l4
+    REST vs RPC vs GraphQL API - How do I pick the right API paradigm?: https://www.youtube.com/watch?v=hkXzsB8D_mo
+    GraphQL Course for Beginners: https://www.youtube.com/watch?v=5199E50O7SI
+    APIs for Beginners - How to use an API (Full Course / Tutorial): https://www.youtube.com/watch?v=GZvSYJDk-us
+    Learn GraphQL in 4 Hours - From Beginner to Expert: https://www.youtube.com/watch?v=yqWzCV0kU_c
 ]
 .
 Patterns[
@@ -353,15 +362,18 @@ Microservices[
     Microservices explained - the What, Why and How?: https://www.youtube.com/watch?v=rv4LlmLmVWk
     Microservice Architecture and System Design with Python & Kubernetes – Full Course: https://www.youtube.com/watch?v=hmkF77F9TLw
     Microservices with FastAPI – Full Course: https://www.youtube.com/watch?v=Cy9fAvsXGZA
-    
+    Microservices in Python using Flask Framework | Dockerize and Deploy to Kubernetes with Helm: https://www.youtube.com/watch?v=SdTzwYmsgoU
+    Python Microservices Full Course - Event-Driven Architecture with RabbitMQ: https://www.youtube.com/watch?v=ddrucr_aAzA
 ]
 .
 Webservices[
-    
+    Difference Between REST API vs Web API vs SOAP API Explained: https://www.youtube.com/watch?v=2mqN7ZhDsUA
+    What is a Web Service & API?: https://www.youtube.com/watch?v=9HazqiH4Gag
+    What is a Web Service? And why is it called a Web Service?: https://www.youtube.com/watch?v=e3bz4dxoUII
 ]
 .
 WebSocket/Channels[
-    
+    Webhooks vs Websockets vs HTTP Streaming - Which Event-Driven API to use?: https://www.youtube.com/watch?v=6RvlKYgRFYQ
 ]
 .
 Message Brokers/Redis/Memcached/RabbitMQ[
@@ -402,7 +414,15 @@ Software Engineering[
 ]
 .
 Security[
-    
+    Auth0 in 100 Seconds: https://www.youtube.com/watch?v=yufqeJLP1rI
+    OAuth 2.0: An Overview: https://www.youtube.com/watch?v=CPbvxxslDTU
+    OAuth 2.0 explained with examples: https://www.youtube.com/watch?v=ZDuRmhLSLOY
+    What Is Single Sign-on (SSO)? How It Works: https://www.youtube.com/watch?v=O1cRJWYF-g4
+    OAuth 2 Explained In Simple Terms: https://www.youtube.com/watch?v=ZV5yTm4pT8g
+    Session vs Token Authentication in 100 Seconds: https://www.youtube.com/watch?v=UBUNrFtufWo
+    What Is JWT and Why Should You Use JWT: https://www.youtube.com/watch?v=7Q17ubqLfaM
+    What is Single Sign On (SSO): https://www.youtube.com/watch?v=Bv6NZlqqn48
+    Flask (Python) - Google oAuth 2.0 (Authlib): https://www.youtube.com/watch?v=BfYsdNaHrps
 ]
 .
 Network[
