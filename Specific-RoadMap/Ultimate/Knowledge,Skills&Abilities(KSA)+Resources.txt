@@ -247,6 +247,7 @@ Methods[
 .
 Systems[
     https://roadmap.sh/system-design
+    System Design for Beginners Course: https://www.youtube.com/watch?v=m8Icp_Cid5o
 ]
 .
 Architectures[
@@ -397,7 +398,20 @@ DevOps[
 ]
 .
 Testing[
-    
+    What is a Test Case and Why is it Important?: https://www.youtube.com/watch?v=T42akSOFoMY
+    5 Types of Testing Software Every Developer Needs to Know!: https://www.youtube.com/watch?v=YaXJeUkBe4Y
+    What is Unit Testing? Why YOU Should Learn It + Easy to Understand Examples: https://www.youtube.com/watch?v=3kzHmaeozDI
+    Software Testing Explained in 100 Seconds: https://www.youtube.com/watch?v=u6QfIXgjwGQ
+    Python Tutorial: Unit Testing Your Code with the unittest Module: https://www.youtube.com/watch?v=6tNS--WetLI
+    Pytest Tutorial – How to Test Python Code: https://www.youtube.com/watch?v=cHYq1MRoyI0
+    How To Write Unit Tests For Existing Python Code // Part 1 of 2: https://www.youtube.com/watch?v=ULxMQ57engo
+    How To Write Unit Tests For Existing Python Code // Part 2 of 2: https://www.youtube.com/watch?v=NI5IGAim8XU
+    Python TDD Workflow - Unit Testing Code Example for Beginners: https://www.youtube.com/watch?v=ibVSPVz2LAA
+    Professional Python Testing with Mocks: https://www.youtube.com/watch?v=-F6wVOlsEAM
+    getting started with pytest (beginner - intermediate) anthony explains: https://www.youtube.com/watch?v=mzlH8lp4ISA
+    PyTest • REST API Integration Testing with Python: https://www.youtube.com/watch?v=7dgQRVqF1N0
+    How To Write Unit Tests in Python • Pytest Tutorial: https://www.youtube.com/watch?v=YbpKMIUjvK8
+    Unit Testing in Python: https://www.youtube.com/watch?v=UL0opWf3DeM
 ]
 .
 Test/Debug/Diagnose[
