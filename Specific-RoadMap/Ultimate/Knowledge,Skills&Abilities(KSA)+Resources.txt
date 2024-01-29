@@ -251,6 +251,7 @@ Systems[
 ]
 .
 Architectures[
+    10 Architecture Patterns Used In Enterprise Software Development Today: https://www.youtube.com/watch?v=BrT3AO8bVQY
     Event-Driven Architecture with React and FastAPI – Full Course: https://www.youtube.com/watch?v=NVvIpqmf_Xc
     Book Clean Architecture: A Craftsman's Guide to Software Structure and Design by Robert Martin
     https://roadmap.sh/software-architect
@@ -288,6 +289,7 @@ DB[
 ]
 .
 API/REST/GraphQL[
+    Top 7 Ways to 10x Your API Performance: https://www.youtube.com/watch?v=zvWKqUiovAM
     https://roadmap.sh/graphql
     What Is GraphQL? REST vs. GraphQL: https://www.youtube.com/watch?v=yWzKJPw_VzM
     GraphQL vs REST: Which is Better for APIs?: https://www.youtube.com/watch?v=PTfZcN20fro
@@ -306,6 +308,11 @@ Patterns[
     دیزاین پترن یا الگو طراحی (DESIGN PATTERNS): https://holosen.net/what-is-design-pattern/
     https://sourcemaking.com/design_patterns
     Graphical: https://refactoring.guru/design-patterns/catalog
+    10 Design Patterns Explained in 10 Minutes: https://www.youtube.com/watch?v=tv-_1er1mWI
+    8 Design Patterns EVERY Developer Should Know: https://www.youtube.com/watch?v=tAuRQs_d9F8
+    5 Design Patterns Every Engineer Should Know: https://www.youtube.com/watch?v=FLmBqI3IKMA
+    5 Design Patterns That Are ACTUALLY Used By Developers: https://www.youtube.com/watch?v=YMAwgRwjEOQ
+    Python Design Patterns Tutorial for Beginners 2022: https://www.youtube.com/watch?v=wNiMoNiQQJg
 ]
 .
 Standards[
@@ -316,6 +323,7 @@ Standards[
 Principles[
     SOLID Principles: https://www.youtube.com/watch?v=kF7rQmSRlq0
     Mosh: https://codewithmosh.com/p/clean-code
+    SOLID Principles: Do You Really Understand Them?: https://www.youtube.com/watch?v=kF7rQmSRlq0
 ]
 .
 Conventions[
@@ -425,6 +433,7 @@ Programming[
     Book The Clean Coder: A Code of Conduct for Professional Programmers by Robert Martin
     Book Grokking Functional Programming
     Book Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+    Python Vs C++ Vs Java!: https://www.youtube.com/watch?v=hnlz0YYCpBU
 ]
 .
 Software Engineering[
@@ -458,6 +467,8 @@ Network[
     Book HTTP: The Definitive Guide - O'Reilly
     Computer Networking Course - Network Engineering [CompTIA Network+ Exam Prep]: https://www.youtube.com/watch?v=qiQR5rTSshw
     CompTIA Network+ Certification Video Course: https://www.youtube.com/watch?v=vrh0epPAC5w
+    Network Protocols - ARP, FTP, SMTP, HTTP, SSL, TLS, HTTPS, DNS, DHCP - Networking Fundamentals - L6: https://www.youtube.com/watch?v=E5bSumTAHZE
+    Top 8 Most Popular Network Protocols Explained: https://www.youtube.com/watch?v=P6SZLcGE4us
 ]
 .
 HTML/CSS/JS[
