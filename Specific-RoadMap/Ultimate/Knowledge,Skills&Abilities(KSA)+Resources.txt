@@ -555,6 +555,7 @@ Artificial Intelligence[
         Books: https://www.amazon.com/s?k=Machine+Learning&i=stripbooks-intl-ship&ref=nb_sb_noss
         2020 Machine Learning Roadmap (still 90% valid for 2023): https://github.com/mrdbourke/machine-learning-roadmap (https://www.youtube.com/watch?v=pHiMN_gy9mk)
         Book Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications by Chip Huyen
+        Book Machine Learning System Design (With end-to-end examples) by Valerii Babushkin and Arseny Kravchenko
         Roadmap of Mathematics for Machine Learning: https://tivadardanka.com/blog/roadmap-of-mathematics-for-machine-learning
         Complete Machine Learning Study Roadmap: https://www.kdnuggets.com/2022/12/complete-machine-learning-study-roadmap.html
         Courses by Andrew Ng.
