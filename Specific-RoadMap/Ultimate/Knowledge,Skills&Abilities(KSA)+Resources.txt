@@ -86,6 +86,7 @@ FastAPI[
 .
 10 Finger Typing[
     typing.com
+    How I Type REALLY Fast (156 Words per Minute): https://www.youtube.com/watch?v=1ArVtCQqQRE
 ]
 .
 Git/Github/Gitlab/CI-CD[
@@ -364,6 +365,8 @@ Microservices[
     Microservices with FastAPI – Full Course: https://www.youtube.com/watch?v=Cy9fAvsXGZA
     Microservices in Python using Flask Framework | Dockerize and Deploy to Kubernetes with Helm: https://www.youtube.com/watch?v=SdTzwYmsgoU
     Python Microservices Full Course - Event-Driven Architecture with RabbitMQ: https://www.youtube.com/watch?v=ddrucr_aAzA
+    Python Microservices Web App (with React, Django, Flask) - Full Course: https://www.youtube.com/watch?v=0iB5IPoTDts
+    Microservices Explained in 5 Minutes: https://www.youtube.com/watch?v=lL_j7ilk7rc
 ]
 .
 Webservices[
@@ -401,11 +404,18 @@ Test/Debug/Diagnose[
     
 ]
 .
-Software Engineering[
+Programming[
+    Python Coding Conventions You Really Should Follow: https://www.youtube.com/watch?v=U2vDWc5sce0
     Programming paradigm: https://en.wikipedia.org/wiki/Programming_paradigm
+    Coding conventions: https://en.wikipedia.org/wiki/Coding_conventions
+    Book The Clean Coder: A Code of Conduct for Professional Programmers by Robert Martin
+    Book Grokking Functional Programming
+    Book Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+]
+.
+Software Engineering[
     Software development process: https://en.wikipedia.org/wiki/Software_development_process
     Software design pattern: https://en.wikipedia.org/wiki/Software_design_pattern
-    Coding conventions: https://en.wikipedia.org/wiki/Coding_conventions
     Category: Software development philosophies: https://en.wikipedia.org/wiki/Category:Software_development_philosophies
     Category: Software development process: https://en.wikipedia.org/wiki/Category:Software_development_process
     Category: Methodology: https://en.wikipedia.org/wiki/Category:Methodology
@@ -413,10 +423,7 @@ Software Engineering[
     Introduction to principles of software engineering (CS164): https://www.youtube.com/@CS164
     Software Engineering Basics: https://www.youtube.com/watch?v=sB2iQSvrcG0
     Book Grokking Simplicity: Taming complex software with functional thinking
-    Book The Clean Coder: A Code of Conduct for Professional Programmers by Robert Martin
-    Book Grokking Functional Programming
     List of software development philosophies: https://en.wikipedia.org/wiki/List_of_software_development_philosophies
-    Book Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
     A Comprehensive Guide on Software Engineer roadmap: https://www.knowledgehut.com/blog/web-development/software-engineer-roadmap
     Book The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups by Gergely Orosz: https://www.amazon.com/Software-Engineers-Guidebook-Navigating-positions/dp/908338182X/
 ]
