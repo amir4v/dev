@@ -370,6 +370,14 @@ Documentation/Commenting[
 ]
 .
 Docker/Kubernetes[
+    Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers: https://www.youtube.com/watch?v=fqMOX6JJhGo
+    Docker Tutorial for Beginners: https://www.youtube.com/watch?v=pTFZFxd4hOI
+    Docker Tutorial for Beginners [FULL COURSE in 3 Hours]: https://www.youtube.com/watch?v=3c-iBn73dDE
+    Docker Crash Course for Absolute Beginners [NEW]: https://www.youtube.com/watch?v=pg19Z8LL06w
+    Learn Docker in 7 Easy Steps - Full Beginner's Tutorial: https://www.youtube.com/watch?v=gAkwW2tuIqE
+    Docker and Kubernetes - Full Course for Beginners: https://www.youtube.com/watch?v=Wf2eSG3owoA
+    Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!): https://www.youtube.com/watch?v=d6WC5n9G_sM
+    Docker Tutorial for Beginners | Full Course [2021]: https://www.youtube.com/watch?v=p28piYY_wv8
     https://codewithmosh.com/p/the-ultimate-docker-course
     https://roadmap.sh/docker
     https://roadmap.sh/kubernetes
