@@ -1,5 +1,5 @@
 Software Development Philosophies
-AND
-Resourses
-AND
-Implementations in code/python
+  AND
+    Resources
+  AND
+    Implementations in code/Python
