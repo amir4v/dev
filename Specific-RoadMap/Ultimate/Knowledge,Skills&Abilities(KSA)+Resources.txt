@@ -93,6 +93,7 @@ Git/Github/Gitlab/CI-CD[
     Git by Mosh: https://codewithmosh.com/p/the-ultimate-git-course
     Git by Jadi in FaraDars
     Book Grokking Continuous Delivery
+    Amir4v/Learning-With-Documentation/learning-git: https://github.com/amir4v/dev/tree/main/Learning-With-Documentation/learning-git
 ]
 .
 DSA (Data Structures and Algorithms)[
@@ -383,6 +384,7 @@ Docker/Kubernetes[
     https://roadmap.sh/docker
     https://roadmap.sh/kubernetes
     Docker and Kubernetes: The Complete Guide: https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/
+    Amir4v/Learning-With-Documentation/learning-docker: https://github.com/amir4v/dev/tree/main/Learning-With-Documentation/learning-docker
 ]
 .
 Linux[
@@ -430,6 +432,7 @@ DevOps[
 ]
 .
 Testing[
+    Amir4v/Learning-With-Documentation/learning-test: https://github.com/amir4v/dev/tree/main/Learning-With-Documentation/learning-test
     What is a Test Case and Why is it Important?: https://www.youtube.com/watch?v=T42akSOFoMY
     5 Types of Testing Software Every Developer Needs to Know!: https://www.youtube.com/watch?v=YaXJeUkBe4Y
     What is Unit Testing? Why YOU Should Learn It + Easy to Understand Examples: https://www.youtube.com/watch?v=3kzHmaeozDI
