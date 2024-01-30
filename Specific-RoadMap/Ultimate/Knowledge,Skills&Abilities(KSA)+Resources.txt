@@ -370,6 +370,7 @@ Documentation/Commenting[
 ]
 .
 Docker/Kubernetes[
+    Complete Docker Course - From BEGINNER to PRO! (Learn Containers): https://www.youtube.com/watch?v=RqTEHSBrYFw
     Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers: https://www.youtube.com/watch?v=fqMOX6JJhGo
     Docker Tutorial for Beginners: https://www.youtube.com/watch?v=pTFZFxd4hOI
     Docker Tutorial for Beginners [FULL COURSE in 3 Hours]: https://www.youtube.com/watch?v=3c-iBn73dDE
@@ -654,6 +655,7 @@ Immigration[
         https://github.com/amir4v/dev/tree/main/Specific-RoadMap/Ultimate/Direction-Examples
     ]
     Interview[
+        How to Get a Developer Job – Even in This Economy [Full Course]: https://www.youtube.com/watch?v=6nz8GXjxiHg
         Nail Your Next Machine Learning Interview - Webinar (FREE) (https://www.interviewkickstart.com/courses/machine-learning-interview-masterclass)
         Machine Learning Interview Preparation - Udacity (FREE) (https://www.udacity.com/course/machine-learning-interview-prep--ud1001)
         Machine Learning Interview Questions + Cheatsheet - PDF (FREE) (https://www.kaggle.com/general/251658)
