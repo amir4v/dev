@@ -537,6 +537,8 @@ English[
             2: https://bayanebartar.org/file-dl/library/IELTS7/Official-Ielts-Practice-Materials-2/Official-Ielts-Practice-Materials-2.pdf
         https://bayanebartar.org/file-dl/library/IELTS7/Official-Ielts-Practice-Materials-2/Official-Ielts-Practice-Materials-2.pdf
     Book Everything You Need to Ace English Language Arts in One Big Fat Notebook
+    6 Minute BBC Learning English + Telegram channel: @BBCs_6MinuteEnglish
+    App: News in Levels: Learn English
     Book Infotech: English for computer users 4th edition
     Book Introductory Steps to Understanding by L. Hill
     The Class + The App + The Book + Assignments.
@@ -594,6 +596,7 @@ Artificial Intelligence[
         Course Deep Learning for Beginners: Core Concepts and PyTorch: https://www.udemy.com/course/fundamentals-deep-learning-concept-pytorch/ ]
     ]
     Deep Learning[
+        Book Understanding Deep Learning by Simon J.D. Prince
         Book Grokking Deep Learning
         Book Deep Learning, Foundations and Concepts by Christopher M. Bishop
         Course Neural Networks: Zero to Hero: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
