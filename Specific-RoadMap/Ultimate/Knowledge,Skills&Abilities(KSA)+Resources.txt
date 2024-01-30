@@ -264,11 +264,20 @@ Architectures[
 ]
 .
 SQL[
+    Advanced SQL Tutorial: https://www.youtube.com/watch?v=vDMehWw11wI
     Mosh: https://codewithmosh.com/p/complete-sql-mastery
     https://roadmap.sh/sql
+    SQL Tutorial - Full Database Course for Beginners: https://www.youtube.com/watch?v=HXV3zeQKqGY
+    Intermediate SQL Tutorials: https://www.youtube.com/playlist?list=PLUaB-1hjhk8HTgPnBukmMq7QTe83ANirL
+    Advanced SQL Tutorials: https://www.youtube.com/playlist?list=PLUaB-1hjhk8EBZNL4nx4Otoa5Wb--rEpU
+    SQL Basics for Data Analysts: https://www.youtube.com/playlist?list=PLUaB-1hjhk8GT6N5ne2qpf603sF26m2PW
 ]
 .
 NoSQL[
+    NoSQL Database Tutorial – Full Course for Beginners: https://www.youtube.com/watch?v=xh4gy1lbL2k
+    Learn MongoDB in 1 Hour 🍃 (2023): https://www.youtube.com/watch?v=c2M-rlkkT5o
+    MongoDB Crash Course: https://www.youtube.com/watch?v=ofme2o29ngU
+    MongoDB with Python Crash Course - Tutorial for Beginners: https://www.youtube.com/watch?v=E-1xI85Zog8
     https://roadmap.sh/mongodb
     MongoDB in 100 Seconds: https://www.youtube.com/watch?v=-bt_y4Loofg
     https://docs.mongoengine.org/guide/index.html
@@ -290,6 +299,8 @@ NoSQL[
 .
 DB[
     https://roadmap.sh/postgresql-dba
+    Database Systems - Cornell University Course (SQL, NoSQL, Large-Scale Data Analysis): https://www.youtube.com/watch?v=4cWkVbC2bNE
+    Database Design Course - Learn how to design and plan a database for beginners: https://www.youtube.com/watch?v=ztHopE5Wnpc
 ]
 .
 API/REST/GraphQL[
