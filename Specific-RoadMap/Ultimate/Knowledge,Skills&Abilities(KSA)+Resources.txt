@@ -239,6 +239,9 @@ Designs[
     https://roadmap.sh/software-design-architecture
     Book Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans: https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/
     Book Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy by Vlad Khononov: https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131/
+    Domain Driven Design: What You Need To Know: https://www.youtube.com/watch?v=4rhzdZIDX_k
+    Domain-Driven Design Made Simple | What is it, and Why you need it? | Introduction to DDD | Geekific: https://www.youtube.com/watch?v=H5--9pMmuK4
+    Model-Driven Design Made Simple 1 | Model-Driven Architecture | MDA | Geekific: https://www.youtube.com/watch?v=gQSX3yBp54Q
 ]
 .
 Methods[
@@ -251,6 +254,7 @@ Systems[
 ]
 .
 Architectures[
+    Event-Driven Architecture: Explained in 7 Minutes!: https://www.youtube.com/watch?v=gOuAqRaDdHA
     10 Architecture Patterns Used In Enterprise Software Development Today: https://www.youtube.com/watch?v=BrT3AO8bVQY
     Event-Driven Architecture with React and FastAPI – Full Course: https://www.youtube.com/watch?v=NVvIpqmf_Xc
     Book Clean Architecture: A Craftsman's Guide to Software Structure and Design by Robert Martin
@@ -437,6 +441,7 @@ Programming[
 ]
 .
 Software Engineering[
+    Concepts and Definitions: https://www.youtube.com/playlist?list=PLlsmxlJgn1HIEqZTuuwiS1yiAIxaUJKr2
     Software development process: https://en.wikipedia.org/wiki/Software_development_process
     Software design pattern: https://en.wikipedia.org/wiki/Software_design_pattern
     Category: Software development philosophies: https://en.wikipedia.org/wiki/Category:Software_development_philosophies
