@@ -93,7 +93,15 @@ Git/Github/Gitlab/CI-CD[
     Git by Mosh: https://codewithmosh.com/p/the-ultimate-git-course
     Git by Jadi in FaraDars
     Book Grokking Continuous Delivery
+    Git MERGE vs REBASE: Everything You Need to Know: https://www.youtube.com/watch?v=0chZFIZLR_0
     Amir4v/Learning-With-Documentation/learning-git: https://github.com/amir4v/dev/tree/main/Learning-With-Documentation/learning-git
+    DevOps CI/CD Explained in 100 Seconds: https://www.youtube.com/watch?v=scEDHsr3APg
+    CI/CD In 5 Minutes: https://www.youtube.com/watch?v=42UP1fxi2SY
+    CI/CD Tutorials: https://www.youtube.com/playlist?list=PLy7NrYWoggjzSIlwxeBbcgfAdYoxCIrM2
+    GitLab CI CD Tutorial for Beginners [Crash Course]: https://www.youtube.com/watch?v=qP8kir2GUgo
+    What is Continuous Integration?: https://www.youtube.com/watch?v=1er2cjUq1UI
+    How to design a modern CI/CD Pipeline: https://www.youtube.com/watch?v=KnSBNd3b0qI
+    GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker: https://www.youtube.com/watch?v=R8_veQiYBjI
 ]
 .
 DSA (Data Structures and Algorithms)[
@@ -388,7 +396,10 @@ Docker/Kubernetes[
 ]
 .
 Linux[
-    
+    60 Linux Commands you NEED to know (in 10 minutes): https://www.youtube.com/watch?v=gd7BXuUQ91w
+    The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners: https://www.youtube.com/watch?v=ZtqBQ68cfJc
+    Linux Commands - CompTIA A+ 220-1102 - 1.11: https://www.youtube.com/watch?v=wqfdU4hngxw
+    Linux System Administration Full Course: https://www.youtube.com/watch?v=UCr04qIB7uc
 ]
 .
 Microservices[
@@ -429,6 +440,12 @@ DevOps[
         Monolithic vs Microservice Architecture: Which To Use and When?: https://www.youtube.com/watch?v=NdeTGlZ__Do
     ]
     https://roadmap.sh/devops
+    NGINX Tutorial for Beginners: https://www.youtube.com/watch?v=9t9Mp0BGnyI
+    The NGINX Crash Course: https://www.youtube.com/watch?v=7VAI73roXaY
+    Apache vs NGINX: https://www.youtube.com/watch?v=9nyiY-psbMs
+    Proxy vs Reverse Proxy (Real-world Examples): https://www.youtube.com/watch?v=4NB0NDtOwIQ
+    Apache Web Server Setup on Ubuntu 22.04 (with SSL): https://www.youtube.com/watch?v=VXSgEvZKp-8
+    Apache Basics Tutorial | How To Install and Configure Apache2: https://www.youtube.com/watch?v=1CDxpAzvLKY
 ]
 .
 Testing[
@@ -489,6 +506,16 @@ Security[
     What Is JWT and Why Should You Use JWT: https://www.youtube.com/watch?v=7Q17ubqLfaM
     What is Single Sign On (SSO): https://www.youtube.com/watch?v=Bv6NZlqqn48
     Flask (Python) - Google oAuth 2.0 (Authlib): https://www.youtube.com/watch?v=BfYsdNaHrps
+    Asymmetric Encryption - Simply explained: https://www.youtube.com/watch?v=AQDCe585Lnc
+    7 Cryptography Concepts EVERY Developer Should Know: https://www.youtube.com/watch?v=NuyzuNBFWxQ
+    How Encryption Works - and How It Can Be Bypassed: https://www.youtube.com/watch?v=TImdsUglGv4
+    AES Explained (Advanced Encryption Standard) - Computerphile: https://www.youtube.com/watch?v=O4xNJsjtN6E
+    Encryption and public keys | Internet 101 | Computer Science | Khan Academy: https://www.youtube.com/watch?v=6-JjHa-qLPk
+    Public Key Cryptography - Computerphile: https://www.youtube.com/watch?v=GSIDS_lvRv4
+    End to End Encryption (E2EE) - Computerphile: https://www.youtube.com/watch?v=jkV1KEJGKRA
+    SSL, TLS, HTTPS Explained: https://www.youtube.com/watch?v=j9QmMEWmcfo
+    Hashing Algorithms and Security - Computerphile: https://www.youtube.com/watch?v=b4b8ktEV4Bg
+    Password Storage Tier List: encryption, hashing, salting, bcrypt, and beyond: https://www.youtube.com/watch?v=qgpsIBLvrGY
 ]
 .
 Network[
