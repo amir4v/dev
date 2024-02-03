@@ -426,7 +426,13 @@ WebSocket/Channels[
 ]
 .
 Message Brokers/Redis/Memcached/RabbitMQ[
-    
+    Redis in 100 Seconds: https://www.youtube.com/watch?v=G1rOthIU-uo
+    Redis Crash Course: https://www.youtube.com/watch?v=jgpVdJB2sKQ
+    Top 5 Redis Use Cases: https://www.youtube.com/watch?v=a4yX7RUgTxI
+    Redis Crash Course - the What, Why and How to use Redis as your primary database: https://www.youtube.com/watch?v=OqCK95AS-YE
+    What is Redis?: https://www.youtube.com/watch?v=muqiHwa8UvQ
+    Cache Systems Every Developer Should Know: https://www.youtube.com/watch?v=dGAgxozNWFE
+    Redis Course - In-Memory Database Tutorial: https://www.youtube.com/watch?v=XCsS_NVAa1g
 ]
 .
 DevOps[
