@@ -52,6 +52,7 @@ Python[
 ]
 .
 Django[
+    Sending Emails, attach files using Django: Goodbye to Google SMTP! (smtp4dev): https://www.youtube.com/watch?v=zBW8UhxXwlc
     Django by Mosh: https://codewithmosh.com/p/the-ultimate-django-series
     https://djangobook.com
     toplearn: Python, Django, REST
@@ -312,7 +313,7 @@ DB[
     Database Design Course - Learn how to design and plan a database for beginners: https://www.youtube.com/watch?v=ztHopE5Wnpc
 ]
 .
-API/REST/GraphQL[
+API/REST/GraphQL/RPC[
     Top 7 Ways to 10x Your API Performance: https://www.youtube.com/watch?v=zvWKqUiovAM
     https://roadmap.sh/graphql
     What Is GraphQL? REST vs. GraphQL: https://www.youtube.com/watch?v=yWzKJPw_VzM
@@ -323,6 +324,13 @@ API/REST/GraphQL[
     GraphQL Course for Beginners: https://www.youtube.com/watch?v=5199E50O7SI
     APIs for Beginners - How to use an API (Full Course / Tutorial): https://www.youtube.com/watch?v=GZvSYJDk-us
     Learn GraphQL in 4 Hours - From Beginner to Expert: https://www.youtube.com/watch?v=yqWzCV0kU_c
+    Using Python to stream media using GStreamer for WebRTC and RTSP applications: https://www.youtube.com/watch?v=VwnWHC04Qp8
+    What is RPC? gRPC Introduction.: https://www.youtube.com/watch?v=gnchfOojMk4
+    What is gRPC? (Remote Procedure Calls): https://www.youtube.com/watch?v=hVrwuMnCtok
+    Python gRPC Tutorial - Create a gRPC Client and Server in Python with Various Types of gRPC Calls: https://www.youtube.com/watch?v=WB37L7PjI5k
+    When RESTful architecture isn't enough...: https://www.youtube.com/watch?v=_4TPM6clQjM
+    GraphQL, gRPC or REST? Resolving the API Developer's Dilemma - Rob Crowley: https://www.youtube.com/watch?v=l_P6m3JTyp0
+    gRPC Crash Course - Modes, Examples, Pros & Cons and more: https://www.youtube.com/watch?v=Yw4rkaTc0f8
 ]
 .
 Patterns[
@@ -375,7 +383,10 @@ Agile/Scrum[
 ]
 .
 Documentation/Commenting[
-    
+    Swagger Docs for Django Rest Framework API: https://www.youtube.com/watch?v=JC6gHKeegk4
+    Django DRF Project | API Documentation with Swagger UI: https://www.youtube.com/watch?v=XBxssKYf5G0
+    Swagger API documentation with Django REST Framework: https://www.youtube.com/watch?v=fbIFdWj8PsY
+    Add Swagger API Documentation to Django REST API | Open API | REST Framework | Python: https://www.youtube.com/watch?v=IU9YuRhhY7M
 ]
 .
 Docker/Kubernetes[
@@ -423,6 +434,11 @@ Webservices[
 .
 WebSocket/Channels[
     Webhooks vs Websockets vs HTTP Streaming - Which Event-Driven API to use?: https://www.youtube.com/watch?v=6RvlKYgRFYQ
+    Build Real Time Notification With Django Channels In 5 Minutes: https://www.youtube.com/watch?v=sthCUcw5Zog
+    Django Channels & WebSockets Oversimplified: https://www.youtube.com/watch?v=cw8-KFVXpTE
+    Django Channels Push Notifications [Part-1]: https://www.youtube.com/watch?v=QgBrKVpIrgU
+    Build Realtime Chat Website with Django Channels & Web Sockets: https://www.youtube.com/watch?v=U_p1B3rNobo
+    DJANGO CHANNELS 2 Tutorial (V2) - Real Time - WebSockets - Async: https://www.youtube.com/watch?v=RVH05S1qab8
 ]
 .
 Message Brokers/Redis/Memcached/RabbitMQ[
@@ -433,6 +449,28 @@ Message Brokers/Redis/Memcached/RabbitMQ[
     What is Redis?: https://www.youtube.com/watch?v=muqiHwa8UvQ
     Cache Systems Every Developer Should Know: https://www.youtube.com/watch?v=dGAgxozNWFE
     Redis Course - In-Memory Database Tutorial: https://www.youtube.com/watch?v=XCsS_NVAa1g
+    Redis Fundamentals in Python | Python Tutorial: https://www.youtube.com/watch?v=LaRQ2hWDNXU
+    Let's Learn Django - Caching with Redis: https://www.youtube.com/watch?v=iDZKqk_NH24
+    A faster Django response with Redis cache: https://www.youtube.com/watch?v=tJVNUYvjTUk
+    Celery, RabbitMQ, Redis, Django Signals: https://www.youtube.com/playlist?list=PLQ6-3GFMH5RpoOKRluWoqBCQUGObsZfl2
+    What is Elasticsearch?: https://www.youtube.com/watch?v=ZP0NmfyfsoM
+    Introduction into the Elasticsearch Python Client: https://www.youtube.com/watch?v=UWR9G-U88X0
+    Django - Fast Search With Elasticsearch: https://www.youtube.com/watch?v=cXYVE28igkE
+    Elastic search Django | Learn how to add elastic search in Django | Install elastic search: https://www.youtube.com/watch?v=2TZBs12dZzo
+    Fast Search API with Django & Elasticsearch: https://www.youtube.com/watch?v=rdPbbTazK-c
+    Building a search engine (Django, React, Elasticsearch): https://www.youtube.com/watch?v=DiZCxI8TQn4
+    Memcache Basics: https://www.youtube.com/watch?v=TGl81wr8lz8
+    Memcached Tutorial for Beginners: https://www.youtube.com/watch?v=VhM2ByShhzE
+    Intro To Memcached: https://www.youtube.com/watch?v=7MLXuG83Fsw
+    Memcache Fundamentals in Python | Python PyMemcache Tutorial: https://www.youtube.com/watch?v=mPUaQLtWqGs
+    How to use Django Memcached on Windows: https://www.youtube.com/watch?v=tJKAhGcyff0
+    Learning Django - Working sessions in Django and learn how to use memcached for sessions: https://www.youtube.com/watch?v=y-7YEXSOrhY
+    RabbitMQ in 100 Seconds: https://www.youtube.com/watch?v=NQ3fZtyXji0
+    RabbitMQ in 5 Minutes: https://www.youtube.com/watch?v=deG25y_r6OY
+    What is RabbitMQ?: https://www.youtube.com/watch?v=7rkeORD4jSw
+    Introduction to RabbitMQ for Python Developers: https://www.youtube.com/watch?v=p23J6NTDhEk
+    Learn RabbitMQ for Event-Driven Architecture (EDA): https://www.youtube.com/watch?v=1yC_bw0tWhQ
+    Learn Django Celery with RabbitMQ - Install and create new celery instance, Run a simple task Part 1: https://www.youtube.com/watch?v=fBfzE0yk97k
 ]
 .
 DevOps[
@@ -470,10 +508,13 @@ Testing[
     PyTest • REST API Integration Testing with Python: https://www.youtube.com/watch?v=7dgQRVqF1N0
     How To Write Unit Tests in Python • Pytest Tutorial: https://www.youtube.com/watch?v=YbpKMIUjvK8
     Unit Testing in Python: https://www.youtube.com/watch?v=UL0opWf3DeM
+    Django Testing Tutorial - How To Test Your Django Applications: https://www.youtube.com/playlist?list=PLbpAWbHbi5rMF2j5n6imm0enrSD9eQUaM
 ]
 .
 Test/Debug/Diagnose[
-    
+    Load Testing in Python with locust.io (Ep. 1 - Basics): https://www.youtube.com/watch?v=SOu6hgklQRA
+    Python - Locust - Introduction: https://www.youtube.com/watch?v=MY85F6HrBG8
+    Load Testing FastAPI with Locust Python: https://www.youtube.com/watch?v=esIEW0aEKqk
 ]
 .
 Programming[
