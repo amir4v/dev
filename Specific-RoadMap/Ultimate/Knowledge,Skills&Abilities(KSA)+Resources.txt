@@ -509,6 +509,12 @@ Testing[
     How To Write Unit Tests in Python • Pytest Tutorial: https://www.youtube.com/watch?v=YbpKMIUjvK8
     Unit Testing in Python: https://www.youtube.com/watch?v=UL0opWf3DeM
     Django Testing Tutorial - How To Test Your Django Applications: https://www.youtube.com/playlist?list=PLbpAWbHbi5rMF2j5n6imm0enrSD9eQUaM
+    PyTest in 5 minutes | PyTest tutorial: https://www.youtube.com/watch?v=-Iml0dGcmwc
+    Pytest Mastery with Django: https://www.youtube.com/playlist?list=PLOLrQ9Pn6caw3ilqDR8_qezp76QuEOlHY
+    Selenium Python Pytest Automation Interview Questions: https://www.youtube.com/watch?v=q6Jh6KPSt0Y
+    Writing your first Django test using pytest-django: https://www.youtube.com/watch?v=L5jWFU2sVXQ
+    Pro Django - Tutorial 7 - pytest: https://www.youtube.com/watch?v=hqYUAVobDJA
+    TDD Full Course (Learn Test Driven Development with Python): https://www.youtube.com/watch?v=eAPmXQ0dC7Q
 ]
 .
 Test/Debug/Diagnose[
