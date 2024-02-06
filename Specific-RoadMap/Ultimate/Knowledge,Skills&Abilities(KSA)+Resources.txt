@@ -743,6 +743,10 @@ Immigration[
         https://github.com/amir4v/dev/tree/main/Specific-RoadMap/Ultimate/Direction-Examples
     ]
     Interview[
+        Data Science Job Interview – Full Mock Interview: https://www.youtube.com/watch?v=sD468LfeVdc
+        preparing for google's machine learning interview: https://www.youtube.com/watch?v=K4kcAT0Y8Yg
+        Machine Learning Interview Questions & Answers | Machine Learning Interview Preparation |Simplilearn: https://www.youtube.com/watch?v=hB1CTizqGFk
+        Deep Learning Interview Prep Course: https://www.youtube.com/watch?v=BAregq0sdyY
         How to Get a Developer Job – Even in This Economy [Full Course]: https://www.youtube.com/watch?v=6nz8GXjxiHg
         Nail Your Next Machine Learning Interview - Webinar (FREE) (https://www.interviewkickstart.com/courses/machine-learning-interview-masterclass)
         Machine Learning Interview Preparation - Udacity (FREE) (https://www.udacity.com/course/machine-learning-interview-prep--ud1001)
