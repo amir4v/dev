@@ -149,6 +149,7 @@ Mathematics[
         Mathematics-Quick: https://www.youtube.com/playlist?list=PLDIqzTwCXyMkwvTsgcQQtsHp-JtaX-hZw
         ریاضیات ابتدایی از مباحث دبستان: https://www.youtube.com/playlist?list=PL0o_zxa4K1BUTwjC6quGDfAB7HHNt_cPr by The Organic Chemistry Tutor
         Mathematics (All Of It): https://www.youtube.com/playlist?app=desktop&list=PLybg94GvOJ9FoGQeUMFZ4SWZsr30jlUYK
+        Mathematics for Machine Learning Tutorial (3 Complete Courses in 1 video): https://www.youtube.com/watch?v=0z6AhrOSrRs
         Book "Book of Proof" by Richard Hammack (Topics include sets, logic, counting, methods of conditional and non-conditional proof, disproof, induction, relations, functions, calculus proofs and infinite cardinality)
     ]
     Pre Algebra[
@@ -686,6 +687,8 @@ Artificial Intelligence[
         Course Deep Learning A-Z 2024: Neural Networks, AI & ChatGPT Prize: https://www.udemy.com/course/deeplearning/
         Course A deep understanding of deep learning (with Python intro): https://www.udemy.com/course/deeplearning_x/
         Course Deep Learning for Beginners: Core Concepts and PyTorch: https://www.udemy.com/course/fundamentals-deep-learning-concept-pytorch/ ]
+        10 گام اصلی در انجام پروژه های یادگیری ماشین (machine learning) برای تمامی رشته ها و حوزه های موجود: https://www.youtube.com/watch?v=zCeW3H2qtZ0
+        دوره کامل ماشین لرنینگ از مقدماتی تا پیشرفته - کاملا پروژه محور -پیاده سازی و تست تمامی الگوریتم ها: https://www.youtube.com/watch?v=c7fwtCSXeRg
     ]
     Deep Learning[
         Book Understanding Deep Learning by Simon J.D. Prince
