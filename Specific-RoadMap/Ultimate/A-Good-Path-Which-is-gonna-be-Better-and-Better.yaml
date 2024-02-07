@@ -67,6 +67,7 @@ Computer:
         - Memcached
         - RabbitMQ
         - Locust
+        - Celery
         - smtp4dev
         - Swagger
         - Channels/WebSocket/wRTC/gRPC
