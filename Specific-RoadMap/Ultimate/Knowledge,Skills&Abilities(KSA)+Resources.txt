@@ -24,6 +24,8 @@ GENERAL[
 ]
 .
 Python[
+    pip Commands: https://github.com/zamaniamin/python/wiki/pip-Commands
+    Python Note: https://github.com/zamaniamin/Python
     https://roadmap.sh/python
     pep8 fa: https://github.com/vahit/pep8-per
     pep8 fa: https://pep8.ir
@@ -49,6 +51,7 @@ Python[
     DESIGN PATTERNS in PYTHON: https://refactoring.guru/design-patterns/python
     Design Patterns in Python: A Series: https://medium.com/@amirm.lavasani/design-patterns-in-python-a-series-f502b7804ae5/
     Python Design Patterns: https://python-patterns.guide
+    Django: https://github.com/zamaniamin/Python?tab=readme-ov-file#django
 ]
 .
 Django[
@@ -78,7 +81,7 @@ Backend[
 ]
 .
 DRF[
-    
+    Django Rest Framework: https://github.com/zamaniamin/Python?tab=readme-ov-file#django-rest-framework
 ]
 .
 FastAPI[
@@ -91,6 +94,8 @@ FastAPI[
 ]
 .
 Git/Github/Gitlab/CI-CD[
+    Git Commit Message Structure: https://github.com/zamaniamin/Python/wiki/Git-Commit-Message-Structure
+    Best Practices For Git Commits: https://github.com/zamaniamin/Python/wiki/Best-Practices-For-Git-Commits
     Git by Mosh: https://codewithmosh.com/p/the-ultimate-git-course
     Git by Jadi in FaraDars
     Book Grokking Continuous Delivery
@@ -314,6 +319,7 @@ DB[
 ]
 .
 API/REST/GraphQL/RPC[
+    API: https://github.com/zamaniamin/Python?tab=readme-ov-file#api
     Top 7 Ways to 10x Your API Performance: https://www.youtube.com/watch?v=zvWKqUiovAM
     https://roadmap.sh/graphql
     What Is GraphQL? REST vs. GraphQL: https://www.youtube.com/watch?v=yWzKJPw_VzM
@@ -493,6 +499,9 @@ DevOps[
 ]
 .
 Testing[
+    Python Testing: https://github.com/zamaniamin/Python?tab=readme-ov-file#python-testing
+    TDD: https://github.com/zamaniamin/Python?tab=readme-ov-file#tdd
+    pytest: https://github.com/zamaniamin/Python?tab=readme-ov-file#pytest
     Amir4v/Learning-With-Documentation/learning-test: https://github.com/amir4v/dev/tree/main/Learning-With-Documentation/learning-test
     What is a Test Case and Why is it Important?: https://www.youtube.com/watch?v=T42akSOFoMY
     5 Types of Testing Software Every Developer Needs to Know!: https://www.youtube.com/watch?v=YaXJeUkBe4Y
@@ -524,6 +533,7 @@ Test/Debug/Diagnose[
 ]
 .
 Programming[
+    Clean Code: https://github.com/zamaniamin/Python?tab=readme-ov-file#clean-code
     Python Coding Conventions You Really Should Follow: https://www.youtube.com/watch?v=U2vDWc5sce0
     Programming paradigm: https://en.wikipedia.org/wiki/Programming_paradigm
     Coding conventions: https://en.wikipedia.org/wiki/Coding_conventions
@@ -743,6 +753,7 @@ Immigration[
         https://github.com/amir4v/dev/tree/main/Specific-RoadMap/Ultimate/Direction-Examples
     ]
     Interview[
+        Interview Questions: https://github.com/zamaniamin/Python?tab=readme-ov-file#interview-questions
         Data Science Job Interview – Full Mock Interview: https://www.youtube.com/watch?v=sD468LfeVdc
         preparing for google's machine learning interview: https://www.youtube.com/watch?v=K4kcAT0Y8Yg
         Machine Learning Interview Questions & Answers | Machine Learning Interview Preparation |Simplilearn: https://www.youtube.com/watch?v=hB1CTizqGFk
