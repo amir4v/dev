@@ -108,6 +108,8 @@ Git/Github/Gitlab/CI-CD[
     What is Continuous Integration?: https://www.youtube.com/watch?v=1er2cjUq1UI
     How to design a modern CI/CD Pipeline: https://www.youtube.com/watch?v=KnSBNd3b0qI
     GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker: https://www.youtube.com/watch?v=R8_veQiYBjI
+    GitHub Actions: https://docs.github.com/en/actions/quickstart
+    GitHub Documentation: https://docs.github.com/en/get-started/start-your-journey/about-github-and-git
 ]
 .
 DSA (Data Structures and Algorithms)[
