@@ -665,6 +665,7 @@ Artificial Intelligence[
         https://github.com/ossu/data-science
         https://roadmap.sh/ai-data-scientist
         Book Practical Statistics for Data Scientists: 50 Essential Concepts by Peter Bruce
+        Essential Math for Data Science by Thomas Nield
     ]
     Machine Learning[
         Book Grokking Machine Learning
