@@ -1,0 +1,225 @@
+https://realpython.com/learning-paths/data-visualization-python/
+https://realpython.com/learning-paths/data-science-python-core-skills/
+https://realpython.com/learning-paths/pandas-data-science/
+https://realpython.com/tutorials/devops/
+https://realpython.com/learning-paths/python-devops/
+https://realpython.com/tutorials/tools/
+https://realpython.com/learning-paths/perfect-your-python-development-setup/
+https://realpython.com/effective-python-environment/
+https://realpython.com/pypi-publish-python-package/
+https://realpython.com/pyinstaller-python/
+https://realpython.com/tutorials/databases/
+https://realpython.com/learning-paths/data-collection-storage/
+https://realpython.com/tutorials/testing/
+https://realpython.com/learning-paths/test-your-python-apps/
+https://realpython.com/tutorials/machine-learning/
+https://realpython.com/learning-paths/machine-learning-python/
+https://realpython.com/learning-paths/math-data-science/
+https://realpython.com/numpy-scipy-pandas-correlation-python/
+
+https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
+https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project
+https://gist.github.com/MarcDiethelm/7303312
+https://www.dataschool.io/how-to-contribute-on-github/
+https://www.freecodecamp.org/news/git-and-github-workflow-for-open-source/
+https://medium.com/nebula-graph/how-to-be-a-github-contributor-in-five-minutes-72175c036c17
+https://daily.dev/blog/how-to-contribute-to-open-source-github-repositories
+https://javascript.plainenglish.io/how-to-contribute-to-a-github-repository-project-78f777623f18?gi=a5963083d55a
+https://www.reddit.com/r/learnprogramming/comments/7hjkya/how_can_i_start_contributing_to_github_projects/
+https://www.youtube.com/watch?v=b_aF5zk22cA
+https://docs.github.com/en/get-started/start-your-journey/about-github-and-git
+https://docs.github.com/en/actions/quickstart
+https://github.com/kamranahmedse/developer-roadmap/blob/c3a61e7f3464a71e689dfe9e42ecc45fddff36c5/contributing.md
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+
+https://github.com/microsoft/ML-For-Beginners
+https://microsoft.github.io/ML-For-Beginners/pdf/readme.pdf
+https://github.com/microsoft/ai-for-beginners
+https://github.com/microsoft/Data-Science-For-Beginners
+https://github.com/microsoft/generative-ai-for-beginners/tree/main?WT.mc_id=academic-105485-koreyst
+https://github.com/microsoft/generative-ai-for-beginners
+https://github.com/microsoft/AI-For-Beginners/blob/main/etc/pdf/readme.pdf
+
+https://interviewsby.ai/
+
+https://relocationjobs.org/
+
+.
+
+Data Structures and Algorithms
+Test/UnitTest/PyTest
+Git rebase
+Git
+SQL
+API
+Design Patterns
+SOLID
+REST
+Python
+Django
+FastAPI
+DB
+Agile-Scrum-Sprint-Daily
+Clean Code
+Documentation
+Contribution
+Git-Merge-PullRequest-MergeRequest
+CI/CD
+GitHubActions-Workflow
+Microservices
+OOP
+ACID
+SEMAT
+RAD
+TDD-MDD-DDD
+NVC-MVP-MVVM
+Redis
+Docker
+-untilAlgebra-Trig-Equations-PreCalc-
+Limit-Derivative-Integral
+LinearAlgebra
+Statistics&Probability
+PreProcessing
+Models
+Best Practices
+ML Algorithms in details
+ML Models in details
+DS and ML concepts and details
+-Interview-
+Interview General Questions
+Interview HR Questions
+Interview Technical Questions
+Interview SoftSkills
+Interview Specified Preparation for them
+Before the first Interview you have to have a very good project/portfolio
+
+---> ---> --->
+
+Data Structures and Algorithms
+Test/UnitTest/PyTest
+API/REST
+Microservices
+Git
+    CI/CD
+    Git rebase
+    Contribution
+    GitHubActions-Workflow
+    Git-Merge-PullRequest-MergeRequest
+SE
+    Agile-Scrum-Sprint-Daily
+    Clean Code
+    Design Patterns
+    SOLID
+    Documentation
+    OOP
+    ACID
+    SEMAT
+    RAD
+    TDD-MDD-DDD
+    NVC-MVP-MVVM
+-untilAlgebra-Trig-Equations-PreCalc-
+    Limit-Derivative-Integral
+    Statistics&Probability
+    LinearAlgebra
+DS and ML concepts and details
+    Models
+    PreProcessing
+    Best Practices
+    ML Models in details
+    ML Algorithms in details
+-Interview-
+    Interview General Questions
+    Interview HR Questions
+    Interview Technical Questions
+    Interview SoftSkills
+    Interview Specified Preparation for them
+
+---> ---> --->
+
+Test/UnitTest/PyTest
+Git/Contribution/CI-CD
+SE / Design Patterns / SOLID / OOP / ACID / SEMAT / RAD / TDD-MDD-DDD / NVC-MVP-MVVM
+Dev / Clean Code / Documentation / Commenting -_-_- Backend / DSA / Tools / Technologies / Redis / Docker
+.
+Microservices
+Agile-Scrum-Sprint-Daily
+.
+Limit-Derivative-Integral / Statistics&Probability / LinearAlgebra
+.
+PreProcessing / ML Models / ML Modeling / After(pycaret , streamlit)
+    DS , ML
+        Concepts, Math, DSA
+        Code, Dev, Backend, SE, Tools, Technologies
+        numpy,pandas , matplotlib,seaborn , sklearn,pycaret
+        -
+        Supervised Learning
+        UnSupervised Learning
+        Reinforcement Learning
+        Regression
+        Classification
+        Feature Scaling
+        Missing Values
+        Random Forest
+        XGBoost
+        SVM
+        Linear Regression
+        Confusion Matrix
+        Bagging
+        Gradient Boosting
+        Underfitting / Overfitting
+        Ensemble Learning
+        PCA (Principal Component Analyse)
+        Dimension Reduction
+        KNN
+        K-Means
+        DBSCAN
+        SVD (Singular Value Decomposition)
+        Scaling
+        LDA (Linear Discriminant Analysis)
+        Feature Extraction
+        Hyper Parameters
+        Feature Selection
+        SFS (Sequential Forward Selection)
+        SBS (Sequential Backward Selection)
+        MI (Mutual Information)
+        AutoML
+        Erro type 1 and 2
+        Null Hypothesis
+        Alternative Hypothesis
+        H0 and H1
+        OLS Solution Stability
+        Gradient Descent
+        Stochastic Gradient Descent
+        Cost Function
+        Line Search
+        Mini Batch Gradient Descent
+        Bagging Classification
+        Random Forest Classification
+        Standard Scaler
+        Logistic Regression
+        Cross Validate
+        Poission Regressor
+        Bernoulli Naive Bayes Classifier
+        Accuracy Score
+        Gaussian NAive Bayes Classifier
+        r2 score
+        Mean Absolute Error
+        Mean Squared Error
+        F1-score
+        Evaluation
+        Encoding Categorical Data
+        Column Transformer
+        OneHotEncoding
+        Label Encoder
+        Robust Scaler
+        MinMaxScaler
+        cross val score
+        Grid Search CV
+        K Neighbors Classifier
+        SVC
+        Decision Tree Classifier
+        Decision Tree Regressor
+        Random Forest Regressor
+        XGB Classifier
+        K Fold
+.

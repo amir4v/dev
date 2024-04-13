@@ -1,0 +1,339 @@
+Descriptive Statistics
+Inferential Statistics
+Population vs. Sample
+    Surveys (Random Sampling) vs. Experiments (Random Assignment)
+Three Types of Data
+Levels of Measurement
+    Qualitative Data and Nominal Measurement
+    Ranked Data and Ordinal Measurement
+    Quantitative Data and Interval/Ratio Measurement
+    Summary
+Types of Variables
+    Discrete and Continuous Variables
+    Independent and Dependent Variables
+Observational Studies
+Confounding Variable
+
+Descriptive Statistics:
+    tools—tables, graphs, averages, ranges, correlations—for organizing and summarizing.
+Inferential Statistics:
+    a variety of tests and estimates—for generalizing beyond collections of actual observations.
+
+Population
+    refers to any complete collection of observations or potential observations.
+Sample
+    any smaller collection of actual observations drawn from a population.
+
+Surveys (Random Sampling)
+Experiments (Random Assignments)
+Random sampling (Survey) is a procedure designed to ensure that each potential observation in the population has an equal chance of being selected in a survey.
+Random assignment (Experiment) is procedure designed to ensure that each person has an equal chance of being assigned to any group in an experiment.
+
+Qualitative data
+    consist of words (Yes or No), letters (Y or N), or numerical codes (0 or 1) that represent a class or category.
+Ranked data
+    consist of numbers (1st, 2nd, . . . 40th place) that represent relative standing within a group.
+Quantitative data
+    consist of numbers (weights of 238, 170, . . . 185 lbs) that represent an amount or a count.
+
+Level of Measurement
+    nominal -> qualitative
+    ordinal -> ranked
+    interval/ratio -> quantitative
+
+If people are classified as either male or female (or coded as 1 or 2),
+the data are qualitative and measurement is nominal. The single property of
+nominal measurement is classification—that is, sorting observations
+into different classes or categories.
+
+Nominal measurement:
+    calculating these numbers would be meaningless.
+Ordinal measurement:
+    simple arithmetic operations with ranks are inappropriate.
+
+Types of Variables
+    Discrete
+    Contiuous
+Independent and Dependent variables
+
+Frequency Distribution for Quantitative Data
+    Outliers
+        Check for Accuracy
+        Might Exclude from Summaries
+        Might Enhance Understanding
+    Relative Frequency Distributions
+    Cumulative Frequency Distribution
+Frequency Distributions for Qualitative (Nominal) Data
+Typical Shapes
+    Normal
+Bimodal
+    Positively/Negatively Skewed
+
+Frequency Distribution
+    a collection of observations produced by sorting observations into classes
+    and showing their frequency(f) of occurence in each class.
+
+sns.displot([2,6,7,3,2,1,9,5,6,7,8,9,0,3,2,1,5,3,4,8])
+sns.barplot(x=[0,1,2,3,4,5], y=[11,22,33,44,55,66])
+
+Relative Frequency Distributions
+    show the frequency of each class as a part or fraction of the total
+    frequency for the entire distribution.
+
+Cumulative Frequency Distributions
+    Cumulative percentages are often referred to as percentile ranks.
+
+sns.lineplot(
+    x=['1-10', '11-20', '21-30'],
+    y=[1, 50, 100]
+)
+plt.xticks(rotation=45)
+
+Frequency Distributions for Qualitative (Nominal) Data
+
+Averages
+Mode
+Median
+Mean
+    Sample or Population?
+    Formula for Sample Mean
+    Formula for Population Mean
+Which Average?
+    If Distribution Is Skewed
+    Interpreting Differences between Mean and Median
+Averages for Qualitative and Ranked Data
+    Mode Always Appropriate for Qualitative Data
+    Median Sometimes Appropriate
+    Inappropriate Averages
+
+Average = Measures of Central Tendency
+
+Mode
+    can be more than one.
+    The mode reflects the value of the most frequently occurring score.
+Median
+    in the middle or average of the two in the middle.
+    The median reflects the middle value when observations are ordered from least to most.
+Mean
+    The mean is found by adding all scores and then dividing by the number of scores.
+    Population mean usually is unknown but fixed as a constant, while the sample mean is known but varies from sample to sample.
+
+sns.kdeplot([1,2,3,4,5,6,7,8,9,99,88,77,66,33,22,11])
+
+Mode Always Appropriate for Qualitative Data.
+The median can be used whenever it is possible to order qualitative data from least to most.
+
+np.cumsum(...)
+
+do not treat the various classes as though they have the same frequencies when they actually have different frequencies.
+
+Range
+Variance
+Standard Deviation * Majority of Scores within One Standard Deviation * A Small Minority of Scores Deviate More Than Two Standard Deviations * Computational Check
+Standard Deviation and Variance for Sample
+    Why n-1?
+DEGREES OF FREEDOM (df)
+Interquartile Range (IQR)
+Measurement of Variability for Qualitative and Ranked Data
+
+Variability
+    How the data is evenly distributed in the interval.
+
+Range
+The range is the difference between the largest and smallest scores.
+
+Note: The mean is a measure of position, but the standard deviation is a
+measure of distance (on either side of the mean of the distribution).
+
+Sum of Squares = SS = Sum(xi - xBar)^2
+xBar = mean
+
+df = Degrees of Freedom
+
+np.random.normal( loc , scale , size )
+    loc: Mean (“centre”) of the distribution.
+    scale: Standard deviation (spread or “width”) of the distribution. Must be non-negative.
+    size: Output shape.
+
+.std(ddof=1) == n-1
+    degrees of freedom
+
+IQR=InterQuartile Range
+
+z scores
+z scores are “pure” or unitfree numbers that indicate how many standard deviation units an observation is above or below the mean.
+Remember that z scores reflect performance relative to some group rather than an absolute standard.
+
+Relationship Types
+    Positive, Negative, or Little or No Relationship?
+    Strong or Weak Relationship?
+    Perfect Relationship
+    Curvilinear Relationship
+Correlation Coefficient
+    Verbal Descriptions
+Correlation Not Necessarily Cause-Effect
+Computation Formula for r
+Other Types of Correlation Coefficients
+Reading a Larger Correlation Matrix
+
+sns.load_dataset('name')
+
+Positive, Negative, or Little or No Relationship?
+    The first step is to note the tilt or slope, if any, of a dot cluster. A dot cluster that has a slope from the lower left to the upper right reflects a positive relationship.
+    On the other hand, a dot cluster that has a slope from the upper left to the lower right reflects a negative relationship.
+    Finally, a dot cluster that lacks any apparent slope reflects little or no relationship.
+    Curvilinear Relationship
+        The previous discussion assumes that a dot cluster approximates a straight line
+        and, therefore, reflects a linear relationship. But this is not always the case.
+        Sometimes a dot cluster approximates a bent or curved line and therefore reflects a curvilinear relationship.
+
+Correlation Coefficient
+A correlation coefficient (r) is a number between –1 and 1 that describes the relationship between pairs of variables.
+
+SS=Sum of Squares
+SP=Sum of Products
+
+def pcc(x, y):
+    """Pearson Correlation Coefficient"""
+    SP = ((x - x.mean()) * (y - y.mean())).sum()
+    SSx = ((x - x.mean()) ** 2).sum()
+    SSy = ((y - y.mean()) ** 2).sum()    
+    return SP / math.sqrt(SSx * SSy)
+
+from scipy.stats.stats import pearsonr
+pearsonr(X, Y)
+
+df.corr()
+
+df.species.astype('category').cat.codes
+df.species = df.species.astype('category').cat.codes
+
+- Regression line
+- Least squares regression line (best line)
+- Predictive Error
+- Loss: Total Predictive Error
+- drivative(loss) = 0  --> a, b
+
+df.loc[df['species'] == 0, 'species'] = df.species + 1
+    find those rows in which, 'species' are '0' then asign only the 'species' field with new value.
+
+Population: Any complete set of observations (or potential observations) may be characterized as a population.
+Sample: Any subset of observations from a population may be characterized as a sample.
+Random Sampling: Random sampling occurs if, at each stage of sampling, the selection process guarantees that all potential observations in the population have an equal chance of being included in the sample.
+Probability: Probability refers to the proportion or fraction of times that a particular event is likely to occur.
+
+The addition of probabilities, as just stated, works only when none of the events can occur together.
+Whenever events can’t occur together—that is, more technically, when there are mutually exclusive events.
+
+Addition Rule for Mutually Exclusive Events
+Pr(A or B) = Pr(A) + Pr(B)
+
+Independent Events
+The multiplication of probabilities, as discussed, works only because the
+occurrence of one event has no effect on the probability of the other event.
+
+Multiplication Rule for Independent Event
+Pr(A and B) = [Pr(A)][Pr(B)]
+
+Dependent Events.
+
+Conditional Probability.
+Before multiplying to obtain the probability that two dependent events occur
+together, the probability of the second event must be adjusted to reflect its
+dependency on the prior occurrence of the first event. This new probability is
+the conditional probability of the second event, given the first event.
+
+Note: Don’t confuse independent and dependent outcomes with independent and
+dependent variables. Independent and dependent outcomes refer to whether
+or not the occurrence of one outcome affects the probability that the other
+outcome will occur and dictates the precise form of the multiplication rule.
+On the other hand, as described in Chapter 1, independent and dependent
+variables refer to the manipulated and measured variables in experiments.
+Usually, the context— whether calculating the probabilities of complex outcomes
+or describing the essential features of an experiment—will make the
+meanings of these terms clear.
+
+The sampling distribution of the mean:
+    refers to the probability distribution of means for all possible random samples of a given size from some population.
+
+New are the Greek letters $\mu_{\bar{X}}$ and $\sigma_{\bar{X}}$,
+representing the mean and standard deviation, respectively, of the
+sampling distribution of the mean. To minimize confusion, the latter
+term, $\sigma_{\bar{X}}$, is often referred to as the **standard error
+of the mean** or simply as the **standard error**.
+
+The mean of the sampling distribution of the mean always equals the mean of the population.
+
+Standard Error of the Mean
+    The distribution of sample means also has a standard deviation, referred to as
+    the standard error of the mean. The standard error of the mean equals the
+    standard deviation of the population divided by the square root of the sample size.
+    You might find it helpful to think of the standard error of the mean as a
+    rough measure of the average amount by which sample means deviate from the
+    mean of the sampling distribution or from the population mean.
+The central limit theorem
+    states that, regardless of the shape of the population, the shape of the
+    sampling distribution of the mean approximates a normal curve if
+    the sample size is sufficiently large.
+Hypothesis Tests
+    Hypothesis Testing: The z Test
+    Using the sampling distribution as our frame of reference, the one observed
+    outcome is characterized as either a common outcome or a rare outcome.
+    A common outcome is readily attributable to chance, and therefore, the
+    hypothesis that nothing special is happening—the null hypothesis—is retained.
+    On the other hand, a rare outcome isn’t readily attributable to chance,
+    and therefore, the null hypothesis is rejected (usually to the delight of the researcher)
+Common Outcomes
+    An observed sample mean qualifies as a common outcome if the difference between
+    its value and that of the hypothesized population mean is small enough to
+    be viewed as a probable outcome under the null hypothesis.
+Rare Outcomes
+    An observed sample mean qualifies as a rare outcome if the difference between
+    its value and the hypothesized population mean is too large to be
+    reasonably viewed as a probable outcome under the null hypothesis.
+Null Hypothesis (H0)
+    Generally speaking, the null hypothesis (H0) is a statistical hypothesis that
+    usually asserts that nothing special is happening with respect to
+    some characteristic of the underlying population.
+Alternative Hypothesis (H1)
+    The alternative hypothesis (H1) asserts the opposite of the null hypothesis.
+    A decision to retain the null hypothesis implies a lack of support
+    for the alternative hypothesis, and a decision to reject the null
+    hypothesis implies support for the alternative hypothesis.
+Decision Rule
+    A decision rule specifies precisely when H0 should be rejected (because the
+    observed z qualifies as a rare outcome). There are many possible
+    decision rules, as will be seen later, A very common one, already introduced,
+    specifies that H0 should be rejected if the observed z equals or is more
+    positive than 1.96 or if the observed z equals or is more negative
+    than –1.96. Conversely, H0 should be retained if the observed z falls between ± 1.96.
+Critical z Scores
+    z scores of ± 1.96 define the boundaries for the middle 0.95 of the total area
+    (1.00) under the hypothesized sampling distribution for z. Derived from the
+    normal curve table, as you can verify these two z scores separate common
+    from rare outcomes and hence dictate whether H0 should be retained or rejected.
+    Because of their vital role in the decision about H0,
+    these scores are referred to as critical z scores.
+Level of Significance (a)
+    The proportion (0.025 + 0.025 = 0.05) of the total area that is identified
+    with rare outcomes. Often referred to as the level of significance of the
+    statistical test, this proportion is symbolized by the Greek letter a(alpha)
+    and discussed more thoroughly later. In the present example,
+    the level of significance, a, equals 0.05.
+    The level of significance (a) indicates the degree of rarity required of an observed
+    outcome in order to reject the null hypothesis (H0). For instance, the 0.05 level of
+    significance indicates that H0 should be rejected if the observed z could have occurred
+    just by chance with a probability of only 0.05 (one chance out of twenty) or less.
+
+Estimation (Confidence Interval)
+
+t Test for One Sample
+    Whenever, as usually is the case, the population standard deviation is unknown,
+    it must be estimated with the sample standard deviation. Estimating the unknown
+    population standard deviation has important implications that require both the
+    use of degrees of freedom and the replacement of the z test with the t test.
+Sampling Distribution of t
+    Like the sampling distribution of z, the sampling distribution of t
+    represents the distribution that would be obtained if a value of t were
+    calculated for each sample mean for all possible random samples
+    of a given size from some population.
