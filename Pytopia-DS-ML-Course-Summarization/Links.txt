@@ -138,7 +138,7 @@ DS and ML concepts and details
 
 Test/UnitTest/PyTest
 Git/Contribution/CI-CD
-SE / Design Patterns / SOLID / OOP / ACID / SEMAT / RAD / TDD-MDD-DDD / NVC-MVP-MVVM
+SE / Design Patterns / SOLID / OOP / ACID / SEMAT / RAD / TDD-MDD-DDD / MVC-MVP-MVVM
 Dev / Clean Code / Documentation / Commenting -_-_- Backend / DSA / Tools / Technologies / Redis / Docker
 .
 Microservices
