@@ -1110,73 +1110,41 @@ UnSupervised Learning
 Reinforcement Learning
 Regression
 Classification
-Feature Scaling
+AutoML
+-
+Line Search
+Cost Function
 Missing Values
 Confusion Matrix
-Underfitting / Overfitting
-Dimension Reduction
-Scaling
-Feature Extraction
 Hyper Parameters
-Feature Selection
-AutoML
-Transform, fit_transform
+Dimension Reduction
+Regularization / L1/L2
+Scaling / Feature Scaling
+Underfitting / Overfitting
+MinMaxScaler / Standard Scaler
 SVD (Singular Value Decomposition)
-Erro type 1 and 2
-Null Hypothesis
-Alternative Hypothesis
-H0 and H1
-Gradient Descent
-Batch Gradient Descent
-Mini Batch Gradient Descent
-Stochastic Gradient Descent
-Cost Function
-Line Search
-Standard Scaler
-Cross Validate
-Accuracy Score
-r2 score
-Mean Absolute Error
-Mean Squared Error
-F1-score
-Evaluation
-Encoding Categorical Data
-Column Transformer
-OneHotEncoding
-Label Encoder
-MinMaxScaler
-cross val score
+Feature Extraction / Feature Selection
+Mean Absolute Error / Mean Squared Error
+Transform, fit_transform / Column Transformer
+OneHotEncoding / Label Encoder / Encoding Categorical Data
+Erro type 1 and 2 / Null Hypothesis / H0 and H1 / Alternative Hypothesis
+Accuracy Score / r2 score / F1-score / cross val score / Cross Validate / Evaluation / K Fold
+Gradient Descent / Batch Gradient Descent / Mini Batch Gradient Descent / Stochastic Gradient Descent
 -
 Linear Regression
 Logistic Regression
-SVM (Support Vector Machine)
-KNN (K Nearest Neighbors)
-K Fold
-K-Means
-K Neighbors Classifier
-K Neighbors Regressor
-Naive Bayes (Naive Bayes in DS and ML)
-Naive Bayes Classification
-Bernoulli Naive Bayes Classifier
-Gaussian Naive Bayes Classifier
+SVM (Support Vector Machine) / SVC / SVR
+KNN (K Nearest Neighbors) / K-Means / K Neighbors Classification / K Neighbors Regression
+Naive Bayes (Naive Bayes in DS and ML) / Naive Bayes Classification / Bernoulli Naive Bayes Classification / Gaussian Naive Bayes Classification
 - = ---------------------------------------------------------------------------
-XGB / XGBoost
-Bagging (Bootstrap Aggregating)
-Gradient Boosting
+Bagging (Bootstrap Aggregating) / Bagging Classification / Bagging Regression
+Gradient Boosting / XGB/XGBoost
 Ensemble Learning
 DBSCAN
-Bagging Classification
-Random Forest Classification
-Poission Regressor
+Poission Regression
 Grid Search CV
-SVC
-SVR
-Decision Tree
-Decision Tree Classifier
-Decision Tree Regressor
-Random Forest
-Random Forest Classifier
-Random Forest Regressor
+Decision Tree / Decision Tree Classification / Decision Tree Regression
+Random Forest / Random Forest Classification / Random Forest Regression
 - = -
 LDA (Linear Discriminant Analysis)
 SFS (Sequential Forward Selection)
