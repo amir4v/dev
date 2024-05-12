@@ -1,0 +1,206 @@
+- >>> What are the 100 most common interview questions about soft skills and general issues:
+Can you tell me about yourself and your background?
+How do you handle stress and pressure in the workplace?
+Describe a situation where you had to resolve a conflict with a colleague or team member.
+How do you prioritize tasks and manage your time effectively?
+Describe a project or accomplishment you are proud of and explain your role in it.
+How do you approach working in a team environment?
+What motivates you in your work?
+How do you adapt to changes and unexpected challenges?
+Describe a time when you had to take initiative to solve a problem.
+How do you handle receiving constructive feedback?
+What do you consider your strengths and weaknesses?
+How do you communicate complex ideas or technical information to non-technical stakeholders?
+Describe a time when you had to meet tight deadlines. How did you manage it?
+How do you build and maintain relationships with clients or stakeholders?
+What strategies do you use for continuous learning and professional development?
+How do you approach decision-making in a professional setting?
+Describe your approach to mentoring or coaching junior team members.
+How do you ensure clarity and alignment in project goals and objectives?
+What is your approach to conflict resolution and negotiation?
+How do you promote a positive work culture and contribute to team morale?
+-
+Can you tell me about yourself?
+Why are you interested in this position/company?
+Describe a time when you had to work effectively under pressure.
+How do you handle conflicts or disagreements with colleagues?
+Can you give an example of a project where you demonstrated leadership skills?
+How do you prioritize tasks and manage your time effectively?
+Describe a situation where you successfully resolved a problem or challenge.
+How do you handle constructive criticism and feedback?
+What are your strengths and weaknesses?
+How do you adapt to changes in the work environment?
+Describe a time when you had to collaborate with a diverse team.
+How do you stay motivated and focused on long-term goals?
+What do you do to maintain a healthy work-life balance?
+How do you handle ambiguity and uncertainty in projects?
+Describe your approach to decision-making.
+How do you communicate complex ideas to non-technical stakeholders?
+What strategies do you use to build strong relationships with clients or customers?
+Can you describe a time when you demonstrated creativity in solving a problem?
+How do you contribute to fostering a positive and inclusive work culture?
+Where do you see yourself in 5 years professionally?
+.
+Tell me about yourself
+Why should we hire you?
+What is your biggest weakness?
+What is your greatest accomplishment?
+How do you react to criticism?
+How do you relieve stress?
+What motivates you?
+What are your career aspirations?
+What are your salary expectations?
+1. Can you discuss a time where you had to manage your team through a difficult situation?
+VM407:1 2. How do you prioritize your tasks when you have multiple deadlines to meet?
+VM407:1 3. What is the most significant problem you solved in the workplace?
+VM407:1 4. How do you explain new topics to coworkers unfamiliar with them?
+VM407:1 5. Describe a situation where results went against expectations. How did you adapt to this change?
+VM407:1 6. What are your actions if employees disagree with your decision?
+VM407:1 7. Name three of your most important considerations when working for an employer.
+VM407:1 8. Highlight a situation where you had to make a decision without managerial supervision. How did you approach this situation, and who else did you speak with?
+VM407:1 9. When have you performed a task without preexisting experience?
+VM407:1 10. Explain your largest failure at work. How did you learn from this experience?
+If your teammate wasn’t doing their share of the work, how would you deal with them?
+What do you think makes a good team?
+Tell me about yourself in three sentences.
+Which one is more essential: Being a good listener or a good communicator?
+Your manager needs to be corrected about something. What do you do? What would you tell them
+How do you stay motivated when working on a project by yourself?
+What would you like to achieve during your first six months here?
+How do you try to implement creativity into meetings and tasks?
+How do you encourage creativity in your team?
+Are you able to multitask?
+You get assigned a big task just before the end of the day. How would you reply?
+How do you rearrange your schedule when you get a new unplanned task?
+How do you minimise distractions during workdays?
+What aspects of professionalism are the most important?
+If you get your work done early, do you allow yourself a free afternoon or do you ask for more tasks? You have over 500 unread messages in your inbox but have only one hour to deal with them. What do you do?
+It would be best if you convinced your manager it is impossible to reach your targets. How can you prove it?
+How would you continue if you had an objective but needed the tools or means to reach it?
+How would you try to calm down an angry colleague?
+What do you do to further your career?
+In what work environment do you feel most productive?
+Communication
+1. Tell me about yourself in 2 sentences.
+2. Explain to your 95-year old grandmother what you do for a living.
+3. Use up to 5 sentences to sell me a pencil.
+4. Your colleague is publicly belittling your work achievements. What do you do?
+5. Do you prefer written or verbal communication?
+6. Which one is more important to you and why: to be a good listener or a good communicator?
+Teamwork
+7. Which one do you prefer and why — teamwork or working alone?
+8. How important are team events for you?
+9. Tell me how you would overcome a situation where a team is doing badly because members aren’t getting along.
+10. Your teammates are all in agreement on how to approach a task but you disagree. How do you react?
+11. What does team spirit mean to you and how would you go about building it?
+12. How would you deal with a teammate who wasn’t doing their share of work?
+Leadership
+13. You know your manager is 100% wrong about something. What do you do?
+14. Your team members are quitting one after another. What do you do?
+15. How do you go about delegating responsibilities to a team?
+16. What do you expect from a manager?
+17. Your company is in financial difficulties and you have to cut down salary costs. How would you decide who to fire?
+Flexibility/Adaptability
+18. What is the most difficult change you’ve encountered in your career?
+19. Do you like surprises?
+20. How do you go about rearranging your schedule if something unplanned occurs?
+21. Give me an example of when you’ve had to deal with a short notice request.
+22. Do you like routine work?
+Problem-Solving
+23. Give me an example of when you’ve successfully solved a problem.
+24. Give me an example of a time when you’ve had to be creative or unconventional in solving a problem.
+25. Tell me about a time when you had to analyze information to successfully solve a problem.
+26. Tell me about a time you identified a problem and solved it in its early stages.
+27. Describe a time when you had to solve a problem in a crisis.
+Creativity
+28. If your life was a book, what would it be called?
+29. How would you spice up meetings to boost creativity?
+30. Give me an example of a business being creative in order to be successful.
+31. In what ways have you encouraged your work team to be more creative and innovative?
+Interpersonal Skills
+32. What are the key ingredients to building good relationships with others?
+33. How do you deal with situations where there is tension between you and a colleague?
+34. Describe how you would communicate difficult or unpopular information to someone?
+35. Tell me about a time when you built a good relationship with someone you didn’t particularly like.
+Time Management
+36. Do you multitask?
+37. Which one better describes you: ‘done is better than perfect’ or ‘everything has to look perfect’?
+38. How do you prioritize your work if you have a number of looming deadlines?
+39. Tell me about a time when you’ve struggled to meet deadlines. What did you do?
+40. Your manager assigns you a big task right before the end of the day. How would you reply?
+Work Ethics
+41. Do you tend to work over-hours?
+42. What are the most important ethics in the workplace?
+43. Give me an example of when you faced an ethical dilemma at work.
+44. What would you do if you discovered a manager was breaking company rules?
+45. You get your work done sooner than expected. Do you allow yourself a free afternoon or are you going to ask for more tasks?
+Customer Service
+46. Give an example of how you have dealt with an unsatisfied customer.
+47. What steps do you take to gain a customer’s trust?
+48. Give an example of a time when you went the extra mile to give good customer service.
+49. How would you deal with a customer who you felt was becoming unreasonable?
+Motivation and Enthusiasm
+50. How do you stay motivated when working alone on a project?
+51. How do you stay motivated when working on a project that doesn’t interest you?
+52. How do you generate enthusiasm on days when you’d prefer not to be at work?
+53. How do you deal with colleagues who are lacking in enthusiasm?
+54. Which one of these is the most important aspect for you at work? Career development, perks, and benefits, salary, or nice coworkers?
+55. What do you hope to achieve during your first six months here?
+Organizational Skills
+56. Give an example of when your planning led to effective results.
+57. How do you stay organized when you are working on multiple projects?
+58. How do you keep track of your progress when working on projects?
+59. How often do you go to your desk, files and electronic files to clear out what you no longer need?
+Negotiating
+60. Describe a difficult negotiating situation you’ve been in. What was the outcome?
+61. How would you change an institutional “this is how we always do it” attitude if you felt there was a better approach?
+62. How would you go about negotiating something with a manager or supervisor?
+63. What is the most effective technique for winning someone over when negotiating?
+Strategic Planning
+64. What is your understanding of strategic planning? How does it differ from everyday planning?
+65. Tell me about a time when you planned and executed a large project. What were the outcomes?
+66. How do you set long-term goals for your team? How do you evaluate performances?
+Handling Feedback
+67. Explain what constructive criticism means to you.
+68. Your team lead tells you’ve done a poor job. How do you respond?
+69. Give an example of a time when you used feedback to improve your performance.
+70. How do you prefer to get feedback from your manager: through formal performance reviews or daily/weekly meetings? Why?
+Conflict Resolution
+71. Give me an example of when you have successfully resolved a conflict in a professional situation.
+72. How do you deal with differences of opinion in the workplace?
+73. What steps would you take to resolve a heated conflict that broke out between two members of your team?
+74. How would you go about calming a colleague down if you could see that their anger was likely to cause trouble?
+Handling Stress
+75. What are your techniques for handling stress?
+76. Tell me about your most stressful work situation. How did you deal with it?
+77. What are good ways of preventing things from getting too stressful in the first place?
+78. What work-situations get you most stressed?
+Decision-Making
+79. Give an example of when you’ve had to make a decision under pressure. How did you deal with it?
+80. Do you like the responsibility of decision-making or would you prefer to leave it to someone else?
+81. What’s the toughest decision you’ve had to make at work? How did you decide?
+82. What do you do if you realize you’ve made a bad or wrong decision?
+83. What do you find are the most difficult decisions to make?
+Confidence
+84. Your project fails miserably. How do you deal with it?
+85. Have you ever done something at work through believing in yourself, although your co-workers or bosses told you not to do it?
+86. What do you do to increase your confidence in situations where it is lacking?
+87. How do you prevent yourself from becoming over-confident?
+Cultural Fit
+88. Describe the type of work environment in which you are most productive.
+89. What would make you quit a job in the first month?
+90. Have you ever found a company policy unfair or inefficient? If so, what was the policy and why? What did you do or what would you do, in this case?
+Honesty
+91. Have you ever felt like you are not qualified for a job assigned to you?
+92. What would you do if a colleague confessed a serious misdemeanor to you?
+93. Give an example of a work situation where you felt that it was best not to be honest.
+94. Have you ever been honest even though it’s caused problems for you? What happened?
+Analytical Skills
+95. Describe a time when you had to solve a problem, but didn’t have all the necessary information about it in hand. What did you do?
+96. How do you weigh the pros and cons before making a decision?
+Presentation Skills
+97. How do you prepare for delivering a presentation?
+98. What would you do if you noticed that your audience looked bored during a meeting?
+99. Describe a time when you had to announce bad news to your team.
+100. When is it appropriate for speakers to use humor?
+.
