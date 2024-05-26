@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T05:28:19.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ytq_UyTiLHDvkLp7eHQM" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T11:44:29.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="L0bKexIqGZk9NvyvnjoR" version="24.4.6" type="github">
   <diagram name="Page-1" id="Pw1lx-9ADOZ67-cU_8lc">
-    <mxGraphModel dx="954" dy="1666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="797" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,6 +171,54 @@
         </mxCell>
         <mxCell id="NjcC3SJjB0qP52kyVzx2-1" value="کسایی که توی کمپانی های بزرگ میتونن کار های بزرگ کنن، مثلا کسایی که توی هاروارد یا ام آی تی درس خوندن یا توی گوگل کار میکنن، اینا یک بیس قوی دارن که خوب فهمیدن و درک کردن و بلدن&lt;br&gt;*اونا چیان*&lt;br&gt;English&lt;br&gt;Mathematics&lt;br&gt;Data Structures&lt;br&gt;Algorithms&lt;br&gt;Programming(CS, SE, DS, Dev)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="-320" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-1" value="MACHINE LEARNING" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="740" y="-40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-2" value="Statistics" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="10" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-3" value="Probability" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="30" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-4" value="Calculus" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="50" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-5" value="Data Structures" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-6" value="Algorithms" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="90" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-7" value="SE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="110" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-8" value="Data Science" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="130" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-9" value="Pre-Processing" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="150" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-10" value="numpy-pandas" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="170" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-11" value="pyplot-seaborn" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="190" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-12" value="ML: scikit-learn, XGBoost, [Also DL: Tensorflow(with Keras in it), PyTorch, Keras]" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="210" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-13" value="Programming" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="230" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-14" value="Mathematics" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="250" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-15" value="Tools" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="270" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8nW1GslCeC44FkuKD25y-16" value="Math = LinearAlgebra:Matrix,Vector,dot,inner,multiplication,sum,div,sub - Calculus:SigmaSum,Derivative,PartialDerivative,Trig" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="290" width="670" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
