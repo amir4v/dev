@@ -1,3 +1,4 @@
+
 from sklearn.linear_model import LinearRegression
     fit_intercept: True; Wether to calculate th eintercept for this model.
         is like asking if you want the line to start from the very bottom of the graph or not. If you set it to "True," it means you're allowing the line to start from the bottom, and if you set it to "False," it means the line has to go through the middle of the points. It's like choosing where the line begins on the graph.
@@ -533,6 +534,8 @@ from sklearn.model_selection import learning_curve
 
 -------------------------------------------------------------------------------
 
+from sklearn.datasets import make_blobs
+from sklearn.datasets import make_regression
 from sklearn.datasets import make_classification
     n_samples: The number of samples to generate.
     n_features: The number of features (i.e., independent variables) in the dataset.
