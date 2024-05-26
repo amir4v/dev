@@ -44,7 +44,7 @@ https://interviewsby.ai/
 
 https://relocationjobs.org/
 
-.
+. -----------------------------------------------------------------------------
 
 Data Structures and Algorithms
 Test/UnitTest/PyTest
@@ -98,16 +98,16 @@ Interview SoftSkills
 Interview Specified Preparation for them
 Before the first Interview you have to have a very good project/portfolio
 
----> ---> --->
+---> ---> ---> ----------------------------------------------------------------
 
-Data Structures and Algorithms
+Data Structures and Algorithms and Dynamic Programming
 Test/UnitTest/PyTest
 API/REST
 Microservices
 Git
     CI/CD
     Git rebase
-    Contribution
+    Contribution, Comment, Commit
     GitHubActions-Workflow
     Git-Merge-PullRequest-MergeRequest
 SE
@@ -118,12 +118,15 @@ SE
     Documentation
     OOP
     ACID
-    SEMAT
     RAD
     TDD-MDD-DDD
     NVC-MVP-MVVM
+    Software Development Life Cycle (SDLC)
+  Minimum: Design Patterns, SOLID, OOP, ACID, RAD, [TDD, MDD, DDD], [MVC, MVP, MVVM], [Agile, Scrum, Sprint, Daily], Software Development Life Cycle (SDLC)
+  Tools: [Python, Django, REST, DB, SQL, NoSQL], Redis, Docker, Git, Test, CI/CD, Microservices, Coding
+    SEMAT
 -untilAlgebra-Trig-Equations-PreCalc-
-    Limit-Derivative-Integral
+    SigmaSum-Limit-Derivative-Integral
     Statistics&Probability
     LinearAlgebra
 DS and ML concepts and details
@@ -133,13 +136,15 @@ DS and ML concepts and details
     ML Models in details
     ML Algorithms in details
 -Interview-
+    Speaking, Talk, Practice, Rehearsal
+    Resume((1)-2), CV(Curriculum Vitae-n), Cover Letter(1)
     Interview General Questions
     Interview HR Questions
     Interview Technical Questions
     Interview SoftSkills
     Interview Specified Preparation for them
 
----> ---> --->
+---> ---> ---> ----------------------------------------------------------------
 
 Test/UnitTest/PyTest
     PyTest:
@@ -1136,7 +1141,7 @@ Logistic Regression (Is a statistical method used for binary classification task
 SVM (Support Vector Machine) / SVC / SVR (SVM is a supervised machine learning algorithm used for both classification and regression tasks and it works by finding the hyperplane that best separates different classes in a high-dimensional space, it aims to maximize the margin between the classes which helps in achieving good generalization to new data; SVC is specially the svm algorithm used for classification tasls and it finds the optimal hyperplane that best divides the classes in the feature space and is effective for binary and multiclass classification problems; SVR is the svm algorithm used for regression tasks and instead of predicting discrete class labels, it works by finding a hyperplane that maximizes the error between predicted and actual values while still maximizing the margin)
 KNN (K Nearest Neighbors) / K-Means / K Neighbors Classification / K Neighbors Regression (KNN used for classification and regression and works based on the principle of similarity where new data points are classified based on the majority class or average value of their nearest K neaighbors and requires choosing a value for K which represents the number of neighbors to consider; K-Means is an unsupervised algorithm used for clustering and divides adataset into K clusters based on similarity with each cluster represented by its centroids (center points) and works by iteratively assigning data points to the nearest cluster centroid and updating the cebtroids based on the mean of the assigen points)
 Naive Bayes (Naive Bayes in DS and ML) / Naive Bayes Classification / Bernoulli Naive Bayes Classification / Gaussian Naive Bayes Classification (NaiveBayes assumes that the features are conditionally independent given the class label which simplifies the computation, and it often performs well and efficient for text classification; NaiveBayesClassification refers to using the naive bayes algorithm for classification and it calculates th eprobability of a data point belonging to each class based on the observed features and then selects the class with the highest probability as the prediction; BernouliNaiveBayesClassification a specific variant of naive bayes suited for binary feature data presence or absence of a feature, it assumes that features are binary and uses the bernouli distribution to model the liklihood of each feature given the class; GaussianNaiveBayesClassification a variant of naive bayes suitable for continuous feature data assumed to follow a gaussian/normal distribution, it assumes that features are normally distributed within each each class and estimates mean and variance and variance parameters for each feature and class)
-- = ---------------------------------------------------------------------------
+- = -
 Bagging (Bootstrap Aggregating) / Bagging Classification / Bagging Regression (Bagging/BotstrapAggregation involves creating multiple models using subsets of the training data and it uses a technique called bootstraping where random samples of data are repeatedly draw with replacement and the final prediction is often an average for regression or a majority vote for classification of predictions from these models and the goal is to reduce variance and improve model performance by reducing overfitting; BaggingClassification multiple classifiers like decision trees are trained on different subsets of the training data and each classifier gives a prediction and the final prediction is determind by majority voting among these classifiers; BaggingRegression multiple regression models are trained on different bootstrapped samples of the training data and the final regression output is often the average oft he outputs from these models)
 Gradient Boosting / XGB/XGBoost (GradientBoosting is a ml technique used for builing predictive models particularly decision trees and it builds models in a sequential manner where each new model corrects errors made by the previous model and the key idea is to optimize a loss function by minimizing errors through an iterative process; XGB/XGBoost/ExtremeGradientBoosting is a popular implementation of gradient boosting designed to be highly efficient and scalable and it includes several enhancements over traditional gradient boosting such as regularization and parallel processing)
 Ensemble Learning (is a ml technique where multiple models are combined to improve the overall performance and accuracy of the predictive model instead of relying on a single model and common ensemble methods include bagging(like random forest) and boosting (like gradient boosting) and stacking)
