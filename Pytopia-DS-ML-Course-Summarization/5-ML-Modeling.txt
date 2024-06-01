@@ -1,0 +1,178 @@
+Introduction to Probabilistic Modeling
+
+. Image Machine Learning Handbook by Martha White
+. Image Pattern Recognition and Machine Learning Book by Christopher Bishop
+. Image Deep Learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville
+. Scikit Learn User Guide
+. Hands–On Machine Learning with Scikit–Learn and TensorFlow
+
+Machine Learning Algorithms
+    Bayesian
+        Naive Bayes
+        Averaged One-Dependence Estimators (AODE)
+        Bayesian Belief Network (BBN)
+        Gaussian Naive Bayes
+        Multinomial Naive Bayes
+        Bayesian Network (BN)
+    Decision Tree
+        Classification and Regression Tree (CART)
+        Iterative Dichotomiser 3 (ID3)
+        C4.5
+        C5.0
+        Chi-squared Automatic Interaction Detection (CHAID)
+        Decision Stump
+        Conditional Decision Trees
+        M5
+    Dimensionality Reduction
+        Principal Component Analysis (PCA)
+        Partial Least Squares Regression (PLSR)
+        Sammon Mapping
+        Multidimensional Scaling (MDS)
+        Projection Pursuit
+        Principal Component Regression (PCR)
+        Partial Least Squares Discriminant
+        Analysis Mixture Discriminant Analysis (MDA)
+        Quadratic Discriminant Analysis (QDA)
+        Regularized Discriminant Analysis (RDA)
+        Flexible Discriminant Analysis (FDA)
+        Linear Discriminant Analysis (LDA)
+    Instance Based
+        k-Nearest Neighbour (KNN)
+        Learning Vector Quantization (LVQ)
+        Self-Organizing Map (SOM)
+        Locally Weighted Learning (LWL)
+    Clustering
+        k-Means
+        k-Medians
+        Expectation Maximization
+        Hierarchical Clustering
+    Deep Learning
+        Deep Boltzmann Machine (DBM)
+        Deep Belief Networks (DBN)
+        Convolutional Neural Network (CNN)
+        Stacked Auto-Encoders
+    Ensemble
+        Random Forest
+        Gradient Boosting Machines (GBM)
+        Boosting
+        Bootstrapped Aggregation (Bagging)
+        AdaBoost
+        Stacked Generalization (Blending)
+        Gradient Boosted Regression Trees (GBRT)
+    Neural Networks
+        Radial Basis Function Network (RBFN)
+        Perceptron
+        Back-Propagation
+        Hopfield Network
+    Regularization
+        Ridge Regression
+        Least Absolute Shrinkage and Selection Operator (LASSO)
+        Elastic Net
+        Least Angle Regression (LARS)
+    Rule System
+        Cubist
+        One Rule (OneR)
+        Zero Rule (ZeroR)
+        Repeated Incremental Pruning to Produce Error Reduction (RIPPER)
+    Regression
+        Linear Regression
+        Ordinary Least Squares Regression (OLSR)
+        Stepwise Regression
+        Multivariate Adaptive Regression Splines (MARS)
+        Locally Estimated Scatterplot Smoothing (LOESS)
+        Logistic Regression
+
+Book Chapter 1 of Pattern Recognition and Machine Learning Book by Christopher Bishop
+YT Bayes theorem, the geometry of changing beliefs
+YT The quick proof of Bayes' theorem
+
+Book Frequentist vs Bayes Statistics
+YT Classical vs Frequentist vs Bayes Probability
+YT Bayesian vs. Frequentist A/B Testing: What’s the Difference?
+
+Learning Algorithms
+    The Task, T
+    The Performance Measure, P
+    The Experience, E
+
+Machine learning enables us to tackle tasks that are too diﬃcult to solve with
+ﬁxed programs written and designed by human beings. From a scientiﬁc and
+philosophical point of view, machine learning is interesting because
+developing our understanding of it entails developing our understanding
+of the principles that underlie intelligence.
+
+Regression
+    Linear Regression
+    What is Maximum Likelihood?
+    Maximum Likelihood Formulation
+    Bias Variance Tradeoff
+    Gradient Descent
+        Batch Gradient Descent
+        Mini-Batch Gradient Descent
+        Stochastic Gradient Descent
+    Generalized Linear Models
+
+YT Probability is not Likelihood
+
+Maximum Likelihood Formulation
+    This section is covered by:
+    Image Chapter 5 of Machine Learning Handbook by Martha White
+    Read:
+    5 Linear Regression
+        5.1 Maximum likelihood formulation
+        5.2 Ordinary Least-Squares (OLS) Regression
+        5.3 Linear regression for non-linear problems
+    Also read:
+        Independent and identically distributed random variables (i.i.d)
+        Vector Norms which are a way to measure the size of a vector, a matrix, or a tensor. In other words, norms are a class of functions that enable us to quantify the magnitude of a vector.
+
+matrix X and a target vector y
+
+Generalized Linear Models
+GLMs include three widely used models: linear regression, Poisson regression and logistic regression.
+
+Classification
+    Logistic Regression
+    Generative vs Discriminative Setting
+
+YT See Naive Bayes, Clearly Explained!!!
+YT Gaussian Naive Bayes, Clearly Explained!!!
+Article The Naive Bayes Model
+
+Machine learning: the problem setting
+Loading an example dataset
+Learning and predicting
+Conventions
+    Type casting
+    Refitting and updating parameters
+    Multiclass vs. multilabel fitting
+FAQ
+
+Now, Scikit-learn is an open source machine learning library that supports
+    supervised and unsupervised learning.
+    It also provides various tools for
+    model fitting,
+    data preprocessing,
+    model selection,
+    model evaluation,
+    and many other utilities.
+
+SKLEARN
+SciKitLearn
+Docs by PyTopia
+
+Note that scikit-learn currently implements a simple multilayer perceptron
+in sklearn.neural_network. We will only accept bug fixes for this module.
+If you want to implement more complex deep learning models, please turn
+to popular deep learning frameworks such as tensorflow, keras and pytorch.
+
+Fitting and predicting: estimator basics
+Transformers and pre-processors
+Pipelines: chaining pre-processors and estimators
+Model evaluation
+Automatic parameter searches
+Next steps
+
+The purpose of this guide is to illustrate some of the main features that
+scikit-learn provides. It assumes a very basic working knowledge of
+machine learning practices (model fitting, predicting, cross-validation, etc.).
