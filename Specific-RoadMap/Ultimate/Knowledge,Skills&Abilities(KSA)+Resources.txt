@@ -527,6 +527,7 @@ Testing[
     Writing your first Django test using pytest-django: https://www.youtube.com/watch?v=L5jWFU2sVXQ
     Pro Django - Tutorial 7 - pytest: https://www.youtube.com/watch?v=hqYUAVobDJA
     TDD Full Course (Learn Test Driven Development with Python): https://www.youtube.com/watch?v=eAPmXQ0dC7Q
+    Test-Driven Development In Python // The Power of Red-Green-Refactor: https://www.youtube.com/watch?v=B1j6k2j2eJg
 ]
 .
 Test/Debug/Diagnose[
