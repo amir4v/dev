@@ -1,4 +1,7 @@
 -English
+    -Vocabulary
+    -Grammar
+    -4:Listening,Speaking , Reading,Writing
 
 -Mathematics
     -Pre Algebra
@@ -19,15 +22,23 @@
     -Discrete Mathematics
     -Differential Equations
 
--DSA (Data Structures and Algorithms)
+-DSA (Data Structures and Algorithms and Dynamic Programming)
+
+-Soft Skills
 
 -Computer Science
 -Software Engineering
+    -Programming
 
 -Artificial Intelligence
     -Data Science
+        -Pre-Processing
+        -Numpy, Pandas
+        -Matplotlib, Seaborn
     -Machine Learning
+        -scikit-learn, XGBoost
     -Deep Learning
-    -NLP
+        -Tensorflow(with Keras in it), PyTorch, Keras
+    -NLP, CV
 
 ===============================================================================

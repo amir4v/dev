@@ -1,0 +1,9 @@
+docker system prune --all
+
+docker-compose up
+
+docker volume prune
+
+docker-compose up -d
+
+docker exec -it Container-ID /bin/bash

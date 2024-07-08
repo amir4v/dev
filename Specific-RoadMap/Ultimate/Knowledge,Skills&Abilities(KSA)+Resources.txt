@@ -71,6 +71,8 @@ Django[
     Django Rest Framework | Serializers & CRUD: https://www.youtube.com/watch?v=TmsD8QExZ84
     Django course by Ali Bigdeli from Maktabkhooneh: https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D9%86%DA%AF%D9%88-mk623/ -> https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-mk1438/
     django-midd-level: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/django-midd-level.txt
+    Pro Django Tutorials: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDYbs0jJdGefNN8eZRSwWqy
+    Django Tutorials: https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
 ]
 .
 Backend[
@@ -619,6 +621,7 @@ English[
         https://test-english.com/grammar-points/contents
         https://www.careerpower.in/english-grammar.html
         https://byjus.com/english/english-grammar
+        https://www.ef.com/wwen/english-resources/english-grammar
     Text:
         https://learnenglish.britishcouncil.org/skills/listening
         https://deepenglish.com/blog
@@ -626,6 +629,7 @@ English[
         https://tinytexts.wordpress.com
         Book Speaking by Cheryl Pelteret
     IELTS Materials:
+        https://ieltsmaterial.com
         https://ieltsliz.com
         Book IELTS [NUMBER] General Training Student's Book with Answers With Audio: Authentic Practice Tests
         Book Official IELTS Practice Materials [NUMBER]:
@@ -774,7 +778,7 @@ Immigration[
         Grokking the Machine Learning Interview - Educative (https://www.educative.io/courses/grokking-the-machine-learning-interview?affiliate_id=5073518643380224)
         Book Cracking the Coding Interview: 189 Programming Questions and Solutions by Gayle Laakmann McDowell
         Book Ace the Data Science Interview: 201 Real Interview Questions Asked By FAANG, Tech Startups, & Wall Street by Nick Singh, Kevin Huo
-        Book Data Structures and Algorithms: 100 Interview Questions by X.Y. Wang
+        [ Book Data Structures and Algorithms: 100 Interview Questions by X.Y. Wang
         Book Stochastic Calculus for Quants: Questions and Answers by X.Y. Wang
         Book Machine Learning: Interview Questions and Answers by X.Y. Wang
         Book Ace the Coding Interview: Must-know Questions by X.Y. Wang
@@ -783,6 +787,8 @@ Immigration[
         Book Dynamic Programming by Python Examples by X.Y. Wang
         Book Data Science: 100 Interview Questions by X.Y. Wang
         Book 100 Interview Questions: Python by X.Y. Wang
-        Book 100 Interview Questions: GIT by X.Y. Wang
+        Book 100 Interview Questions: GIT by X.Y. Wang ]
+        Cracking The Machine Learning Interview: https://github.com/vntalking/ebooks-free/blob/master/Cracking%20The%20Machine%20Learning%20Interview.pdf
+        Machine Learning Interviews: Kickstart Your Machine Learning and Data Career, by Susan Shu Chang
     ]
 ]

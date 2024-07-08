@@ -1,0 +1,7 @@
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "project.core.settings"
+django_find_project = false
+python_files = "test_*.py"
+testpaths = ["project"]
+filterwarnings = "..."

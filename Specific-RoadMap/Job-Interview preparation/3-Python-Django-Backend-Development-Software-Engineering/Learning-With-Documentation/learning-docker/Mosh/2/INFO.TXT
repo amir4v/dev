@@ -1,0 +1,18 @@
+docker compose up
+    # manande 'run' ast
+# docker compose baraye kar ba multi container ast
+docker compose up --build
+docker compose up -d
+                   detach
+docker compose ps
+docker compose down
+
+going in with a special user:
+docker exec -it -u root 243hfg9gfd sh
+docker exec -it -u root 243hfg9gfd bash
+docker exec -it -u amir 243hfg9gfd sh
+
+docker compose logs
+docker compose logs 2j3h44hg23
+docker compose logs 2j3h44hg23 -f
+                                follow

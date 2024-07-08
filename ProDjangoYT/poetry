@@ -1,0 +1,46 @@
+pip install poetry
+
+poetry --version
+
+You can think poetry is npm of python.
+
+poetry init
+    it's going to create a pyproject.toml file.
+
+pyproject.toml
+    is like package.json in js.
+    this file contains buils system requirements and information, which are used by pip to build the package.
+
+Adding dependencies:
+    poetry add pkg1 pkg2 django ...
+    creates a virtual environment automatically, and you can create venv by yourself and activate it and then call poetry and it will work wiht that and wont create a new virtual environment every time.
+
+poetry install
+    in potery add ..., it will do this too but
+    you can run this by itself to install those packages that you mabe added in the file.
+
+poetry run ...
+    poetry run python app.py
+    poetry run pytest
+    poetry run python manage.py runserver
+
+poetry add pkg1 pkg2 ...
+poetry add -D pkg1 pkg2 ...
+    -D i think is only for development.
+
+poetry run flake8 --help
+poetry run flake8
+poetry run flake8 core/file.py
+
+poetry add pre-commit
+
+poetry run pre-commit sample-config
+poetry run pre-commit install
+poetry run pre-commit run --all-files
+    manually
+poetry run pre-commit uninstall
+
+poetry remove pkg
+poetry remove -D pkg
+
+poetry add -D colorlog

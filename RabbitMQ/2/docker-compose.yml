@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  backend:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000
+    depends_on:
+      - redis
+      - rabbitmq
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+  
+  postgres:
+    image: postgres:16-alpine
+  
+  elasticsearch:
+    image: elasticsearch:8.14.1
+  
+  nginx:
+    image: nginx:stable-alpine
+  
+  redis:
+    image: redis:alpine
+    ports:
+      - 6379:6379
+    volumes:
+      - redis_data:/data
+  
+  rabbitmq:
+    image: rabbitmq:alpine
+    ports:
+      - 5672:5672
+    volumes:
+      - rabbitmq_data:/data
+
+volumes:
+  redis_data:
+  rabbitmq_data:

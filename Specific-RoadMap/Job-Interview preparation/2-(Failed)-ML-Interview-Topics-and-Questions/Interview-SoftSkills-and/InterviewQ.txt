@@ -1,11 +1,8 @@
-.
-ts = document.getElementsByTagName("h3")
-for (var i=0; i<ts.length;i++){ console.log(ts[i].innerHTML)}
-.
+
 ---ML---
-.
+
 https://www.turing.com/interview-questions/machine-learning
-.
+
 How do you handle missing or corrupted data in a data set?
 Explain the difference between deep learning, artificial intelligence (AI), and machine learning.
 Describe your favorite machine learning algorithm.
@@ -16,7 +13,6 @@ What's the difference between unsupervised learning and supervised learning?
 8. Explain the difference between deductive and inductive reasoning in machine learning.
 9. How do you know when to use classification or regression?
 10.  Explain how a random forest works.
-1. What Are the Different Types of Machine Learning?
 1. What Are the Different Types of Machine Learning?
 VM3005:1 2. What is Overfitting, and How Can You Avoid It?
 VM3005:1 3. What is ‘training Set’ and ‘test Set’ in a Machine Learning Model? How Much Data Will You Allocate for Your Training, Validation, and Test Sets?
@@ -68,13 +64,7 @@ VM1989:1 12. What is the difference between upsampling and downsampling?
 VM1989:1 13. What is data leakage and how can we identify it?
 VM1989:1 14. Explain the classification report and the metrics it includes.
 VM1989:1 15. What are some of the hyperparameters of the random forest regressor which help to avoid overfitting?
-VM1989:1 max_depth
-VM1989:1 n-estimator
-VM1989:1 min_sample_split
-VM1989:1 max_leaf_nodes
 VM1989:1 16. What is the bias-variance tradeoff?
-VM1989:1 Bias 
-VM1989:1 Variance 
 VM1989:1 17. Is it always necessary to use an 80:20 ratio for the train test split?
 VM1989:1 18. What is Principal Component Analysis?
 VM1989:1 19. What is one-shot learning?
@@ -90,14 +80,8 @@ VM1989:1 Advanced Machine Learning Interview Questions
 VM1989:1 29. Explain the working principle of SVM.
 VM1989:1 30. What is the difference between the k-means and k-means++ algorithms?
 VM1989:1 31. Explain some measures of similarity which are generally used in Machine learning.
-VM1989:1 Cosine Similarity
 VM1989:1 Euclidean or Manhattan Distance
-VM1989:1 Jaccard Similarity
 VM1989:1 32. What happens to the mean, median, and mode when your data distribution is right skewed and left skewed?
-VM1989:1 Right Skewed Distribution
-VM1989:1 Mode &lt; Median &lt; Mean
-VM1989:1 Left Skewed Distribution,
-VM1989:1 Mean &lt;Median &lt; Mode
 VM1989:1 33. Whether decision tree or random forest is more robust to the outliers.
 VM1989:1 34. What is the difference between L1 and L2 regularization? What is their significance?
 VM1989:1 L1 regularization
@@ -148,72 +132,7 @@ VM1989:1 48. What is the difference between the content-based and collaborative 
 18. What are Parametric and Non-Parametric Models?
 19. What is Reinforcement Learning?
 20. Difference Between Sigmoid and Softmax functions?
-1) What's the trade-off between bias and variance?
-VM135:1 2) What is gradient descent?
-VM135:1 3) Explain over- and under-fitting and how to combat them?
-VM135:1 4) How do you combat the curse of dimensionality?
-VM135:1 5) What is regularization, why do we use it, and give some examples of common methods?
-VM135:1 6) Explain Principal Component Analysis (PCA)?
-VM135:1 7) Why is ReLU better and more often used than Sigmoid in Neural Networks?
-VM135:1 8) Given stride S and kernel sizes  for each layer of a (1-dimensional) CNN, create a function to compute the
-VM135:1 9) Implement
-VM135:1 10) Implement a sparse matrix class in C++.
-VM135:1 11) Create a function to compute an
-VM135:1 12) How would you remove outliers when trying to estimate a flat plane from noisy samples?
-VM135:1 13) How does
-VM135:1 14) How does image registration work? Sparse vs. dense
-VM135:1 15) Describe how convolution works. What about if your inputs are grayscale vs RGB imagery? What determines the shape of the next layer?
-VM135:1 16) Talk me through how you would create a 3D model of an object from imagery and depth sensor measurements taken at all angles around the object.
-VM135:1 17) Implement SQRT(const double @ x) without using any special functions, just fundamental arithmetic.
-VM135:1 18) Reverse a bitstring.
-VM135:1 19) Implement non maximal suppression as efficiently as you can.
-VM135:1 20) Reverse a linked list in place.
-VM135:1 21) What is data normalization and why do we need it?
-VM135:1 22) Why do we use convolutions for images rather than just FC layers?
-VM135:1 23) What makes CNNs translation invariant?
-VM135:1 24) Why do we have max-pooling in classification CNNs?
-VM135:1 25) Why do segmentation CNNs typically have an encoder-decoder style / structure?
-VM135:1 26) What is the significance of Residual Networks?
-VM135:1 27) What is batch normalization and why does it work?
-VM135:1 28) Why would you use many small convolutional kernels such as 3x3 rather than a few large ones?
-VM135:1 29) Why do we need a validation set and test set? What is the difference between them?
-VM135:1 30) What is stratified cross-validation and when should we use it?
-VM135:1 31) Why do ensembles typically have higher scores than individual models?
-VM135:1 32) What is an imbalanced dataset? Can you list some ways to deal with it?
-VM135:1 33) Can you explain the differences between supervised, unsupervised, and reinforcement learning?
-VM135:1 34) What is data augmentation? Can you give some examples?
-VM135:1 35) What is Turing test?
-VM135:1 36) What is Precision?
-VM135:1 37) What is Recall?
-VM135:1 38) Define F1-score.
-VM135:1 39) What is cost function?
-VM135:1 40) List different activation neurons or functions.
-VM135:1 41) Define Learning Rate.
-VM135:1 42) What is Momentum (w.r.t NN optimization)?
-VM135:1 43) What is the difference between Batch Gradient Descent and Stochastic Gradient Descent?
-VM135:1 44) Epoch vs. Batch vs. Iteration.
-VM135:1 45) What is vanishing gradient?
-VM135:1 46) What are dropouts?
-VM135:1 47) Define LSTM.
-VM135:1 48) List the key components of LSTM.
-VM135:1 49) List the variants of RNN.
-VM135:1 50) What is Autoencoder, name few applications.
-VM135:1 51) What are the components of GAN?
-VM135:1 52) What's the difference between boosting and bagging?
-VM135:1 53) Explain how a ROC curve works.
-VM135:1 54) What’s the difference between Type I and Type II error?
-VM135:1 55) What’s the difference between a generative and discriminative model?
-VM135:1 56) Instance-Based Versus Model-Based Learning.
-VM135:1 57) When to use a Label Encoding vs. One Hot Encoding?
-VM135:1 58) What is the difference between LDA and PCA for dimensionality reduction?
-VM135:1 59) What is t-SNE?
-VM135:1 60) What is the difference between t-SNE and PCA for dimensionality reduction?
-VM135:1 61) What is UMAP?
-VM135:1 62) What is the difference between t-SNE and UMAP for dimensionality reduction?
-VM135:1 63) How Random Number Generator Works, e.g. rand() function in python works?
-VM135:1 64) Given that we want to evaluate the performance of 'n' different machine learning models on the same data, why would the following splitting mechanism be incorrect
-VM135:1 65) What is the difference between Bayesian vs frequentist statistics?
-VM126:1 2. What are the different types of Learning/ Training models in ML?
+VM126:1 2. What are the different types of Learning/Training models in ML?
 VM126:1 3. What is the difference between deep learning and machine learning?
 VM126:1 4. What is the main key difference between supervised and unsupervised machine learning? 
 VM126:1 5. How do you select important variables while working on a data set?
@@ -306,8 +225,7 @@ VM126:1 99. Rotate the elements of an array by d positions to the left.
 Let us initially look at an example. 
 VM126:1 100. Water Trapping Problem 
 VM126:1 101. Explain Eigenvectors and Eigenvalues.
-VM126:1 102. 
-How would you define the number of clusters in a clustering algorithm?
+VM126:1 102. How would you define the number of clusters in a clustering algorithm?
 VM126:1 103. What are the performance metrics that can be used to estimate the efficiency of a linear regression model?
 VM126:1 104. What is the default method of splitting in decision trees?
 VM126:1 105. How is p-value useful?
@@ -377,35 +295,20 @@ VM126:1 168. What are collinearity and multicollinearity?
 VM126:1 169. What is Kernel SVM?
 VM126:1 170. What is the process of carrying out a linear regression?
 Explain Machine Learning, Artificial Intelligence, and Deep Learning
-VM105:1 Machine Learning
-VM105:1 Artificial Intelligence
-VM105:1 Deep Learning
 VM105:1 2. What is Bias and Variance in Machine Learning?
-VM105:1 Bias
-VM105:1 Variance
 VM105:1 3. What is Clustering in Machine Learning?
-VM105:1 Clustering
 VM105:1 K-means clustering
 VM105:1 Mean-shift clustering
 VM105:1 Density-based spatial clustering of applications with noise (DBSCAN)
 VM105:1 4. What is Linear Regression in Machine Learning?
 VM105:1 5. What is a Decision Tree in Machine Learning?
 VM105:1 6. What are the types of Machine Learning?
-VM105:1 Supervised learning
-VM105:1 Unsupervised learning
-VM105:1 Reinforcement learning
 VM105:1 7. What is Bayes’s Theorem in Machine Learning?
 VM105:1 8. What is PCA in Machine Learning?
 VM105:1 9. What are the types of Machine Learning?
-VM105:1 Supervised learning
-VM105:1 Unsupervised learning
-VM105:1 Reinforcement learning
 VM105:1 10. Differentiate between Classification and Regression in Machine Learning
 VM105:1 11. What is a Confusion Matrix?
 VM105:1 12. Explain Logistic Regression
-VM105:1 Binary logistic regression
-VM105:1 Multinomial logistic regression
-VM105:1 Ordinal logistic regression
 VM105:1 13. Why are Validation and Test Datasets Needed?
 VM105:1 14. Explain the difference between KNN and K-means Clustering
 VM105:1 15. What is Dimensionality Reduction?
@@ -427,8 +330,6 @@ VM105:1 30. What are the Various Kernels that are present in SVM?
 VM105:1 31. Suppose you found that your model is suffering from high variance. Which algorithm do you think could handle this situation and why?
 VM105:1 32. What is Rescaling of Data and how is it done?
 VM105:1 33. What is the difference between Standard scalar and MinMax Scaler?
-VM105:1  StandardScaler (Z-score normalization)
-VM105:1 Min-Max Scaling
 VM105:1 34. What is Binarizing of Data? How to Binarize?
 VM105:1 35. How to Standardize Data?
 VM105:1 36. We know that one-hot encoding increases the dimensionality of a dataset, but label encoding doesn’t. How?
@@ -469,9 +370,9 @@ VM105:1 69. How do you prepare for the machine learning theory round in top comp
 VM105:1 70. How do you prepare for the machine learning system design round in top companies?
 VM105:1 71. How do you prepare for the case study round in top companies?
 VM105:1 72. How do you prepare for the behavioral round in top companies?
-.
+
 ---DS---
-.
+
 What is Data Science?
 Differentiate between Data Analytics and Data Science
 What are the differences between supervised and unsupervised learning?
@@ -616,7 +517,6 @@ VM197:1 59. How to calculate the accuracy of a binary classification algorithm u
 VM197:1 60. What is ensemble learning?
 VM197:1 61. Explain collaborative filtering in recommender systems.
 VM197:1 62. Explain content-based filtering in recommender systems.
-VM197:1 For example
 VM197:1 63. Explain bagging in Data Science.
 VM197:1 64. Explain boosting in data science.
 VM197:1 65. Explain stacking in data science.
@@ -642,14 +542,9 @@ VM197:1 57. How can we select an appropriate value of k in k-means?
 52. How can we handle missing data?
 VM197:1 53. What is the benefit of dimensionality reduction?
 40. What do you understand by a random forest model?
-VM197:1 41. Two candidates, Aman and Mohan appear for a Data Science Job interview. The probability of Aman cracking the interview is 1/8 and that of Mohan is 5/12. What is the probability that at least one of them will crack the interview?
 VM197:1 42. How is Data modeling different from Database design?
-VM197:1 Data Modeling
-VM1971 Database Design
 VM197:1 43. What is precision?
-VM197:1 Precision
 VM197:1 44. What is a recall?
-VM197:1 Recall
 VM197:1 45. What is the F1 score and how to calculate it?
 VM197:1 46. What is a p-value?
 VM197:1 47. Why do we use p-value?
@@ -672,16 +567,15 @@ VM197:1 35. What is Dropout?
 VM197:1 36. State any five Deep Learning Frameworks.
 VM197:1 37. Define Neural Networks and its types
 VM197:1 38. What is the ROC curve?
- What do you understand about Linear Regression?
+What do you understand about Linear Regression?
 VM197:1 8. What do you understand by logistic regression?
 VM197:1 9. What is a confusion matrix?
- How is Python Useful?
 VM197:1 4. How R is Useful in the Data Science Domain?
 VM197:1 5. What is Supervised Learning?
 VM197:1 6. What is Unsupervised Learning?
-.
+
 ---SE---
-.
+
 2. What is the software development process? 
 3. Describe the Agile methodology and its benefits. 
 4. What are the characteristics of these data structures?
@@ -745,11 +639,6 @@ VM179:1 21. What professional achievement are you most proud of?
 VM179:1 22. What is your greatest weakness, and what have you done to overcome it?
 VM179:1 23. Describe a challenging task you've had to work on recently. Was it completed successfully? What did you do to solve the problem?
 VM179:1 24. Do you prefer working alone or in a team?
-What Questions Will Be Asked in a Software Engineer Interview?
-VM168:1 What Do I Need To Know for a Software Engineering Interview?
-VM168:1 What Questions Are Asked for an IT Tech Interview?
-VM168:1 How Can I Impress a Software Engineer Interviewer?
-VM168:1 What Is the STAR Technique in Interviews?
 Can You Explain the Concept of “Continuous Integration” and Its Benefits?
 VM168:1 How Do You Ensure the Security of Your Code?
 VM168:1 Can You Describe the MVC (Model-View-Controller) Architecture?
@@ -780,11 +669,11 @@ VM210:1 Describe a difficult bug you were tasked with fixing in a large applicat
 VM210:1 How do you explain technical challenges to stakeholders who do not have technical knowledge or backgrounds?
 VM210:1 What aspect of our company, product or team interests you most?
 VM210:1 How do you determine a project’s success?
-.
+
 ---BE---
-.
+
 https://www.turing.com/interview-questions/back-end
-.
+
 1. What is object-oriented programming?
 VM159:1 2. What is a constructor?
 VM159:1 3. What are the different types of constructors?
@@ -828,9 +717,9 @@ How would you handle optimizing an existing database?
 What is the difference between a relational and a non-relational database?
 How would you query data from a MongoDB database?
 What are some benefits of using a NoSQL database?
-.
+
 ---SS---
-.
+
 Tell me about yourself
 Why should we hire you?
 What is your biggest weakness?
@@ -870,6 +759,7 @@ How would you continue if you had an objective but needed the tools or means to 
 How would you try to calm down an angry colleague?
 What do you do to further your career?
 In what work environment do you feel most productive?
+
 Communication
 1. Tell me about yourself in 2 sentences.
 2. Explain to your 95-year old grandmother what you do for a living.
@@ -993,13 +883,3 @@ Presentation Skills
 98. What would you do if you noticed that your audience looked bored during a meeting?
 99. Describe a time when you had to announce bad news to your team.
 100. When is it appropriate for speakers to use humor?
-.
-Q::: Lets practice a job interview.
-     - Lets practice a job interview as a backend developer.
-     - Lets practice a job interview as a software engineer.
-     - Lets practice a job interview as a machine learning engineer.
-     - Lets practice a job interview as a data scientist.
-     - Lets practice a job interview as a machine learning scientis.
-     - Lets practice a job interview specially general and soft skills.
-     - Teach me how to be good at a job interview as a ... .
-.

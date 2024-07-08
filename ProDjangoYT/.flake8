@@ -1,0 +1,15 @@
+[flake8]
+ignore = C101,...
+exclude  =
+    .git,
+    __pycache__,
+    venv
+filename = *.py
+accept-encodings = utf-8
+inline-quotes = single
+max-complexity = 12
+max-linenumber = 500
+max-line-length = 79
+multiline-quotes = double
+per-file-ignores =
+    core/dir1/dir2/dev.py:F821

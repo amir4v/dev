@@ -1,0 +1,7 @@
+when you run an image, then a container will be created-running.
+
+docker run ubuntu COMMAND INPUT-OPTIONS-FOR-THE-COMMAND
+docker run ubuntu echo helllllllllo
+
+execute a command on my docker container:
+    docker exec CONTAINER-IMAGE-NAME COMMAND INPUT-OPTIONS-FOR-THE-COMMAND

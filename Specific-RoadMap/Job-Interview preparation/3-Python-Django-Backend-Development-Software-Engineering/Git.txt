@@ -1,0 +1,98 @@
+Git Jadi:
+
+git init
+git status
+git add .
+git add -A
+Note: 'git add' take files to 'stage' state
+git commit -m 'commit message'
+git commit -m "commit message"
+git reset HEAD^ (Note: UnCommit the last commit)
+git log (Note: shows logs list)
+HEAD is your last commit
+git diff HEAD
+git diff --staged
+git diff commit-ID (Note: show you difference between the current state and the commit-ID)
+Unstage: git reset filename.ext
+git checkout -- filename.ext (Note: takes the file to the-last-commit-of-itself(--) or the-specified-commit-ID)
+git branch (Note: branches list)
+git branch branch-name (Note: create new branch)
+Changing the branch: git checkout branch-name
+git merge branch-name (Note: merges the branch-name with the current branch (in the current branch))
+git rm filename.ext
+git branch -d branch-name (Note: removes the current-name)
+git clone URL
+git push to-remote-name to-branch-name (Note: will merge)
+git pull from-remote-name from-branch-name (Note: will merge)
+git remote (Note: remotes list)
+git remote -v (Verbose output, means with long description)
+git remote add remote-name URL
+git show commit-ID (Note: shows the changes that this commit did)
+git tag (Note: shows tags list)
+git tag -a tag-name -m 'a note or message or comment or description'
+git tag -a tag-name commit-ID -m 'a note or message or comment or description'
+git tag -l "search-pattern in tags"
+git show tag-name
+(
+    Tags wont be push regularly, so you have to do like this:
+    git push remote-name branch-name tag-name
+    git push remote-name branch-name --tags (Note: will push all tags)
+)
+git checkout tag-name (Note: will the whole repository to the tag-name-commit)
+git checkout -b branch-name (Note: creates a new branch and will checkout to that branch)
+git config --global user.name
+git config --global user.name My-Name-Can-Be-With-Spaces
+git config --global user.signingkey (something like: 5E44F12886C79B539B)
+(
+    (bash command)$ gpg --list-secret-keys --keyid-format LONG
+        /home/s/.gnupg/pubring.kbx
+        --------------------------
+        sec   rsa3072/5E4F1228865C9B539B 2023-02-25 [SC] [expires: 2025-02-24] (5E42F128856C9B539B : My Key that can be use in: git config --global user.signingkey)
+            380E02BBEBA727532B5823AEA5E4F125886C9B539B
+        uid                 [ultimate] Your-Name <YourEmailAddress@website.com>
+        ssb   rsa3072/9FD5AC22688FA56B4F 2023-02-25 [E] [expires: 2025-02-24]
+)
+git tag -s tag-name -m '...' (Note: will create and annotate and SIGN this new tag and will receive the private-key in a prompt window for signing)
+git tag -v tag-name (Note: verifies that this tag belong to whom)
+git commit -S -m '...' (Note: commit and singing this commit)
+git help command-name
+git blame
+    (
+        git blame filename.ext
+        git blame filename.ext -Lx (From the Xth line to the end, like: -L3)
+        git blame filename.ext -Lx,y (From the Xth line to Yth line, like: -L3,9)
+        git blame filename.ext -Lx,x (Only the Nth line, like: -L3,3)
+    )
+git bisect
+    (
+        git bisect start
+        git bisect bad
+        git bisect good commit-ID (inja khob bood hamechi, az inja be bad fekr mikonam moshkel shoro shod va hala boro bagard)
+            And then it shows you commits like binary-search and you say bad or good to finally find the problem or anything specific that you are looking for
+            (
+                git bisect bad
+                git bisect good
+            )
+        git bisect reset (end/stop)
+    )
+
+GPG:
+
+(yek file ya chizi ro ramz mikone va dota kilid mide ke yekish private-key va on yeki public-key
+ke ba private-key mishe push kard va taghir dad va ba public-key mishe did va fahmid ke shoma yani
+saheb on file kie va ye jorai be name shoma zade mishe va kasi nemitone bege malemane)
+gpg --list-keys (Notes: shows keys-list)
+gpg --gen-key (Note: makes a new key)
+    Private-Key: hamon passwordie kemoghr sakht migire
+    Public-Key: shabihe ine: 5E4F128786C92B539B
+    Output: (
+        gpg: key 5E24F128867C9B539B marked as ultimately trusted (5E4F122886C79B539B : My Key that can be use in: git config --global user.signingkey)
+        gpg: directory '/home/s/.gnupg/openpgp-revocs.d' created
+        gpg: revocation certificate stored as '/home/s/.gnupg/openpgp-revocs.d/380E0BBEB7A727532B5823AEA25E4F12886C9B539B.rev'
+        public and secret key created and signed.
+
+        pub   rsa3072 2023-02-25 [SC] [expires: 2025-02-24]
+            380E0BBEBA2727532B5823AEA57E4F12886C9B539B
+        uid                      Your-Name <YourEmailAddress@website.com>
+        sub   rsa3072 2023-02-25 [E] [expires: 2025-02-24]
+    )

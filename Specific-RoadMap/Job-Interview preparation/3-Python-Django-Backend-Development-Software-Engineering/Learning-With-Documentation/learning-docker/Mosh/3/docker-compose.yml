@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  backend:
+    build: ./app
+    ports:
+      - 80:8000
+    volumes:
+      - ./app:/app
+    command: python manage.py runserver 0.0.0.0:8000
+    environment:
+      # - DB_USER=dbuser
+      DB_USER: dbuser
+      DB_PASSWORD: dbpassword
+      DB_NAME: dbname
+    depends_on:
+      - db
+  db:
+    image: postgres:alpine3.17
+    ports:
+      - 5432:5432
+    volumes:
+      - DBdataVOLUME:/var/lib/pgsql/data
+
+volumes:
+  DBdataVOLUME:

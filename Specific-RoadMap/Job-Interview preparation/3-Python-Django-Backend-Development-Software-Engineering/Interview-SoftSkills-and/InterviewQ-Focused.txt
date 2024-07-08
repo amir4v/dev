@@ -1,87 +1,3 @@
-- >>> What are the 100 most common machine learning interview questions:
-What is machine learning? Explain the different types of machine learning.
-What is supervised learning? Give examples of algorithms used in supervised learning.
-What is unsupervised learning? Give examples of algorithms used in unsupervised learning.
-Explain the bias-variance tradeoff. How does it impact model performance?
-What is overfitting and underfitting in machine learning? How can you prevent them?
-Describe the difference between classification and regression.
-What evaluation metrics would you use for a classification problem? Explain them.
-What is cross-validation? Why is it important?
-Explain the difference between precision and recall. When would you use each metric?
-What are the main steps involved in a machine learning project?
-How do you handle missing or null values in a dataset?
-What is feature engineering? Why is it important in machine learning?
-Describe the working of a decision tree algorithm.
-What is gradient descent? How does it work in the context of machine learning?
-Explain the concept of regularization. Why is it used?
-What is the difference between L1 and L2 regularization?
-What is clustering? Name some popular clustering algorithms.
-Explain the term "curse of dimensionality" and its implications in machine learning.
-What is the purpose of batch normalization in neural networks?
-Describe how a support vector machine (SVM) works.
-- >>> What are the 100 most common machine learning interview questions that a junior must know:
-What is machine learning, and how is it different from traditional programming?
-Explain the difference between supervised learning and unsupervised learning.
-What are some common supervised learning algorithms? Give examples of when each might be used.
-Describe the process of training a machine learning model.
-What is cross-validation, and why is it important?
-What is overfitting, and how can it be prevented?
-What evaluation metrics are used for classification problems? Explain precision, recall, and F1-score.
-What is feature selection, and why is it important?
-Explain the bias-variance tradeoff in machine learning.
-Describe linear regression. How is it used in machine learning?
-What is logistic regression? How is it different from linear regression?
-What are decision trees, and how do they work?
-What is the purpose of ensemble learning? Give examples of ensemble methods.
-Explain the concept of gradient descent. How is it used in training machine learning models?
-What are neural networks, and how do they mimic the human brain?
-Describe the structure of a basic feedforward neural network.
-What is backpropagation, and why is it important in training neural networks?
-What is the role of activation functions in neural networks?
-What is clustering, and how is it different from classification?
-Explain the K-means clustering algorithm.
-- >>> What are the 100 most common data science interview questions:
-What is the difference between supervised and unsupervised learning?
-Explain the steps involved in the data science lifecycle.
-What is feature engineering, and why is it important?
-How do you handle missing or incomplete data in a dataset?
-What is the curse of dimensionality, and how does it affect machine learning models?
-Explain the difference between correlation and causation.
-How would you handle outliers in a dataset?
-What is cross-validation, and why is it used in machine learning?
-What evaluation metrics would you use for a classification problem?
-How does regularization help in preventing overfitting?
-What are the assumptions of linear regression?
-Explain the bias-variance tradeoff in machine learning.
-Describe the process of feature selection.
-What is the purpose of clustering algorithms?
-How would you validate a machine learning model?
-What are some techniques for handling imbalanced datasets?
-Explain the difference between batch gradient descent and stochastic gradient descent.
-What is the difference between classification and regression?
-How do decision trees work, and what are their advantages and disadvantages?
-Describe the working of a recommendation system.
-- >>> What are the 100 most common data science interview questions that a junior must know:
-What is data science, and how does it differ from traditional statistics?
-Explain the difference between supervised and unsupervised learning.
-What are some common machine learning algorithms used in classification tasks?
-Describe the steps involved in the data science lifecycle.
-How do you handle missing data in a dataset?
-What is feature engineering, and why is it important in machine learning?
-What is the purpose of exploratory data analysis (EDA)?
-How would you assess the quality of a machine learning model?
-Explain the concepts of bias and variance in the context of machine learning.
-What evaluation metrics would you use for a regression problem?
-What is cross-validation, and why is it used in machine learning?
-Describe the difference between overfitting and underfitting.
-How do you select important features for a machine learning model?
-What is the difference between correlation and causation?
-How would you handle outliers in a dataset?
-Explain the central limit theorem and its significance in statistics.
-Describe the difference between parametric and non-parametric statistical tests.
-What are the assumptions of linear regression?
-How do decision trees work, and what are their advantages and disadvantages?
-What are some common data preprocessing techniques?
 - >>> What are the 100 most common backend development interview questions:
 What is the difference between frontend and backend development?
 Explain the concept of RESTful APIs and why they are important in web development.
@@ -187,7 +103,7 @@ Describe your approach to mentoring or coaching junior team members.
 How do you ensure clarity and alignment in project goals and objectives?
 What is your approach to conflict resolution and negotiation?
 How do you promote a positive work culture and contribute to team morale?
--
+
 Can you tell me about yourself?
 Why are you interested in this position/company?
 Describe a time when you had to work effectively under pressure.
@@ -208,5 +124,3 @@ What strategies do you use to build strong relationships with clients or custome
 Can you describe a time when you demonstrated creativity in solving a problem?
 How do you contribute to fostering a positive and inclusive work culture?
 Where do you see yourself in 5 years professionally?
-.
-Lets practice a job interview as a ...

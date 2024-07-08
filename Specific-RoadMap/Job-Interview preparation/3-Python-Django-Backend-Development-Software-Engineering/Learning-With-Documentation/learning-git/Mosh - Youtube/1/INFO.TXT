@@ -1,0 +1,65 @@
+restore
+git config --global user.name "NAME"
+                        .email "EMAIL"
+                        .editor "code --wait"
+git config --global core.autocrlf input
+                                  for linux and mac
+                                  true
+                                  for windows
+git config --global -e
+                    open the config file in the default editor
+git COMMAND --help
+git COMMAND -h
+            gives a short summery of this command
+git help COMMAND
+    opens a browser to the document/COMMAND page
+git restore --staged FILE-NAME
+ls -a
+'git rm' is just like the 'rm' command in linux.
+git add PATTERN
+echo TEXT >> FILE.EXT
+          append
+git rm --cached FILE-NAME
+git mv FILE-NAME-1 FILE-NAME-2
+git rm FILE-NAME
+.gitignore
+git ls-files
+    same as 'git status' but listed and clean
+*{
+    vaghti yek file/folder ra add+commit mikoni bad mizarish to .gitignore file ama taghirat track mishe, che baiad kard:
+    git rm --cached FILE
+    git rm -r --cached FOLDER
+}
+git status -s
+            short
+git diff --staged
+         chia gharare commit beshan ke add shodan, che taghirati
+git diff
+    chia gharare add/stage beshan, che taghirati
+setting git diff configs:
+    git config --global diff.tool vscode
+    git config --global difftool.vscode.cmd = "code --wait --diff $LOCAL $REMOTE"
+'git difftool' bejaye 'git diff'
+git log --oneline
+          on line description
+        --reverse
+          in reverse order
+git show COMMIT-ID
+git show HEAD
+git show HEAD~1
+git show COMMIT-ID:FILE-OR-FOLDER
+                  for see the changes on a special file/folder/path
+git ls-tree COMMIT-ID
+    file and folders at that COMMIT-ID
+git reset --soft COMMIT-ID
+          --hard
+undo the 'add' operation (Un-Stage):
+    git restore --staged FILE
+git clean -fd
+           f: force
+           d: directories
+           for discarding local changes; to remove all new un-tracked file/folder
+git restore FILE
+    get the previous version of that FILE
+restore a file to the previous version:
+    git restore --source=HEAD~1 FILE

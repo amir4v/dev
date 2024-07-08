@@ -1,0 +1,34 @@
+STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+
+# in Development: DEBUG=True
+STATIC_DIR = os.path.join(BASE_DIR, 'static') # No need for this, you can just put its value inside STATICFILES_DIRS list.
+STATICFILES_DIRS = [STATIC_DIR] # These are where your live and fresh and working statics are, inside your project directory (BASE_DIR), and all of these will combine to STATIC_ROOT with 'collectstatic' command.
+"""
+Logically there is no need for this,
+but when you are in Development-Mode(DEBUG=True),
+Django will not allow you to handle 'static' URL-path by yourself
+and somehow needs this to show 'static' files.
+"""
+
+# in Production: DEBUG=False
+STATIC_ROOT = '/home/USER/PROJECT/public/static/'
+"""
+The exact same directory
+in NginX /static/ location with one-directory-upper
+alias without '/' at the end like: '/home/USER/PROJECT/public'.
+"""
+
+# And, MEDIA_DIR is not a thing, MEDIA_ROOT is.
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+# in urls.py
+if settings.DEBUG:
+	# There is no need for this because {% load static %} in templates will handle the static files.
+	urlpatterns += static(settings.STATIC_URL, document_root=
+															settings.STATIC_DIR
+															or
+															settings.STATICFILES_DIRS[0]
+															or
+															settings.STATIC_ROOT
+															)

@@ -337,3 +337,21 @@ Sampling Distribution of t
     represents the distribution that would be obtained if a value of t were
     calculated for each sample mean for all possible random samples
     of a given size from some population.
+
+Z-Test
+    Purpose: To determine if there is a significant difference between the means of two groups when the population variance is known.
+    When to Use: Large sample sizes (typically n > 30) and known population variance.
+    Example: Comparing the average heights of two different populations.
+T-Test
+    Purpose: To determine if there is a significant difference between the means of two groups when the population variance is unknown.
+    When to Use: Small sample sizes (typically n < 30) and unknown population variance.
+    Types: Independent t-test (two different groups) and paired t-test (same group at different times).
+    Example: Comparing test scores of students from two different classes.
+Z-Score
+    Definition: A measure that describes a value's position relative to the mean of a group of values, expressed in terms of standard deviations from the mean.
+    Example: A z-score of 2 means the value is 2 standard deviations above the mean.
+T-Score
+    Definition: Similar to a z-score, but used when the sample size is small and the population standard deviation is unknown. It accounts for the additional variability in smaller samples.
+    Example: A t-score of 1.5 means the value is 1.5 standard deviations above the sample mean, adjusted for sample size.
+In summary:
+    z-tests and z-scores are used for larger samples with known variances, while t-tests and t-scores are used for smaller samples with unknown variances.

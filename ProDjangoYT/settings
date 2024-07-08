@@ -1,0 +1,142 @@
+settings.py ->
+    settings
+        __init__.py
+            from pathlib import Path
+            from os.path
+            from split_settings.tools import include, optional
+            from project.core.utils.pytest import is_pytest_running
+            BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+            ENVVAR_SETTINGS_PREFIX = 'CORESETTINGS_'
+            LOCAL_SETTINGS_PATH = os.getenv(f'{ENVVAR_SETTINGS_PREFIX}LOCAL_SETTINGS_PATH')
+            if not LOCAL_SETTINGS_PATH:
+                LOCAL_SETTINGS_PATH = f'local/settings.{'unittest' if is_pytest_running() else 'dev'}.py'
+            if not os.path.isabs(LOCAL_SETTINGS_PATH):
+                LOCAL_SETTINGS_PATH = str(BASE_DIR / LOCAL_SETTINGS_PATH)
+            include(
+                'base.py',
+                'logging.py',
+                'custom.py',
+                optional(LOCAL_SETTINGS_PATH),
+                'envvars.py',
+                'docker.py',
+            )
+            if not is_pytest_running():
+                assert SECRET_KEY is not NotImplemented
+        base.py
+            DEBUG = False
+            SECRET_KEY = NotImplemented
+            ALLOW_HOSTS = ['*']
+            CORS_ALLOW_ALL_ORIGINS = True
+            CSRF_TRUDTED_ORIGINALS = []
+            DATABASES = {
+                'default': {
+                   'ENGINE': 'django.db.backends.postgresql',
+                   'NAME': 'name',
+                   'USER': 'user',
+                   'PASSWORD': 'password',
+                   'HOST': 'localhost',
+                   'PORT': '5432',
+                   'ATOMIC_REQUESTS': True,
+                   'CONN_MAX_AGE' : 600,
+                },
+            }
+        custom.py
+            # Settings specific to this application only (no Django or third-party settings).
+            IN_DOCKER = False
+        logging.py
+            LOGGING = {
+                'version': 1,
+                'disable_existing_loggers': False,
+                'formatters': {
+                    'standard': {
+                        'format': '%(asctime)s %(levelname)s %(name)s %(message)s',
+                        # name: name of the logger
+                        # levelname: info/debug/warning/...
+                        # message: log message
+                        # asctime: display the time
+                    },
+                },
+                'handlers': {
+                    'console': {
+                        'level': 'INFO',
+                        'class': 'logging.StreamHandler',
+                        'formatter': 'standard',
+                        'filters': [],
+                    },
+                },
+                'loggers': {
+                    logger_name: {
+                        'level': 'WARNING',
+                        'propagate': True,
+                    } for logger_name in ('django', 'django.request', 'django.db.backends', 'django.template', 'core'),
+                },
+                'root': {
+                    'level': 'DEBUG',
+                    'handlers': ['console'],
+                },
+            }
+            # logger = logging.getLogger('bacon')
+            # logger = logging.getLogger(__name__)
+            # And where ever you want you cn log like this:
+            import logging
+            logger = logging.getLogger('tuna')
+            logger.debug('This is a debug message!')
+        docker.py
+            if IN_DOCKER:
+                assert MIDDLEWARE[:1] == ['django.middleware.security.SecurityMiddleware']
+        envvars.py
+            from core.core.utils.collections import deep_update
+            from core.core.utils.settings import get_settings_from_environment
+            # globals() is a dictionary of global variables.
+            deep_update(globals(), get_settings_from_environment(ENVVAR_SETTINGS_PREFIX))
+        templates
+            settings.github.com
+                DEBUG = True
+                SECRET_KEY = '...'
+            settings.dev.py
+                DEBUG = True
+                SECRET_KEY = '...'
+
+cp settings/templates/settings.dev.py [along with the core app directory]/local/settings.dev.py
+local/settings.dev.py
+    DEBUG = True
+    SECRET_KEY = '...'
+    LOGGING['formatters']['colored'] = {
+        '()': 'colorlog.ColorFormatter',
+        'format': '%(log_color)s%(asctime)s (levelname)s (name)s (bold_white)s(message)s',
+    }
+    LOGGING['loggers']['core']['level'] = 'DEBUG'
+    LOGGING['handlers']['console']['level'] = 'DEBUG'
+    LOGGING['handlers']['console']['formatter'] = 'colored'
+local/settings.unittests.py
+
+Along with the core/project app, a 'core' package and inside it a 'utils' package and inside it a
+    'pytest.py':
+        import os
+        import sys
+        def is_pytest_running():
+            return os.getenv('PYTEST_RUNNING') == 'true' or os.path.basename(sys.argv[0]) in ('pytest', 'py.test')
+    'collections.py':
+        def deep_update(base_dict, update_with):
+            for key, value in update_with.items():
+                if isinstance(value, dict):
+                    base_dict_value = base_dict[key]
+                    if isinstance(base_dict_value, dict):
+                        deep_update(base_dict_value, value)
+                    else:
+                        base_dice[key] = value
+                else:
+                    base_dict[key] = value
+            return base_dict
+    'misc.py':
+        import yaml
+        def yaml_coerce(value):
+            if isinstance(value, str):
+                return yaml.load(f'dummy: {value}', Loader=yaml.SafeLoader)['dummy']
+            return value
+    'settings.py':
+        import os
+        from .misc import yaml_coerce
+        def get_settings_from_environment(prefix):
+            prefix_len = len(prefix)
+            return { key[prefix_len:] : yaml_coerce(value) for key, value in os.environ.items() if key.startswith(prefix) }

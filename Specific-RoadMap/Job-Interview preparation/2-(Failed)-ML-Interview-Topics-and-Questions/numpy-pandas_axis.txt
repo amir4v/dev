@@ -1,0 +1,22 @@
+- Numpy:
+axis=0 -> column
+axis=1 -> row
+a[row , column]
+a[from-row:to-row , from-column:to-column]
+
+-------------------------------------------------------------------------------
+
+- Pandas:
+axis=0 -> row
+axis=1 -> column
+s[index]
+df[column]
+s.loc[index]
+df.loc[index]
+df.loc[df['a'] > 0.5]
+df.loc[df['a'] > 0.5 , 'a']
+df.loc[df['a'] > 0.5 , ['a', 'b']]
+df.loc[df['a'] > 0.5 , 'a'] -> df.loc[df['a'] > 0.5]['a']
+s.iloc[i]
+df.iloc[i]
+.iloc[row , column] -> .iloc[1 , -1] -> .iloc[ second-row , last-column ] -> accessing/changing a cell

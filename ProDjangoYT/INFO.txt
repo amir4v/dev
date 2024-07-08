@@ -1,0 +1,61 @@
+Python*
+Django*
+djangorestframewrok*
+Git
+poetry
+Linux
+Virtual Environment: pip, venv, pipenv, conda, pyenv, virtualenv, pew, virtualenvwrapper, poetry
+django-filter
+Makefile
+pyproject.toml
+lint
+django-split-settings
+PyYAML
+Docker
+Clean Architecture
+Clean Code
+EditorConfig
+flake8, black, pep8
+pre-commit
+isort, yapf (in pyproject.toml)
+colorlog
+WebSocket, django-channels
+DB, SQL, PostgreSQL, NoSQL, MongoDB
+psycopg2
+django-cors-headers
+djangorestframework-simplejwt
+django-model-utils
+whitenoise
+pydantic (Pydantic is the most widely used data validation library for Python)
+daphne
+Test*, unittest, pytest (pytest pytest-xdist pytest-django model-bakery)
+-
+# [
+    django-storages
+    boto3 (AWS SDK for Python (Boto3))
+    pynacle (PyNaCl: Python binding to the libsodium library) (which is a fork of the Networking and Cryptography library)
+# ]
+-
+    Elasticsearch
+    Microservices, WebService
+    xDD
+    OOP, SOLID, Design Patterns
+    MVC*
+    Agile,Scrum,Sprint,Daily, (and tools and related softwares), Waterfall Model/Methodology
+    OOP, SOLID, Design Patterns, Software Development Life Cycle (SDLC)
+    MsgBrokers
+        Redis
+        Memcached
+        RabbitMQ
+        kafka
+    CI/CD, Github Workflows, CircleCI, Jenkins, TravisCI
+    FastAPI
+    Google Cloud, AWS
+    [   *****
+        Comment, Doc, Docs, Documentation, Documenting, (Code and Software)
+        APIDoc, APIDocumentation
+        CleanCode, StandardCode, BestPracticeCode
+        Commit, Issue, PR, MergeRequest, Branch, CommitMessage, Contribution, Collaboration
+        + *...Git...*
+    ]
+-

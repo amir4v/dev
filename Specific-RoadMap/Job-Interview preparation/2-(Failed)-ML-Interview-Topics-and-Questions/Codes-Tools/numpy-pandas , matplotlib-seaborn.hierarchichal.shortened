@@ -1,0 +1,419 @@
+
+# Numpy # -------------------------------------------------------------------
+
+1. Core Array Objects
+    ndarray
+    dtype
+    shape
+    ndim
+    size
+    itemsize
+    nbytes
+    T
+    data
+2. Array Creation
+  From existing data:
+    array()
+    asarray()
+    copy()
+    fromfile()
+  From numerical ranges:
+    arange()
+    linspace()
+    logspace()
+  From built-in data structures:
+    empty()
+    eye()
+    ones()
+    zeros()
+    full()
+3. Array Manipulation
+  Shape and size:
+    reshape()
+    ravel()
+    flatten()
+    transpose()
+    concatenate()
+    stack()
+    vstack()
+    hstack()
+    split()
+    repeat()
+4. Data Types
+    dtype
+    astype()
+    can_cast()
+5. Mathematical Functions
+  Arithmetic operations:
+    add()
+    subtract()
+    multiply()
+    divide()
+    power()
+    mod()
+    remainder()
+    divmod()
+  Rounding:
+    around()
+    floor()
+    ceil()
+    trunc()
+  Sums, products, differences:
+    sum()
+    prod()
+    diff()
+  Exponents and logarithms:
+    exp()
+    log()
+    log10()
+    log2()
+  Other:
+    absolute()
+    sign()
+    maximum()
+    minimum()
+    clip()
+    sqrt()
+6. Statistics
+    mean()
+    std()
+    var()
+    average()
+    median()
+    percentile()
+    quantile()
+    corrcoef()
+    cov()
+    histogram()
+    bincount()
+    digitize()
+7. Random Sampling
+    random.rand()
+    random.randn()
+    random.randint()
+    random.choice()
+    random.permutation()
+    random.shuffle()
+    random.seed()
+    random.uniform()
+    random.normal()
+    random.binomial()
+    random.poisson()
+8. Linear Algebra
+    dot()
+    matmul()
+    linalg.inv()
+    linalg.det()
+    linalg.norm()
+    linalg.solve()
+11. Input and Output
+    save()
+    load()
+    savetxt()
+    loadtxt()
+    genfromtxt()
+    fromfile()
+    tofile()
+13. Modules
+    numpy.core
+    numpy.linalg
+    numpy.random
+    numpy.testing
+
+# Pandas # -------------------------------------------------------------------
+
+1. Core Data Structures
+    Series
+    pd.Series()
+    DataFrame
+    pd.DataFrame()
+  Attributes:
+    index
+    values
+    name
+    dtype
+    shape
+  Methods:
+    head()
+    tail()
+    describe()
+    value_counts()
+    unique()
+    nunique()
+    map()
+    apply()
+    astype()
+    sort_values()
+    sort_index()
+    dropna()
+    fillna()
+    isnull()
+    notnull()
+    shift()
+    cumsum()
+    cumprod()
+    cummin()
+    cummax()
+  Attributes:
+    columns
+    index
+    values
+    dtypes
+    shape
+  Methods:
+    head()
+    tail()
+    info()
+    describe()
+    sort_values()
+    sort_index()
+    groupby()
+    merge()
+    join()
+    concat()
+    append()
+    apply()
+    applymap()
+    astype()
+    drop()
+    drop_duplicates()
+    rename()
+    reset_index()
+    set_index()
+    transpose()
+    stack()
+    unstack()
+    cut()
+    sample()
+    nlargest()
+    nsmallest()
+2. Input/Output
+  Reading Files:
+    pd.read_csv()
+    pd.read_excel()
+    pd.read_json()
+    pd.read_html()
+    pd.read_sql()
+    pd.read_pickle()
+    pd.read_clipboard()
+  Writing Files:
+    DataFrame.to_csv()
+    DataFrame.to_excel()
+    DataFrame.to_json()
+    DataFrame.to_html()
+    DataFrame.to_sql()
+    DataFrame.to_pickle()
+    DataFrame.to_clipboard()
+3. Indexing and Selecting Data
+  Index Objects:
+    pd.Index()
+    pd.MultiIndex()
+    pd.CategoricalIndex()
+    pd.DatetimeIndex()
+    pd.TimedeltaIndex()
+  Selection:
+    .loc[]
+    .iloc[]
+    .at[]
+    .iat[]
+4. Data Cleaning and Preparation
+  Missing Data:
+    dropna()
+    fillna()
+    isna()
+    notna()
+    interpolate()
+  Duplicates:
+    duplicated()
+    drop_duplicates()
+  Replacing:
+    replace()
+  String Handling:
+    .str
+    str.lower()
+    str.upper()
+    str.len()
+    str.strip()
+    str.split()
+    str.replace()
+    str.contains()
+    str.startswith()
+    str.endswith()
+    str.findall()
+5. Group By and Aggregation
+    groupby()
+    agg()
+    aggregate()
+    transform()
+    apply()
+    filter()
+    crosstab()
+6. Time Series
+    pd.date_range()
+    pd.to_datetime()
+    pd.to_timedelta()
+    pd.DatetimeIndex()
+    pd.TimedeltaIndex()
+    shift()
+    to_timestamp()
+7. Merging, Joining, and Concatenation
+    merge()
+    concat()
+    join()
+    append()
+    merge_ordered()
+8. Reshaping and Pivoting
+    stack()
+    unstack()
+    get_dummies()
+9. Plotting
+    plot()
+    hist()
+    boxplot()
+    area()
+    bar()
+    barh()
+    pie()
+    scatter()
+    hexbin()
+    kde()
+    density()
+10. MultiIndex / Advanced Indexing
+    pd.MultiIndex()
+    set_index()
+    reset_index()
+    sort_index()
+    get_level_values()
+11. Categorical Data
+    pd.Categorical()
+    pd.CategoricalIndex()
+    astype('category')
+    cat.codes
+    cat.categories
+    cat.add_categories()
+    cat.remove_categories()
+    cat.rename_categories()
+    cat.reorder_categories()
+    cat.set_categories()
+    cat.as_ordered()
+    cat.as_unordered()
+
+# Matplotlib # -------------------------------------------------------------------
+
+1. Main Functions
+  Plotting Functions:
+    plot()
+    scatter()
+    bar()
+    hist()
+    boxplot()
+    pie()
+    violinplot()
+  Image Functions:
+    imshow()
+  Statistical Functions:
+    boxplot()
+    violinplot()
+2. Figure and Axes Handling
+    figure()
+    subplot()
+    subplots()
+    savefig()
+    close()
+    draw()
+    pause()
+3. Axis Functions
+    xticks()
+    yticks()
+    xlabel()
+    ylabel()
+    grid()
+    legend()
+    colorbar()
+4. Style and Formatting
+    style.use()
+    rc()
+5. Annotations and Text
+    title()
+    text()
+    annotate()
+    arrow()
+    annotate()
+    figtext()
+10. Configuration and Runtime
+    matplotlib.rc
+    matplotlib.rcParams
+    matplotlib.rc_context
+    matplotlib.rcdefaults
+
+# Seaborn # -------------------------------------------------------------------
+
+1. Relational Plots
+    scatterplot()
+    lineplot()
+    relplot()
+2. Categorical Plots
+    catplot()
+    stripplot()
+    swarmplot()
+    boxplot()
+    violinplot()
+    boxenplot()
+    pointplot()
+    barplot()
+    countplot()
+3. Distribution Plots
+    displot()
+    histplot()
+    kdeplot()
+    ecdfplot()
+    rugplot()
+4. Regression Plots
+    regplot()
+5. Matrix Plots
+    heatmap()
+    clustermap()
+6. Multi-Plot Grids
+    FacetGrid
+    PairGrid
+    PairPlot (function that wraps PairGrid)
+7. FacetGrid Methods
+    map()
+    map_dataframe()
+    map_diag()
+    add_legend()
+    set()
+    set_axis_labels()
+    set_titles()
+8. PairGrid Methods
+    map()
+    map_diag()
+    map_lower()
+    map_upper()
+    add_legend()
+    set()
+    set_axis_labels()
+    set_titles()
+    despine()
+9. Utilities
+    load_dataset()
+    set_theme()
+    set_context()
+    set_style()
+    set_palette()
+    color_palette()
+    dark_palette()
+    light_palette()
+    blend_palette()
+    move_legend()
+10. Themes
+    set_theme()
+    set_context()
+    set_style()
+11. Palettes
+    color_palette()
+    dark_palette()
+    light_palette()
+    blend_palette()
+
+#

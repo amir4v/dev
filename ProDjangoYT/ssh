@@ -1,0 +1,4 @@
+$ ssh-keygen -t rsa -b 4096 -f ~/.ssh/github
+[WITHOUT PASSPHARSE/PASSWORD] (just hit enter twice)
+
+sudo nano ~/.ssh/authorized_keys

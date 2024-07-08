@@ -1,0 +1,12 @@
+SRV(SSS)
+========
+Six state of data(form) transfer:
+1. Send data from client to server
+2. Receive data in server
+3. Validation of data
+(
+4. Save data
+) / (
+4. Send error/info messages
+5. Show error/info messages
+)
