@@ -1,0 +1,19 @@
+UndoRetweets:
+-------------------------------------------------------------------------------
+function A(){
+    let tweets = document.querySelectorAll('[data-testid="unretweet"]');
+    for(i=0; i<tweets.length; i++){
+        tweets[i].click();
+    }
+}
+
+function B(){
+    document.querySelector('[data-testid="unretweetConfirm"]').click();
+}
+
+function C(){
+    A(); B();
+}
+
+setInterval(C, 100);
+-------------------------------------------------------------------------------
