@@ -1,10 +1,21 @@
 -------------------------------------------------------------------------------
-Likes:
+Bookmarks:
 -------------------------------------------------------------------------------
 async function A(){
-    window.scrollTo(0, document.body.scrollHeight);
+    document.querySelector('[data-testid="removeBookmark"]').click();
+}
+setInterval(A, 100);
+-------------------------------------------------------------------------------
+Likes:
+-------------------------------------------------------------------------------
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+scroll = 800;
+async function A(){
+    // window.scrollTo(0, document.body.scrollHeight);
+    window.scrollTo(0, scroll);
     document.querySelector('[data-testid="unlike"]').click();
-    await sleep(900);
+    await sleep(1500);
+    scroll += 800;
 }
 setInterval(A, 100);
 -------------------------------------------------------------------------------
