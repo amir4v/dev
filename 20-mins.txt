@@ -7,4 +7,11 @@
 - 0'
 - A "these two can be replaced with each other"
 - B "these two can be replaced with each other"
-- "(job or advancement/progress)"
+- "(job/expertise or advancement/progress)"
+
+->
+
+- - Simplified:
+  - - English*
+  - - Mathematics*
+  - - (job/expertise)*
