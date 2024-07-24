@@ -1,11 +1,17 @@
 ----------------------------Just ["FUCKING"] do it.----------------------------
 
--------------------------------------------------------------------------------
+-----------------------Read/Study && Practice/Solve/Code-----------------------
 
-[100 minutes]
+- English
+- Mathematics
+- 0'
+- A "these two can be replaced with each other"
+- B "these two can be replaced with each other"
+- "(job/expertise or advancement/progress)"
 
-- English                                                ::: Study & Speaking
-- Mathematics                                            ::: Study & Solve
-- Math, DSA, Algorithms, Dynamic Programming, Programming::: Study & Solve & Code
-- Software Engineering, Backend Development              ::: Study & Code
-- Data Science, Machine Learning                         ::: Study & Code
+->
+
+- - Simplified:
+  - - English*
+  - - Mathematics*
+  - - (job/expertise)*

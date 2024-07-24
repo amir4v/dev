@@ -1,0 +1,124 @@
+-------------------------------------------------------------------------------
+Bookmarks:
+-------------------------------------------------------------------------------
+async function A(){
+    document.querySelector('[data-testid="removeBookmark"]').click();
+}
+setInterval(A, 100);
+-------------------------------------------------------------------------------
+Likes:
+-------------------------------------------------------------------------------
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+scroll = 800;
+async function A(){
+    // window.scrollTo(0, document.body.scrollHeight);
+    window.scrollTo(0, scroll);
+    document.querySelector('[data-testid="unlike"]').click();
+    await sleep(1500);
+    scroll += 800;
+}
+setInterval(A, 100);
+-------------------------------------------------------------------------------
+Retweets:
+-------------------------------------------------------------------------------
+function A(){
+    window.scrollTo(0, document.body.scrollHeight);
+    let tweets = document.querySelectorAll('[data-testid="unretweet"]');
+    for(i=0; i<tweets.length; i++){
+        tweets[i].click();
+    }
+}
+
+function B(){
+    window.scrollTo(0, document.body.scrollHeight);
+    document.querySelector('[data-testid="unretweetConfirm"]').click();
+}
+
+function C(){
+    window.scrollTo(0, document.body.scrollHeight);
+    A(); B();
+}
+
+setInterval(C, 100);
+-------------------------------------------------------------------------------
+Tweets:
+-------------------------------------------------------------------------------
+(function() {
+    let interval = 100; // Adjust the interval as needed
+    let scrollAttempts = 0;
+    let maxScrollAttempts = 30; // Adjust this to ensure all tweets are loaded
+
+    function processTweets() {
+        let tweets = document.querySelectorAll('[data-testid="tweet"]');
+        if (tweets.length === 0) {
+            console.log("No tweets found. Scrolling to load more tweets...");
+            window.scrollTo(0, document.body.scrollHeight);
+            scrollAttempts++;
+            if (scrollAttempts >= maxScrollAttempts) {
+                console.log("Reached max scroll attempts. Stopping.");
+                return;
+            }
+            setTimeout(processTweets, interval);
+            return;
+        }
+
+        scrollAttempts = 0; // Reset scroll attempts
+        console.log(`Found ${tweets.length} tweets.`);
+
+        tweets.forEach((tweet, index) => {
+            setTimeout(() => {
+                let retweetIcon = tweet.querySelector('[data-testid="unretweet"]');
+                if (retweetIcon) {
+                    undoRetweet(tweet, index, tweets.length);
+                } else {
+                    deleteTweet(tweet, index, tweets.length);
+                }
+            }, index * interval * 3); // Multiply interval to avoid rate limiting
+        });
+
+        setTimeout(processTweets, tweets.length * interval * 3);
+    }
+
+    function deleteTweet(tweet, index, totalTweets) {
+        window.scrollTo(0, document.body.scrollHeight);
+        let moreButton = tweet.querySelector('[aria-label="More"]');
+        if (moreButton) {
+            moreButton.click();
+            setTimeout(() => {
+                let deleteButton = Array.from(document.querySelectorAll('[role="menuitem"]'))
+                    .find(el => el.innerText.includes('Delete'));
+                if (deleteButton) {
+                    deleteButton.click();
+                    setTimeout(() => {
+                        document.querySelector('[data-testid="confirmationSheetConfirm"]').click();
+                        console.log(`Deleted tweet ${index + 1}/${totalTweets}`);
+                    }, interval);
+                }
+            }, interval);
+        }
+    }
+
+    function undoRetweet(tweet, index, totalTweets) {
+        window.scrollTo(0, document.body.scrollHeight);
+        let retweetButton = tweet.querySelector('[data-testid="retweet"]');
+        if (retweetButton) {
+            retweetButton.click();
+            setTimeout(() => {
+                let undoRetweetButton = document.querySelector('[data-testid="unretweet"]');
+                if (undoRetweetButton) {
+                    undoRetweetButton.click();
+                    setTimeout(() => {
+                        let confirmButton = document.querySelector('[data-testid="confirmationSheetConfirm"]');
+                        if (confirmButton) {
+                            confirmButton.click();
+                        }
+                        console.log(`Undid retweet ${index + 1}/${totalTweets}`);
+                    }, interval);
+                }
+            }, interval);
+        }
+    }
+
+    processTweets();
+})();
+-------------------------------------------------------------------------------
