@@ -630,12 +630,12 @@ English[
         https://tinytexts.wordpress.com
         Book Speaking by Cheryl Pelteret
     IELTS Materials:
+        https://ieltslemon.com/fa/ielts/exam (IELTS Cambridge Books)
+        https://mini-ielts.com
         https://ieltsmaterial.com
         https://ieltsliz.com
         Book IELTS [NUMBER] General Training Student's Book with Answers With Audio: Authentic Practice Tests
-        Book Official IELTS Practice Materials [NUMBER]:
-            2: https://bayanebartar.org/file-dl/library/IELTS7/Official-Ielts-Practice-Materials-2/Official-Ielts-Practice-Materials-2.pdf
-        https://bayanebartar.org/file-dl/library/IELTS7/Official-Ielts-Practice-Materials-2/Official-Ielts-Practice-Materials-2.pdf
+        Book Official IELTS Practice Materials [NUMBER]
     Book Everything You Need to Ace English Language Arts in One Big Fat Notebook
     App: News in Levels: Learn English
     Book Infotech: English for computer users 4th edition
@@ -646,11 +646,13 @@ English[
     Book Communicate What You Mean
     Repeat everything you hear + Watch (Youtube)videos with English subtitle.
     Talk to ChatGPT.
-    [ESL-Podcast: https://www.irlanguage.com/1036/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%B1%D9%88%D8%B2%D9%85%D8%B1%D9%87-ESL-Podcast-%D9%86%D8%B3%D8%AE%D9%87-%DA%A9%D8%A7%D9%85%D9%84-%D8%AF%D8%B1%D9%88%D8%B3-1-%D8%AA%D8%A7-1305/
+    [ESL-Podcast: https://www.irlanguage.com/1036/...-ESL-Podcast-...-1305/
     BayaneBartar'sBook+Audio
     6 Minute BBC Learning English + Telegram channel: @BBCs_6MinuteEnglish
-    English-Pod: https://www.irlanguage.com/351/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA-%D9%87%D8%A7%DB%8C-%D8%B5%D9%88%D8%AA%DB%8C-EnglishPod/]
+    English-Pod: https://www.irlanguage.com/351/...-EnglishPod/]
     [Grammar in Use Books
+    Vocabulary in Use Books
+    Focus on Vocabulary [NUMBER] ... Books
     Oxford Word Skills Books
     American English File Books]
     Summarization is the Key: *یک متن یا وویس یا ویدیو باکیفیت و قابل تامل، یک بار دریافت/آبزِرو شود، بعد، معنی کلمات، گرامر، معنی و مفهوم و ارتباطات، حالا، خلاصه تعریفش کن و راجع بهش صحبت کن و خلاصه بنویسش*
