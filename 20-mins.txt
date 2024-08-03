@@ -2,9 +2,10 @@
 
 -----------------------Read/Study && Practice/Solve/Code-----------------------
 
-- English
-- Mathematics
-- 0'
+- 0
+  - English
+  - Mathematics
+  - 0'
 - A
 - B
 - "(job/expertise or advancement/progress)"
@@ -12,6 +13,6 @@
 - - >
 
 - - Simplified:
-  - - English*
-  - - Mathematics*
-  - - (job/expertise)*
+  - - English
+  - - Mathematics + 0'
+  - - (job/expertise)
