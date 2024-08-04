@@ -55,13 +55,14 @@ Python[
 ]
 .
 Django[
+    Book Django Design Patterns and Best Practices by Arun Ravindran
     Sending Emails, attach files using Django: Goodbye to Google SMTP! (smtp4dev): https://www.youtube.com/watch?v=zBW8UhxXwlc
     Django by Mosh: https://codewithmosh.com/p/the-ultimate-django-series
     https://djangobook.com
     toplearn: Python, Django, REST
     Ali Bigdeli from Maktabkhooneh: Django Basic, Django Advanced
-    آموزش Rest Framework در Django: https://toplearn.com/courses/windows/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-Rest-Framework-%D8%AF%D8%B1-%D8%AC%D9%86%DA%AF%D9%88/
-    آموزش جامع فریم ورک جنگو ( Django ): https://toplearn.com/courses/web/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%81%D8%B1%DB%8C%D9%85-%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-(-Django-)-%D8%A7%D8%B2-%D9%85%D9%82%D8%AF%D9%85%D8%A7%D8%AA%DB%8C-%D8%AA%D8%A7-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87/
+    آموزش Rest Framework در Django: https://toplearn.com/courses/windows/...-Rest-Framework-.../
+    آموزش جامع فریم ورک جنگو ( Django ): https://toplearn.com/courses/web/...-(-Django-)-.../
     https://github.com/shahraizali/awesome-django
     https://github.com/wsvincent/awesome-django
     Book Django for APIs Build web APIs with Python and Django (William S Vincent)
@@ -69,7 +70,7 @@ Django[
     Book Django for Beginners (William S. Vincent)
     Book Django Crash Course by Daniel Roy Greenfeld
     Django Rest Framework | Serializers & CRUD: https://www.youtube.com/watch?v=TmsD8QExZ84
-    Django course by Ali Bigdeli from Maktabkhooneh: https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D9%86%DA%AF%D9%88-mk623/ -> https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-mk1438/
+    Django course by Ali Bigdeli from Maktabkhooneh: https://maktabkhooneh.org/course/...-mk623/ -> https://maktabkhooneh.org/course/...-mk1438/
     django-midd-level: https://github.com/amir4v/dev/blob/main/Specific-RoadMap/Python-Django-Backend-Developer/django-midd-level.txt
     Pro Django Tutorials: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDYbs0jJdGefNN8eZRSwWqy
     Django Tutorials: https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
@@ -624,12 +625,16 @@ English[
         https://byjus.com/english/english-grammar
         https://www.ef.com/wwen/english-resources/english-grammar
     Text:
+        https://freegradedreaders.com/wordpress/
+        https://www.wgtn.ac.nz/lals/resources
         https://learnenglish.britishcouncil.org/skills/listening
         https://deepenglish.com/blog
         https://blog.abaenglish.com
         https://tinytexts.wordpress.com
         Book Speaking by Cheryl Pelteret
-    IELTS Materials:
+    IELTS:
+        https://smalltalk2.me
+        https://www.ieltsolve.com
         https://ieltslemon.com/fa/ielts/exam (IELTS Cambridge Books)
         https://mini-ielts.com
         https://ieltsmaterial.com
@@ -640,10 +645,14 @@ English[
     App: News in Levels: Learn English
     Book Infotech: English for computer users 4th edition
     Book Introductory Steps to Understanding by L. Hill
+    Book Word Power Made Easy by Norman Lewis
+    Book UNDERSTANDING AND USING English Grammar by Betty S. Azar
     The Class + The App + The Book + Assignments.
     Journaling your day, your thoughts, your stories, and whatever comes to your mind + Filming yourself and watching it.
     Practice and Talk to other people in-person or online(Discord).
-    Book Communicate What You Mean
+    Book Communicate What You Mean by Carroll Washington Pollock
+    Book Practical English Usage by Michael Swan
+    Book FLUENT English by Living Language
     Repeat everything you hear + Watch (Youtube)videos with English subtitle.
     Talk to ChatGPT.
     [ESL-Podcast: https://www.irlanguage.com/1036/...-ESL-Podcast-...-1305/
