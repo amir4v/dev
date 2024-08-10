@@ -2,16 +2,17 @@
 
 -----------------------Read/Study && Practice/Solve/Code-----------------------
 
-- English
-- Mathematics
-- 0'
-- A "these two can be replaced with each other"
-- B "these two can be replaced with each other"
+- 0
+  - English
+  - Mathematics
+  - 0'
+- A
+- B
 - "(job/expertise or advancement/progress)"
 
-->
+- - >
 
 - - Simplified:
-  - - English*
-  - - Mathematics*
-  - - (job/expertise)*
+  - - English
+  - - Mathematics + 0'
+  - - (job/expertise)
