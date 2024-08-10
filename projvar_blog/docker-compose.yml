@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: projvar_blog
+      POSTGRES_USER: projvar_blog
+      POSTGRES_PASSWORD: projvar_blog
+    volumes:
+      - postgresql-data: /var/lib/postgresql/data
+  
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    environment:
+      PROJVARBLOG_SETTINGS_DATABASES: '{"default": {"HOST": "db"}}'
+      PROJVARBLOG_SETTINGS_LOCAL_SETTINGS_PATH: 'local/settings.prod.py'
+  
+  postgres:
+    image: postgres:16-alpine
+  elasticsearch:
+    image: elasticsearch:8.14.1
+  nginx:
+    image: nginx:stable-alpine
+  redis:
+    image: redis:alpine
+  rabbitmq:
+    image: rabbitmq:alpine
+
+volumes:
+  - postgresql-data:
+    driver: local

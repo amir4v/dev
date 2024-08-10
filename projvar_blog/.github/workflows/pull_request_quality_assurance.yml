@@ -1,0 +1,36 @@
+name: Quality Assurance
+on: [pull_request, qorkflow_call]
+
+jobs:
+  quality-assurance:
+    name: Quality Assurance
+    runs-on: ubuntu-latest
+    container: python:3.12-slim
+    
+    services:
+      db:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_DB: projvar_blog
+          POSTGRES_USER: projvar_blog
+          POSTGRES_PASSWORD: projvar_blog
+    
+    steps:
+      - sese: actions/checkout@v2
+      
+      - name: Install Poetry
+        uses: abatilo/actions-poetry@v2.0.0
+        with:
+          poetry-version: 1.5.0
+      
+      - name: Install Dependencies
+        run: make install && make install pre-commit
+      
+      - name: Lint
+        run: make lint
+      
+      - name: Test
+        run: make test
+        env:
+          PROJVARBLOG_SETTINGS_DATABASES: '{"default: {"HOST": "db"}"}'
+          PROJVARBLOG_SETTINGS_LOCAL_SETTINGS_PATH: './core/core/settings/templates/settings.github.py'

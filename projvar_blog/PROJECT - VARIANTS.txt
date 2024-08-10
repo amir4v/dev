@@ -1,0 +1,352 @@
+Python*
+Django*
+djangorestframewrok*
+Git
+poetry
+Linux
+Virtual Environment: pip, venv, pipenv, virtualenv, virtualenvwrapper, conda, pyenv, pew, poetry
+Makefile
+pyproject.toml
+lint
+django-split-settings
+PyYAML
+Docker
+Clean Architecture
+Clean Code
+EditorConfig
+flake8, black, pep8
+pre-commit
+isort, yapf (in pyproject.toml)
+colorlog
+WebSocket, django-channels
+DB, SQL, PostgreSQL, NoSQL, MongoDB
+psycopg2
+django-cors-headers
+djangorestframework-simplejwt
+whitenoise
+daphne
+django-debug-toolbar
+Test*, unittest, pytest (pytest pytest-xdist pytest-django model-bakery)
+
+[
+    Elasticsearch
+    Microservices, WebService
+    xDD, TDD, MDD, DDD
+    OOP, SOLID, Design Patterns
+    MVC*
+    Agile,Scrum,Sprint,Daily, (and tools and related softwares), Waterfall Model/Methodology
+    OOP, SOLID, Design Patterns, Software Development Life Cycle (SDLC)
+	Software Development Life Cycle (SDLC)
+	Redis
+	RabbitMQ
+    CI/CD, Github Workflows, CircleCI, Jenkins, TravisCI
+    FastAPI
+    [   *****
+        Comment, Doc, Docs, Documentation, Documenting, (Code and Software)
+        APIDoc, APIDocumentation
+        CleanCode, StandardCode, BestPracticeCode
+        Commit, Issue, PR, MergeRequest, Branch, CommitMessage, Contribution, Collaboration
+        + *...Git...*
+    ]
+]
+
+write FBV and CBV
+templates
+statics
+media
+template tags
+template filter
+custom upload file
+django upload file
+custom upload image
+django upload image
+routing
+simple queries
+complex queries
+one to one
+one to many
+many to many
+database signals
+manipulating default User
+manipulating default Group
+manipulating default Permissions
+Group
+Permissions
+change default authentication method
+forms
+using default django forms for User and Auth
+Authentication
+Authorization
+JWT
+Token Authentication
+testing: unittest, pytest
+celery
+simple_jwt
+nginx
+gunicorn
+rest framework
+postgresql, mysql, sqlite, mongodb
+redis
+django-channels
+elasticsearch
+debug_toolbar
+black, flake8
+locust
+CI-CD/Github-Actions/Github-Actions-Workflow
+smtp4dev
+django-cors-headers
+djoser
+django-allauth
+docker
+whitenoise
+middleware
+cache
+ContentType
+django.db.models > Q, F
+sending email and templated emails and attaching file to emails
+serializers
+graphene
+docs
+
+[Git (and git services like Github and Gitlab)
+SQL/NoSQL
+Databases (Relational and NonRelational)
+Django Rest Framework (DRF)
+FastAPI]
+Software Engineering *
+	API/REST/GraphQL/gRPC/WebRTC
+	Clean Code / Documentation
+	PEP 8
+	Standard Coding/Best Practices
+	10 Finger Typing
+	Test/Debug
+	Design Patterns
+	Agile/Scrum
+	Waterfall model
+	ACID
+	SOLID
+	RAD
+	TDD/MDD/DDD
+	MVC/MVP/MVVM
+DevOps *
+	Docker
+	Linux/Commands
+	Hosting
+	Server
+	Cloud
+	CI/CD
+Tools *
+	Redis
+	Elasticsearch
+	RabbitMQ
+	Locust
+	Celery
+	smtp4dev
+	Swagger
+	Channels/WebSocket/wRTC/gRPC
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+Python*
+Django*
+djangorestframewrok*
+Git
+poetry
+Linux
+Virtual Environment: pip, venv, pipenv, virtualenv, virtualenvwrapper, conda, pyenv, pew, poetry
+Makefile
+pyproject.toml
+lint
+django-split-settings
+PyYAML
+Docker
+Clean Architecture
+Clean Code
+EditorConfig
+flake8, black, pep8
+pre-commit
+isort, yapf (in pyproject.toml)
+colorlog
+WebSocket, django-channels
+DB, SQL, PostgreSQL, NoSQL, MongoDB
+psycopg2
+django-cors-headers
+djangorestframework-simplejwt
+whitenoise
+daphne
+Test*, unittest, pytest (pytest pytest-xdist pytest-django model-bakery)
+[
+    Elasticsearch
+    Microservices, WebService
+    xDD, TDD, MDD, DDD
+    OOP, SOLID, Design Patterns
+    MVC*
+    Agile,Scrum,Sprint,Daily, (and tools and related softwares), Waterfall Model/Methodology
+    OOP, SOLID, Design Patterns, Software Development Life Cycle (SDLC)
+	Software Development Life Cycle (SDLC)
+    MsgBrokers
+        Redis
+        Memcached
+        RabbitMQ
+        kafka
+    CI/CD, Github Workflows, CircleCI, Jenkins, TravisCI
+    FastAPI
+    Google Cloud, AWS
+    [   *****
+        Comment, Doc, Docs, Documentation, Documenting, (Code and Software)
+        APIDoc, APIDocumentation
+        CleanCode, StandardCode, BestPracticeCode
+        Commit, Issue, PR, MergeRequest, Branch, CommitMessage, Contribution, Collaboration
+        + *...Git...*
+    ]
+]
+write FBV and CBV
+templates
+statics
+media
+template tags
+template filter
+custom upload file
+django upload file
+custom upload image
+django upload image
+routing
+simple queries
+complex queries
+one to one
+one to many
+many to many
+database signals
+manipulating default User
+manipulating default Group
+manipulating default Permissions
+Group
+Permissions
+change default authentication method
+forms
+using default django forms for User and Auth
+Authentication
+Authorization
+JWT
+Token Authentication
+testing: unittest, pytest
+celery
+simple_jwt
+nginx
+gunicorn
+rest framework
+postgresql, mysql, sqlite, mongodb
+redis
+django-channels
+elasticsearch
+debug_toolbar
+black, flake8
+locust
+CI-CD/Github-Actions/Github-Actions-Workflow
+smtp4dev
+django-cors-headers
+djoser
+django-allauth
+docker
+whitenoise
+middleware
+cache
+ContentType
+django.db.models > Q, F
+accounting
+transactions
+json, yaml, xml
+re_path
+sending email and templated emails and attaching file to emails
+serializers
+graphene
+docs
+[Git (and git services like Github and Gitlab)
+SQL/NoSQL
+Databases (Relational and NonRelational)
+Data-Structures/Algorithms/Dynamic-Programming/Mathematics]
+[Python (and popular/useful modules)
+Django (and popular/useful modules)
+Django Rest Framework (DRF)
+FastAPI]
+Software Engineering *
+	API/REST/GraphQL
+	Clean Code / Documentation
+	PEP 8
+	Standard Coding/Best Practices
+	10 Finger Typing
+	Test/Debug
+	Design Patterns
+	Software Development Philosophies*
+	Agile/Scrum
+	Software Development Life Cycle (SDLC)
+	Microservices / WebServices
+	Message Brokers
+	Comprehensive systems:
+		Agile software development
+		Lightweight methodology
+		Adaptive software development
+		Kanban (development)
+		Rational Unified Process
+		Agile Unified Process
+	Paradigms:
+		Iterative and incremental development
+		Waterfall model
+		Formal methods
+	Programming paradigms:
+		Functional programming (FP)
+		Modular programming
+		Object-oriented programming (OOP)
+		Procedural programming
+	Software development methodologies:
+		Agile Unified Process (AUP)
+		Constructionist design methodology (CDM)
+		Dynamic systems development method (DSDM)
+		Extreme programming (XP)
+		Iterative and incremental development
+		Kanban
+		Lean software development
+		Model-based system engineering (MBSE)
+		Open Unified Process
+		Pair programming
+		Mob programming
+		Rapid application development (RAD)
+		Rational Unified Process (RUP)
+		Rubber duck debugging
+		Scrum
+		Structured systems analysis and design method (SSADM)
+		Unified Process (UP)
+	ACID
+	SEMAT
+	SOLID
+	RAD
+	TDD/MDD/DDD
+	MVC/MVP/MVVM
+DevOps *
+	Docker
+	Security
+	Linux/Commands
+	Hosting
+	Network
+	Server
+	Cloud
+	CI/CD
+Tools *
+	Redis
+	Elasticsearch
+	Memcached
+	RabbitMQ
+	Locust
+	smtp4dev
+	Swagger
+	Channels/WebSocket/wRTC/gRPC
+django-filter
+django-model-utils
+pydantic (Pydantic is the most widely used data validation library for Python)
+# [
+    django-storages
+    boto3 (AWS SDK for Python (Boto3))
+    pynacle (PyNaCl: Python binding to the libsodium library) (which is a fork of the Networking and Cryptography library)
+# ]

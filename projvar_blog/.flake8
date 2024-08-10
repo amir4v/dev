@@ -1,0 +1,15 @@
+[flake8]
+ignore=
+exclude=
+    migrations,
+    .git,
+    venv,
+    __pycache__
+filename=*.py
+accept-encodings=utf-8
+inline-quotes=single
+multiline-quotes=double
+max-complexity=10
+max-linenumber=1000
+max-line-length=79
+per-file-ignores=
