@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="Pw1lx-9ADOZ67-cU_8lc">
-    <mxGraphModel dx="1366" dy="1803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="478" dy="1346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,6 +210,9 @@
         </mxCell>
         <mxCell id="LMWK8aXgj8m5KuPDmJkq-1" value="&lt;font style=&quot;font-size: 3px;&quot;&gt;*English&lt;/font&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;*Mathematics&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;.Dev/AI&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;#Painting/Music&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1360" y="-320" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1P3gezh_YFH37GYvPUg_-2" value="&lt;p style=&quot;line-height: 100%; font-size: 2px;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;:برنامه:&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;line-height: 100%; font-size: 2px;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;زبان: تمرین/صحبت کن یا حداقل بخون&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;برنامه نویسی: بخون/ویدیو و کد/پروژه مهمه و از زمان ثبت مصاحبه تا مصاحبه هم حتما کد/پروژه بزن&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;تغییر: تا آخر 1403 یا 1404 کار برنامه نویسی و آمادگی و مطالعه و تمرین برای تدریس ریاضی و زبان، و بدان که درجا کار ریاضی و زبان خوب پیدا نمیکنی و حقوقش خوب نخواهد بود، پس از قبل آماده باش و برنامه و پلن های مختلف داشته باش و آماده اجرا باشند و گوش بزنگ باش که دوره تی تی سی بیان برتر رو شرکت کنی حتما و در اولین کلاس&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-320" width="30" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
