@@ -1,218 +1,74 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="Pw1lx-9ADOZ67-cU_8lc">
-    <mxGraphModel dx="478" dy="1346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="574" dy="1395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dCaoCA2dHIqfcbdslcku-3" value="MACHINE LEARNING" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="630" y="-40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="dCaoCA2dHIqfcbdslcku-8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.banner" parent="1" vertex="1">
-          <mxGeometry x="170" y="-170" width="560" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dCaoCA2dHIqfcbdslcku-9" value="IMMIGRATION" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="-160" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dCaoCA2dHIqfcbdslcku-10" value="ENGLISH" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="170" y="-40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="dCaoCA2dHIqfcbdslcku-11" value="SOFTWARE ENGINEERING" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="501" y="-40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="dCaoCA2dHIqfcbdslcku-12" value="MATHEMATICS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="281" y="-40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="dCaoCA2dHIqfcbdslcku-13" value="(DSA)ALGORITHMS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="391" y="-40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5NISFXG1NPqAGdjbYSEB-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="10" as="sourcePoint" />
-            <mxPoint x="620" y="-120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.frame;dx=10;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="170" y="-90" width="430" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-2" value="BASE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="355" y="-85" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-3" value="GENERALS:&lt;br&gt;CS,SE,DS, AI,ML,DL - NLP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="10" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-4" value="DSA,&lt;br&gt;DS,&lt;br&gt;ML,&lt;br&gt;MATHEMATICS,&lt;br&gt;TOOLS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="70" width="100" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-5" value="numpy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="150" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-1090" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-6" value="pandas" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="200" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-1040" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-7" value="matplotlib" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="250" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-990" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-8" value="seaborn" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="300" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-9" value="scipy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="500" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-940" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-10" value="scikit-learn" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="350" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-11" value="power bi" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="450" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-12" value="pandas-profiling" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="400" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-890" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-13" value="Book Statistics by Witte" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="550" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-840" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-14" value="Machine Learning Handbook by Martha White" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="600" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-790" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-15" value="Pattern Recognition and Machine Learning Book by Christipher Bishop" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="650" width="140" height="40" as="geometry" />
+          <mxGeometry x="20" y="-740" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-16" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;a style=&quot;box-sizing: unset; cursor: pointer; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; text-align: left; background-color: rgb(255, 255, 255);&quot; href=&quot;https://www.deeplearningbook.org/&quot;&gt;Deep Learning&lt;/a&gt;&amp;nbsp;by Ian Goodfellow and Yoshua Bengio and Aaron Courville&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="700" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-17" value="&lt;a style=&quot;background-color: rgb(255, 255, 255); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; text-align: start; box-sizing: unset; text-decoration-line: none;&quot; href=&quot;https://scikit-learn.org/stable/user_guide.html&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Scikit Learn User Guide&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="800" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-690" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uNf8jhvKmDgPgvKZIGbK-18" value="Book Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="750" width="260" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-19" value="Pytopia" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="850" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uNf8jhvKmDgPgvKZIGbK-20" value="pytorch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="900" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-640" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eiy_VjTBnV1nARQNC3YB-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="390" as="sourcePoint" />
-            <mxPoint x="620" y="150" as="targetPoint" />
+            <mxPoint x="10" y="-850" as="sourcePoint" />
+            <mxPoint x="10" y="-1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eiy_VjTBnV1nARQNC3YB-2" value="tensorflow" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="950" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eiy_VjTBnV1nARQNC3YB-3" value="keras" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1000" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eiy_VjTBnV1nARQNC3YB-4" value="Mathematics: From Pre-Algebra to Calculus-1 and Statistics&amp;amp;Probability and Linear Algebra" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1050" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eiy_VjTBnV1nARQNC3YB-5" value="bokeh" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1100" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="-590" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eiy_VjTBnV1nARQNC3YB-6" value="nltk" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1150" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eiy_VjTBnV1nARQNC3YB-7" value="dash" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1200" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eiy_VjTBnV1nARQNC3YB-8" value="theano" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1250" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eiy_VjTBnV1nARQNC3YB-9" value="pycaret" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1300" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eiy_VjTBnV1nARQNC3YB-10" value="streamlit" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1350" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eiy_VjTBnV1nARQNC3YB-16" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="-45" as="sourcePoint" />
-            <mxPoint x="730" y="-45" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eiy_VjTBnV1nARQNC3YB-17" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="5" as="sourcePoint" />
-            <mxPoint x="730" y="5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RyTJMQ-wxWSSFwGndHPK-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.frame;dx=10;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="170" y="-320" width="560" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="RyTJMQ-wxWSSFwGndHPK-5" value="&lt;div&gt;&lt;ol&gt;&lt;li&gt;EN&lt;/li&gt;&lt;li&gt;[CS, SE, DS]&lt;/li&gt;&lt;li&gt;DSA&lt;/li&gt;&lt;li&gt;MATH&lt;/li&gt;&lt;li&gt;TOOLS&lt;/li&gt;&lt;li&gt;ML&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="385" y="-310" width="130" height="120" as="geometry" />
+          <mxGeometry x="20" y="-540" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rNfnYfNZXdWyFEMV66Mj-3" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="634" y="205" as="sourcePoint" />
-            <mxPoint x="634" y="185" as="targetPoint" />
+            <mxPoint x="24" y="-1035" as="sourcePoint" />
+            <mxPoint x="24" y="-1055" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rNfnYfNZXdWyFEMV66Mj-4" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="634" y="306" as="sourcePoint" />
-            <mxPoint x="634" y="286" as="targetPoint" />
+            <mxPoint x="24" y="-934" as="sourcePoint" />
+            <mxPoint x="24" y="-954" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NjcC3SJjB0qP52kyVzx2-1" value="کسایی که توی کمپانی های بزرگ میتونن کار های بزرگ کنن، مثلا کسایی که توی هاروارد یا ام آی تی درس خوندن یا توی گوگل کار میکنن، اینا یک بیس قوی دارن که خوب فهمیدن و درک کردن و بلدن&lt;br&gt;*اونا چیان*&lt;br&gt;English&lt;br&gt;Mathematics&lt;br&gt;Data Structures&lt;br&gt;Algorithms&lt;br&gt;Programming(CS, SE, DS, Dev)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="NjcC3SJjB0qP52kyVzx2-1" value="کسایی که توی کمپانی های بزرگ میتونن کار های بزرگ کنن، مثلا کسایی که توی هاروارد یا ام آی تی درس خوندن یا توی گوگل کار میکنن، اینا یک بیس قوی دارن که خوب فهمیدن و درک کردن و بلدن&lt;br&gt;*اونا چیان*&lt;br&gt;English&lt;br&gt;Mathematics&lt;br&gt;Data Structures&lt;br&gt;Algorithms&lt;br&gt;Programming(CS, Dev, SE, DS)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="-320" width="300" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-1" value="MACHINE LEARNING" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="740" y="-40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-2" value="Statistics" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="10" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-3" value="Probability" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="30" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-4" value="Calculus" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="50" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-5" value="Data Structures" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="70" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-6" value="Algorithms" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="90" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-7" value="SE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="110" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-8" value="Data Science" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="130" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-9" value="Pre-Processing" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="150" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-10" value="numpy-pandas" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="170" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-11" value="pyplot-seaborn" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="190" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-12" value="ML: scikit-learn, XGBoost, [Also DL: Tensorflow(with Keras in it), PyTorch, Keras]" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="210" width="440" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-13" value="Programming" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="230" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-14" value="Mathematics" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="250" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-15" value="Tools" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="270" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8nW1GslCeC44FkuKD25y-16" value="Math = LinearAlgebra:Matrix,Vector,dot,inner,multiplication,sum,div,sub - Calculus:SigmaSum,Derivative,PartialDerivative,Trig" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="290" width="670" height="20" as="geometry" />
         </mxCell>
         <mxCell id="m1dlzt6d_2SXBuBqFUNx-1" value="&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;من - همین الان - همین جا - همین کار - من&quot;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;-&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;LINKS:github.com/amir4v/dev/blob/main/LINKS _ 20-mins:github.com/amir4v/dev/blob/main/20-mins.txt&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;-&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;Public/SideHustle:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;English, Persian,&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Soft Skills,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Contents, Editing, Theoretical/Intellectual topics, Guiding/Tutoring/Mentoring,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;...&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;-&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;Expert/ByMyOwn/Nerd/Geek/Expertise:&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;English&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Teacher/&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Professor/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LiveTranslator)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Mathematics&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;(Teacher/Professor/Researcher/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Mathematician&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Programmer/Developer/BackendDeveloper/SoftwareEngineer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;AI&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;(Engineer/Scientist)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;-&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;0: [English, Mathematics, 0&#39;:{DSA(Algorithms,DP), Dev(Programming)}]&lt;/font&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;A: [Python, Django, Backend Development, Software Engineering]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;B&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: [Data Science, Machine Learning Engineering(Machine Learning Science(Scientist))]&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-320" width="300" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LMWK8aXgj8m5KuPDmJkq-1" value="&lt;font style=&quot;font-size: 3px;&quot;&gt;*English&lt;/font&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;*Mathematics&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;.Dev/AI&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;#Painting/Music&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="-320" width="30" height="140" as="geometry" />
+        <mxCell id="LMWK8aXgj8m5KuPDmJkq-1" value="&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;Job: Dev/AI&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;:: being ready, interview&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;: current job at least until the end of 1404&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;Job: English&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;:: TTC, at the first opening&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;: get ready at most until the end of 1403&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 3px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;Job: Mathematics&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;: read, watch, solve&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;#Painting/Music/(Public/Society/Community/Social/SoftSkills/Content/People/Individual/IndividualS/Connection)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 3px;&quot;&gt;: ...&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="-320" width="150" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="1P3gezh_YFH37GYvPUg_-2" value="&lt;p style=&quot;line-height: 100%; font-size: 2px;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;:برنامه:&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;line-height: 100%; font-size: 2px;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;زبان: تمرین/صحبت کن یا حداقل بخون&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;برنامه نویسی: بخون/ویدیو و کد/پروژه مهمه و از زمان ثبت مصاحبه تا مصاحبه هم حتما کد/پروژه بزن&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;تغییر: تا آخر 1403 یا 1404 کار برنامه نویسی و آمادگی و مطالعه و تمرین برای تدریس ریاضی و زبان، و بدان که درجا کار ریاضی و زبان خوب پیدا نمیکنی و حقوقش خوب نخواهد بود، پس از قبل آماده باش و برنامه و پلن های مختلف داشته باش و آماده اجرا باشند و گوش بزنگ باش که دوره تی تی سی بیان برتر رو شرکت کنی حتما و در اولین کلاس&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="-320" width="30" height="140" as="geometry" />
+        <mxCell id="x79ABv-MMlPqtLKBj9pl-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;نمیدانم چه شغلی را از بین آنها برای همیشه میخواهم که به آن بچسبم و کاملا بخواهم و همه چیز برایم در آن باشد و پول و آسودگی و لذت و آرامش&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;فعلا نمیدانم چه را کدام کاملا میخواهم و انتخاب نهای ام کدام است&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;فعلا نمیدانم&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;و فکر میکنم دارم درجا میزنم و رشد نمیکنم و مسخره است&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=right;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-180" width="560" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
