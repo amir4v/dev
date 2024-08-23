@@ -1,0 +1,58 @@
+Let's break down how these validation methods (validate, clean, clean_[name-of-the-field], and validate_[name-of-the-field]) work in the context of Django and Django REST Framework (DRF):
+
+1. clean and clean_[name-of-the-field] in Django Forms
+clean():
+Applicable to django.forms.Form and django.forms.ModelForm.
+This method is used to perform validation that involves multiple fields. It runs after the clean_[name-of-the-field] methods for each field and should return the cleaned data dictionary. If any validation error is raised, it will affect the entire form.
+clean_[name-of-the-field]():
+Applicable to django.forms.Form and django.forms.ModelForm.
+This method is used to clean and validate an individual field. It's automatically called by the form's validation process for the corresponding field. It should return the cleaned value of the field.
+2. validate and validate_[name-of-the-field] in Django REST Framework Serializers
+validate():
+
+Applicable to rest_framework.serializers.Serializer and rest_framework.serializers.ModelSerializer.
+This method is used to perform validation that involves multiple fields. It runs after field-specific validate_[name-of-the-field] methods. It should return the validated data dictionary, which will be used to create or update an instance.
+validate_[name-of-the-field]():
+
+Applicable to rest_framework.serializers.Serializer and rest_framework.serializers.ModelSerializer.
+This method is used to validate an individual field in the serializer. It's automatically called by the serializer's validation process for the corresponding field. It should return the validated value of the field.
+
+# -----------------------------------------------------------------------------
+
+from django import forms
+
+class MyForm(forms.Form):
+    name = forms.CharField()
+    age = forms.IntegerField()
+
+    def clean_age(self):
+        age = self.cleaned_data.get('age')
+        if age < 18:
+            raise forms.ValidationError("You must be at least 18 years old.")
+        return age
+
+    def clean(self):
+        cleaned_data = super().clean()
+        name = cleaned_data.get('name')
+        age = cleaned_data.get('age')
+        if name == "John" and age < 21:
+            raise forms.ValidationError("John must be at least 21 years old.")
+        return cleaned_data
+
+from rest_framework import serializers
+
+class MySerializer(serializers.Serializer):
+    name = serializers.CharField()
+    age = serializers.IntegerField()
+
+    def validate_age(self, value):
+        if value < 18:
+            raise serializers.ValidationError("You must be at least 18 years old.")
+        return value
+
+    def validate(self, data):
+        name = data.get('name')
+        age = data.get('age')
+        if name == "John" and age < 21:
+            raise serializers.ValidationError("John must be at least 21 years old.")
+        return data
