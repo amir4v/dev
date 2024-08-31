@@ -91,6 +91,9 @@
         <mxCell id="AXUeFKmJ4L8ZubqQcsqx-10" value="بدان که حالا حالا ها هستی تو این خونه و تو این شرایط پس آرام بگیر" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="-110" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AXUeFKmJ4L8ZubqQcsqx-11" value="TODO:&lt;div&gt;short, clean, straight forward&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-50" width="407" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
