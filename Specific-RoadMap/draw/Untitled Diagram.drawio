@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="Pw1lx-9ADOZ67-cU_8lc">
-    <mxGraphModel dx="574" dy="1395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="896" dy="1561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,8 +94,11 @@
         <mxCell id="AXUeFKmJ4L8ZubqQcsqx-11" value="TODO:&lt;div&gt;short, clean, straight forward&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="-50" width="407" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="OlMIyhV_iWhLKmUS0hnb-1" value="تمرکز میخوام&lt;div&gt;آرامش&lt;/div&gt;&lt;div&gt;شنیدن و صحبت کردن&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OlMIyhV_iWhLKmUS0hnb-1" value="تمرکز میخوام&lt;div&gt;آرامش&lt;/div&gt;&lt;div&gt;شنیدن و صحبت کردن&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1090" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_kfXskphiUU7MyIa1LL-1" value="How to study?:&lt;div&gt;&lt;br&gt;&lt;div&gt;one:&lt;/div&gt;&lt;div&gt;[&lt;/div&gt;&lt;div&gt;one watch/read/oberve&lt;/div&gt;&lt;div&gt;one do&lt;/div&gt;&lt;div&gt;one teach&lt;/div&gt;&lt;div&gt;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;1.5 hours&amp;nbsp; -&amp;nbsp; 2/3 times a day&amp;nbsp; -&amp;nbsp; 5 days each week&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="130" width="270" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
