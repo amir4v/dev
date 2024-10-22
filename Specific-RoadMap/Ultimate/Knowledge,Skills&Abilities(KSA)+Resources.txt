@@ -644,6 +644,8 @@ English[
         https://tinytexts.wordpress.com
         Book Speaking by Cheryl Pelteret
     IELTS:
+        https://www.bestmytest.com/ielts/speaking
+        https://www.bestmytest.com/ielts/listening
         https://smalltalk2.me
         https://www.ieltsolve.com
         https://ieltslemon.com/fa/ielts/exam (IELTS Cambridge Books)
