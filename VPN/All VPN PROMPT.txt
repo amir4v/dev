@@ -1,0 +1,19 @@
+write, in one bash file, handle all errors so nothing hinders, install all of these vpn-ish things in a way that you leave existing ones/configs/setups intact and create new ones, fo each one create 2 configs/setups/accounts but different in specs/configs/stealth/parameters/obfuscation, and at the end give me the connections strings or qrcodesto just simply copy and paste:be reliable:no domain, just ip, Ubuntu 24.04:do your best:
+[
+WireGuard
+Shadowsocks
+Outline
+Hysteria 2
+TUIC
+QUIC
+Xray (VLESS & VMess)
+Trojan
+OpenVPN
+Stunnel
+SoftEther VPN
+IPsec / IKEv2
+L2TP/IPsec
+Squid / Privoxy - HTTP Proxy
+SOCKS5 (Dante) - SOCKS Proxy
+VXLAN / GENEVE - L2 Tunnel
+]
